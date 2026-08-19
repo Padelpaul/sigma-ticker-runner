@@ -109,8 +109,11 @@ def schreibe_digest(ordner, payload, pro_datei=25):
     zeilen = []
     for i, x in enumerate(t, 1):
         titel = x["titel"].replace("|", "/")[:150]
-        besch = x["beschreibung"].replace("|", "/")[:220]
-        zeilen.append(f"{i}|{x['datum']}|{x['signal']}|{x['quelle'][:28]}|{titel}|{besch}|{x['link']}")
+        # 400 statt 220 Zeichen: sonst liegt das Signalwort hinter der Kappung und der
+        # Treffer wird spaeter mit der falschen Begruendung "kein Distressed-Signal" verworfen.
+        besch = x["beschreibung"].replace("|", "/")[:400]
+        kw = ",".join(x.get("keywords", []))[:80].replace("|", "/")
+        zeilen.append(f"{i}|{x['datum']}|{x['signal']}|{kw}|{x['quelle'][:28]}|{titel}|{besch}|{x['link']}")
     teile = [zeilen[i:i + pro_datei] for i in range(0, len(zeilen), pro_datei)] or [[]]
     for n, teil in enumerate(teile, 1):
         with open(os.path.join(ordner, f"treffer_{n:02d}.txt"), "w", encoding="utf-8") as f:
@@ -121,7 +124,7 @@ def schreibe_digest(ordner, payload, pro_datei=25):
                 f"feeds_ok={m['feeds_ok']}/{m['feeds_gesamt']}\n"
                 f"treffer={len(zeilen)}\nstark={m['n_stark']}\n"
                 f"dateien={len(teile)}\npro_datei={pro_datei}\n"
-                f"format=nr|datum|signal|quelle|titel|beschreibung|link\n")
+                f"format=nr|datum|signal|keywords|quelle|titel|beschreibung|link\n")
 
 def main():
     ap = argparse.ArgumentParser()
