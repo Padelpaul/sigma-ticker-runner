@@ -1,0 +1,90 @@
+# Keywords fuer den Distressed-Ticker.
+# WICHTIG: hier in korrekter deutscher Schreibweise MIT Umlauten pflegen.
+# Das Matching normalisiert beide Seiten (Umlaute werden gefaltet), Treffer sind
+# also unabhaengig davon, ob im Artikel "zahlungsunfaehig" oder "zahlungsunfähig" steht.
+# Matching erfolgt auf Wortgrenzen, "insolvent" trifft also nicht in beliebigen Komposita.
+
+# STARKE SIGNALE - fast immer ein echter Distressed-Fall. Ein Treffer genuegt.
+[STARK]
+Insolvenzantrag
+Insolvenz angemeldet
+Insolvenz beantragt
+meldet Insolvenz
+stellt Insolvenzantrag
+insolvent
+Insolvenzverfahren eröffnet
+Insolvenzverfahren
+Regelinsolvenz
+Schutzschirm
+Schutzschirmverfahren
+Eigenverwaltung
+Insolvenzverwalter
+vorläufiger Insolvenzverwalter
+vorläufige Insolvenzverwaltung
+Sachwalter
+Gläubigerversammlung
+Gläubigerausschuss
+Gläubigerschutz
+Insolvenzplan
+übertragende Sanierung
+Investorenprozess
+Investorensuche
+sucht Investor
+Investor gesucht
+sucht Geldgeber
+neue Geldgeber
+Bieterprozess
+Notverkauf
+Sanierungsverfahren
+Sanierungsgutachten
+Sanierungskonzept
+Fortführungsprognose
+StaRUG
+Restrukturierungsplan
+zahlungsunfähig
+Zahlungsunfähigkeit
+droht Insolvenz
+vor der Insolvenz
+Überschuldung
+Moratorium
+Stillhaltevereinbarung
+Chief Restructuring Officer
+
+# SCHWACHE SIGNALE - nur relevant in Kombination oder mit Groessenbezug.
+# Das Modell prueft diese Faelle kritisch.
+[SCHWACH]
+Insolvenz
+Pleite
+in Schieflage
+notleidend
+Liquiditätsengpass
+Liquiditätskrise
+Zahlungsschwierigkeiten
+Kapitalbedarf
+frisches Kapital
+Rettungskredit
+Brückenfinanzierung
+Refinanzierung
+Kreditverhandlungen
+Bankgespräche
+Massenentlassung
+Stellenabbau
+Kurzarbeit
+Werksschließung
+Werk schließt
+Standort schließt
+Produktionsstopp
+Gewinnwarnung
+Umsatzeinbruch
+Verlustjahr
+Turnaround
+distressed
+Covenant
+Investoreneinstieg
+Investorenlösung
+Übernahmelösung
+Fortführungslösung
+Sanierungsoptionen
+Betriebsfortführung
+Auffanggesellschaft
+Stabilisierungsmaßnahmen
