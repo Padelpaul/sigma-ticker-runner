@@ -9,7 +9,7 @@ sammeln.py - Stufe 2 des Distressed-Tickers: Presse- und Fachfeeds einsammeln.
 Schreibt rohtreffer.json (unveraendertes Rohmaterial) und feed_health.json.
 Kein Modell, keine Bewertung - nur Abruf, Zeitfenster und Keyword-Vorfilter.
 """
-import argparse, json, os, sys, urllib.parse, urllib.request
+import argparse, json, os, sys, time, urllib.parse, urllib.request
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone, timedelta
@@ -25,11 +25,22 @@ UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like
 ATOM = "{http://www.w3.org/2005/Atom}"
 
 
-def hole(url, timeout=25):
-    req = urllib.request.Request(url, headers={"User-Agent": UA,
-                                              "Accept": "application/rss+xml, application/xml, text/xml, */*"})
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return r.read()
+def hole(url, timeout=25, versuche=2, pause=2):
+    """Zwei Versuche mit kurzer Pause. Ein einzelner Aussetzer beim Verlag darf nicht
+    bedeuten, dass der Feed einen ganzen Tag fehlt."""
+    letzter = None
+    for n in range(versuche):
+        try:
+            req = urllib.request.Request(
+                url, headers={"User-Agent": UA,
+                              "Accept": "application/rss+xml, application/xml, text/xml, */*"})
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return r.read()
+        except Exception as e:
+            letzter = e
+            if n + 1 < versuche:
+                time.sleep(pause)
+    raise letzter
 
 
 def datum(item):
@@ -84,6 +95,9 @@ def ein_feed(name, url, grenze, ms, mw):
             dt = datum(it)
             if dt and dt < grenze:
                 continue
+            # K4: Items ohne auswertbares Datum umgehen das Zeitfenster. Sie werden nicht
+            # verworfen, aber gekennzeichnet, damit die Aufbereitung sie zwingend in die
+            # Pruefliste hebt und Schritt 3 das Datum von Hand belegt.
             gef = g.fold(titel + " " + besch)
             ts, tw = g.treffer(gef, ms), g.treffer(gef, mw)
             if not ts and not tw:
@@ -94,13 +108,14 @@ def ein_feed(name, url, grenze, ms, mw):
                         "datum": dt.strftime("%Y-%m-%d") if dt else "unbekannt",
                         "datum_iso": dt.isoformat() if dt else "",
                         "signal": "stark" if ts else "schwach",
+                        "datum_unbekannt": dt is None,
                         "keywords": (ts + tw)[:6]})
     except Exception as e:
         status = f"FAIL:{type(e).__name__}"
     return name, status, out
 
 
-def schreibe_digest(ordner, payload, pro_datei=25):
+def schreibe_digest(ordner, payload, pro_datei=25, problem=None):
     """Zeilenweiser Digest in Haeppchen. Grund: der Abruf per URL laeuft ueber ein
     Sprachmodell, das lange Dateien kuerzt. 25 Zeilen pro Datei kommen verlustfrei an,
     und index.txt macht eine Kuerzung erkennbar."""
@@ -120,10 +135,13 @@ def schreibe_digest(ordner, payload, pro_datei=25):
             f.write("\n".join(teil) + "\n")
     m = payload["meta"]
     with open(os.path.join(ordner, "index.txt"), "w", encoding="utf-8") as f:
-        f.write(f"lauf={m['lauf']}\nfenster_tage={m['fenster_tage']}\n"
+        f.write(f"lauf={m['lauf_utc']}\nfenster_tage={m['fenster_tage']}\n"
                 f"feeds_ok={m['feeds_ok']}/{m['feeds_gesamt']}\n"
                 f"treffer={len(zeilen)}\nstark={m['n_stark']}\n"
+                f"undatiert={sum(1 for x in t if x.get('datum_unbekannt'))}\n"
                 f"dateien={len(teile)}\npro_datei={pro_datei}\n"
+                f"version={m.get('version','')}\n"
+                f"problem={', '.join(problem or m.get('problem') or []) or 'keine'}\n"
                 f"format=nr|datum|signal|keywords|quelle|titel|beschreibung|link\n")
 
 def main():
@@ -135,9 +153,20 @@ def main():
     ap.add_argument("--mit-gesperrten", action="store_true",
                     help="auch die 11 Domains mit AI-Crawler-Sperre abrufen (nur nach Compliance-Freigabe "
                          "und nur auf eigener Infrastruktur)")
+    ap.add_argument("--pro-datei", type=int, default=25,
+                    help="Zeilen pro Digest-Datei. 25 ist der verlustfrei getestete Wert fuer "
+                         "den Abruf per URL; die Desktop-Bruecke ist byte-genau und braucht "
+                         "diese Ruecksicht nicht.")
     ap.add_argument("--digest", metavar="ORDNER",
                     help="zusaetzlich zeilenweise Digest-Dateien schreiben (fuer den Abruf per URL)")
     a = ap.parse_args()
+
+    if a.mit_gesperrten and os.environ.get("TICKER_COMPLIANCE_OK") != "1":
+        print("[!] --mit-gesperrten verlangt zusaetzlich die Umgebungsvariable "
+              "TICKER_COMPLIANCE_OK=1. Ohne sie werden die elf Domains mit AI-Crawler-Sperre "
+              "NICHT abgerufen. Grund: der Abruf ist nur auf eigener Infrastruktur und nach "
+              "Compliance-Freigabe gedacht, nicht aus einer oeffentlichen CI heraus.")
+        a.mit_gesperrten = False
 
     tage = 4 if a.montag else a.tage
     grenze = datetime.now(timezone.utc) - timedelta(days=tage)
@@ -159,10 +188,15 @@ def main():
         return
 
     payload = {"meta": {"lauf": datetime.now().isoformat(timespec="seconds"),
+                        # S2: Zeitstempel in UTC mit Kennung, weil die Frischepruefung im
+                        # Cowork-Container ebenfalls in UTC vergleicht.
+                        "lauf_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                        "version": g.VERSION, "problem": [],
                         "fenster_tage": tage, "feeds_gesamt": len(Q),
                         "feeds_ok": len(Q) - len(problem), "n_roh": len(treffer),
                         "n_stark": sum(1 for t in treffer if t["signal"] == "stark")},
                "health": health, "treffer": treffer}
+    payload["meta"]["problem"] = problem
     with open(a.out, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=1)
     hp = os.path.join(os.path.dirname(a.out) or ".", "feed_health.json")
@@ -170,7 +204,7 @@ def main():
         json.dump({"lauf": payload["meta"]["lauf"], "health": health, "problem": problem}, f,
                   ensure_ascii=False, indent=1)
     if a.digest:
-        schreibe_digest(a.digest, payload)
+        schreibe_digest(a.digest, payload, a.pro_datei)
     print(f"{len(treffer)} Treffer (Fenster {tage}d, davon {payload['meta']['n_stark']} stark) "
           f"aus {len(Q)-len(problem)}/{len(Q)} Feeds -> {a.out}"
           + (f" | Feed-Warnung: {', '.join(problem)}" if problem else ""))

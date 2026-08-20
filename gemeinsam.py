@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
 """Gemeinsame Bausteine: Normalisierung, Keyword-Laden, Matching, Firmenschluessel."""
+
+# Eine Kennung fuer ALLE Skripte. Sie laeuft in index.txt und im Blatt "Lauf" mit, damit
+# Skilltext und Skriptstand nicht unbemerkt auseinanderlaufen (siehe SKILL.md, Fassung).
+VERSION = "2026-08-20a"
 import re, html, unicodedata
 
 # ---------------------------------------------------------------- Normalisierung
