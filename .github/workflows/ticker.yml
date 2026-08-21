@@ -1,33 +1,56 @@
 name: Distressed-Ticker Feed-Runner
+run-name: Ticker-Lauf ${{ github.event_name }}
 
 on:
   schedule:
-    - cron: "40 7 * * *"
+    - cron: "37 7 * * *"
+    - cron: "23 8 * * *"
+    - cron: "11 9 * * *"
   workflow_dispatch:
     inputs:
       tage:
         description: "Zeitfenster in Tagen"
-        default: "2"
+        default: "3"
 
 permissions:
   contents: write
+
+concurrency:
+  group: ticker-runner
+  cancel-in-progress: false
 
 jobs:
   sammeln:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
       - name: Feeds abrufen
         run: |
-          python sammeln.py --tage "${{ github.event.inputs.tage || 2 }}" --out rohtreffer.json --digest digest
+          python sammeln.py --tage "${{ github.event.inputs.tage || 3 }}" --out rohtreffer.json --digest digest
           python sammeln.py --feedcheck > digest/feedcheck.txt || true
+
+      - name: Lauf protokollieren
+        run: |
+          mkdir -p digest
+          echo "$(date -u +%Y-%m-%dT%H:%M:%SZ) trigger=${{ github.event_name }} run=${{ github.run_number }} status=ok" >> digest/laeufe.log
+          tail -n 60 digest/laeufe.log > digest/laeufe.log.tmp && mv digest/laeufe.log.tmp digest/laeufe.log
+
       - name: Ergebnis committen
         run: |
           git config user.name "ticker-runner"
           git config user.email "ticker-runner@users.noreply.github.com"
           git add rohtreffer.json digest feed_health.json
-          git diff --quiet --cached || git commit -m "Ticker-Lauf $(date -u +%Y-%m-%dT%H:%MZ)"
-          git push
+          git diff --quiet --cached && echo "keine Aenderung" && exit 0
+          git commit -m "Ticker-Lauf $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3; do
+            git pull --rebase --autostash && git push && exit 0
+            echo "Push-Versuch $i fehlgeschlagen, neuer Versuch"
+            sleep 5
+          done
+          exit 1
