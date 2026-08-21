@@ -3,7 +3,7 @@
 
 # Eine Kennung fuer ALLE Skripte. Sie laeuft in index.txt und im Blatt "Lauf" mit, damit
 # Skilltext und Skriptstand nicht unbemerkt auseinanderlaufen (siehe SKILL.md, Fassung).
-VERSION = "2026-08-20a"
+VERSION = "2026-08-21f"
 import re, html, unicodedata
 
 # ---------------------------------------------------------------- Normalisierung
@@ -17,6 +17,18 @@ def fold(t):
         return ""
     t = unicodedata.normalize("NFC", t)
     return t.translate(UMLAUT).lower()
+
+# Laengenerhaltende Faltung: NUR fuer Faelle, in denen Trefferpositionen aus dem
+# gefalteten Text zurueck auf den Originaltext angewandt werden. fold() macht aus "ä"
+# zwei Zeichen und verschiebt damit jeden Offset dahinter (fruehere Folge: Kandidaten
+# wie "Wärme Süß Gmb H in"). fold_pos() ersetzt zeichenweise, die Offsets bleiben gueltig.
+UMLAUT_POS = str.maketrans({"ä": "a", "ö": "o", "ü": "u", "Ä": "a", "Ö": "o",
+                            "Ü": "u", "ß": "s", "é": "e", "è": "e", "á": "a", "à": "a"})
+
+def fold_pos(t):
+    if not t:
+        return ""
+    return unicodedata.normalize("NFC", t).translate(UMLAUT_POS).lower()
 
 def strip_html(s):
     s = re.sub(r"<[^>]+>", " ", s or "")
@@ -40,6 +52,31 @@ def jacc(a, b):
     if not a or not b:
         return 0.0
     return len(a & b) / len(a | b)
+
+# ---------------------------------------------------------------- Prio
+# Fenster fuer Blatt 1: so viele Tage darf der Insolvenzantrag zurueckliegen. Aelteres
+# gehoert auf Grenzfaelle, auch wenn der Fall gross ist (Vorgabe Sigma, 21.08.2026).
+FENSTER_TAGE = 14
+def prio_aus(alter_tage, score, urteil=""):
+    """EINE Regel fuer die Prio, benutzt von aufbereiten.py und von render_xlsx.py.
+
+    Aufteilung der Aufgaben (Vorgabe Sigma, 21.08.2026):
+    Das Alter des Antrags ist der FILTER fuer Blatt 1, nicht das Rangkriterium. Nur Faelle,
+    deren Insolvenzantrag hoechstens 14 Tage zurueckliegt, kommen auf die Liste. Innerhalb der
+    Liste entscheidet der Mix aus dem Punkteschema (Groesse, Mandatsfaehigkeit, Werttreiber),
+    Groesse ist dabei wichtig, aber nicht allein ausschlaggebend und ohne Obergrenze.
+    """
+    try:
+        sc = float(score)
+    except (TypeError, ValueError):
+        sc = 0.0
+    if urteil in ("verfolgen", "gepitcht"):
+        return "hoch"
+    if alter_tage is None or alter_tage > FENSTER_TAGE:
+        # ausserhalb des Fensters, der Fall steht auf Grenzfaellen
+        return "mittel" if sc >= 40 else "beobachten"
+    return "hoch" if sc >= 60 else ("mittel" if sc >= 40 else "beobachten")
+
 
 # ---------------------------------------------------------------- Keywords
 def load_keywords(pfad):
@@ -93,27 +130,124 @@ WORT_STOP = set(("insolvenz insolvenzantrag insolvenzverfahren insolvenzverwalte
                  "kreuzfahrtanbieter manufaktur lokal restaurant gastronomie hotel klinik "
                  "vermoegen geschaeftsbetrieb moebelanbieter moebelanbieters anbieter "
                  "insolvenzverwalters sachwalters tochtergesellschaften gesellschaft "
-                 "krankenhaus pflegedienst pflegeheim verein fussballclub").split())
+                 "krankenhaus pflegedienst pflegeheim verein fussballclub "
+                 # Verfahrensvokabular, das sonst zum Firmenschluessel wird. Belegt im
+                 # Lauflog vom 19. und 20.08.2026: zwoelf von zwanzig Neuzugaengen waren
+                 # Fragmente wie "investorenprozess pik" oder "insolvenzverwaltung stc".
+                 "insolvenzverwaltung insolvenzen insolvent investorenprozess investorenloesung "
+                 "investorensuche sanierungsverfahren glaeubiger glaeubigerausschuss sachwalter "
+                 "einschraenkungen fortfuehrung uebertragung liquidation zerschlagung "
+                 "immobilien riese anleger pruefstand komponenten loesungen beteiligungen "
+                 "stellt meldet droht rettet sucht laeuft bleibt kommt geht steht "
+                 # Schlagzeilen-Adjektive: benennen keine Firma ("Grosser Kuechenhersteller
+                 # meldet Insolvenz an", belegt 21.08.2026).
+                 "grosser grosse grosses deutscher deutsche deutsches bekannter bekannte "
+                 "bayerischer bayerische schwaebischer schwaebische norddeutscher sueddeutscher "
+                 "traditionsreicher traditionsreiche beruehmter beruehmte insolventer insolvente "
+                 # Rechtsformen. Ohne sie wird "gmbh" selbst zum Schluesselwort und es
+                 # entstehen zwei Schluessel fuer dieselbe Firma ("gmbh thor" und "thor").
+                 "gmbh mbh ag kg kgaa ohg gbr se eg ug ek co gmbhco aktiengesellschaft "
+                 "kommanditgesellschaft").split())
+
+# Gattungswoerter, die als EINZIGES Wort keinen Firmenschluessel ergeben duerfen. Zwei
+# verschiedene Firmen teilen sie sich sonst ("Verteilte Systeme", "Korte Einrichtungen").
+GENERIK = set(("systeme systems technik service handel produktion management investment "
+               "precision components einrichtungen anlagenbau elektronik logistik metall "
+               "bau baustoffe moebel maschinen automation technologies international "
+               "engineering consulting solutions group holding partner werke verteilte").split())
+
+# Gattungssuffixe: ein Wort, das so endet, beschreibt die Firma, es benennt sie nicht.
+# Belegt am 21.08.2026: "Koelner Projektentwickler PANDION AG" bekam den Schluessel
+# "koelner projektentwickler", "Immobilien-Riese" und "Baumarktkette" wurden zu Firmen.
+# Der Filter greift nur in der Schluesselbildung und nur, wenn danach noch ein
+# kennzeichnendes Wort uebrig bleibt; sonst bleibt der Schluessel lieber leer.
+SUFFIX_GATTUNG = ("hersteller", "entwickler", "zulieferer", "anbieter", "betreiber",
+                  "vermieter", "haendler", "bauer", "riese", "gigant", "kette",
+                  "konzern", "gruppe", "unternehmen", "betrieb", "firma", "marke",
+                  "spezialist", "ausstatter", "dienstleister", "produzent")
+
+
+def _gattungshaft(tok):
+    """True, wenn das Token nur beschreibt statt benennt."""
+    return (tok in GENERIK
+            or any(tok.endswith(s) and len(tok) > len(s) + 1 for s in SUFFIX_GATTUNG)
+            or tok in SUFFIX_GATTUNG)
 
 def firmenschluessel(titel, beschreibung=""):
     """Heuristischer Firmenschluessel mit Konfidenz.
     Rueckgabe: (schluessel, kandidat, konfidenz) mit konfidenz in {"hoch","mittel",""}.
     Bewusst konservativ: ein falscher Schluessel wuerde zwei verschiedene Firmen
     zusammenfuehren, deshalb lieber leer lassen und dem Modell ueberlassen."""
-    text = re.sub(r"\s+", " ", f"{titel}. {beschreibung}")
-    gef = fold(text)
+    # EINMAL nach NFC normalisieren und danach nur noch mit diesem Text arbeiten. Sonst
+    # verschiebt die Normalisierung in fold_pos die Offsets bei zerlegten Umlauten (NFD)
+    # und es entstehen Schrottkandidaten wie "Gru Su Konto r Gm".
+    text = unicodedata.normalize("NFC", re.sub(r"\s+", " ", f"{titel}. {beschreibung}"))
+    # fold_pos statt fold: die Treffer aus RX_RF werden unten per Offset auf "text"
+    # angewandt, deshalb muss die Faltung die Zeichenzahl erhalten.
+    gef = fold_pos(text)
     GROSS = r"[A-Z\u00c4\u00d6\u00dc][\w\u00c4\u00d6\u00dc\u00e4\u00f6\u00fc\u00df.&\-]*"
 
     def clean(kand):
-        toks = [k for k in norm(kand).split() if len(k) >= 3 and k not in WORT_STOP and k not in STOP]
-        return [" ".join(toks[:2])] if toks else []
+        toks, gesehen = [], set()
+        for k in norm(kand).split():
+            # Zwei Zeichen sind erlaubt, damit Akronyme wie WK, SB oder OKA nicht
+            # verschwinden. Rechtsformen und Gattungswoerter faengt WORT_STOP ab.
+            if len(k) < 2 or k in WORT_STOP or k in STOP or k in gesehen:
+                continue        # Dubletten im Namen weglassen ("Kiekert. Kiekert AG")
+            gesehen.add(k)
+            toks.append(k)
+        if not toks:
+            return []
+        # Bleibt nur EIN Wort uebrig und ist es kurz oder gattungshaft, ist der Schluessel
+        # schlechter als kein Schluessel: er fuehrt zwei fremde Firmen zusammen. Lieber leer
+        # lassen und dem Modell ueberlassen, so steht es auch im Kommentar oben.
+        # Mindestens vier Zeichen. Kuerzer waere zu unscharf, laenger wuerde echte kurze
+        # Firmennamen wie Thor, Zeta oder Kodi um ihren Schluessel bringen und sie taeglich
+        # als NEU zurueckbringen.
+        # Gattungshaft heisst jetzt auch: endet auf ein beschreibendes Suffix. Ein
+        # Schluessel "baumarktkette" oder "elektronikhersteller" benennt keine Firma
+        # (belegt 21.08.2026: dieselbe Firma unter fuenf Beschreibungen).
+        if len(toks) == 1 and (len(toks[0]) < 4 or _gattungshaft(toks[0])):
+            return []
+        return [" ".join(toks[:2])]
 
     # 1) Name unmittelbar vor einer Rechtsform -> hoch
     for m in RX_RF.finditer(gef):
         vorher = text[max(0, m.start() - 60):m.start()]
-        toks = [t for t in re.findall(GROSS, vorher) if fold(t).strip(".&-") not in WORT_STOP]
+        # Schwache Rechtsform "ek" (eingetragener Kaufmann): nur gueltig, wenn direkt
+        # davor ein grossgeschriebener Name steht ("Mueller Handel e.K."). Sonst faengt
+        # sie Kleinschreibung im Titel ("ek robotics scheitert am Marktdruck") und der
+        # Schluessel wird aus irgendeinem Wort der Umgebung gebildet (belegt 21.08.2026:
+        # Schluessel "marktdruck" fuer die EK Robotics GmbH).
+        rf_wort = gef[m.start():m.end()].strip().strip(".")
+        if rf_wort == "ek":
+            letztes = vorher.rstrip().split()[-1] if vorher.rstrip().split() else ""
+            if not letztes or not letztes[:1].isupper() \
+                    or fold(letztes) in STOP or fold(letztes).strip(".&-") in WORT_STOP:
+                continue
+        # Nur der Satz, in dem die Rechtsform steht: das 60-Zeichen-Fenster reicht sonst
+        # in den vorigen Satz hinein und dessen Woerter werden zum Schluessel (belegt
+        # 21.08.2026: "marktdruck" aus dem Titel fuer die EK Robotics GmbH).
+        satz = re.split(r"[.!?]\s", vorher)[-1]
+        toks = [t for t in re.findall(GROSS, satz) if fold(t).strip(".&-") not in WORT_STOP]
+        # Versalien-Anker: ein komplett gross geschriebenes Wort (PANDION, WEZEK, EK,
+        # SAFTIG) ist mit hoher Sicherheit der Firmenname oder sein Beginn, alles davor
+        # ist Beschreibung ("Der Koelner Projektentwickler PANDION AG"). Ab dort schneiden.
+        for i, t in enumerate(toks):
+            if len(t) >= 2 and t.isupper() and t.isalpha():
+                toks = toks[i:]
+                break
         if toks:
             key = clean(" ".join(toks[-3:]))
+            # Besteht der Schluessel nur aus Gattungswoertern, steht der kennzeichnende Teil
+            # des Namens links davon und beginnt klein oder mit Ziffern ("comlet Verteilte
+            # Systeme", "12.18. Investment Management"). Dann dieses Wort davorziehen.
+            if key and all(t in GENERIK for t in key[0].split()):
+                lose = [w.strip(".,;:") for w in re.findall(r"[\wÄÖÜäöüß.\-]{2,}", satz)]
+                lose = [w for w in lose if fold(w).strip(".&-") not in WORT_STOP
+                        and fold(w) not in STOP and w not in toks]
+                if lose:
+                    key = [(norm(lose[-1]) + " " + key[0].split()[0]).strip()]
             if key:
                 kand = (" ".join(toks[-3:]) + " " + text[m.start():m.end()]).strip()
                 return key[0], kand, "hoch"
@@ -136,7 +270,7 @@ def firmenschluessel(titel, beschreibung=""):
     kand = []
     for t in re.findall(r"[A-Z\u00c4\u00d6\u00dc][\w\u00c4\u00d6\u00dc\u00e4\u00f6\u00fc\u00df\-]{3,}", titel):
         k = norm(t)
-        if not k or k in WORT_STOP or k in STOP or len(k) < 4:
+        if not k or k in WORT_STOP or k in STOP or len(k) < 4 or _gattungshaft(k):
             continue
         vorkommen = len(re.findall(r"\b" + re.escape(k[:8]), norm(text)))
         kand.append((vorkommen, len(k), k, t))
