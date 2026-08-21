@@ -1,0 +1,65 @@
+name: Distressed-Ticker Feed-Runner
+run-name: Ticker-Lauf ${{ github.event_name }}
+
+on:
+  schedule:
+    # Drei Versuche statt einem. GitHub behandelt schedule als unverbindlich und laesst
+    # Laeufe unter Last aus, ohne Fehler und ohne Eintrag. Faellt 07:37 aus, faengt 08:23
+    # oder 09:11 den Tag auf. Ein Lauf dauert rund 22 Sekunden, der Aufwand ist also egal.
+    # Krumme Minuten mit Absicht: zur runden Stunde und zur halben ist die Warteschlange
+    # am laengsten.
+    - cron: "37 7 * * *"
+    - cron: "23 8 * * *"
+    - cron: "11 9 * * *"
+  workflow_dispatch:
+    inputs:
+      tage:
+        description: "Zeitfenster in Tagen"
+        default: "3"
+
+permissions:
+  contents: write
+
+# Zwei Laeufe dicht hintereinander duerfen sich nicht gegenseitig den Push wegziehen.
+# Ohne das scheitert der zweite mit non-fast-forward, und zwar unauffaellig.
+concurrency:
+  group: ticker-runner
+  cancel-in-progress: false
+
+jobs:
+  sammeln:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Feeds abrufen
+        run: |
+          python sammeln.py --tage "${{ github.event.inputs.tage || 3 }}" --out rohtreffer.json --digest digest
+          python sammeln.py --feedcheck > digest/feedcheck.txt || true
+
+      # Damit sichtbar wird, OB der Zeitplan ausgeloest hat. Bisher war ein ausgelassener
+      # Lauf von einem gelaufenen, aber ergebnislosen Lauf nicht zu unterscheiden.
+      - name: Lauf protokollieren
+        run: |
+          mkdir -p digest
+          echo "$(date -u +%Y-%m-%dT%H:%M:%SZ) trigger=${{ github.event_name }} run=${{ github.run_number }} status=ok" >> digest/laeufe.log
+          tail -n 60 digest/laeufe.log > digest/laeufe.log.tmp && mv digest/laeufe.log.tmp digest/laeufe.log
+
+      - name: Ergebnis committen
+        run: |
+          git config user.name "ticker-runner"
+          git config user.email "ticker-runner@users.noreply.github.com"
+          git add rohtreffer.json digest feed_health.json
+          git diff --quiet --cached && echo "keine Aenderung" && exit 0
+          git commit -m "Ticker-Lauf $(date -u +%Y-%m-%dT%H:%MZ)"
+          # Drei Push-Versuche mit Rebase. Beim zweiten Lauf des Tages liegt sonst ein
+          # fremder Commit vor und der Push wird abgelehnt.
+          for i in 1 2 3; do
+            git pull --rebase --autostash && git push && exit 0
+            echo "Push-Versuch $i fehlgeschlagen, neuer Versuch"
+            sleep 5
+          done
+          exit 1
