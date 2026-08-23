@@ -1,5 +1,5 @@
 {
- "lauf": "2026-08-23T08:59:57",
+ "lauf": "2026-08-23T09:47:50",
  "health": {
   "Handelsblatt Unternehmen": "ok:20",
   "Handelsblatt Finanzen": "ok:20",
@@ -17,15 +17,15 @@
   "FinanzNachrichten": "ok:20",
   "wallstreet-online": "ok:101",
   "WDR Wirtschaft": "ok:35",
-  "BR24": "ok:11",
+  "BR24": "ok:10",
   "MDR": "ok:5",
-  "SWR": "ok:56",
+  "SWR": "ok:55",
   "hessenschau Wirtschaft (HR)": "ok:25",
   "rbb24 Wirtschaft": "ok:116",
   "Radio Bremen (buten un binnen)": "ok:18",
   "WAZ Wirtschaft": "ok:63",
   "Rheinische Post": "ok:6",
-  "Koelner Stadt-Anzeiger Wirtschaft": "ok:37",
+  "Koelner Stadt-Anzeiger Wirtschaft": "ok:38",
   "Westfaelische Nachrichten": "ok:100",
   "Neue Westfaelische": "ok:10",
   "Ruhr Nachrichten": "ok:12",
@@ -35,8 +35,8 @@
   "Rhein-Neckar-Zeitung Wirtschaft": "ok:30",
   "Rhein-Zeitung": "ok:10",
   "Creditreform News": "ok:310",
-  "Deutscher AnwaltSpiegel": "ok:10",
-  "FINANCE Magazin": "ok:10",
+  "Deutscher AnwaltSpiegel": "FAIL:HTTPError",
+  "FINANCE Magazin": "FAIL:HTTPError",
   "JUVE": "ok:10",
   "pressebox (PM-Wire)": "ok:20",
   "presseportal Wirtschaft": "ok:15",
@@ -56,7 +56,10 @@
   "GNews Verfahren/Verwalter": "ok:26",
   "GNews Sanierung/StaRUG": "ok:10",
   "GNews Investorenprozess": "ok:2",
-  "GNews Fruehsignal": "ok:18"
+  "GNews Fruehsignal": "ok:19"
  },
- "problem": []
+ "problem": [
+  "Deutscher AnwaltSpiegel(FAIL:HTTPError)",
+  "FINANCE Magazin(FAIL:HTTPError)"
+ ]
 }
