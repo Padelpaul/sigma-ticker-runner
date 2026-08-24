@@ -3,7 +3,7 @@
 
 # Eine Kennung fuer ALLE Skripte. Sie laeuft in index.txt und im Blatt "Lauf" mit, damit
 # Skilltext und Skriptstand nicht unbemerkt auseinanderlaufen (siehe SKILL.md, Fassung).
-VERSION = "2026-08-21f"
+VERSION = "2026-08-21h"
 import re, html, unicodedata
 
 # ---------------------------------------------------------------- Normalisierung
@@ -147,7 +147,13 @@ WORT_STOP = set(("insolvenz insolvenzantrag insolvenzverfahren insolvenzverwalte
                  # Rechtsformen. Ohne sie wird "gmbh" selbst zum Schluesselwort und es
                  # entstehen zwei Schluessel fuer dieselbe Firma ("gmbh thor" und "thor").
                  "gmbh mbh ag kg kgaa ohg gbr se eg ug ek co gmbhco aktiengesellschaft "
-                 "kommanditgesellschaft").split())
+                 "kommanditgesellschaft "
+                 # Frage- und Mengenwoerter aus Schlagzeilen. Ohne sie wird aus
+                 # "Vivanco insolvent: Warum ..." der Kandidat "warum" und der echte
+                 # Name verliert die Eindeutigkeitspruefung (Befund 21.08.2026).
+                 "warum wieso weshalb wozu wann wohin woher diese dieser dieses jetzt "
+                 "erst nur alle alles viele mehrere etliche einige zukunft schicksal "
+                 "moeglichkeiten hammer kollaps ausverkauf startpreis dauerkrise").split())
 
 # Gattungswoerter, die als EINZIGES Wort keinen Firmenschluessel ergeben duerfen. Zwei
 # verschiedene Firmen teilen sie sich sonst ("Verteilte Systeme", "Korte Einrichtungen").
@@ -173,6 +179,41 @@ def _gattungshaft(tok):
             or any(tok.endswith(s) and len(tok) > len(s) + 1 for s in SUFFIX_GATTUNG)
             or tok in SUFFIX_GATTUNG)
 
+def gnews_echo(titel, beschreibung):
+    """True, wenn die Beschreibung nur der Titel plus Outletname ist. Genau so liefern die
+    Google-News-Metafeeds ihre Zeilen, und genau daran ist die Schluesselbildung am
+    21.08.2026 gescheitert: die Pruefung "Wort kommt mindestens zweimal vor" war fuer JEDES
+    Titelwort und fuer den Outletnamen automatisch erfuellt, deshalb wurden "chip",
+    "minuten", "asatunews" oder "aachener" zu Firmenschluesseln."""
+    if not titel or not beschreibung:
+        return False
+    basis = fold(re.sub(r"\s+-\s+[^-]{2,40}$", "", titel)).strip()
+    if len(basis) < 20:
+        return False
+    return fold(beschreibung).strip().startswith(basis[:40])
+
+
+def outlet_ab(titel):
+    """Schneidet das angehaengte " - Outlet" der Google-News-Titel ab."""
+    return re.sub(r"\s+-\s+[^-]{2,40}$", "", titel).strip() or titel
+
+
+def rubrik_ab(titel):
+    """EIN grossgeschriebenes Wort vor einem Doppelpunkt am Titelanfang ist die Rubrik oder
+    der Ort, nicht die Firma. Belegt am 21.08.2026: "Moringen: KOENIG-Gruppe ...",
+    "Kuerten: Korte meldet ...", "Ladenbau: Korte beantragt ...". Zwei oder mehr Woerter
+    vor dem Doppelpunkt bleiben stehen, das ist meist der Firmenname selbst
+    ("Korte Einrichtungen: Insolvenz des Ladenbauers")."""
+    m = re.match(r"^([A-Z\u00c4\u00d6\u00dc][\w\u00c4\u00d6\u00dc\u00e4\u00f6\u00fc\u00df]{2,})\s*:\s+(.+)$",
+                 titel.strip())
+    if not m:
+        return titel, False
+    rest = m.group(2)
+    if not re.search(r"[A-Z\u00c4\u00d6\u00dc]", rest):
+        return titel, False
+    return rest, True
+
+
 def firmenschluessel(titel, beschreibung=""):
     """Heuristischer Firmenschluessel mit Konfidenz.
     Rueckgabe: (schluessel, kandidat, konfidenz) mit konfidenz in {"hoch","mittel",""}.
@@ -181,6 +222,13 @@ def firmenschluessel(titel, beschreibung=""):
     # EINMAL nach NFC normalisieren und danach nur noch mit diesem Text arbeiten. Sonst
     # verschiebt die Normalisierung in fold_pos die Offsets bei zerlegten Umlauten (NFD)
     # und es entstehen Schrottkandidaten wie "Gru Su Konto r Gm".
+    # Google-News-Zeilen wiederholen den Titel in der Beschreibung und haengen den
+    # Outletnamen an. Beides muss weg, sonst zaehlt jedes Titelwort doppelt (Befund
+    # 21.08.2026, 78 von 102 Digest-Zeilen betroffen).
+    echo = gnews_echo(titel, beschreibung)
+    if echo:
+        titel, beschreibung = outlet_ab(titel), ""
+    titel, kopf_ab = rubrik_ab(titel)
     text = unicodedata.normalize("NFC", re.sub(r"\s+", " ", f"{titel}. {beschreibung}"))
     # fold_pos statt fold: die Treffer aus RX_RF werden unten per Offset auf "text"
     # angewandt, deshalb muss die Faltung die Zeichenzahl erhalten.
@@ -238,7 +286,13 @@ def firmenschluessel(titel, beschreibung=""):
                 toks = toks[i:]
                 break
         if toks:
-            key = clean(" ".join(toks[-3:]))
+            # Frueher nur die letzten drei Woerter vor der Rechtsform. Damit fiel der
+            # KENNZEICHNENDE Namensanfang heraus: aus "Hellweg Die Profi-Bau- &
+            # Gartenmaerkte GmbH & Co. KG" wurde der Schluessel "profi bau", und der
+            # Bestandseintrag "hellweg profi" wurde nicht gefunden. Belegt am 21.08.2026,
+            # Hellweg stand danach zweimal im Gedaechtnis. clean() nimmt ohnehin nur die
+            # ersten zwei brauchbaren Woerter, und die stehen im Deutschen am Namensanfang.
+            key = clean(" ".join(toks))
             # Besteht der Schluessel nur aus Gattungswoertern, steht der kennzeichnende Teil
             # des Namens links davon und beginnt klein oder mit Ziffern ("comlet Verteilte
             # Systeme", "12.18. Investment Management"). Dann dieses Wort davorziehen.
@@ -249,7 +303,7 @@ def firmenschluessel(titel, beschreibung=""):
                 if lose:
                     key = [(norm(lose[-1]) + " " + key[0].split()[0]).strip()]
             if key:
-                kand = (" ".join(toks[-3:]) + " " + text[m.start():m.end()]).strip()
+                kand = (" ".join(toks[:4]) + " " + text[m.start():m.end()]).strip()
                 return key[0], kand, "hoch"
 
     # 2) Marke in Anfuehrungszeichen -> hoch
@@ -259,7 +313,27 @@ def firmenschluessel(titel, beschreibung=""):
         if key:
             return key[0], m.group(1).strip(), "hoch"
 
-    # 3) Erstes Wort des Titels vor Doppelpunkt oder Gedankenstrich -> mittel
+    # 2b) Name vor einem beschreibenden Bindestrichteil: "Hellweg-Zentrale in Dortmund",
+    # "KOENIG-Gruppe mit 1000 Mitarbeitern", "Pandion-Insolvenz", "PANDION Aktie".
+    # Der Teil hinter dem Bindestrich beschreibt, der Teil davor benennt. Ohne diese Regel
+    # wurden am 21.08.2026 "dortmund", "moringen" und "pandion aktie" zu Firmenschluesseln.
+    ANHANG = (r"(?:Gruppe|Konzern|Zentrale|Insolvenz|Pleite|Aktie|Anleihe|Filialen|Filiale|"
+              r"Werk|Werke|Standort|Standorte|Uebernahme|Verfahren)")
+    # Klammerzusaetze ausnehmen: in "Gartencenter Augsburg (Hellweg-Gruppe)" benennt
+    # "Hellweg" die MUTTER, nicht den Fall, und der Schluessel wuerde beide vermischen.
+    ohne_klammer = re.sub(r"\([^)]*\)", " ", text)
+    m = re.search(r"\b([A-Z\u00c4\u00d6\u00dc][\w\u00c4\u00d6\u00dc\u00e4\u00f6\u00fc\u00df]{2,})"
+                  r"[-\u2011\s]" + ANHANG + r"\b", ohne_klammer)
+    if m:
+        key = clean(m.group(1))
+        if key:
+            return key[0], m.group(1).strip(), "mittel"
+
+    # 3) Erstes Wort des Titels vor Doppelpunkt oder Gedankenstrich -> mittel.
+    # NUR wenn dieses Wort auch sonst im Text vorkommt. Sonst ist es die Rubrik oder der
+    # Ort, nicht die Firma: "Moringen: Koenig-Gruppe ...", "Ladenbau: Korte beantragt ...",
+    # "Kuerten: Korte meldet ..." (alle belegt am 21.08.2026). Ein echter Firmenname wird
+    # im Text wiederholt, ein Rubrikkopf nicht.
     m = re.match(r"^(" + GROSS + r"(?: " + GROSS + r")?)\s*[:\u2013\u2014-]\s", titel)
     if m:
         key = clean(m.group(1))
@@ -278,5 +352,11 @@ def firmenschluessel(titel, beschreibung=""):
         kand.sort(reverse=True)
         vor, _, k, t = kand[0]
         if vor >= 2:
+            return k, t, "mittel"
+        # Google-News-Zeilen wiederholen nichts, weil ihre Beschreibung nur der Titel ist.
+        # Dann traegt die Wiederholungsprobe nicht, und es zaehlt die Eindeutigkeit: genau
+        # EIN Kandidat im Titel, oder der erste Kandidat direkt nach einem abgeschnittenen
+        # Rubrikkopf. Beides ist belegt am 21.08.2026 (Vivanco, KOENIG, Korte).
+        if (echo or kopf_ab) and (len(kand) == 1 or kopf_ab):
             return k, t, "mittel"
     return "", "", ""
