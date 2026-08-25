@@ -1,20 +1,14 @@
 {
  "meta": {
-  "lauf": "2026-08-25T09:21:20",
-  "lauf_utc": "2026-08-25T09:21:20+00:00",
+  "lauf": "2026-08-25T10:03:10",
+  "lauf_utc": "2026-08-25T10:03:10+00:00",
   "version": "2026-08-21h",
-  "problem": [
-   "GNews Insolvenzantrag(FAIL:HTTPError)",
-   "GNews Verfahren/Verwalter(FAIL:HTTPError)",
-   "GNews Sanierung/StaRUG(FAIL:HTTPError)",
-   "GNews Investorenprozess(FAIL:HTTPError)",
-   "GNews Fruehsignal(FAIL:HTTPError)"
-  ],
+  "problem": [],
   "fenster_tage": 3,
   "feeds_gesamt": 56,
-  "feeds_ok": 51,
-  "n_roh": 12,
-  "n_stark": 2
+  "feeds_ok": 56,
+  "n_roh": 59,
+  "n_stark": 30
  },
  "health": {
   "Handelsblatt Unternehmen": "ok:20",
@@ -33,12 +27,12 @@
   "FinanzNachrichten": "ok:20",
   "wallstreet-online": "ok:101",
   "WDR Wirtschaft": "ok:35",
-  "BR24": "ok:10",
+  "BR24": "ok:11",
   "MDR": "ok:5",
-  "SWR": "ok:63",
+  "SWR": "ok:62",
   "hessenschau Wirtschaft (HR)": "ok:25",
   "rbb24 Wirtschaft": "ok:116",
-  "Radio Bremen (buten un binnen)": "ok:30",
+  "Radio Bremen (buten un binnen)": "ok:28",
   "WAZ Wirtschaft": "ok:63",
   "Rheinische Post": "ok:6",
   "Koelner Stadt-Anzeiger Wirtschaft": "ok:36",
@@ -68,13 +62,27 @@
   "Westf. Anzeiger wa.de (Lokal)": "ok:40",
   "Kreiszeitung Niedersachsen (Lokal)": "ok:40",
   "come-on Maerkischer Kreis (Lokal)": "ok:40",
-  "GNews Insolvenzantrag": "FAIL:HTTPError",
-  "GNews Verfahren/Verwalter": "FAIL:HTTPError",
-  "GNews Sanierung/StaRUG": "FAIL:HTTPError",
-  "GNews Investorenprozess": "FAIL:HTTPError",
-  "GNews Fruehsignal": "FAIL:HTTPError"
+  "GNews Insolvenzantrag": "ok:22",
+  "GNews Verfahren/Verwalter": "ok:17",
+  "GNews Sanierung/StaRUG": "ok:8",
+  "GNews Investorenprozess": "ok:6",
+  "GNews Fruehsignal": "ok:16"
  },
  "treffer": [
+  {
+   "quelle": "Handelsblatt Unternehmen",
+   "titel": "Volkswagen: VW-Chef Blume sucht „belastbare Perspektiven“ für alle Standorte",
+   "beschreibung": "Bei einer Reihe von Betriebsversammlungen muss VW-Chef Blume erklären, wie er den Autokonzern neu aufstellen will. Werksschließungen seien dabei die „letzte und teuerste Lösung“.",
+   "link": "https://www.handelsblatt.com/unternehmen/industrie/volkswagen-vw-chef-blume-sucht-belastbare-perspektiven-fuer-alle-standorte/100249487.html",
+   "source": "",
+   "datum": "2026-08-25",
+   "datum_iso": "2026-08-25T09:21:21+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Werksschließung"
+   ]
+  },
   {
    "quelle": "WirtschaftsWoche Unternehmen",
    "titel": "Volkswagen: Die Entzauberung des Weihnachtswunders der IG Metall",
@@ -147,6 +155,20 @@
   },
   {
    "quelle": "Zeit Wirtschaft",
+   "titel": "Volkswagen-Umbau: VW-Chef Blume sucht »belastbare Perspektiven« für alle Standorte",
+   "beschreibung": "Im Wolfsburger Stammwerk beginnt eine Reihe von VW-Betriebsversammlungen. Konzernchef Oliver Blume bezeichnet Werksschließungen als »die letzte ‌Lösung«.",
+   "link": "https://www.zeit.de/wirtschaft/unternehmen/2026-08/volkswagen-umbau-oliver-blume-standorte-werkschliessungen",
+   "source": "",
+   "datum": "2026-08-25",
+   "datum_iso": "2026-08-25T09:56:15+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Werksschließung"
+   ]
+  },
+  {
+   "quelle": "Zeit Wirtschaft",
    "titel": "Volkswagen: Niedersachsens Ministerpräsident Olaf Lies warnt vor Werksschließungen",
    "beschreibung": "Olaf Lies hat den VW-Vorstand für dessen Sparkurs kritisiert. Werksschließungen lehne er weiterhin ab, sagte er. Jeder Standort müsse eigene Perspektiven erhalten.",
    "link": "https://www.zeit.de/wirtschaft/unternehmen/2026-08/olaf-lies-volkswagen-oliver-blume-sparkurs-werkschliessungen-gxe",
@@ -188,13 +210,55 @@
    ]
   },
   {
+   "quelle": "MDR",
+   "titel": "VW-Chef: Werksschließung letzte und teuerste Option",
+   "beschreibung": "Volkswagen-Chef Oliver Blume hat allen VW-Standorten eine Zukunftsperspektive in Aussicht gestellt. Blume sagte bei der Betriebsversammlung in Wolfsburg, Werkschließungen in Zwickau, Hannover, Emden und Neckarsulm seien nicht beschlossen. Sie seien immer die letzte und teuerste Lösung. Deshalb wolle man in den nächsten sechs bis zwölf Monaten belastbare Perspektiven für alle Standorte schaffen. - Blume will sich in den nächsten Tagen in mehreren VW-Werken der Belegschaft stellen, morgen kommt er nach Zwickau.",
+   "link": "https://www.mdr.de/nachrichten/nachrichten-mdr-104.html#VW-Chef-Werksschliessung-letzte-und-teuerste-Option",
+   "source": "",
+   "datum": "2026-08-25",
+   "datum_iso": "2026-08-25T11:57:03+02:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Werksschließung"
+   ]
+  },
+  {
+   "quelle": "SWR",
+   "titel": "\"In der Bundesliga angekommen\": Was Mainz 05 aus der Pleite gegen Werder mitnehmen kann",
+   "beschreibung": "Die Frauen von Mainz 05 haben ihr Debüt in der Frauen-Bundesliga verloren. Gegen Werder Bremen hieß es für die Aufsteigerinnen am Ende 1:2. Der guten Stimmung im Bruchwegstadion tat das aber keinen Abbruch.",
+   "link": "https://www.swr.de/sport/frauen-im-sport/mainz05-premiere-bundesliga-100.html",
+   "source": "",
+   "datum": "2026-08-25",
+   "datum_iso": "2026-08-25T11:31:54+02:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Pleite"
+   ]
+  },
+  {
+   "quelle": "Rheinische Post",
+   "titel": "Gesicht eingefallen, Rippen zu sehen: Ausgesetztes Pony auf Krefelder Gnadenhof war kurz vor dem Verhungern",
+   "beschreibung": "Der Gnadenhof des Vereins für notleidende Pferde in Krefeld ist eigentlich längst voll. Doch immer wieder kommen neue Tiere. Jetzt wurde ein Pony nachts am Tor angebunden. Wie es ihm mittlerweile geht.",
+   "link": "https://rp-online.de/nrw/staedte/krefeld/verhungerndes-pony-gerettet-gnadenhof-krefeld-schlaegt-alarm_aid-153447127",
+   "source": "",
+   "datum": "2026-08-25",
+   "datum_iso": "2026-08-25T05:15:00+02:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "notleidend"
+   ]
+  },
+  {
    "quelle": "Augsburger Allgemeine Wirtschaft",
    "titel": "Zerschlagung der Baumarktketten BayWa und Hellweg: Gewerkschaft warnt vor Rosinenpickerei",
    "beschreibung": "Nach der Insolvenz von Hellweg und BayWa Bau & Garten gibt es Interesse von Investoren an vielen Standorten. Hinter den Kulissen tobt aber ein aggressiver Verdrängungswettbewerb.",
-   "link": "https://www.augsburger-allgemeine.de/wirtschaft/baywa-baumaerkte-und-hellweg-gewerkschaft-ist-beunruhigt-115054080",
+   "link": "https://www.augsburger-allgemeine.de/wirtschaft/baywa-baumaerkte-und-hellweg-gewerkschaft-ist-beunruhigt-1-115054080",
    "source": "",
-   "datum": "2026-08-24",
-   "datum_iso": "2026-08-24T08:29:00+00:00",
+   "datum": "2026-08-25",
+   "datum_iso": "2026-08-25T09:57:00+00:00",
    "signal": "schwach",
    "datum_unbekannt": false,
    "keywords": [
@@ -242,6 +306,606 @@
    "keywords": [
     "Eigenverwaltung",
     "Sachwalter"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "„Das waren die schlimmsten Monate meines Lebens“: Drei Modegeschäfte in Kassel insolvent - HNA",
+   "beschreibung": "„Das waren die schlimmsten Monate meines Lebens“: Drei Modegeschäfte in Kassel insolvent HNA",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQd183UEZNUjFzVEpPcWw4MnMxa05mYU92UmhOcEQxQk8yNEp3V0ZINHpPR3g3bklEaFo5dTJhay1RV05POHU1amM0Z3JlWVV3RFJCRVBvUzlxaDV2UHIxSXlSZ0xHVk40TzVFbmoyNjUwUUtPZ29ZUGJUSE8tenNoLUhCejdWZWlhWUgtWi1jbG9wWlFvYkQ4Vjl1eXV6c0xabUZ0Nzk5V2ZVUzNP?oc=5",
+   "source": "HNA",
+   "datum": "2026-08-25",
+   "datum_iso": "2026-08-25T04:00:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Großer Küchenhersteller meldet Insolvenz an - SOL.DE",
+   "beschreibung": "Großer Küchenhersteller meldet Insolvenz an SOL.DE",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbk1aUDEzUDk2TFBiUmJsa3NWNlkyaWpJXzB5NXkxc0pBbklmTnNvbzFBSkZtbnViNmF5S09JOGdzclVad0NmN1BvejMwV1Vjc2xBcXdfMTVZQ2t5QjZ1bWNKeU9xaWR4MEhzRU5RckoyOGl2VmxNSm9jdlhuZUtUUG5WdWY5UXVHSURpTXZLdGFwMVZE?oc=5",
+   "source": "SOL.DE",
+   "datum": "2026-08-25",
+   "datum_iso": "2026-08-25T08:56:03+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "meldet Insolvenz",
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "„Geschmackssachen\" in Tegernsee insolvent – „Mir blutet das Herz“ - Merkur",
+   "beschreibung": "„Geschmackssachen\" in Tegernsee insolvent – „Mir blutet das Herz“ Merkur",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVWVvVDNoNmZ2UXhVVVFrcjVWWDFLWUh3YkdlY1p2eGZVang2a3UtUlZPV0pWdHJhUEtwdWlkTi1RNUZDcGpsay1ZY0s0aGtWUDMzaEVuTUxpQTdzbzJoR1ZLOUdMUHlzMk1FWWlZdThHMndwajBsdmdYRXBXcWVEZmZVZ091a2otVW5hTlI5elUwRE53eV8zRUtxeWg4Y3BDSlF1RjV1WmZiU3Vuem1yYXNNeVNUcklQRVNqZDZSSGQ4NVZpUDVRaVhlY09PbjM1X0lBTV9R?oc=5",
+   "source": "Merkur",
+   "datum": "2026-08-25",
+   "datum_iso": "2026-08-25T04:30:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Hochwald-Tochter Almil ist insolvent: Was das für Milchlieferanten bedeutet - agrarheute.com",
+   "beschreibung": "Hochwald-Tochter Almil ist insolvent: Was das für Milchlieferanten bedeutet agrarheute.com",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNa1NCb3Y5SEw3LTJDakdLV1U5NENUYnJjQ2ZMYi1sdkNGRXlZVG11dDg1NHpxU0x6eVNzQ1Vub0lZb1djMUIxQk5YRkhmVGF4OUZ1N194akdPQVE4VTMwNTNQeEx3QndtNVBRZ1IteTFmOWRMbHM0OHpkbi1GYWRndHY2anVUUzd6ZnVpUHR6S181THNtakl0RFFHMTlnNk5Mc0ZzZmV1akphSDNKSlh5VWlJWXZLbjBISWczWF9R?oc=5",
+   "source": "agrarheute.com",
+   "datum": "2026-08-24",
+   "datum_iso": "2026-08-24T11:30:46+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "„Schwieriger Moment für unsere Mitarbeiter“: Bayerischer Fahrradhersteller meldet Insolvenz an - Augsburger Allgemeine",
+   "beschreibung": "„Schwieriger Moment für unsere Mitarbeiter“: Bayerischer Fahrradhersteller meldet Insolvenz an Augsburger Allgemeine",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMnE4NTBxT09FNHFqUno2WF9XVGtJRFBIRzNrRkFPSHBkV0VPeDRvdjB4MUR0ejRiSmdWZnN6TGczQkVEcGRPMmQ1R2pudGRSSHJSRGZidzgwbVpfNlppXzg3U1ZDcnBhbUN3b0ZsMmw2b0x2ZnJGS1FvbGRuVUtmTnFFa1oyWnI4MURKVW4zdzQ3MzRDd2RIM2JpLXVTb3FhOF9XZ2R6MXJWM1F4M2dJOTNETQ?oc=5",
+   "source": "Augsburger Allgemeine",
+   "datum": "2026-08-25",
+   "datum_iso": "2026-08-25T05:00:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "meldet Insolvenz",
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Reifen Meertens GmbH insolvent - Reifenpresse.de",
+   "beschreibung": "Reifen Meertens GmbH insolvent Reifenpresse.de",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9lb3FJa2VLYVU0WEFZSTB4V1FIWUw0bGFfVG82MGtmTnIweFQ1eE1xS01vQllJaE5fRFROR3ZlVmNJWFdzUjlubFRqZUZmaTJFY0ZHT3c3c0VkU2lwWlZpeVlMNlpJdlpzcXFhOUY0RnFXRU0x?oc=5",
+   "source": "Reifenpresse.de",
+   "datum": "2026-08-24",
+   "datum_iso": "2026-08-24T11:31:25+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Unternehmen für Bäckerei-Design ist insolvent: 138 Mitarbeiter betroffen - BILD",
+   "beschreibung": "Unternehmen für Bäckerei-Design ist insolvent: 138 Mitarbeiter betroffen BILD",
+   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPUTRfTmV5Z3QtcnNPN1RJYzdaS0hiRHUxSjNZWDloQ1VjU0dJMFZrQU1FWHZVMnNXYUdSWHBaUTNxTWx4WWlySFc5YkpVZ3M2dnp3OWRDWlRtUEhDWEY3cWRUdjlPRFdPN1J2eklEbEhZM3hzTWhVaXFoalpxQXNEODdoZFdZOC1PemlGalkxYVhZQ2NNVFUtR1BBLW1ZQU96LWJTQjhLOVMtajlxNXlEWjV5NWpaa0RVM0VvVElFbEllRmQwcUp3c25uTXFXRndNU0d3b3BOTUxpXzVpSlZZRQ?oc=5",
+   "source": "BILD",
+   "datum": "2026-08-23",
+   "datum_iso": "2026-08-23T10:49:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Seidel Verpackungen erneut insolvent: Geschäftsbetrieb in Taucha ruht - Neue verpackung",
+   "beschreibung": "Seidel Verpackungen erneut insolvent: Geschäftsbetrieb in Taucha ruht Neue verpackung",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPT1dlSHNGTkNuMXRvNXFvRDg2OUU5bE8zRFBHRUZ4VW1vZXd0SXRGVFEyNDhRVHNYUlZQb3pyRGVNOWFxUjFwN21aZ09YN0c2U0pwMWxIbEFWQ0hISFMxVzJZWFdsMWNCXzE0RjRtNlVobXZqdElzSVU5WW8ycVJpbFdETmVzcEY2?oc=5",
+   "source": "Neue verpackung",
+   "datum": "2026-08-24",
+   "datum_iso": "2026-08-24T10:11:56+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Britischer Betreiber größter Solaranlage Portugals ist insolvent - Euronews.com",
+   "beschreibung": "Britischer Betreiber größter Solaranlage Portugals ist insolvent Euronews.com",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZmpMNUVfV3d0bm5FMnBxMmhTLVlfZW4wX1QyS0xSZTZ3em9fTVpELVVJclZpVnY0bGxMaU4yNG5peGg0RjBJS2NWMEx0WWxpXzRHQUJEc2V0NE9QNDRLaVJZTHltVHB6Mkp0MUVvRm5Sd3lya2tWVnZMMlFFT3dnWlF6VS1Fb0dvZm1iR2ZNUnNTVkVwajI1WE5VM0xYT2phb01rWXllUFBXRHlIRFE?oc=5",
+   "source": "Euronews.com",
+   "datum": "2026-08-24",
+   "datum_iso": "2026-08-24T15:44:40+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Immer mehr IT-Dienstleister insolvent - ChannelPartner",
+   "beschreibung": "Immer mehr IT-Dienstleister insolvent ChannelPartner",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRVhJck5BdkM3c3NOcUE1MEFuN25rck1KRHA4YzdvMXZoUVlZckd0MmFxczlTZFJfd3cydERxenV0aXliVGtydUxBZUczczM0czY3NHFtUnp6cWpDSHd5OVdGM0ViaXp0VlpGNEctdWdlcnl6c2Iwd2VHU0ZDc2IySnNVRmx6R1Z6M1FNX2JFOUJydw?oc=5",
+   "source": "ChannelPartner",
+   "datum": "2026-08-24",
+   "datum_iso": "2026-08-24T06:27:26+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Jetzt also doch! Hochwald-Tochter Almil aus Weiding meldet Insolvenz an - Innsalzach24",
+   "beschreibung": "Jetzt also doch! Hochwald-Tochter Almil aus Weiding meldet Insolvenz an Innsalzach24",
+   "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNWUZlLUVFN29URUN5dDlQS1Z4Y1Fna1VwcFhicDl3eHJzbUFuWWFDMWFsV09mR1JjclBzT1JxdzRsdzJjNlRKQVdZU0k5TzBQQjRGRW1QdTVUNVU3WVJxcGlNeVEwRW5EYV85MktHcl9tRzktLU1sbC10Y3dzeThFNHlfX1NDa1Y5czR1anZzSTNVcG8zMkxfQkZZRzBSY09DckJ0N2hZVU1Sb21pNENadTVLREdzNzFlMDU4MFFRWnFvMWM1SDBjUXRFSGxlZzBpOE94RHA4d25NN21STmZUbFlLMXVPb3lrLXg5bGRaOVptWFNYMGhrdHNR?oc=5",
+   "source": "Innsalzach24",
+   "datum": "2026-08-24",
+   "datum_iso": "2026-08-24T15:12:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "meldet Insolvenz",
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Talheimer Indoorspielplatz Pangea insolvent – wie geht es weiter? - Stimme",
+   "beschreibung": "Talheimer Indoorspielplatz Pangea insolvent – wie geht es weiter? Stimme",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPMXlmd3ZoWTBlbUdKdlN5bG5aM085eUpMM3NZeHljTkNHRDVMZElKSGdZTHhGOVVEbjRWZlRER1lteHVHOGlkc3NRcmYtNUtPc2VUYkItU0c5TksyT29vcGVEMDNGUVMyQ0xyMTJMQ0RLNW9HUE9PVjBFc2JsbkpwbzVXaWZoa0pVUkdHZnphN1JSRjhMS2VjLUc1d0x2TFhFQk83NDdRMmsxVmhjc3B4djZrbldpUE50R202dERkYi0yNno2R3pFcy1WdFpwdUl5TVhHZ0FMSFlZWGNxUjlMZ0lVT3EzSTA?oc=5",
+   "source": "Stimme",
+   "datum": "2026-08-24",
+   "datum_iso": "2026-08-24T05:31:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Insolvenz bei König-Gruppe: Zukunft für 1000 Beschäftigte ungewiss - Frankfurter Rundschau",
+   "beschreibung": "Insolvenz bei König-Gruppe: Zukunft für 1000 Beschäftigte ungewiss Frankfurter Rundschau",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaV9ZWGdLRjJ4QzZEUHZmWmI4VldrZTVSN0prTlhyTkItenZ2eE5zTVVGc0hqN09Lb21JSUVvTUtraWtEcmowNDFrcHh4ekxfNGdpMmxWd1h6QjRSQ3cwVU9UeUlKc19tb0N2a3JyUlBDbGFpU3V0aUQ4cW4xSHZKSk8xYXVMVlJXUWZFUkVac01ZQzlLNUowZ2g5VzNYZTVyeVNlM2Q2LUtJZw?oc=5",
+   "source": "Frankfurter Rundschau",
+   "datum": "2026-08-22",
+   "datum_iso": "2026-08-22T18:10:08+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Ihre Filialen stehen bei Netto und Kaufland – Fleischerei mit 100 Mitarbeitern insolvent - CHIP",
+   "beschreibung": "Ihre Filialen stehen bei Netto und Kaufland – Fleischerei mit 100 Mitarbeitern insolvent CHIP",
+   "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOeVZpWERBTlp2ZHBNMGZjNjVhcy1IaHlxU0o5OEtMdmpaYVdqWlVCR1Q3MGZjRU9EMjd6YUxQbWxKekdiRnh1ZzdPMkN5LU9yeVlYVjRIR005aThmR2xabFpVT0paUEhpNGFCZ1VGXzVEdjdPaWg5T3UxbXp3a2FtSEM1RHRXd1k1VDFTSjlDcUlCeGczXzdoMXo1bDYySzc3elFMZkEzc0xTTUYtZXhvTUtCcHc0MGg1T3h5bEF3aWU4UEFpVTlzLTRtX2lULVlSbmM3YzdmeVNqY2dyODJRUk5XcDVTTHpINzQ5Wm1HcER0bkNu?oc=5",
+   "source": "CHIP",
+   "datum": "2026-08-22",
+   "datum_iso": "2026-08-22T10:15:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Rinschheim: Bauunternehmen EuRa Bau stellt Insolvenzantrag - Rhein-Neckar-Zeitung",
+   "beschreibung": "Rinschheim: Bauunternehmen EuRa Bau stellt Insolvenzantrag Rhein-Neckar-Zeitung",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMHZrMnU1aFRnbWJIZEU5VlRfOUt3NG9zNFZqeUppRjdxWUJpUUg5emVWY1VzQm5OQnBmLUFCd3dkdlVfQ25tdlNtLThKVUlmWXNHTnY4STJSWElGTnBEQ1R4MkxWT3VpbVkyMDJQdTRMQ3ZSc0E1aDZXb0JjVFFNYUFCVmNhczVndmI3UkNkSGsyWVg4Y1RIc0RUeXlRbmhyM002UEVWaVVWQ1F1eHo5WVYxemphUlpsYUtMQUxuampNZ29ua0RrQUtn?oc=5",
+   "source": "Rhein-Neckar-Zeitung",
+   "datum": "2026-08-24",
+   "datum_iso": "2026-08-24T02:00:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenzantrag",
+    "stellt Insolvenzantrag"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Firma Lutz Bönnigheim: Insolvenz trotz voller Auftragsbücher - bietigheimerzeitung.de",
+   "beschreibung": "Firma Lutz Bönnigheim: Insolvenz trotz voller Auftragsbücher bietigheimerzeitung.de",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNZG9ZUy11X2lQOTRJMmp1cGE4bC1YSFhLbXZZbnhGa3JGdllvZTN6ZU1uRDdMRTJQWWVmYW90NDRKWHFHSmg1OU9vaXp5SmtiVEpMTGdiR2cxQlNCV00wRmZqejJwXzhwbzV5dDJ1WUJsRzNsN1hacVN4aEk3cWZpRVhFN0FENThoUFZWa21SVFh0SV9Xbl9GN3RodGRxcTl0RGh0TDhEbW5iSG5EVVplWHd2ZUlzdjQ2cUtqcC05S1RNQTI0Zy1ablFYVXlqNmdQY2lmdTdkcmtHRjlfeEE?oc=5",
+   "source": "bietigheimerzeitung.de",
+   "datum": "2026-08-25",
+   "datum_iso": "2026-08-25T09:17:00+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "E-Bike-Gigant meldet Insolvenz an: Aktuelle Nachrichten zur Insolvenzanmeldung des großen E-Bike-Unternehmens - 36 Kr",
+   "beschreibung": "E-Bike-Gigant meldet Insolvenz an: Aktuelle Nachrichten zur Insolvenzanmeldung des großen E-Bike-Unternehmens 36 Kr",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1HQldkSEJIdlhwRE9CenJXY3hLV0diSHRwZDJxSEdjNERGWjJnMXhQRWNEOFRKN2NEdlctbXdPR3RnQnVjSDg5YVFqWkJweWJvbGZB?oc=5",
+   "source": "36 Kr",
+   "datum": "2026-08-23",
+   "datum_iso": "2026-08-23T15:07:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "meldet Insolvenz",
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Baumarkt-Kette meldet Insolvenz an: Diese Standorte in Schwaben müssen vorerst nicht schließen - Augsburger Allgemeine",
+   "beschreibung": "Baumarkt-Kette meldet Insolvenz an: Diese Standorte in Schwaben müssen vorerst nicht schließen Augsburger Allgemeine",
+   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRVd0eElQM3c3QjV3MXBzTE0yTjAwSE0xazJKanNoNlphUEkxenFXRk5iY3ZZQWlfU1kwR1dDNWloYVJvTHBpMVBieklZQlM5bG9tdFJiY2xMNy0tWW5qZWRqazhkaVo4M0dOUURfQVZmaDl2a3pzM0dEQWRIV1N3aURQMmhVQUVFVW5RVXFDZC1rd1RHV3U0ZmZUZGhoUUdkSTFYaU9mX19RdmMtUF9zMGlpUF9HTldVQWZHNFR1YXFnN1dvUHFEWldKaGR5MmZmNThMZXdjZ3RoOVUzZXRKMg?oc=5",
+   "source": "Augsburger Allgemeine",
+   "datum": "2026-08-22",
+   "datum_iso": "2026-08-22T19:32:45+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "meldet Insolvenz",
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Insolvenzverfahren in Moringen: Bauunternehmen in Schieflage - HNA",
+   "beschreibung": "Insolvenzverfahren in Moringen: Bauunternehmen in Schieflage HNA",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNamNvWmdIWUw5bUFCN3hNYVY4VkotQzNWUDBHMTRMVFpEY0FHRnkzYmdFRi1SUFRGcEZCYy1tdWo3bEl6Wl9Ic1dQVmZyYnREMUpVQjFwY1Q2MUFzenRoSFNWRnNCNlE2SzJZNjczY1JQcko4NTVjVFJ5dlFEa2wxWnNUNm1oU24yR3NIZHZOTmZOLWFwTEVYTk9KTm43TEZzd2dYb0tkVEdUbEJESkp4dUQ5aXRHVlktTnVqQTlJdGU0Y1ZkUmtSSUFB?oc=5",
+   "source": "HNA",
+   "datum": "2026-08-22",
+   "datum_iso": "2026-08-22T19:10:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenzverfahren",
+    "in Schieflage"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Crazy Cheese ist insolvent: Inventar-Versteigerung startet am 24. August - joinmares.com",
+   "beschreibung": "Crazy Cheese ist insolvent: Inventar-Versteigerung startet am 24. August joinmares.com",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTk1YblNoTE43TE0wbHJjMlpiTGdWNlpEelM4bkd0QnBKQTE5QWhSX3JadDd4N0lCRnZHZE5Oa3d0RmlYQ0pZT1RFUGhObUoxUTkxTEJtY0FsdlVkN3VNdEhZQmM2QVMxbVdDVTNNSzg2WVJVbDlfVmJYSFh0WWNqd0ZvUTV6bk9QS1FXcE5DMEtOc3kzaEFyOWItdTU0c2JORFE?oc=5",
+   "source": "joinmares.com",
+   "datum": "2026-08-24",
+   "datum_iso": "2026-08-24T19:01:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Immer mehr Firmen in BW pleite - Knapp 1,8 Milliarden Euro an Forderungen offen - SWR",
+   "beschreibung": "Immer mehr Firmen in BW pleite - Knapp 1,8 Milliarden Euro an Forderungen offen SWR",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTTVBOUZFTlZybi1qem5jY0hSSTF6SjlFRmxCRl9LZmhJYkxPMVJnVW9ERjhNc2ZLeGlkWTY3bXJUYVFBNFZtdmRzek9KbXJvcFFzWVpnbFZxRGVKZjBLSEdtYkkzY0V2Y0Y5WHNOQS1iZC1oMkVoTTFDZmtiSmFHRWNLOEQwcmZIeU10VFl4bXR1bC1QVVZxaXg0OGJISS1vOTFrOHBjQnA2Yl9xeDY2ZUQzWQ?oc=5",
+   "source": "SWR",
+   "datum": "2026-08-23",
+   "datum_iso": "2026-08-23T04:00:00+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Pleite"
+   ]
+  },
+  {
+   "quelle": "GNews Verfahren/Verwalter",
+   "titel": "König-Gruppe mit Gerloff Liebler und Eckert in Eigenverwaltung - juve.de",
+   "beschreibung": "König-Gruppe mit Gerloff Liebler und Eckert in Eigenverwaltung juve.de",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdHF3S0RFXzVNSk1uZWJ5TmlrcWFXSVk1ckRQbjZCZVhlRU1kZm9nZXRhUkV2azVYcHhmZEFKM0Zwck1UenNSalNGcGdXYUo1SDdpdzVmQmRHeVBuc1BWT2RRU3dXNGdIdVJNdDIyVi1IMi1VelMwWDBYX19RdjFXYldXQ3Q3bUFoY0h0UnNGZjJ4bW9MMWsxNlFR?oc=5",
+   "source": "juve.de",
+   "datum": "2026-08-24",
+   "datum_iso": "2026-08-24T13:10:24+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Eigenverwaltung"
+   ]
+  },
+  {
+   "quelle": "GNews Verfahren/Verwalter",
+   "titel": "\"Kaffeerösterkartell\": Gericht weist Millionenklage von Schlecker-Insolvenzverwalter ab - SWR",
+   "beschreibung": "\"Kaffeerösterkartell\": Gericht weist Millionenklage von Schlecker-Insolvenzverwalter ab SWR",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUEJlYUtFWTRVaEpMcjdBSWNEUTVKYUxtUzZPRVNDWmZQZi1kWjE0dFNlcktwRFpMQUhLbmVrQVA0Y0N6RE9fRmp4NzdnVW9valpid0FoOHRMeko5eXhqWFZXWGM5UnoxQXBYOE1iU1FaRG1FYTZmZmRGX2s0QllYeGpadTZNVFZCN3FHUQ?oc=5",
+   "source": "SWR",
+   "datum": "2026-08-23",
+   "datum_iso": "2026-08-23T04:00:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenzverwalter"
+   ]
+  },
+  {
+   "quelle": "GNews Verfahren/Verwalter",
+   "titel": "Interessenausgleich und Sozialplan in Insolvenz und Eigenverwaltung: Worauf Betriebsrat und Arbeitnehmer achten müssen! - Anwalt.de",
+   "beschreibung": "Interessenausgleich und Sozialplan in Insolvenz und Eigenverwaltung: Worauf Betriebsrat und Arbeitnehmer achten müssen! Anwalt.de",
+   "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNY1VqWl9jU0h5QUx1MlVuRWU2SEM0ekU3SnVhZjJNbHE3YmJGYlZrZXBCUTQzb1ZYV0xnTUQtS1NzOEh4eEVEZm95TXhDb3NiOTZYX1dqUndrTm1UenRsYU5WX0lzZlVldHZSS2M0SVNNRDBqYWpNME5OcjhFcVFFN3lYUkdNQWNjWVV4NVcxeE5ycEdxQVhlTktqU0xQY2pJa0poUDBoMm9sd0FtUXhyVVl0VldDLVZ2LVU3cmhNbS1WUG9acnoyX0VCNzVjNVNKcHBfeWZOYjVCaF9ZZHNJZ2ZLeFpOUzRVRDlKSU41Y3JsYTJBdHJv?oc=5",
+   "source": "Anwalt.de",
+   "datum": "2026-08-23",
+   "datum_iso": "2026-08-23T21:44:36+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Eigenverwaltung",
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Verfahren/Verwalter",
+   "titel": "Bauunternehmensgruppe mit 1.000 Beschäftigten in Schieflage - NDR.de",
+   "beschreibung": "Bauunternehmensgruppe mit 1.000 Beschäftigten in Schieflage NDR.de",
+   "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPeGFzRTZ3YVZhSFlPQ0J5cldRTWJZT1JldWlSWXN0cUhwNkR3d0JSdWp0N2FWUVJ5eHFFUHdqa2tTQXNNZW02RGhwb1pjSlU0bGdpMHVGQmM2bjhoRGpjNkpuMU94RGpaelpZWFZ3MUF6NFBvS0sxRVJheVczQ2JzNHFOMEhYa3AwaG02aDdrNUdhak9uQ1pvUGVTb2lqZHZibU1zSnZqa1FVVlpsczJaQWhVVVlKRHE0Zng5c3lwb3ZiSmw4dFNXdnRxQkZORS1qRTFCTkdQVFJzM0ItVFFLUk5QQ1pRMjBSZVZwcUZTOXM0NzNM?oc=5",
+   "source": "NDR.de",
+   "datum": "2026-08-23",
+   "datum_iso": "2026-08-23T14:29:11+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "in Schieflage"
+   ]
+  },
+  {
+   "quelle": "GNews Verfahren/Verwalter",
+   "titel": "Hochwald-Tochter Almil ist insolvent: Was das für Milchlieferanten bedeutet - agrarheute.com",
+   "beschreibung": "Hochwald-Tochter Almil ist insolvent: Was das für Milchlieferanten bedeutet agrarheute.com",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNa1NCb3Y5SEw3LTJDakdLV1U5NENUYnJjQ2ZMYi1sdkNGRXlZVG11dDg1NHpxU0x6eVNzQ1Vub0lZb1djMUIxQk5YRkhmVGF4OUZ1N194akdPQVE4VTMwNTNQeEx3QndtNVBRZ1IteTFmOWRMbHM0OHpkbi1GYWRndHY2anVUUzd6ZnVpUHR6S181THNtakl0RFFHMTlnNk5Mc0ZzZmV1akphSDNKSlh5VWlJWXZLbjBISWczWF9R?oc=5",
+   "source": "agrarheute.com",
+   "datum": "2026-08-24",
+   "datum_iso": "2026-08-24T11:30:46+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Verfahren/Verwalter",
+   "titel": "Insolvenz bei König-Gruppe: Zukunft für 1000 Beschäftigte ungewiss - Frankfurter Rundschau",
+   "beschreibung": "Insolvenz bei König-Gruppe: Zukunft für 1000 Beschäftigte ungewiss Frankfurter Rundschau",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaV9ZWGdLRjJ4QzZEUHZmWmI4VldrZTVSN0prTlhyTkItenZ2eE5zTVVGc0hqN09Lb21JSUVvTUtraWtEcmowNDFrcHh4ekxfNGdpMmxWd1h6QjRSQ3cwVU9UeUlKc19tb0N2a3JyUlBDbGFpU3V0aUQ4cW4xSHZKSk8xYXVMVlJXUWZFUkVac01ZQzlLNUowZ2g5VzNYZTVyeVNlM2Q2LUtJZw?oc=5",
+   "source": "Frankfurter Rundschau",
+   "datum": "2026-08-22",
+   "datum_iso": "2026-08-22T18:10:08+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Verfahren/Verwalter",
+   "titel": "Jetzt also doch! Hochwald-Tochter Almil aus Weiding meldet Insolvenz an - OVB online",
+   "beschreibung": "Jetzt also doch! Hochwald-Tochter Almil aus Weiding meldet Insolvenz an OVB online",
+   "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNcUpJU1ZoWXNITnpNMmpUZG4yZV9IaUxkVW1rYTBQWWRFZmMteUg4SWNSc2RRazROa19LMXIyZUc0NDB5MVNoNmptVnRGdVVjZklzb08zdWxMUlFtdV93X09oVGE3dmpkdnpTYUtrTjd0cjRjVmpLcFBPdm9ySUVlQUdkM2NkMmR5Y0tUUE1kM2EyVkV0NjRDTU9uc0JWN1ladHRrcl9zQUgyUFg0enlsQldxb0hTVENoc1gzN0FvYjg0R1NRTGJzaVlyQU9GWXdyQ0VVMDBYNzZ3WXIybXFZS013QXhTR1I5Y0lEZw?oc=5",
+   "source": "OVB online",
+   "datum": "2026-08-24",
+   "datum_iso": "2026-08-24T15:12:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "meldet Insolvenz",
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Verfahren/Verwalter",
+   "titel": "Rickmers-Pleite: Haben Erben ihre große Chance verspielt? - MOPO",
+   "beschreibung": "Rickmers-Pleite: Haben Erben ihre große Chance verspielt? MOPO",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcVhzUDkxcjZYSlRPWEJVbGcwdVZMRFNOQWxPVHRhQnJJbmxDNUFWYVVGS0xZenFabU9TTUZ0WkVBNDNUT3BZM1B6V2l2WXE5emdfSzZkX3ZPWFV0bUUzaEZSclh0QmFqOXV5em5kdVA0MVRJMWhXNmVsc1VjMGFtYlE4Z0VDUHJrYW43cWZNQTRudE1Ma1B3?oc=5",
+   "source": "MOPO",
+   "datum": "2026-08-25",
+   "datum_iso": "2026-08-25T04:50:00+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Pleite"
+   ]
+  },
+  {
+   "quelle": "GNews Verfahren/Verwalter",
+   "titel": "Talheimer Indoorspielplatz Pangea insolvent – wie geht es weiter? - Stimme",
+   "beschreibung": "Talheimer Indoorspielplatz Pangea insolvent – wie geht es weiter? Stimme",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPMXlmd3ZoWTBlbUdKdlN5bG5aM085eUpMM3NZeHljTkNHRDVMZElKSGdZTHhGOVVEbjRWZlRER1lteHVHOGlkc3NRcmYtNUtPc2VUYkItU0c5TksyT29vcGVEMDNGUVMyQ0xyMTJMQ0RLNW9HUE9PVjBFc2JsbkpwbzVXaWZoa0pVUkdHZnphN1JSRjhMS2VjLUc1d0x2TFhFQk83NDdRMmsxVmhjc3B4djZrbldpUE50R202dERkYi0yNno2R3pFcy1WdFpwdUl5TVhHZ0FMSFlZWGNxUjlMZ0lVT3EzSTA?oc=5",
+   "source": "Stimme",
+   "datum": "2026-08-24",
+   "datum_iso": "2026-08-24T05:31:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Verfahren/Verwalter",
+   "titel": "Insolvenzverfahren in Moringen: Bauunternehmen in Schieflage - HNA",
+   "beschreibung": "Insolvenzverfahren in Moringen: Bauunternehmen in Schieflage HNA",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNamNvWmdIWUw5bUFCN3hNYVY4VkotQzNWUDBHMTRMVFpEY0FHRnkzYmdFRi1SUFRGcEZCYy1tdWo3bEl6Wl9Ic1dQVmZyYnREMUpVQjFwY1Q2MUFzenRoSFNWRnNCNlE2SzJZNjczY1JQcko4NTVjVFJ5dlFEa2wxWnNUNm1oU24yR3NIZHZOTmZOLWFwTEVYTk9KTm43TEZzd2dYb0tkVEdUbEJESkp4dUQ5aXRHVlktTnVqQTlJdGU0Y1ZkUmtSSUFB?oc=5",
+   "source": "HNA",
+   "datum": "2026-08-22",
+   "datum_iso": "2026-08-22T19:10:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenzverfahren",
+    "in Schieflage"
+   ]
+  },
+  {
+   "quelle": "GNews Verfahren/Verwalter",
+   "titel": "Insolvenz in der Baubranche: Deutsche Firmengruppe mit 1000 Mitarbeitern pleite - BILD",
+   "beschreibung": "Insolvenz in der Baubranche: Deutsche Firmengruppe mit 1000 Mitarbeitern pleite BILD",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNOTJCemZJOW9FRGVzbkl5LUlaQ0tKaXljWU8xck5vdXlyYXFibzRLUEM2eTZkMlhWR2lzVHVjLXJ6ejI5ZVhSVUhWa0VVRmcxdkVEQ1dnNlpxdlB2Y0NpdnJidHhPRHlPeHRHMGlFTVpQTHhJekt5b2c3NXItYUlSZ21lR0RFMjF4ZTUtSFZ5cVA2RDR1VG5YN1IyeHp4QTMzMTBRcnhuYkgzR1VYcVgtcFRqQTNIWTFXOHh1WTgxVU1wRDR1cjF2MWE4czhIT0FRd1BrM3lOTnhkTG1fZjdr?oc=5",
+   "source": "BILD",
+   "datum": "2026-08-22",
+   "datum_iso": "2026-08-22T17:57:25+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenz",
+    "Pleite"
+   ]
+  },
+  {
+   "quelle": "GNews Verfahren/Verwalter",
+   "titel": "Insolvenzfeste Kreditsicherheiten: Welche Sicherheit in der Insolvenz hält und wie Sie ausgestaltet werden muss. - Anwalt.de",
+   "beschreibung": "Insolvenzfeste Kreditsicherheiten: Welche Sicherheit in der Insolvenz hält und wie Sie ausgestaltet werden muss. Anwalt.de",
+   "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNQXVSV2t4cF9GQUhCYWtmLWF3dEdrNnY3QzlMc1JsRXIxR0dsdnhDV0tId1NiMXdFeTVDdHluV2dTSGdlNUxoeVBHbVlsNTJzQmFiQk9yNFdCQUJrdVNJRFRWZ1BYdVV3dHFuTmR5ZHROYXB5ZG1ZbXBhdWtjdWVvUW5OckYxVW1mYzVUYTU1TkRoc2FZOWZoZUpfN2w3UVduOEcta0JkaUE4amJ3dXZhV1MzNjFlWnVNQV9sanBXeDZ5Vk9EY3VYajF0RmlUanBsZDgtdmRjZFFZb0FoRDAwWkVmTXlEaFRWeWl5am9R?oc=5",
+   "source": "Anwalt.de",
+   "datum": "2026-08-24",
+   "datum_iso": "2026-08-24T23:32:26+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Sanierung/StaRUG",
+   "titel": "Wie geht es mit der Yeans Halle weiter? Modehändler meldet Insolvenz an - Südkurier",
+   "beschreibung": "Wie geht es mit der Yeans Halle weiter? Modehändler meldet Insolvenz an Südkurier",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZ0RPOHFCaW9wcm11SGFITzhpUUtxWV9wVkplSGdqTTcybDMzbkxPbFZ4VHJrbmRPN05IYjZMTWZ1WmthZDhBX0ItYWp6bk45OWJWcm1NUkhzYnhXTGh2azZ0UXJtS0xXVWtYeEtndTRvLVFtRS1tcV9BLUFZM0FoREpBMXlFX2JsOXNjU1NWQXFtMS1JZV9kcDB3WHhjbVVPYmVFbExnck00Q0JJWng4bjFIYTZUZTZ0UkZodHhoYw?oc=5",
+   "source": "Südkurier",
+   "datum": "2026-08-23",
+   "datum_iso": "2026-08-23T05:16:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "meldet Insolvenz",
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Sanierung/StaRUG",
+   "titel": "100 Mitarbeiter betroffen: Landfleischerei geht in Insolvenz - CHIP",
+   "beschreibung": "100 Mitarbeiter betroffen: Landfleischerei geht in Insolvenz CHIP",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTW1uN1ZsV05qR09mQnk4WFloYkR5cnZYMkFFNFZUSGxkWlhObDJXTlZkTDNjRi1RRTdRQ3Nud0Q5YU0yWmg2cEd6T1VwVnJkR2RWVzdibUtIc3hfejVxTHVCcW85WnluelFLM01HYXJTeVRPMklsRmZ2cGo3NGpzXy1idkFhaEh0RmlONzBFNGRiSHVfRXhaVVpGZmhmZEVVdjE4ekdBRWJXQ1VzVk4wVUhmUFFJY1EyUi02SXgwcDRjTTRHWC1BWDl5djdZQUtX?oc=5",
+   "source": "CHIP",
+   "datum": "2026-08-22",
+   "datum_iso": "2026-08-22T16:42:00+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Sanierung/StaRUG",
+   "titel": "Konkursverfahren wurde eröffnet - Bekannte Bäckerei schlittert in zweite Pleite - Leadersnet",
+   "beschreibung": "Konkursverfahren wurde eröffnet - Bekannte Bäckerei schlittert in zweite Pleite Leadersnet",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRnZvRG54UmRpU3NsS1kwX3NuTDhKbFY4SHNTZmhNY0hCVEoxbEU4Vk81SG9kUWRBdEZGOW1lWEg3UkpjSnFUazdqS0Ztby1sd0VRRHRnOFlfNlg5STVXb2F3WmNlTDdlV2FlV1lsN0pKWERHMW0xaDN6X09ZdnE2djN3OEVydTZXNTJONE9BS3ZKYjA?oc=5",
+   "source": "Leadersnet",
+   "datum": "2026-08-23",
+   "datum_iso": "2026-08-23T14:00:00+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Pleite"
+   ]
+  },
+  {
+   "quelle": "GNews Investorenprozess",
+   "titel": "Insolvenz bei König-Gruppe: Zukunft für 1000 Beschäftigte ungewiss - Frankfurter Rundschau",
+   "beschreibung": "Insolvenz bei König-Gruppe: Zukunft für 1000 Beschäftigte ungewiss Frankfurter Rundschau",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaV9ZWGdLRjJ4QzZEUHZmWmI4VldrZTVSN0prTlhyTkItenZ2eE5zTVVGc0hqN09Lb21JSUVvTUtraWtEcmowNDFrcHh4ekxfNGdpMmxWd1h6QjRSQ3cwVU9UeUlKc19tb0N2a3JyUlBDbGFpU3V0aUQ4cW4xSHZKSk8xYXVMVlJXUWZFUkVac01ZQzlLNUowZ2g5VzNYZTVyeVNlM2Q2LUtJZw?oc=5",
+   "source": "Frankfurter Rundschau",
+   "datum": "2026-08-22",
+   "datum_iso": "2026-08-22T18:10:08+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Fruehsignal",
+   "titel": "Ukraine unterstützt türkische Initiative zu einem Moratorium für Angriffe im Schwarzen Meer – Botschafter - Ukrinform News",
+   "beschreibung": "Ukraine unterstützt türkische Initiative zu einem Moratorium für Angriffe im Schwarzen Meer – Botschafter Ukrinform News",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNSzIzOUtpUGhDMVpNUVNnbndMSnMxMU9JODAxMUZXRW5EU2thbzFtRmNfYnFLSUNXQVM5UUlQb3hOeXdlUHlIalZtOFpxdGt5N1VYN2dZd0NuTklNUXZXelVrZFRUNDV1dXdfbnVOSjdPWnBqX1czQkxxUHZJSFZubUZYVGpvQWpoMUpiY1JZSlBBY0xGSHo0UndwQlQ3bW1WNEl1OTVGQUotTTloU0NfUXRxRm9BWjRzQmtjOXZ6aERZcHM2YjVOM2Z6d3JhZWUtUHRqdlZjOEhtandtQ21ta0hpbkZjaFnSAewBQVVfeXFMT1pzaWZPQjdCWFQzNkZNTmh1cllyN09venotWDJ4M0E3VWl5aTRlakdjMktvUWdMSnZHOUtMTjNhU1JJUWYzTktlQ3kxa29YRGlTOENlME9JWnBDNGljVmhVM3MzclBaXzV0ajRTY0VuOE1vUlljcTFubTl5U1RiTGNvWUV4VGo2RTVSeDdEVGFzV2hiVkV1NzU5Y1dhSHVuNkFpQnpmX0I1RnlxMVczUTcxZ3BzQU9OS3NJNFhjZkZpNXgwRU54WmsxRDBseVRXc3BmT25CUkxUT0w5SUVLS3NmV24xclMtZzVKQ2k?oc=5",
+   "source": "Ukrinform News",
+   "datum": "2026-08-24",
+   "datum_iso": "2026-08-24T18:40:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Moratorium"
+   ]
+  },
+  {
+   "quelle": "GNews Fruehsignal",
+   "titel": "Ferrexpo Aktie: Zahlungsunfähigkeit droht Mitte September - Kapitalmarktexperten",
+   "beschreibung": "Ferrexpo Aktie: Zahlungsunfähigkeit droht Mitte September Kapitalmarktexperten",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOalB0ZE1vTndjaDcyX3hLX0VUNm1zb0pFS2ROcDBmcFp5QmZoT1RGaGNOZEJPY1lzUWJmREE3ekliaXMwczUyUWtzaHRBb3BiQ1ExU2I1TXFLSEMxTUhHS0Y1R1NaeHlTNFJnZTRFUTdwT1N2VHdWX0NIekpZLTJDdERNc1FuUUc3bWphei1wdy1XQ1VGOEtDdmN3?oc=5",
+   "source": "Kapitalmarktexperten",
+   "datum": "2026-08-25",
+   "datum_iso": "2026-08-25T03:44:08+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Zahlungsunfähigkeit"
+   ]
+  },
+  {
+   "quelle": "GNews Fruehsignal",
+   "titel": "Landesweingut Kloster Pforta von Sachsen-Anhalt droht die Insolvenz – wertvolle Weinlagen werden für 1 Million Euro verkauft - CHIP",
+   "beschreibung": "Landesweingut Kloster Pforta von Sachsen-Anhalt droht die Insolvenz – wertvolle Weinlagen werden für 1 Million Euro verkauft CHIP",
+   "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQSzk4ei0wVDAzVkVubVNuYmhfYUxZYXRtbHBSZmRyNk90Yk1tTnJWMXZIQ0VBUk9DSFJvdU1BRHlwSEQyLVNZdGR5QllfdEpwOVBKSmttMF90ZDdpSm5KeFEwQ1h6RjZHMGZjM3RtRm1kaFJEU2gwV1BjRFNMdVlVdUxqd0FkVWxJNmQ0LW4xeDJIZ0RsV3ZyUmtSVi1xVUV3ck05azFjc2I2aC0xUHl2ejVxYkNmdGFKSUFuaEFzZjI2aHhfVFphVlJ0QW5BOXYzcVRPU2xOaW14MXZCWlpqaDVwZnl4RnI3c1R0WnplbUh4WG9pb3FrM2x6WTdJXzVqWm41d2RfMm9qajJKYVlWZ29XbEl1TEhjbkY5MFdXUFNhZkZhOEE?oc=5",
+   "source": "CHIP",
+   "datum": "2026-08-25",
+   "datum_iso": "2026-08-25T05:38:00+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Fruehsignal",
+   "titel": "Nach Deskcenter-Insolvenz übernimmt die mosaic IT GmbH die Produkte - BornCity",
+   "beschreibung": "Nach Deskcenter-Insolvenz übernimmt die mosaic IT GmbH die Produkte BornCity",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMWdoZEFycXJCQ3pHM2FIMGgzeXM3cTJmOEl4TW96YWNrbktESXNRcUJudHliTkFMX21mc0VBVzFuQjJ1WlFCMElZVlgtWFQ2NmtVV2RfNlFSb2ZKOTlOWk05R1J2MUNScUw0QUx6YjFRU1d1Uy1CVjdqc19kYXhJOFUxOFhjSS1JMGRIOXlBeVpKUnJHdW9Kdmd3ZHl2WlFzZ1ZobG01c1p1QQ?oc=5",
+   "source": "BornCity",
+   "datum": "2026-08-24",
+   "datum_iso": "2026-08-24T23:04:53+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Fruehsignal",
+   "titel": "Kapital „vollständig verzehrt“: Sachsen-Anhalts Landesweingut droht die Pleite - Mitteldeutsche Zeitung",
+   "beschreibung": "Kapital „vollständig verzehrt“: Sachsen-Anhalts Landesweingut droht die Pleite Mitteldeutsche Zeitung",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPemFUQWctajVELWgta1lRTmswb1E4YnVGaGp3V2tLMzRpRDBHLWpiMjJQZ2podFEzOFotQkJQZmxjVlpxM2hxTnd3WXUyZF9BaUxXUFRMWmVwbjZ4Y19zN3BCMy1yMGZfZHpzUUNpd1UtVmNnRVU0ZW51N19IU2tmZ3IxdjUzS0plNmVuMHptMjlaVUc0UXd4Qm42dmI3Y3JmWHJQMzZQT20?oc=5",
+   "source": "Mitteldeutsche Zeitung",
+   "datum": "2026-08-24",
+   "datum_iso": "2026-08-24T16:00:00+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Pleite"
    ]
   }
  ]
