@@ -1,14 +1,14 @@
 {
  "meta": {
-  "lauf": "2026-09-05T07:42:20",
-  "lauf_utc": "2026-09-05T07:42:20+00:00",
+  "lauf": "2026-09-05T08:32:23",
+  "lauf_utc": "2026-09-05T08:32:23+00:00",
   "version": "2026-08-21h",
   "problem": [],
   "fenster_tage": 3,
   "feeds_gesamt": 56,
   "feeds_ok": 56,
-  "n_roh": 186,
-  "n_stark": 144
+  "n_roh": 182,
+  "n_stark": 140
  },
  "health": {
   "Handelsblatt Unternehmen": "ok:20",
@@ -27,12 +27,12 @@
   "FinanzNachrichten": "ok:20",
   "wallstreet-online": "ok:101",
   "WDR Wirtschaft": "ok:35",
-  "BR24": "ok:10",
+  "BR24": "ok:9",
   "MDR": "ok:5",
   "SWR": "ok:55",
   "hessenschau Wirtschaft (HR)": "ok:25",
   "rbb24 Wirtschaft": "ok:116",
-  "Radio Bremen (buten un binnen)": "ok:44",
+  "Radio Bremen (buten un binnen)": "ok:42",
   "WAZ Wirtschaft": "ok:63",
   "Rheinische Post": "ok:6",
   "Koelner Stadt-Anzeiger Wirtschaft": "ok:44",
@@ -64,7 +64,7 @@
   "come-on Maerkischer Kreis (Lokal)": "ok:40",
   "GNews Insolvenzantrag": "ok:100",
   "GNews Verfahren/Verwalter": "ok:31",
-  "GNews Sanierung/StaRUG": "ok:24",
+  "GNews Sanierung/StaRUG": "ok:23",
   "GNews Investorenprozess": "ok:4",
   "GNews Fruehsignal": "ok:21"
  },
@@ -101,7 +101,7 @@
    "quelle": "WirtschaftsWoche Unternehmen",
    "titel": "Autoindustrie: Mercedes droht Arbeitnehmern mit Werksschließung",
    "beschreibung": "Bei Mercedes kursiert ein drastisches Szenario: Sollte der Betriebsrat Lohnkürzungen nicht mittragen, werde man in Osteuropa investieren – und einen deutschen Standort schließen.",
-   "link": "https://www.wiwo.de/unternehmen/auto/mercedes-erwaegt-werksschliessung-bei-streit-um-lohnkosten/100252159.html",
+   "link": "https://www.wiwo.de/unternehmen/auto/mercedes-autobauer-erwaegt-werksschliessung-bei-streit-um-lohnkosten/100252159.html",
    "source": "",
    "datum": "2026-09-04",
    "datum_iso": "2026-09-04T14:31:04+00:00",
@@ -313,20 +313,6 @@
   },
   {
    "quelle": "Radio Bremen (buten un binnen)",
-   "titel": "Bremer Flughafen droht die Insolvenz",
-   "beschreibung": "Der Flughafen hat mit einem jährlichen Defizit von 10 Millionen Euro zu kämpfen. Insider fürchten schlimmstenfalls schon 2027 mit der Insolvenz.",
-   "link": "https://www.butenunbinnen.de/videos/millionenloch-flughafen-defizit-zukunft-100.html",
-   "source": "",
-   "datum": "2026-09-04",
-   "datum_iso": "2026-09-04T19:30:00+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "Radio Bremen (buten un binnen)",
    "titel": "buten un binnen vom 4. September",
    "beschreibung": "Airport Bremen droht Insolvenz || Polizeieinsatz am Umspannwerk in Ganderkesee || Wie gehen die Menschen in der Neustadt mit Schussserie damit um?",
    "link": "https://www.butenunbinnen.de/videos/butenunbinnen-11020.html",
@@ -337,6 +323,20 @@
    "datum_unbekannt": false,
    "keywords": [
     "droht Insolvenz",
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "Radio Bremen (buten un binnen)",
+   "titel": "Bremer Flughafen droht die Insolvenz",
+   "beschreibung": "Der Flughafen hat mit einem jährlichen Defizit von 10 Millionen Euro zu kämpfen. Insider fürchten schlimmstenfalls schon 2027 mit der Insolvenz.",
+   "link": "https://www.butenunbinnen.de/videos/millionenloch-flughafen-defizit-zukunft-100.html",
+   "source": "",
+   "datum": "2026-09-04",
+   "datum_iso": "2026-09-04T19:30:00+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
     "Insolvenz"
    ]
   },
@@ -569,48 +569,6 @@
    ]
   },
   {
-   "quelle": "Offenbach op-online (Lokal)",
-   "titel": "Auf der Ymos-Brache soll eine Serverfarm entstehen",
-   "beschreibung": "Es war zu erwarten und wird jetzt öffentlich. In Obertshausen soll auf dem Gelände des insolventen Automobilzulieferers Ymos ein Rechenzentrum gebaut werden. Am Montag wird darüber im Bauauschuss diskutiert.",
-   "link": "https://www.op-online.de/region/obertshausen/auf-der-ymos-brache-soll-eine-serverfarm-entstehen-94476056.html",
-   "source": "",
-   "datum": "2026-09-05",
-   "datum_iso": "2026-09-05T07:00:00+02:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "Westf. Anzeiger wa.de (Lokal)",
-   "titel": "Discounter schließt Filiale in NRW-Einkaufscenter – ein Nachfolger steht schon fest",
-   "beschreibung": "Im Ruhrgebiet schließt ein beliebter Haushalts-Discounter eine Filiale. Das Unternehmen ist schon länger insolvent und hatte Filialschließungen angekündigt.",
-   "link": "https://www.wa.de/nordrhein-westfalen/kodi-schliesst-filiale-im-ruhrgebiet-ein-nachfolger-steht-schon-fest-zr-94475140.html",
-   "source": "",
-   "datum": "2026-09-05",
-   "datum_iso": "2026-09-05T07:00:00+02:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "come-on Maerkischer Kreis (Lokal)",
-   "titel": "Discounter schließt Filiale in NRW-Einkaufscenter – ein Nachfolger steht schon fest",
-   "beschreibung": "Im Ruhrgebiet schließt ein beliebter Haushalts-Discounter eine Filiale. Das Unternehmen ist schon länger insolvent und hatte Filialschließungen angekündigt.",
-   "link": "https://www.come-on.de/nordrhein-westfalen/kodi-schliesst-filiale-im-ruhrgebiet-ein-nachfolger-steht-schon-fest-zr-94475140.html",
-   "source": "",
-   "datum": "2026-09-05",
-   "datum_iso": "2026-09-05T07:00:00+02:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
    "quelle": "GNews Insolvenzantrag",
    "titel": "„In Deutschland leider nicht mehr möglich“: Beliebter deutscher Taschen- und Rucksack-Hersteller ist insolvent - Merkur",
    "beschreibung": "„In Deutschland leider nicht mehr möglich“: Beliebter deutscher Taschen- und Rucksack-Hersteller ist insolvent Merkur",
@@ -668,20 +626,6 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Starkholz-Verarbeiter insolvent: Sägewerk Schaffer zieht Reißleine nach Investition - forstpraxis.de",
-   "beschreibung": "Starkholz-Verarbeiter insolvent: Sägewerk Schaffer zieht Reißleine nach Investition forstpraxis.de",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSlBmejgwSlA0ZUwzZmNRQzdYaUhWa3A1M2NodFV4T2REV2d3V1F1SV9GZHRJSVQwT3UzaU53XzUtVWRYYjVzXzI5Z1doN2JlaHhacHR3WldXSDdGRWZFV0R0a0NvVlFLQ081RFJ2OG1lN00xRFg3ejVvdGtscExnbHU0UmtPZDVvVXdmWnVqdzUtWHZMX2dqa29iY0VaQUdsVUhPd3M3UVlVdUF3b2tlSXdB?oc=5",
-   "source": "forstpraxis.de",
-   "datum": "2026-09-04",
-   "datum_iso": "2026-09-04T13:15:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
    "titel": "Brandenburg Berlin: Berliner Autohaus König meldet Insolvenz an - tagesschau.de",
    "beschreibung": "Brandenburg Berlin: Berliner Autohaus König meldet Insolvenz an tagesschau.de",
    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOV3JiVlUxamhwTXdudFozYnN6U3ByaXA4UWxUMnZmeFFwa1IySWpJZnFacHRVOG95dzhPWTB4SmwwTVhmWC14QU1PdkU3bG45Q1BKazZJWEtETTluMUx1bmd5eG5pQ3JQSjE0R2VrWGx0bldMcGhqbE53b2I2aEZfenc2Vk82M3JTd0E2ekttbldjbmk0U291U05LU1dRWEszNzk3WkRUQm9iOHc5SjFBcA?oc=5",
@@ -707,6 +651,20 @@
    "datum_unbekannt": false,
    "keywords": [
     "Insolvenzverfahren"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Starkholz-Verarbeiter insolvent: Sägewerk Schaffer zieht Reißleine nach Investition - forstpraxis.de",
+   "beschreibung": "Starkholz-Verarbeiter insolvent: Sägewerk Schaffer zieht Reißleine nach Investition forstpraxis.de",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSlBmejgwSlA0ZUwzZmNRQzdYaUhWa3A1M2NodFV4T2REV2d3V1F1SV9GZHRJSVQwT3UzaU53XzUtVWRYYjVzXzI5Z1doN2JlaHhacHR3WldXSDdGRWZFV0R0a0NvVlFLQ081RFJ2OG1lN00xRFg3ejVvdGtscExnbHU0UmtPZDVvVXdmWnVqdzUtWHZMX2dqa29iY0VaQUdsVUhPd3M3UVlVdUF3b2tlSXdB?oc=5",
+   "source": "forstpraxis.de",
+   "datum": "2026-09-04",
+   "datum_iso": "2026-09-04T13:15:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
    ]
   },
   {
@@ -755,16 +713,16 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Global Airlines A380 steht vor einem Insolvenzantrag - MiGFlug",
-   "beschreibung": "Global Airlines A380 steht vor einem Insolvenzantrag MiGFlug",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdk1LTTdpbzR5QllpT2g3ZTRwNzY4Z0VpcjJEYnNzVmNzTXdBNVV1dTFEYU82MjU2NGJjbHlYaTFBeU5qV05LejA0Mk51ODN6X3RJa3NNRWNSUzJndVBiaVBBbk1ROGMtUnlPcVJwWjh2elBzbnZfMVVwUFgxMVU4VkRHNThKbHhsaTM1anVWQ2JmdnFUSTdVWE5McEhRNlJBdmxnbnNFRlRacXJwQ1JNR0hmbGY?oc=5",
-   "source": "MiGFlug",
-   "datum": "2026-09-05",
-   "datum_iso": "2026-09-05T01:13:01+00:00",
+   "titel": "Autohaus mit 1200 Beschäftigten insolvent: Was wird aus den Standorten in Bayern? - Augsburger Allgemeine",
+   "beschreibung": "Autohaus mit 1200 Beschäftigten insolvent: Was wird aus den Standorten in Bayern? Augsburger Allgemeine",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdUpPWnE0aVVhWjZyakVCcHRPaHVULVNVUG1hcjVocEpKcTUyaHplNlNPc2U2bGVvcUdyRGt0TlFIVnlpejR2Qzk1M0JUd3dpU0dRR3hnX19PYzRrZlNIM1RXS3k1MXlyS0hPeDdBTWF6MWZzaGRRNnZVZE1MbjZEaEU1NzZEazZTR1o5d0pKZVFjZy01Y2RyNzJHVXJMcmdzV1ZIZ0IwU0hCQk1Zbjl6RW1zd0hkNmNPNEZqSw?oc=5",
+   "source": "Augsburger Allgemeine",
+   "datum": "2026-09-04",
+   "datum_iso": "2026-09-04T04:45:19+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
-    "Insolvenzantrag"
+    "insolvent"
    ]
   },
   {
@@ -845,6 +803,20 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
+   "titel": "Global Airlines A380 steht vor einem Insolvenzantrag - MiGFlug",
+   "beschreibung": "Global Airlines A380 steht vor einem Insolvenzantrag MiGFlug",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdk1LTTdpbzR5QllpT2g3ZTRwNzY4Z0VpcjJEYnNzVmNzTXdBNVV1dTFEYU82MjU2NGJjbHlYaTFBeU5qV05LejA0Mk51ODN6X3RJa3NNRWNSUzJndVBiaVBBbk1ROGMtUnlPcVJwWjh2elBzbnZfMVVwUFgxMVU4VkRHNThKbHhsaTM1anVWQ2JmdnFUSTdVWE5McEhRNlJBdmxnbnNFRlRacXJwQ1JNR0hmbGY?oc=5",
+   "source": "MiGFlug",
+   "datum": "2026-09-05",
+   "datum_iso": "2026-09-05T01:13:01+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenzantrag"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
    "titel": "60 Jahre Tradition, jetzt insolvent: Schloss Brannenburg schließt – 43 Jobs weg - Merkur",
    "beschreibung": "60 Jahre Tradition, jetzt insolvent: Schloss Brannenburg schließt – 43 Jobs weg Merkur",
    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVXNBSU9RUmZTa08xYVR5b1drVHk3QUtER3dMVVVTV0FGSmt4TEpfSmV4YV9SZmVaT2ZPTWQ1ZVVfSGE4Qm5HY3hhNHJJeS1kU0tMSGtBT3VySVpaRGpTNnZwNGk3WEl6Vjl0WTZwcTU5Nm9ieFE1Tl9ZVlhMcmhIb1B0R2M3MlliVWowcDZvVkR5blR2djNYRUFVTGNxbTNsY2hZRnpTRTRnS0xDM3VQektTekd6RlFVbl9aVkI2LXRYcnA3Sm5Z?oc=5",
@@ -910,20 +882,6 @@
    "source": "tour-magazin.de",
    "datum": "2026-09-04",
    "datum_iso": "2026-09-04T07:58:34+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Autohaus mit 1200 Beschäftigten insolvent: Was wird aus den Standorten in Bayern? - Augsburger Allgemeine",
-   "beschreibung": "Autohaus mit 1200 Beschäftigten insolvent: Was wird aus den Standorten in Bayern? Augsburger Allgemeine",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdUpPWnE0aVVhWjZyakVCcHRPaHVULVNVUG1hcjVocEpKcTUyaHplNlNPc2U2bGVvcUdyRGt0TlFIVnlpejR2Qzk1M0JUd3dpU0dRR3hnX19PYzRrZlNIM1RXS3k1MXlyS0hPeDdBTWF6MWZzaGRRNnZVZE1MbjZEaEU1NzZEazZTR1o5d0pKZVFjZy01Y2RyNzJHVXJMcmdzV1ZIZ0IwU0hCQk1Zbjl6RW1zd0hkNmNPNEZqSw?oc=5",
-   "source": "Augsburger Allgemeine",
-   "datum": "2026-09-04",
-   "datum_iso": "2026-09-04T04:45:19+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -1092,10 +1050,10 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Autohaus König insolvent: Was jetzt für 1.200 Mitarbeiter und Kunden in Berlin gilt - berliner-kurier.de",
-   "beschreibung": "Autohaus König insolvent: Was jetzt für 1.200 Mitarbeiter und Kunden in Berlin gilt berliner-kurier.de",
+   "titel": "Autohaus König insolvent: Was jetzt für 1.200 Mitarbeiter und Kunden in Berlin gilt - Berliner Kurier",
+   "beschreibung": "Autohaus König insolvent: Was jetzt für 1.200 Mitarbeiter und Kunden in Berlin gilt Berliner Kurier",
    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUjZycmxWNDFKcUtQN2pZcmdFbFlKS2lUc2x6akg1cG5WckxKSVo3RzgxM1BrVnNsaF8xbEg0R0NxQWI4ZHVFZEpfRTVqTW4teXltakpWT1V0a3lOam9wTGp2bk5qM3E0emh0TERKdmt5d0RyaXZuVVAzdGw2M2tMWFZuRjBpVWZwUnRRRzNrZGtXejc2cE9qYnBsbVp0TmJT?oc=5",
-   "source": "berliner-kurier.de",
+   "source": "Berliner Kurier",
    "datum": "2026-09-02",
    "datum_iso": "2026-09-02T14:43:53+00:00",
    "signal": "stark",
@@ -1120,34 +1078,6 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Es geht um 33,4 Millionen Euro: Österreichischer Fahrradhersteller vom Bodensee ist schon wieder insolvent - CHIP",
-   "beschreibung": "Es geht um 33,4 Millionen Euro: Österreichischer Fahrradhersteller vom Bodensee ist schon wieder insolvent CHIP",
-   "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQSk9iYVRLTjJCc21DTms5Z0V2Tml6LTBrTzBnVXJicVRhaTU5UFV5MlFVMEphX2RBZkEzYlgyRlI2U2tzTG1aeF9sR0w2LTRMSmxNTmVwNlU5N05KYzJnSDlsMFI0R0N3Uk03Rk1mWDNSNDd1NDdPM19fTkc0ajNxQXBFV3VGbTZFRWRVV29QVXhfN3k0cl9KR2hmV3Zkb214RGxNcDZNWms5TlhZRlFmSTJ6Y0p6eGo3OGRRWURMWXYzN0NLYzA5TTA3Y2JhODhScWdhbGY2RndIZ2JrV3MxS3FkQkpRUW5rV2tfSEU2RzBGM083OU5PY25YYW5YMVoyYmdZNWRHcE9wRnljdTk0?oc=5",
-   "source": "CHIP",
-   "datum": "2026-09-04",
-   "datum_iso": "2026-09-04T11:07:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Simplon erneut insolvent: 33,4 Millionen Euro Schulden - FIT FOR FUN",
-   "beschreibung": "Simplon erneut insolvent: 33,4 Millionen Euro Schulden FIT FOR FUN",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUzc5alNUQlJzbEJzVUJkY1hGTm9rMWZDRWdCX2g3dnF5Uk5kZ1cyY2FMZXNVejBWVVhyQ3ZIT1VVVHA3dlhzMWJ2NGsxd0VfS3UxTUdZTGxwbHpZS0RXbUY2YWZRYWNYc3hrV1BZMkFrVE92YktsMFZ6YWlfUm8xMFI5TFlDaGpVQ1JMS0I0R3hhTE5tYmNyRnJWV1VVMjRBY3hBcmRHWlZXRzJTT01JWEc2bndtNUNPMGNxSVRWdlgtdDg?oc=5",
-   "source": "FIT FOR FUN",
-   "datum": "2026-09-04",
-   "datum_iso": "2026-09-04T08:25:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
    "titel": "Insolvenz Autohaus König: Wie es jetzt mit Betrieb und Mitarbeitern weitergeht - autohaus.de",
    "beschreibung": "Insolvenz Autohaus König: Wie es jetzt mit Betrieb und Mitarbeitern weitergeht autohaus.de",
    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNajl1TEN6T0lSNnd3OFMzVngwcjF5OElncFlHOHlRS1dheW1JYzVXUG1SOVhFUTVlbUJJWlh3OUdlUnJEQm81clpoaTVNaTlrckJLcGdKc1VZNDIwaWdPT0FDQjJiVHlwZ3gyb2RMOTBnci1zWm93MFFudzZuajNtV09Hb2ZFQ3IyUms5V0U2UnFJTVpGN1FDTWhHblBVckhpb3JRcHlNaTFOV0NNd2JGMUhhOWs2TzQ3WWxkLVhoR2Rxd3BuRFE?oc=5",
@@ -1162,10 +1092,38 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Firma insolvent: Cochemer Feinkostkette: Alle 80 Beschäftigten entlassen - Kreis Cochem-Zell - rhein-zeitung.de",
-   "beschreibung": "Firma insolvent: Cochemer Feinkostkette: Alle 80 Beschäftigten entlassen - Kreis Cochem-Zell rhein-zeitung.de",
+   "titel": "Es geht um 33,4 Millionen Euro: Österreichischer Fahrradhersteller vom Bodensee ist schon wieder insolvent - CHIP",
+   "beschreibung": "Es geht um 33,4 Millionen Euro: Österreichischer Fahrradhersteller vom Bodensee ist schon wieder insolvent CHIP",
+   "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQSk9iYVRLTjJCc21DTms5Z0V2Tml6LTBrTzBnVXJicVRhaTU5UFV5MlFVMEphX2RBZkEzYlgyRlI2U2tzTG1aeF9sR0w2LTRMSmxNTmVwNlU5N05KYzJnSDlsMFI0R0N3Uk03Rk1mWDNSNDd1NDdPM19fTkc0ajNxQXBFV3VGbTZFRWRVV29QVXhfN3k0cl9KR2hmV3Zkb214RGxNcDZNWms5TlhZRlFmSTJ6Y0p6eGo3OGRRWURMWXYzN0NLYzA5TTA3Y2JhODhScWdhbGY2RndIZ2JrV3MxS3FkQkpRUW5rV2tfSEU2RzBGM083OU5PY25YYW5YMVoyYmdZNWRHcE9wRnljdTk0?oc=5",
+   "source": "CHIP",
+   "datum": "2026-09-04",
+   "datum_iso": "2026-09-04T11:07:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Simplon erneut insolvent: 33,4 Millionen Euro Schulden - fitforfun.de",
+   "beschreibung": "Simplon erneut insolvent: 33,4 Millionen Euro Schulden fitforfun.de",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUzc5alNUQlJzbEJzVUJkY1hGTm9rMWZDRWdCX2g3dnF5Uk5kZ1cyY2FMZXNVejBWVVhyQ3ZIT1VVVHA3dlhzMWJ2NGsxd0VfS3UxTUdZTGxwbHpZS0RXbUY2YWZRYWNYc3hrV1BZMkFrVE92YktsMFZ6YWlfUm8xMFI5TFlDaGpVQ1JMS0I0R3hhTE5tYmNyRnJWV1VVMjRBY3hBcmRHWlZXRzJTT01JWEc2bndtNUNPMGNxSVRWdlgtdDg?oc=5",
+   "source": "fitforfun.de",
+   "datum": "2026-09-04",
+   "datum_iso": "2026-09-04T08:25:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Firma insolvent: Cochemer Feinkostkette: Alle 80 Beschäftigten entlassen - Kreis Cochem-Zell - Rhein-Zeitung",
+   "beschreibung": "Firma insolvent: Cochemer Feinkostkette: Alle 80 Beschäftigten entlassen - Kreis Cochem-Zell Rhein-Zeitung",
    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPOFk3c3dURmo4TjJaNHFwa2wzN1RHSWJadVNZZnZxZ0JFQ2ZDYVRWUGFtNXdmOVhmcnBSODhWVTZzNXRJZGM3eFQ3UDFJbEFXU2E3dGI1MDRiWlJFa3NBVzI2RzBqd0pqVjU5ZzhPSm9hUzlkZDdYOG8wUVE0Ml9jeDdyT1VRcnBCT0ZWbWlWbGF0Yl9SME81MWxFUWdUR3ZOMzhuaHNVQ05adFJGRkhPUk50bDF3VDdHRGpkNHVhMnd2Z3dNQWkw?oc=5",
-   "source": "rhein-zeitung.de",
+   "source": "Rhein-Zeitung",
    "datum": "2026-09-04",
    "datum_iso": "2026-09-04T10:00:00+00:00",
    "signal": "stark",
@@ -1233,10 +1191,10 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Insolvent? - Landkreis Helmstedt klagt gegen das Land - ndr.de",
-   "beschreibung": "Insolvent? - Landkreis Helmstedt klagt gegen das Land ndr.de",
+   "titel": "Insolvent? - Landkreis Helmstedt klagt gegen das Land - NDR.de",
+   "beschreibung": "Insolvent? - Landkreis Helmstedt klagt gegen das Land NDR.de",
    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNazd5NU1SYTMwUGRBRVJDV3J0eEluMEd6cXJUaUM1SldYUW5EUGV0Vkgwblk1YmtGcGp5bDZzODhFOUJUNHRHc1p0YjJZSzdXLVQwS0NSZ3lsQ2VpaEF3blVkZ2EyaU5zWkl1dlFIQ1pBeVpsTWxDTEE2dENaOWRqSG5MeXhSU3ZrTE13MGtBMlNaNDljR3h2WE5zcXltOG9PQThib1hZT0ViTzJYVmsxLWNmTTdCNml5emE5NEZteXhXUQ?oc=5",
-   "source": "ndr.de",
+   "source": "NDR.de",
    "datum": "2026-09-02",
    "datum_iso": "2026-09-02T09:48:35+00:00",
    "signal": "stark",
@@ -1258,20 +1216,6 @@
    "keywords": [
     "insolvent",
     "Sanierungsverfahren"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Rohrbacher Schlosswarenfabrik ist insolvent - noe.ORF.at",
-   "beschreibung": "Rohrbacher Schlosswarenfabrik ist insolvent noe.ORF.at",
-   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1PTUJ2Q1ZoaE1ZeDVOT0hFVnNDbFNIcWtYSmhzSnk5UFBOSFQxVmkxRHdINU02Z2FnZG5SZWhZdmxMR19zcU5DczZwZw?oc=5",
-   "source": "noe.ORF.at",
-   "datum": "2026-09-04",
-   "datum_iso": "2026-09-04T10:51:59+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
    ]
   },
   {
@@ -1363,10 +1307,10 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Großer deutscher Autohändler nach Rekordzahlen überraschend insolvent – 82 Standorte, 1200 Beschäftigte - tz.de",
-   "beschreibung": "Großer deutscher Autohändler nach Rekordzahlen überraschend insolvent – 82 Standorte, 1200 Beschäftigte tz.de",
+   "titel": "Großer deutscher Autohändler nach Rekordzahlen überraschend insolvent – 82 Standorte, 1200 Beschäftigte - TZ",
+   "beschreibung": "Großer deutscher Autohändler nach Rekordzahlen überraschend insolvent – 82 Standorte, 1200 Beschäftigte TZ",
    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdnphdzY3MlU5RTR4LTFlRGZmRXJuNFFNVUtyYUJxMk9QU1ZCOEZSa2dldERua2N1eXF2ZGpzcHFESWs2LWNYcU94VEhCZ3NZeE9WNUNjM0hMTkRPZjBNWC1DNmZLanZVWDdYUHhRQkg3SHRVU3VaOHhfM0hYX3Q5SFlqUnlDam45WDdVQ2VHWHVDNVg2cGl2bEM1c2stSkFja19VRTFZd3VURFo1Z1NF?oc=5",
-   "source": "tz.de",
+   "source": "TZ",
    "datum": "2026-09-03",
    "datum_iso": "2026-09-03T16:57:29+00:00",
    "signal": "stark",
@@ -1391,12 +1335,12 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Stemweder Festival-Veranstalter „Waldfrieden“ ist insolvent: Was steckt dahinter? - Mindener Tageblatt",
-   "beschreibung": "Stemweder Festival-Veranstalter „Waldfrieden“ ist insolvent: Was steckt dahinter? Mindener Tageblatt",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYUFxbVExeDZvay1tVXIybWYtN0RTNGZYdmlOc1YyaEhrSG5jdWc1OWFfQmVNY291d2NFRkZPeWNSdDEtTGJVUXZzTjBha2piSWFMZXhacG4wb1pWQ1RHR0tCWTVfdzVGVTNjSVk3UjQxUjh4d1JwUGJnYWhkdGNDaG54ZU1sUGoteXprM29Mc2Vyd3MtdnJNUm53di1kNDJMT2hoQkVFdmhweEtSdnJGSUp6a1AwTS1JaEVGdQ?oc=5",
-   "source": "Mindener Tageblatt",
-   "datum": "2026-09-03",
-   "datum_iso": "2026-09-03T10:01:00+00:00",
+   "titel": "Rohrbacher Schlosswarenfabrik ist insolvent - noe.ORF.at",
+   "beschreibung": "Rohrbacher Schlosswarenfabrik ist insolvent noe.ORF.at",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1PTUJ2Q1ZoaE1ZeDVOT0hFVnNDbFNIcWtYSmhzSnk5UFBOSFQxVmkxRHdINU02Z2FnZG5SZWhZdmxMR19zcU5DczZwZw?oc=5",
+   "source": "noe.ORF.at",
+   "datum": "2026-09-04",
+   "datum_iso": "2026-09-04T10:51:59+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -1405,12 +1349,12 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Simplon-Produktion erneut insolvent: 33,4 Millionen Euro Schulden belasten Traditionsmarke - cristinaiglesias.com",
-   "beschreibung": "Simplon-Produktion erneut insolvent: 33,4 Millionen Euro Schulden belasten Traditionsmarke cristinaiglesias.com",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSlJWanlnaG1kTERyWVM0YnRJN0xoWFFybE45VHRsaV85WExhSnQtXzU3NFdnYVVGQXhoV3hCUUhXeXFVMzB0LVVOOVlOSGJiVzFzR0t1UDdJWG81d2lLWWlTTXVDaHBiY1lYX1dEWlRabGFxQ1JRVHV6ODlZZWFZdEFUcG4wR1ZBbENMczEtNG4zN09LMlVxaVFqY213QzczWGR1Wkp1MTREbnI4eUVDOTZLS1pKd0Z1TUVDSkxyZTJMLTdD?oc=5",
-   "source": "cristinaiglesias.com",
-   "datum": "2026-09-04",
-   "datum_iso": "2026-09-04T20:51:20+00:00",
+   "titel": "Stemweder Festival-Veranstalter „Waldfrieden“ ist insolvent: Was steckt dahinter? - Mindener Tageblatt",
+   "beschreibung": "Stemweder Festival-Veranstalter „Waldfrieden“ ist insolvent: Was steckt dahinter? Mindener Tageblatt",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYUFxbVExeDZvay1tVXIybWYtN0RTNGZYdmlOc1YyaEhrSG5jdWc1OWFfQmVNY291d2NFRkZPeWNSdDEtTGJVUXZzTjBha2piSWFMZXhacG4wb1pWQ1RHR0tCWTVfdzVGVTNjSVk3UjQxUjh4d1JwUGJnYWhkdGNDaG54ZU1sUGoteXprM29Mc2Vyd3MtdnJNUm53di1kNDJMT2hoQkVFdmhweEtSdnJGSUp6a1AwTS1JaEVGdQ?oc=5",
+   "source": "Mindener Tageblatt",
+   "datum": "2026-09-03",
+   "datum_iso": "2026-09-03T10:01:00+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -1433,6 +1377,20 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
+   "titel": "Simplon-Produktion erneut insolvent: 33,4 Millionen Euro Schulden belasten Traditionsmarke - cristinaiglesias.com",
+   "beschreibung": "Simplon-Produktion erneut insolvent: 33,4 Millionen Euro Schulden belasten Traditionsmarke cristinaiglesias.com",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSlJWanlnaG1kTERyWVM0YnRJN0xoWFFybE45VHRsaV85WExhSnQtXzU3NFdnYVVGQXhoV3hCUUhXeXFVMzB0LVVOOVlOSGJiVzFzR0t1UDdJWG81d2lLWWlTTXVDaHBiY1lYX1dEWlRabGFxQ1JRVHV6ODlZZWFZdEFUcG4wR1ZBbENMczEtNG4zN09LMlVxaVFqY213QzczWGR1Wkp1MTREbnI4eUVDOTZLS1pKd0Z1TUVDSkxyZTJMLTdD?oc=5",
+   "source": "cristinaiglesias.com",
+   "datum": "2026-09-04",
+   "datum_iso": "2026-09-04T20:51:20+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
    "titel": "„In Deutschland leider nicht mehr möglich“: Beliebter deutscher Taschen- und Rucksack-Hersteller ist insolvent - fnp.de",
    "beschreibung": "„In Deutschland leider nicht mehr möglich“: Beliebter deutscher Taschen- und Rucksack-Hersteller ist insolvent fnp.de",
    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZ1czTEVoaUhFVExkMnh6RFBZLVJEcDdkYlozWW5qS2loUW9nMFRtMVVXMHJOdFRXbUpLOHBHR0Z2QnduRWR4dHRtUDVVakZtclh4Rm95TXgzeGdzaW84WTVDd2pkV3k2M2N0RU9rLTZNN2hJQVlOYmhwblJIR3Y5bGVVSFNwUF9nbXdwVWRUS0d6X2J3MThDSkl4OEdEeEJWQWZmUQ?oc=5",
@@ -1447,12 +1405,12 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Fahrradhersteller Simplon erneut insolvent - vorarlberg.ORF.at",
-   "beschreibung": "Fahrradhersteller Simplon erneut insolvent vorarlberg.ORF.at",
-   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4tb21IR0piVlpHTk5uRjY4cTd1b3N3WlFmaDdzRjlRR0R0eTlCckR4b2pNalByT3Uyd1hzVjRubndQUkYzNEg4TnZncTdGcWVWd1EwOQ?oc=5",
-   "source": "vorarlberg.ORF.at",
+   "titel": "Hoffnung für insolvente Mauritius-Brauerei in Zwickau - MDR.de",
+   "beschreibung": "Hoffnung für insolvente Mauritius-Brauerei in Zwickau MDR.de",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTTNxOTVFOW1YRW1zV0poMm02ZVQ4TVR3MHFnaHlhWS1yQ2lWM3FaM3VTbk03YUdQTVZjbmtUUlM4NEU5QjZscFlLS3IzSnp3NnhkZFVDVEhKRFlLbExuQktKM2dWcTJKaGVyREdDYThqVnRKaEhPbVdzX294MkVTMkRJTlZUOGdjTG00WUtHYTExX2ZFbkJhUUlEQ0ppTWJjZWo2NlBUR2Y0Y0wzQWU3bUQ4anhnRzFGRnJ5Q0d6aEk1WVUxTWMyaUlOd3FNUGdZS0pzMlVn?oc=5",
+   "source": "MDR.de",
    "datum": "2026-09-02",
-   "datum_iso": "2026-09-02T08:25:58+00:00",
+   "datum_iso": "2026-09-02T09:59:00+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -1475,10 +1433,10 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Großer deutscher Autohändler nach Rekordzahlen überraschend insolvent – 82 Standorte, 1200 Beschäftigte - tz.de",
-   "beschreibung": "Großer deutscher Autohändler nach Rekordzahlen überraschend insolvent – 82 Standorte, 1200 Beschäftigte tz.de",
+   "titel": "Großer deutscher Autohändler nach Rekordzahlen überraschend insolvent – 82 Standorte, 1200 Beschäftigte - TZ",
+   "beschreibung": "Großer deutscher Autohändler nach Rekordzahlen überraschend insolvent – 82 Standorte, 1200 Beschäftigte TZ",
    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOS0RyUFJ5SUljcEtYVHduZmhpdUJNWTZPY3ctOXlfdHpqZVl1VnJjTmVIaHJaeHV6Z2JMNUkyTElqTUdUYU1ER1RMWXh6bDBEVzlOdy0wci0tVUNMZmowLVVuR3pKVDZsandFajZfMWlmcm5UQW1VMy0zMWdRTXA1d0pTTnkxYk5ER1ZiTExOVlFGaXNVcTg4UnpLZEhIUkFSc1NKM01fWXFfcmlQNVE?oc=5",
-   "source": "tz.de",
+   "source": "TZ",
    "datum": "2026-09-03",
    "datum_iso": "2026-09-03T16:57:29+00:00",
    "signal": "stark",
@@ -1608,20 +1566,6 @@
    "source": "Mindener Tageblatt",
    "datum": "2026-09-03",
    "datum_iso": "2026-09-03T10:01:44+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Hoffnung für insolvente Mauritius-Brauerei in Zwickau - MDR.de",
-   "beschreibung": "Hoffnung für insolvente Mauritius-Brauerei in Zwickau MDR.de",
-   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTTNxOTVFOW1YRW1zV0poMm02ZVQ4TVR3MHFnaHlhWS1yQ2lWM3FaM3VTbk03YUdQTVZjbmtUUlM4NEU5QjZscFlLS3IzSnp3NnhkZFVDVEhKRFlLbExuQktKM2dWcTJKaGVyREdDYThqVnRKaEhPbVdzX294MkVTMkRJTlZUOGdjTG00WUtHYTExX2ZFbkJhUUlEQ0ppTWJjZWo2NlBUR2Y0Y0wzQWU3bUQ4anhnRzFGRnJ5Q0d6aEk1WVUxTWMyaUlOd3FNUGdZS0pzMlVn?oc=5",
-   "source": "MDR.de",
-   "datum": "2026-09-02",
-   "datum_iso": "2026-09-02T09:59:00+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -1773,20 +1717,6 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Fortführung angestrebt - Rohrbacher Schlosswarenfabrik Grundmann ist insolvent - NÖN.at - Niederösterreichische Nachrichten",
-   "beschreibung": "Fortführung angestrebt - Rohrbacher Schlosswarenfabrik Grundmann ist insolvent NÖN.at - Niederösterreichische Nachrichten",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZmR1SE1BOHB0U0NkMHh0VEFOSTFqTUJHNVZPTkRiS1dJYjM4bzVteTVTS3JULVo5UzZESE8wTlRxaEI0MEdjLUVxa1hDbmFJdnZJTGZuMUlfZUdwLXNtSWNTMUc4amo1Z2xIVzg5Y1dudFhrMHVydng3YklsSXFlaWlDUl9BU2lGaU1Qamd4cWNMbndlclNCd1pWQWItYWdHRjNoMlBHLU1VTDFIZWc?oc=5",
-   "source": "NÖN.at - Niederösterreichische Nachrichten",
-   "datum": "2026-09-04",
-   "datum_iso": "2026-09-04T10:18:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
    "titel": "Autohaus König insolvent: 1.200 Mitarbeiter betroffen – Zukunft ungewiss - Joyn",
    "beschreibung": "Autohaus König insolvent: 1.200 Mitarbeiter betroffen – Zukunft ungewiss Joyn",
    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMFBEX2hhaGVBQW9pNExHcHRHblA4OHl1alRiVldnQmtxZ3c5dWZNNUsteTlESVRuS180dzJQWmVIS3g0ZnUxbDNsUGEtX0x0V1VCTDlMYjNvVTQyTXRkM29GMldrMWw1OHdpVUdSN2JOWVF1Yko3Sms4YnJwN0xnZ1FXTk1LNlVFMm02TDFjdUtWem1HRXlmSW1TT2EtWkl4Y0E?oc=5",
@@ -1825,6 +1755,20 @@
    "datum_unbekannt": false,
    "keywords": [
     "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Fortführung angestrebt - Rohrbacher Schlosswarenfabrik Grundmann ist insolvent - NÖN.at - Niederösterreichische Nachrichten",
+   "beschreibung": "Fortführung angestrebt - Rohrbacher Schlosswarenfabrik Grundmann ist insolvent NÖN.at - Niederösterreichische Nachrichten",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZmR1SE1BOHB0U0NkMHh0VEFOSTFqTUJHNVZPTkRiS1dJYjM4bzVteTVTS3JULVo5UzZESE8wTlRxaEI0MEdjLUVxa1hDbmFJdnZJTGZuMUlfZUdwLXNtSWNTMUc4amo1Z2xIVzg5Y1dudFhrMHVydng3YklsSXFlaWlDUl9BU2lGaU1Qamd4cWNMbndlclNCd1pWQWItYWdHRjNoMlBHLU1VTDFIZWc?oc=5",
+   "source": "NÖN.at - Niederösterreichische Nachrichten",
+   "datum": "2026-09-04",
+   "datum_iso": "2026-09-04T10:18:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
    ]
   },
   {
@@ -1913,12 +1857,12 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Der renommierte Vorarlberger Fahrradbauer Simplon ist neuerlich insolvent. - Heute",
-   "beschreibung": "Der renommierte Vorarlberger Fahrradbauer Simplon ist neuerlich insolvent. Heute",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNXlVU1lqUXd5QkwzQXVHMmtiT0VnN2lKSG9yRk8xZFZiRVhVeTNOSVRDdEozdm9IbWpHbTljRVRMRVFrdjgxS3hzWk5RYmZCdkpZLXlCZ2pKSmVFSVo3WC13QVVfUGJJWHU2M0R0bERpU1daZGNuV3g1MWZoeW84VzlVbG9pZng5ZDZxVFhKWWFBbWd0QkZrd3h3bzlpNGtxN1BTMA?oc=5",
-   "source": "Heute",
-   "datum": "2026-09-04",
-   "datum_iso": "2026-09-04T13:23:25+00:00",
+   "titel": "Grosse Sägerei ist insolvent - Der Schweizer Bauer",
+   "beschreibung": "Grosse Sägerei ist insolvent Der Schweizer Bauer",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQd0REZDRRVE9xQVJSd0NPUE12SXVvekV6RnNCZ01uWWh1RUc0V3Y3d3dEQjJXZmpTXzg4N1JOS3V6S3hNR09aNVUxc2p6R25mN2p4YnRVVmMxdUpZOU9GeWczOHZnT3Vvb0hxRTNQczBjeEVEQUxjdlRtSzJ4WFhuLWdBcmwxTHI3?oc=5",
+   "source": "Der Schweizer Bauer",
+   "datum": "2026-09-02",
+   "datum_iso": "2026-09-02T12:41:25+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -1927,12 +1871,26 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Grosse Sägerei ist insolvent - Der Schweizer Bauer",
-   "beschreibung": "Grosse Sägerei ist insolvent Der Schweizer Bauer",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQd0REZDRRVE9xQVJSd0NPUE12SXVvekV6RnNCZ01uWWh1RUc0V3Y3d3dEQjJXZmpTXzg4N1JOS3V6S3hNR09aNVUxc2p6R25mN2p4YnRVVmMxdUpZOU9GeWczOHZnT3Vvb0hxRTNQczBjeEVEQUxjdlRtSzJ4WFhuLWdBcmwxTHI3?oc=5",
-   "source": "Der Schweizer Bauer",
+   "titel": "Im März 2025 gegründet, jetzt insolvent: Feinkost-Firma schlittert in Konkurs - 5 Minuten",
+   "beschreibung": "Im März 2025 gegründet, jetzt insolvent: Feinkost-Firma schlittert in Konkurs 5 Minuten",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTW1XWk02dnpOa0xIdUcyT0JfMlplODhJUEZvVm8tMTFnWDZXMUV5Z2EwN0haS29kN2NLUXhPRkdtczBhZlJYQXVyd19WNTFPMG1uM0duWndrV0JaNEgwWklUOGU4aVZNaHlFVDJOS3BmN1k4TkhKdGV4SXdvb3dhbF96TlktNTM1RkNMN3ZGdmcwNXBDRTBtbnFHQk51UmJPUUNjT0dMak55cnJmZW1LMGo0V2t6b2Uw?oc=5",
+   "source": "5 Minuten",
    "datum": "2026-09-02",
-   "datum_iso": "2026-09-02T12:41:25+00:00",
+   "datum_iso": "2026-09-02T12:40:40+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Der renommierte Vorarlberger Fahrradbauer Simplon ist neuerlich insolvent. - Heute",
+   "beschreibung": "Der renommierte Vorarlberger Fahrradbauer Simplon ist neuerlich insolvent. Heute",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNXlVU1lqUXd5QkwzQXVHMmtiT0VnN2lKSG9yRk8xZFZiRVhVeTNOSVRDdEozdm9IbWpHbTljRVRMRVFrdjgxS3hzWk5RYmZCdkpZLXlCZ2pKSmVFSVo3WC13QVVfUGJJWHU2M0R0bERpU1daZGNuV3g1MWZoeW84VzlVbG9pZng5ZDZxVFhKWWFBbWd0QkZrd3h3bzlpNGtxN1BTMA?oc=5",
+   "source": "Heute",
+   "datum": "2026-09-04",
+   "datum_iso": "2026-09-04T13:23:25+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -2089,10 +2047,10 @@
   },
   {
    "quelle": "GNews Verfahren/Verwalter",
-   "titel": "Insolvenzverwalter zieht Schlussstrich: Schicksal der GU Türkischer SV Pforzheim wohl besiegelt - PZ-news",
-   "beschreibung": "Insolvenzverwalter zieht Schlussstrich: Schicksal der GU Türkischer SV Pforzheim wohl besiegelt PZ-news",
+   "titel": "Insolvenzverwalter zieht Schlussstrich: Schicksal der GU Türkischer SV Pforzheim wohl besiegelt - pz-news.de",
+   "beschreibung": "Insolvenzverwalter zieht Schlussstrich: Schicksal der GU Türkischer SV Pforzheim wohl besiegelt pz-news.de",
    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPak9JVVpSTVRSREo4MnR2dXlWUkRydi1sLWRndS1fNENHZDhSM0dhWXhLNmZfcUoxM2tYQVBhdTZEYUYtZF9tVjVROGRockJBQUo4R1BmdHlULWF6bnY2aHZ5NmM0eUh1S0poRVM1QTN5RFo0cDRVZFlNWjdzUTY2bExuUlhDSlFMVHl6a3ppVVVGd0FMY3NuNEVWQU1UMFd6bXVSMlFPSFFSVFRwd1o1VlBTOFhzem5fM2gxRVFDQ0VxWnVVN1lCcmY5T1FoSXNpTEd4dHRZeUhFV1FXTXItSG5oQ0t5YTQ?oc=5",
-   "source": "PZ-news",
+   "source": "pz-news.de",
    "datum": "2026-09-02",
    "datum_iso": "2026-09-02T16:15:00+00:00",
    "signal": "stark",
@@ -2364,10 +2322,10 @@
   },
   {
    "quelle": "GNews Sanierung/StaRUG",
-   "titel": "Simplon erneut insolvent: 33,4 Millionen Euro Schulden - FIT FOR FUN",
-   "beschreibung": "Simplon erneut insolvent: 33,4 Millionen Euro Schulden FIT FOR FUN",
+   "titel": "Simplon erneut insolvent: 33,4 Millionen Euro Schulden - fitforfun.de",
+   "beschreibung": "Simplon erneut insolvent: 33,4 Millionen Euro Schulden fitforfun.de",
    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUzc5alNUQlJzbEJzVUJkY1hGTm9rMWZDRWdCX2g3dnF5Uk5kZ1cyY2FMZXNVejBWVVhyQ3ZIT1VVVHA3dlhzMWJ2NGsxd0VfS3UxTUdZTGxwbHpZS0RXbUY2YWZRYWNYc3hrV1BZMkFrVE92YktsMFZ6YWlfUm8xMFI5TFlDaGpVQ1JMS0I0R3hhTE5tYmNyRnJWV1VVMjRBY3hBcmRHWlZXRzJTT01JWEc2bndtNUNPMGNxSVRWdlgtdDg?oc=5",
-   "source": "FIT FOR FUN",
+   "source": "fitforfun.de",
    "datum": "2026-09-04",
    "datum_iso": "2026-09-04T08:25:00+00:00",
    "signal": "stark",
@@ -2389,20 +2347,6 @@
    "keywords": [
     "Insolvenzverfahren",
     "in Schieflage"
-   ]
-  },
-  {
-   "quelle": "GNews Sanierung/StaRUG",
-   "titel": "Fahrradhersteller Simplon erneut insolvent - vorarlberg.ORF.at",
-   "beschreibung": "Fahrradhersteller Simplon erneut insolvent vorarlberg.ORF.at",
-   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4tb21IR0piVlpHTk5uRjY4cTd1b3N3WlFmaDdzRjlRR0R0eTlCckR4b2pNalByT3Uyd1hzVjRubndQUkYzNEg4TnZncTdGcWVWd1EwOQ?oc=5",
-   "source": "vorarlberg.ORF.at",
-   "datum": "2026-09-02",
-   "datum_iso": "2026-09-02T08:25:58+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
    ]
   },
   {
@@ -2463,10 +2407,10 @@
   },
   {
    "quelle": "GNews Sanierung/StaRUG",
-   "titel": "Autohaus König meldet Insolvenz an - Goslarsche.de",
-   "beschreibung": "Autohaus König meldet Insolvenz an Goslarsche.de",
+   "titel": "Autohaus König meldet Insolvenz an - goslarsche.de",
+   "beschreibung": "Autohaus König meldet Insolvenz an goslarsche.de",
    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMHRDdzVhb2RtVndFRWMtOVd3TndUazVyaDAzcDJMeWxTX0xENEMzdWpBSVE4ZjZBdE5LMXNSNjJobWZYRUFxc1dheTBMU0Mza0lDTEpabm1zT0NINlU5SEhJZm54bGtFLXZFMENzWkd3ajZQaEc3VFVtdnVpWllfSFVJbWtKcWF0YWNjUXRn?oc=5",
-   "source": "Goslarsche.de",
+   "source": "goslarsche.de",
    "datum": "2026-09-02",
    "datum_iso": "2026-09-02T19:40:00+00:00",
    "signal": "stark",
@@ -2520,10 +2464,10 @@
   },
   {
    "quelle": "GNews Sanierung/StaRUG",
-   "titel": "Pollmann-Pleite in Karlstein: FPÖ rechnet mit Klimapolitik ab - exxpress.at",
-   "beschreibung": "Pollmann-Pleite in Karlstein: FPÖ rechnet mit Klimapolitik ab exxpress.at",
+   "titel": "Pollmann-Pleite in Karlstein: FPÖ rechnet mit Klimapolitik ab - exxpress",
+   "beschreibung": "Pollmann-Pleite in Karlstein: FPÖ rechnet mit Klimapolitik ab exxpress",
    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaUgzS0psa09EeXVLckhLdXktOUhjM2EtdEJxMk9GR2Qwd1FJZ2t1QnZJSGF3Y0pRZk9Hc0o5YURTaVhNZzRtU2k5MTh2S0MyZ2lmMzBteHBmZFFWV1FPMExFWG1zY0V1dFBIOXc1b0tJWTZJRERLX1ROUFIyWEUtMGFFSG9kLWVoMEZQZU5JeThKemtfUkFJdkIzbzVsTU0?oc=5",
-   "source": "exxpress.at",
+   "source": "exxpress",
    "datum": "2026-09-03",
    "datum_iso": "2026-09-03T05:40:03+00:00",
    "signal": "schwach",
