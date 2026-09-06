@@ -1,14 +1,16 @@
 {
  "meta": {
-  "lauf": "2026-09-06T07:43:08",
-  "lauf_utc": "2026-09-06T07:43:08+00:00",
+  "lauf": "2026-09-06T08:33:56",
+  "lauf_utc": "2026-09-06T08:33:56+00:00",
   "version": "2026-08-21h",
-  "problem": [],
+  "problem": [
+   "Neue Westfaelische(FAIL:ParseError)"
+  ],
   "fenster_tage": 3,
   "feeds_gesamt": 56,
-  "feeds_ok": 56,
-  "n_roh": 128,
-  "n_stark": 95
+  "feeds_ok": 55,
+  "n_roh": 130,
+  "n_stark": 98
  },
  "health": {
   "Handelsblatt Unternehmen": "ok:20",
@@ -32,12 +34,12 @@
   "SWR": "ok:54",
   "hessenschau Wirtschaft (HR)": "ok:25",
   "rbb24 Wirtschaft": "ok:116",
-  "Radio Bremen (buten un binnen)": "ok:21",
+  "Radio Bremen (buten un binnen)": "ok:22",
   "WAZ Wirtschaft": "ok:63",
   "Rheinische Post": "ok:6",
-  "Koelner Stadt-Anzeiger Wirtschaft": "ok:42",
+  "Koelner Stadt-Anzeiger Wirtschaft": "ok:41",
   "Westfaelische Nachrichten": "ok:100",
-  "Neue Westfaelische": "ok:10",
+  "Neue Westfaelische": "FAIL:ParseError",
   "Ruhr Nachrichten": "ok:12",
   "Augsburger Allgemeine Wirtschaft": "ok:35",
   "Muenchner Merkur Wirtschaft": "ok:40",
@@ -62,10 +64,10 @@
   "Westf. Anzeiger wa.de (Lokal)": "ok:40",
   "Kreiszeitung Niedersachsen (Lokal)": "ok:40",
   "come-on Maerkischer Kreis (Lokal)": "ok:40",
-  "GNews Insolvenzantrag": "ok:51",
-  "GNews Verfahren/Verwalter": "ok:28",
-  "GNews Sanierung/StaRUG": "ok:18",
-  "GNews Investorenprozess": "ok:4",
+  "GNews Insolvenzantrag": "ok:52",
+  "GNews Verfahren/Verwalter": "ok:29",
+  "GNews Sanierung/StaRUG": "ok:19",
+  "GNews Investorenprozess": "ok:3",
   "GNews Fruehsignal": "ok:14"
  },
  "treffer": [
@@ -279,6 +281,20 @@
    "keywords": [
     "Insolvenz",
     "Pleite"
+   ]
+  },
+  {
+   "quelle": "MDR",
+   "titel": "Bericht: Innenministerium plant Schutzschirm gegen Drohnenangriffe",
+   "beschreibung": "In Deutschland soll es bald schnelle Eingreiftruppen gegen Drohnenangriffe geben. Das berichtet die \"Bild am Sonntag\" und beruft sich auf einen Plan von Innenminister Alexander Dobrindt. Demnach sollen mobile Einheiten in strategisch wichtigen Städten wie Berlin, Hamburg, München, Leipzig und Frankfurt stationiert werden. Ziel sei es, den Luftraum über wichtigen Drehkreuzen, Flughäfen und Bahnhöfen sowie über dem Regierungsviertel in Berlin zu schützen. Darüber hinaus sollen die Befugnisse von Wasserwerken, Netzbetreibern und Rüstungsbetrieben erweitert werden. Sie sollen künftig die Möglichke",
+   "link": "https://www.mdr.de/nachrichten/nachrichten-mdr-104.html#Bericht-Innenministerium-plant-Schutzschirm-gegen-Drohnenangriffe",
+   "source": "",
+   "datum": "2026-09-06",
+   "datum_iso": "2026-09-06T10:30:13+02:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Schutzschirm"
    ]
   },
   {
@@ -630,20 +646,6 @@
    ]
   },
   {
-   "quelle": "Offenbach op-online (Lokal)",
-   "titel": "Kult-Brauerei kämpft ums Überleben – 700 Jahre Tradition auf Messers Schneide",
-   "beschreibung": "Beunruhigende Nachrichten aus Bayern: Ein echter Traditionsbetrieb kämpft gegen die Insolvenz. Der Preis der Rettung ist hoch – viele Jobs fallen weg.",
-   "link": "https://www.op-online.de/welt/jahre-tradition-auf-messers-schneide-kult-brauerei-kaempft-ums-ueberleben-700-94474012.html",
-   "source": "",
-   "datum": "2026-09-06",
-   "datum_iso": "2026-09-06T08:00:00+02:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenz"
-   ]
-  },
-  {
    "quelle": "Westf. Anzeiger wa.de (Lokal)",
    "titel": "Erst 25 Millionen investiert, jetzt die Insolvenz: Autozulieferer gibt auf",
    "beschreibung": "Ein weiterer Zulieferer aus Baden-Württemberg schafft den Neustart nicht. Trotz Investorensuche wird der Betrieb zum Jahresende beendet.",
@@ -704,10 +706,25 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Autohaus König insolvent – zehn Standorte in Sachsen-Anhalt betroffen - welt.de",
-   "beschreibung": "Autohaus König insolvent – zehn Standorte in Sachsen-Anhalt betroffen welt.de",
+   "titel": "Liefert Tausende Produkte in mehrere Bundesländer: Bio-Großhändler meldet Insolvenz an - T-Online",
+   "beschreibung": "Liefert Tausende Produkte in mehrere Bundesländer: Bio-Großhändler meldet Insolvenz an T-Online",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVUY0d3JSWjBPUHN5T0F4ai1wVjRLaS1zTUpFMmN1aGhkMFMzYThHQlhfcnRNWHBhcUpwclczS2c4bEJvWFpOYU01WVhuUEhQSUI3VUU4dVJlb3FMZFAxNGZ5bWlkNnYycDBSRUpwZlRnREhhYTMwY3dOcFVXRk5CYXZXbkVhMjREQ0U3MnA4STh0SFh1Nlc3Sm16MlpIZ1FIcUw4RUFTOHFad0duQWh2dlhDbTk0bkZmVzcya1RNeDc?oc=5",
+   "source": "T-Online",
+   "datum": "2026-09-06",
+   "datum_iso": "2026-09-06T08:18:26+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "meldet Insolvenz",
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Autohaus König insolvent – zehn Standorte in Sachsen-Anhalt betroffen - WELT",
+   "beschreibung": "Autohaus König insolvent – zehn Standorte in Sachsen-Anhalt betroffen WELT",
    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcDM4UWJCNDAtQktSUjNvNUU3ODZBN2xvbzBXRFVkZS1nYjRRb3ZpeGNHc0stVkVmRmxZN01CR3pLNkh2ODJrWnkwOUVyeTRhSlE5Sm9na1Z3UDZaZDcyZ3JCWkhpVzlfVVJEMU9Fd2lBZkxEbFBDRElhV0JOX3Q1c0ZSaFJqOU9BbG9vaGhQMUZaZmIyX2MzTWZXcWdBemdicDhZTW9MOEZIcXl5LUJhQVp0WGh6aE02Vl84UW5HUDJDb3Rmc1Q4M2dYOXVhZVZ6SzY0YV9wVkJQSTRUTmE4?oc=5",
-   "source": "welt.de",
+   "source": "WELT",
    "datum": "2026-09-04",
    "datum_iso": "2026-09-04T15:23:14+00:00",
    "signal": "stark",
@@ -746,10 +763,10 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Marburg: Autohaus-Wahl-Gruppe meldet Insolvenz in Eigenverwaltung an - Oberhessische Presse",
-   "beschreibung": "Marburg: Autohaus-Wahl-Gruppe meldet Insolvenz in Eigenverwaltung an Oberhessische Presse",
+   "titel": "Marburg: Autohaus-Wahl-Gruppe meldet Insolvenz in Eigenverwaltung an - op-marburg.de",
+   "beschreibung": "Marburg: Autohaus-Wahl-Gruppe meldet Insolvenz in Eigenverwaltung an op-marburg.de",
    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNUmxHQWJkeHhJU1RUZDdTU2hQVjR5cGZlRlBnMlVUZWk2U2xpUTZnNHhEWm9NQklXdWtaNDJudnBCaktYOHFGd0FtZEtmOW5Qak1TZi1QYkwxS2JYLVViSEo4TTBSVUVfQU1hSUo1R2RHa3Q3cE1VNy03ZVJTUmxvQ0ZpTVNWbVY3dU05Znd2b1FnYS03NEkybmpIRHNGVGFVUjFfcDhtTWRodURNb3pXSnVqTFVsNW03RVpYRWhTRV85NEc2YVN0d3QtMVQ3LThBbWpIN21NclFHNXZSaWfSAfoBQVVfeXFMTzJ5YXZ2RXNKZXMweTBQNk9tdlhHdWpaOGRZemdmeU1qOG5GMHFvS0FhVDJ1SzFvcGhSaWNLWXdmamhqSzNMRmJCQjFiSUxFdFB0bVhyVnM5SG9yQ0hLR3R5b3hEbWJacnhBNUk3NldJcGEtNUxBckdNTW5UVW52Z21ZcmVvLUNjNzlJOXMwbTVqQzNuTzNhc0ZQM2tPc0tZV0RDYVpXR2VUZjZZbVpTakwtMVkya1R0OFBCV0d6Um5HNkJHak1OTXI5TlFqSXdlWXAwMjZwblhyMlFpcEFMcHRVUGhfLTdtRVZ0STJhWGJodVpxb3gyNkNCdw?oc=5",
-   "source": "Oberhessische Presse",
+   "source": "op-marburg.de",
    "datum": "2026-09-03",
    "datum_iso": "2026-09-03T14:31:00+00:00",
    "signal": "stark",
@@ -866,35 +883,6 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Bekannter Fahrradhersteller steckt erneut in der Insolvenz - T-Online",
-   "beschreibung": "Bekannter Fahrradhersteller steckt erneut in der Insolvenz T-Online",
-   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNNzNsQlQyT2ZQTkQ3M1pLZFhZd1I2YzlDQW9HYlk0VXVORW1UMmJXQU9qa0hBaUcweEdVRktiTkdXMHRaM003QkZqUXM0aUZVaTFfeGlCcG1RRWtKdl93R2JKT2lwWXlwQm0xYUpiMVdndkRXQmpYQzlpLVZ4WElaNGU5WWRsT29ZSjNycUR4WXVkWGNqRTRkaUhndy1fcnM0OURyTlhPU010SVgzQ0tPQkIxM052Y3NMdmJ1SUtuRjF0Z2RvZzI0N0dWZ0tMT0JseV9Cd0JCU1pwVVY4T0JDVg?oc=5",
-   "source": "T-Online",
-   "datum": "2026-09-05",
-   "datum_iso": "2026-09-05T04:59:22+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Baden-Württemberg: Spedition Betz International meldet Insolvenz an - n-tv.de",
-   "beschreibung": "Baden-Württemberg: Spedition Betz International meldet Insolvenz an n-tv.de",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObzFQdVRCakNhN0ZfM2plS01Xb3pDSThWdDBlY1Y1NDJNcldZQXlxcy1CcEZEejM5Y2J2UEdSV0NWQ0dfY21rdThxNDBVb29SSXVTa0NlbUtNWllqWEdpd1VXUzZ3OEZlb21Jd0NyNXZxSjJRUnpqLXpwZFVaeGlwX0M5T3lDamF6RVNPRzF3Y2pvcHdmdkpock5JU05VMFRjWEJpcEw5UjNibTlDQ0lTNGF4Tkc?oc=5",
-   "source": "n-tv.de",
-   "datum": "2026-09-04",
-   "datum_iso": "2026-09-04T04:46:46+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "meldet Insolvenz",
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
    "titel": "Autohaus mit 1200 Beschäftigten insolvent: Was wird aus den Standorten in Bayern? - Augsburger Allgemeine",
    "beschreibung": "Autohaus mit 1200 Beschäftigten insolvent: Was wird aus den Standorten in Bayern? Augsburger Allgemeine",
    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdUpPWnE0aVVhWjZyakVCcHRPaHVULVNVUG1hcjVocEpKcTUyaHplNlNPc2U2bGVvcUdyRGt0TlFIVnlpejR2Qzk1M0JUd3dpU0dRR3hnX19PYzRrZlNIM1RXS3k1MXlyS0hPeDdBTWF6MWZzaGRRNnZVZE1MbjZEaEU1NzZEazZTR1o5d0pKZVFjZy01Y2RyNzJHVXJMcmdzV1ZIZ0IwU0hCQk1Zbjl6RW1zd0hkNmNPNEZqSw?oc=5",
@@ -939,6 +927,20 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
+   "titel": "Bekannter Fahrradhersteller steckt erneut in der Insolvenz - T-Online",
+   "beschreibung": "Bekannter Fahrradhersteller steckt erneut in der Insolvenz T-Online",
+   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNNzNsQlQyT2ZQTkQ3M1pLZFhZd1I2YzlDQW9HYlk0VXVORW1UMmJXQU9qa0hBaUcweEdVRktiTkdXMHRaM003QkZqUXM0aUZVaTFfeGlCcG1RRWtKdl93R2JKT2lwWXlwQm0xYUpiMVdndkRXQmpYQzlpLVZ4WElaNGU5WWRsT29ZSjNycUR4WXVkWGNqRTRkaUhndy1fcnM0OURyTlhPU010SVgzQ0tPQkIxM052Y3NMdmJ1SUtuRjF0Z2RvZzI0N0dWZ0tMT0JseV9Cd0JCU1pwVVY4T0JDVg?oc=5",
+   "source": "T-Online",
+   "datum": "2026-09-05",
+   "datum_iso": "2026-09-05T04:59:22+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
    "titel": "60 Jahre Tradition, jetzt insolvent: Schloss Brannenburg schließt – 43 Jobs weg - Merkur",
    "beschreibung": "60 Jahre Tradition, jetzt insolvent: Schloss Brannenburg schließt – 43 Jobs weg Merkur",
    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVXNBSU9RUmZTa08xYVR5b1drVHk3QUtER3dMVVVTV0FGSmt4TEpfSmV4YV9SZmVaT2ZPTWQ1ZVVfSGE4Qm5HY3hhNHJJeS1kU0tMSGtBT3VySVpaRGpTNnZwNGk3WEl6Vjl0WTZwcTU5Nm9ieFE1Tl9ZVlhMcmhIb1B0R2M3MlliVWowcDZvVkR5blR2djNYRUFVTGNxbTNsY2hZRnpTRTRnS0xDM3VQektTekd6RlFVbl9aVkI2LXRYcnA3Sm5Z?oc=5",
@@ -949,6 +951,21 @@
    "datum_unbekannt": false,
    "keywords": [
     "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Baden-Württemberg: Spedition Betz International meldet Insolvenz an - n-tv.de",
+   "beschreibung": "Baden-Württemberg: Spedition Betz International meldet Insolvenz an n-tv.de",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObzFQdVRCakNhN0ZfM2plS01Xb3pDSThWdDBlY1Y1NDJNcldZQXlxcy1CcEZEejM5Y2J2UEdSV0NWQ0dfY21rdThxNDBVb29SSXVTa0NlbUtNWllqWEdpd1VXUzZ3OEZlb21Jd0NyNXZxSjJRUnpqLXpwZFVaeGlwX0M5T3lDamF6RVNPRzF3Y2pvcHdmdkpock5JU05VMFRjWEJpcEw5UjNibTlDQ0lTNGF4Tkc?oc=5",
+   "source": "n-tv.de",
+   "datum": "2026-09-04",
+   "datum_iso": "2026-09-04T04:46:46+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "meldet Insolvenz",
+    "Insolvenz"
    ]
   },
   {
@@ -1038,20 +1055,6 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Global Airlines A380 steht vor einem Insolvenzantrag - MiGFlug",
-   "beschreibung": "Global Airlines A380 steht vor einem Insolvenzantrag MiGFlug",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdk1LTTdpbzR5QllpT2g3ZTRwNzY4Z0VpcjJEYnNzVmNzTXdBNVV1dTFEYU82MjU2NGJjbHlYaTFBeU5qV05LejA0Mk51ODN6X3RJa3NNRWNSUzJndVBiaVBBbk1ROGMtUnlPcVJwWjh2elBzbnZfMVVwUFgxMVU4VkRHNThKbHhsaTM1anVWQ2JmdnFUSTdVWE5McEhRNlJBdmxnbnNFRlRacXJwQ1JNR0hmbGY?oc=5",
-   "source": "MiGFlug",
-   "datum": "2026-09-05",
-   "datum_iso": "2026-09-05T01:13:01+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenzantrag"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
    "titel": "Firma insolvent: Cochemer Feinkostkette: Alle 80 Beschäftigten entlassen - Kreis Cochem-Zell - Rhein-Zeitung",
    "beschreibung": "Firma insolvent: Cochemer Feinkostkette: Alle 80 Beschäftigten entlassen - Kreis Cochem-Zell Rhein-Zeitung",
    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPOFk3c3dURmo4TjJaNHFwa2wzN1RHSWJadVNZZnZxZ0JFQ2ZDYVRWUGFtNXdmOVhmcnBSODhWVTZzNXRJZGM3eFQ3UDFJbEFXU2E3dGI1MDRiWlJFa3NBVzI2RzBqd0pqVjU5ZzhPSm9hUzlkZDdYOG8wUVE0Ml9jeDdyT1VRcnBCT0ZWbWlWbGF0Yl9SME81MWxFUWdUR3ZOMzhuaHNVQ05adFJGRkhPUk50bDF3VDdHRGpkNHVhMnd2Z3dNQWkw?oc=5",
@@ -1062,6 +1065,20 @@
    "datum_unbekannt": false,
    "keywords": [
     "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Global Airlines A380 steht vor einem Insolvenzantrag - MiGFlug",
+   "beschreibung": "Global Airlines A380 steht vor einem Insolvenzantrag MiGFlug",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdk1LTTdpbzR5QllpT2g3ZTRwNzY4Z0VpcjJEYnNzVmNzTXdBNVV1dTFEYU82MjU2NGJjbHlYaTFBeU5qV05LejA0Mk51ODN6X3RJa3NNRWNSUzJndVBiaVBBbk1ROGMtUnlPcVJwWjh2elBzbnZfMVVwUFgxMVU4VkRHNThKbHhsaTM1anVWQ2JmdnFUSTdVWE5McEhRNlJBdmxnbnNFRlRacXJwQ1JNR0hmbGY?oc=5",
+   "source": "MiGFlug",
+   "datum": "2026-09-05",
+   "datum_iso": "2026-09-05T01:13:01+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenzantrag"
    ]
   },
   {
@@ -1151,20 +1168,6 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "LIV Golf erwägt Insolvenzantrag nach Rückzug des saudi-arabischen Staatsfonds - sportsbusiness.at",
-   "beschreibung": "LIV Golf erwägt Insolvenzantrag nach Rückzug des saudi-arabischen Staatsfonds sportsbusiness.at",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNDJWZjBTeHJiOWMtajVOTWpRSGFVLU00U0E5RWhEMGtZcmFHLV9SRkQ2aG5HMXdWdTFEdkx6ZWNXWkRaWE9mOFpfSk40Wk5XcXZVZ290NjM0bFVremQtZElNd3pzcEZZT29mU2cxWHN0bVFSbDlEb3dGempFckMxZTlqYTVlZ1E1NG0ySVVKQmEydF9yREp3NzA0ckdfNWRoeDNGNmlzU0FGUQ?oc=5",
-   "source": "sportsbusiness.at",
-   "datum": "2026-09-03",
-   "datum_iso": "2026-09-03T17:56:44+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenzantrag"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
    "titel": "Autohaus König in Frankfurt (Oder): Drei Filialen von Insolvenz betroffen - die Folgen - MOZ.de",
    "beschreibung": "Autohaus König in Frankfurt (Oder): Drei Filialen von Insolvenz betroffen - die Folgen MOZ.de",
    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQR05jMGhoaXItb0Z3b3VyaHJRcXRnaWdZd29iY1ozSzJQQzFxLW1ldjdrZXcyZlltQWVESWJLbk9nZjhjaTZQUWJQUGJKX2txbXdVTFdtUEctaWE0UzM3RmFoMXhvR2JOQnRnSXJCM2VMZTRoX2ZUSElIOEFCR2g3LWVyMDJ2RGpPUzQ1OFNUZy1ZR0ljTEhsYXhndndnNHVySVFaQ3NxUThOYldBZDhZcHg1UzVFTTRYMEZ2Q01JLW9jQzkwTGprbnJiV1pocHlTSXNwMg?oc=5",
@@ -1221,10 +1224,10 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Wahl-Gruppe beantragt Insolvenzverfahren: BMW-Autohaus in Brilon ist betroffen - wp.de",
-   "beschreibung": "Wahl-Gruppe beantragt Insolvenzverfahren: BMW-Autohaus in Brilon ist betroffen wp.de",
+   "titel": "Wahl-Gruppe beantragt Insolvenzverfahren: BMW-Autohaus in Brilon ist betroffen - Westfalenpost",
+   "beschreibung": "Wahl-Gruppe beantragt Insolvenzverfahren: BMW-Autohaus in Brilon ist betroffen Westfalenpost",
    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZzAyOU9ySDY3a0JkeHpDVzBsdkRuWU11MW9HU2xzN3FKdmVhX3UyQjNHRktlU1Y0TmZKal9LS29pU09YeFBVM1hyMFR4TmtEUXJEMGNuNnNxNV9pMXlmQXFQa2wyR2F4NDlkWm1HZVlXQllzbGplaTdpS095cHdsTUdUTjA4dnVHZmgyNlZWWnplNGRFaVdLenRiaEV3UGtHbjJ2VWNlaWFjcGN6U2JhcXVaZDd3UTlSWG9jaFI2T1kzNVJvZ2Nfc3JaZml2UmR2MzI0WGQ2RQ?oc=5",
-   "source": "wp.de",
+   "source": "Westfalenpost",
    "datum": "2026-09-03",
    "datum_iso": "2026-09-03T14:59:00+00:00",
    "signal": "stark",
@@ -1273,6 +1276,20 @@
    "datum_unbekannt": false,
    "keywords": [
     "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "LIV Golf erwägt Insolvenzantrag nach Rückzug des saudi-arabischen Staatsfonds - sportsbusiness.at",
+   "beschreibung": "LIV Golf erwägt Insolvenzantrag nach Rückzug des saudi-arabischen Staatsfonds sportsbusiness.at",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNDJWZjBTeHJiOWMtajVOTWpRSGFVLU00U0E5RWhEMGtZcmFHLV9SRkQ2aG5HMXdWdTFEdkx6ZWNXWkRaWE9mOFpfSk40Wk5XcXZVZ290NjM0bFVremQtZElNd3pzcEZZT29mU2cxWHN0bVFSbDlEb3dGempFckMxZTlqYTVlZ1E1NG0ySVVKQmEydF9yREp3NzA0ckdfNWRoeDNGNmlzU0FGUQ?oc=5",
+   "source": "sportsbusiness.at",
+   "datum": "2026-09-03",
+   "datum_iso": "2026-09-03T17:56:44+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenzantrag"
    ]
   },
   {
@@ -1376,6 +1393,20 @@
   },
   {
    "quelle": "GNews Verfahren/Verwalter",
+   "titel": "Standorte in Betzdorf, Koblenz und Montabaur betroffen: Sanierungsverfahren bei Wahl-Gruppe - AK-Kurier",
+   "beschreibung": "Standorte in Betzdorf, Koblenz und Montabaur betroffen: Sanierungsverfahren bei Wahl-Gruppe AK-Kurier",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdlJVT19wR0tIUDA2NE9IbFhQVHhHUUkxZjZYZ2VnVEd4dmhFY0dGWnA5ZlMyWjhQUDRBSWZKTEV3bmNEYjhFdVpLTHN6S1hFUmE5NHNBYUVZb0c1TXEyd2dITUktYkl5T0RsOTA0UHVobjBHTHhHN1RFRG4yN1RocXNQTFQtaThWUHh6SlNYdEV2b3pEUlRiLUJpVGkwZ0JkcVY0SG5MSDd3bDBPQS01VkNGYUdEYWJZam4wcXpDVkpXQzJLTjYxUWxHTVVZdzVKMkI3NmZ3?oc=5",
+   "source": "AK-Kurier",
+   "datum": "2026-09-06",
+   "datum_iso": "2026-09-06T08:26:49+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Sanierungsverfahren"
+   ]
+  },
+  {
+   "quelle": "GNews Verfahren/Verwalter",
    "titel": "Bio-Großhandel: Naturkost Erfurt geht in die Insolvenz in Eigenverwaltung - Lebensmittel Zeitung",
    "beschreibung": "Bio-Großhandel: Naturkost Erfurt geht in die Insolvenz in Eigenverwaltung Lebensmittel Zeitung",
    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxObXJJZ3c3ZVNZcVBMa1U2MUhYRDdMQnBUQU1FeDJBOGQ3WFAzTnlsREhueEtpNTBwVnNWWk92MVlLRXd2T01mR0lXOW1GeEpnN3N2OWNZZTF0c1ZhaUlCanVaUDFfZVJxWVZtV29QY3lyQ2xWbDhUb0RLSUIxR2F6MEVLWllZd2RvcF9sX3NmcncxSGhtVzZ2ZjJNa1ZqUGtZXzcwaTRYdkpwd1dOYkxMclBBWVliZ3czYS1IMVAyUnMxbEkzX1hrTElvMWlJV25U?oc=5",
@@ -1391,10 +1422,10 @@
   },
   {
    "quelle": "GNews Verfahren/Verwalter",
-   "titel": "Marburg: Autohaus-Wahl-Gruppe meldet Insolvenz in Eigenverwaltung an - Oberhessische Presse",
-   "beschreibung": "Marburg: Autohaus-Wahl-Gruppe meldet Insolvenz in Eigenverwaltung an Oberhessische Presse",
+   "titel": "Marburg: Autohaus-Wahl-Gruppe meldet Insolvenz in Eigenverwaltung an - op-marburg.de",
+   "beschreibung": "Marburg: Autohaus-Wahl-Gruppe meldet Insolvenz in Eigenverwaltung an op-marburg.de",
    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNUmxHQWJkeHhJU1RUZDdTU2hQVjR5cGZlRlBnMlVUZWk2U2xpUTZnNHhEWm9NQklXdWtaNDJudnBCaktYOHFGd0FtZEtmOW5Qak1TZi1QYkwxS2JYLVViSEo4TTBSVUVfQU1hSUo1R2RHa3Q3cE1VNy03ZVJTUmxvQ0ZpTVNWbVY3dU05Znd2b1FnYS03NEkybmpIRHNGVGFVUjFfcDhtTWRodURNb3pXSnVqTFVsNW03RVpYRWhTRV85NEc2YVN0d3QtMVQ3LThBbWpIN21NclFHNXZSaWfSAfoBQVVfeXFMTzJ5YXZ2RXNKZXMweTBQNk9tdlhHdWpaOGRZemdmeU1qOG5GMHFvS0FhVDJ1SzFvcGhSaWNLWXdmamhqSzNMRmJCQjFiSUxFdFB0bVhyVnM5SG9yQ0hLR3R5b3hEbWJacnhBNUk3NldJcGEtNUxBckdNTW5UVW52Z21ZcmVvLUNjNzlJOXMwbTVqQzNuTzNhc0ZQM2tPc0tZV0RDYVpXR2VUZjZZbVpTakwtMVkya1R0OFBCV0d6Um5HNkJHak1OTXI5TlFqSXdlWXAwMjZwblhyMlFpcEFMcHRVUGhfLTdtRVZ0STJhWGJodVpxb3gyNkNCdw?oc=5",
-   "source": "Oberhessische Presse",
+   "source": "op-marburg.de",
    "datum": "2026-09-03",
    "datum_iso": "2026-09-03T14:31:00+00:00",
    "signal": "stark",
@@ -1525,10 +1556,10 @@
   },
   {
    "quelle": "GNews Verfahren/Verwalter",
-   "titel": "Wahl-Gruppe beantragt Insolvenzverfahren: BMW-Autohaus in Brilon ist betroffen - wp.de",
-   "beschreibung": "Wahl-Gruppe beantragt Insolvenzverfahren: BMW-Autohaus in Brilon ist betroffen wp.de",
+   "titel": "Wahl-Gruppe beantragt Insolvenzverfahren: BMW-Autohaus in Brilon ist betroffen - Westfalenpost",
+   "beschreibung": "Wahl-Gruppe beantragt Insolvenzverfahren: BMW-Autohaus in Brilon ist betroffen Westfalenpost",
    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZzAyOU9ySDY3a0JkeHpDVzBsdkRuWU11MW9HU2xzN3FKdmVhX3UyQjNHRktlU1Y0TmZKal9LS29pU09YeFBVM1hyMFR4TmtEUXJEMGNuNnNxNV9pMXlmQXFQa2wyR2F4NDlkWm1HZVlXQllzbGplaTdpS095cHdsTUdUTjA4dnVHZmgyNlZWWnplNGRFaVdLenRiaEV3UGtHbjJ2VWNlaWFjcGN6U2JhcXVaZDd3UTlSWG9jaFI2T1kzNVJvZ2Nfc3JaZml2UmR2MzI0WGQ2RQ?oc=5",
-   "source": "wp.de",
+   "source": "Westfalenpost",
    "datum": "2026-09-03",
    "datum_iso": "2026-09-03T14:59:00+00:00",
    "signal": "stark",
@@ -1553,20 +1584,6 @@
   },
   {
    "quelle": "GNews Verfahren/Verwalter",
-   "titel": "Es geht um 33,4 Millionen Euro: Österreichischer Fahrradhersteller vom Bodensee ist schon wieder insolvent - CHIP",
-   "beschreibung": "Es geht um 33,4 Millionen Euro: Österreichischer Fahrradhersteller vom Bodensee ist schon wieder insolvent CHIP",
-   "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQSk9iYVRLTjJCc21DTms5Z0V2Tml6LTBrTzBnVXJicVRhaTU5UFV5MlFVMEphX2RBZkEzYlgyRlI2U2tzTG1aeF9sR0w2LTRMSmxNTmVwNlU5N05KYzJnSDlsMFI0R0N3Uk03Rk1mWDNSNDd1NDdPM19fTkc0ajNxQXBFV3VGbTZFRWRVV29QVXhfN3k0cl9KR2hmV3Zkb214RGxNcDZNWms5TlhZRlFmSTJ6Y0p6eGo3OGRRWURMWXYzN0NLYzA5TTA3Y2JhODhScWdhbGY2RndIZ2JrV3MxS3FkQkpRUW5rV2tfSEU2RzBGM083OU5PY25YYW5YMVoyYmdZNWRHcE9wRnljdTk0?oc=5",
-   "source": "CHIP",
-   "datum": "2026-09-04",
-   "datum_iso": "2026-09-04T11:07:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Verfahren/Verwalter",
    "titel": "\"Autohaus König\": Neue Details zur Pleite - Business Insider Deutschland",
    "beschreibung": "\"Autohaus König\": Neue Details zur Pleite Business Insider Deutschland",
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMHBzU2RrVHBWZnZsZ3NkZml0RE5WZm5KS1NFRDY2cEhWZE9ITi0xZEYzb2ZWdE9RS2U2dk9UMlVIbWpnYUFfVlkwMC1Hc2FNeENEd1VveE9MUUxhVjN2c1pBSFdaV3owaExNUE5TQnM1MnctQS1DaHFPMUxxYzhHS1ljcHlpWlNYckxHZTVYbw?oc=5",
@@ -1577,6 +1594,20 @@
    "datum_unbekannt": false,
    "keywords": [
     "Pleite"
+   ]
+  },
+  {
+   "quelle": "GNews Verfahren/Verwalter",
+   "titel": "Es geht um 33,4 Millionen Euro: Österreichischer Fahrradhersteller vom Bodensee ist schon wieder insolvent - CHIP",
+   "beschreibung": "Es geht um 33,4 Millionen Euro: Österreichischer Fahrradhersteller vom Bodensee ist schon wieder insolvent CHIP",
+   "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQSk9iYVRLTjJCc21DTms5Z0V2Tml6LTBrTzBnVXJicVRhaTU5UFV5MlFVMEphX2RBZkEzYlgyRlI2U2tzTG1aeF9sR0w2LTRMSmxNTmVwNlU5N05KYzJnSDlsMFI0R0N3Uk03Rk1mWDNSNDd1NDdPM19fTkc0ajNxQXBFV3VGbTZFRWRVV29QVXhfN3k0cl9KR2hmV3Zkb214RGxNcDZNWms5TlhZRlFmSTJ6Y0p6eGo3OGRRWURMWXYzN0NLYzA5TTA3Y2JhODhScWdhbGY2RndIZ2JrV3MxS3FkQkpRUW5rV2tfSEU2RzBGM083OU5PY25YYW5YMVoyYmdZNWRHcE9wRnljdTk0?oc=5",
+   "source": "CHIP",
+   "datum": "2026-09-04",
+   "datum_iso": "2026-09-04T11:07:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
    ]
   },
   {
@@ -1619,6 +1650,20 @@
    "datum_unbekannt": false,
    "keywords": [
     "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Sanierung/StaRUG",
+   "titel": "Standorte in Betzdorf, Koblenz und Montabaur betroffen: Sanierungsverfahren bei Wahl-Gruppe - AK-Kurier",
+   "beschreibung": "Standorte in Betzdorf, Koblenz und Montabaur betroffen: Sanierungsverfahren bei Wahl-Gruppe AK-Kurier",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdlJVT19wR0tIUDA2NE9IbFhQVHhHUUkxZjZYZ2VnVEd4dmhFY0dGWnA5ZlMyWjhQUDRBSWZKTEV3bmNEYjhFdVpLTHN6S1hFUmE5NHNBYUVZb0c1TXEyd2dITUktYkl5T0RsOTA0UHVobjBHTHhHN1RFRG4yN1RocXNQTFQtaThWUHh6SlNYdEV2b3pEUlRiLUJpVGkwZ0JkcVY0SG5MSDd3bDBPQS01VkNGYUdEYWJZam4wcXpDVkpXQzJLTjYxUWxHTVVZdzVKMkI3NmZ3?oc=5",
+   "source": "AK-Kurier",
+   "datum": "2026-09-06",
+   "datum_iso": "2026-09-06T08:26:49+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Sanierungsverfahren"
    ]
   },
   {
@@ -1667,10 +1712,10 @@
   },
   {
    "quelle": "GNews Sanierung/StaRUG",
-   "titel": "„Einen Restrukturierungsplan verabschieden ist das eine – ihn auch exekutieren, das andere“ - welt.de",
-   "beschreibung": "„Einen Restrukturierungsplan verabschieden ist das eine – ihn auch exekutieren, das andere“ welt.de",
+   "titel": "„Einen Restrukturierungsplan verabschieden ist das eine – ihn auch exekutieren, das andere“ - WELT",
+   "beschreibung": "„Einen Restrukturierungsplan verabschieden ist das eine – ihn auch exekutieren, das andere“ WELT",
    "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNVUJXdEJNVDRSN1NGbTdOYm5aWU9oek5KUk1tb3dqcTBjVmtwN3NSa0xPdVprbzFBU1RKQk9LUFFrUzN5RTNtVEstVHRkejBOOE9FbHRmc2EybUNvQkR3d1lPOW12RjJTMDZyZ2Q0QkNtV1VlS3VGTWRlS28tdkROUW91RElqNGRTQ1U2ckYySFlBN3gyX0RUcG40b2EtZHpHLUkzdEF3cmsyVjhlZENieHR0aXhkMG96WUUxTFhkTmhCVGJtajZDVVFFbXlvbUNjbkVzT0M3NWZWMXJjRjV6ZVFyM0xiMWwybTR5THNYaU1DVlp1MndhSkQ3MEZBT1dLR2RRNHZOX1FicUY1Z3cxR05yZFhPQTFMU0RTb3ltNnh4Ykt3?oc=5",
-   "source": "welt.de",
+   "source": "WELT",
    "datum": "2026-09-04",
    "datum_iso": "2026-09-04T16:32:11+00:00",
    "signal": "stark",
@@ -1711,10 +1756,10 @@
   },
   {
    "quelle": "GNews Sanierung/StaRUG",
-   "titel": "Simplon erneut insolvent: 33,4 Millionen Euro Schulden - fitforfun.de",
-   "beschreibung": "Simplon erneut insolvent: 33,4 Millionen Euro Schulden fitforfun.de",
+   "titel": "Simplon erneut insolvent: 33,4 Millionen Euro Schulden - FIT FOR FUN",
+   "beschreibung": "Simplon erneut insolvent: 33,4 Millionen Euro Schulden FIT FOR FUN",
    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUzc5alNUQlJzbEJzVUJkY1hGTm9rMWZDRWdCX2g3dnF5Uk5kZ1cyY2FMZXNVejBWVVhyQ3ZIT1VVVHA3dlhzMWJ2NGsxd0VfS3UxTUdZTGxwbHpZS0RXbUY2YWZRYWNYc3hrV1BZMkFrVE92YktsMFZ6YWlfUm8xMFI5TFlDaGpVQ1JMS0I0R3hhTE5tYmNyRnJWV1VVMjRBY3hBcmRHWlZXRzJTT01JWEc2bndtNUNPMGNxSVRWdlgtdDg?oc=5",
-   "source": "fitforfun.de",
+   "source": "FIT FOR FUN",
    "datum": "2026-09-04",
    "datum_iso": "2026-09-04T08:25:00+00:00",
    "signal": "stark",
@@ -1725,10 +1770,10 @@
   },
   {
    "quelle": "GNews Sanierung/StaRUG",
-   "titel": "Wahl Group Siegen in Schieflage: Größtes Autohaus startet Insolvenzverfahren - wp.de",
-   "beschreibung": "Wahl Group Siegen in Schieflage: Größtes Autohaus startet Insolvenzverfahren wp.de",
+   "titel": "Wahl Group Siegen in Schieflage: Größtes Autohaus startet Insolvenzverfahren - Westfalenpost",
+   "beschreibung": "Wahl Group Siegen in Schieflage: Größtes Autohaus startet Insolvenzverfahren Westfalenpost",
    "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNYU03WFVNSkJiMVZnU1VnODdpaUE4M3o4UC1xeWlsQ0VmdHpYTDk2bmtFcnZwZnFqaFRGRnJEQUFfajFuR19nMHJNZGxnMk9WWkhVeDJ2b01tbGRzS3JkOGR2MU1XWF9YNU9UYjh0Ymh6dHpsZFdpOXBhXzlEUVpDWkhPM0tJYWlyaTE5SHJ5U3E3X1lEZUxuMVdlbWJGTUVhbVFCVmhsaEl0MHdwMVdvbG1yTFc3TEIwbmNEaUlCOUJKcHlZRjZzUW1SNGdQNTZPLTRCT29hWld4MTF5Z2EwbW5ubC1PZw?oc=5",
-   "source": "wp.de",
+   "source": "Westfalenpost",
    "datum": "2026-09-04",
    "datum_iso": "2026-09-04T06:33:28+00:00",
    "signal": "stark",
@@ -1809,17 +1854,18 @@
    ]
   },
   {
-   "quelle": "GNews Investorenprozess",
-   "titel": "Polizei sucht Investor für neue Wache in Menden - Come On",
-   "beschreibung": "Polizei sucht Investor für neue Wache in Menden Come On",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOc2JPZzlLU0plb2dWbWlCSnQ3TkRWZk1fNGk3Q1k5RnI4Ty1QbE1PMldObkhXV0ZIdXVHa3ZMVjZ5VnZFSGYyQnhTNWZEck9YR0o2Y2UtSFlERHpRb05UNWxaU3RrTW11eDBEVVR0UENxRnc5R2FnWG5IZTFWQ1hFVzZpaG9PVjNxN2lkSERsa1NXZHRsbW5FQ3lR?oc=5",
-   "source": "Come On",
+   "quelle": "GNews Fruehsignal",
+   "titel": "Rüsselsheim droht Insolvenz: Kreditrahmen soll auf 230 Millionen Euro steigen - FAZ",
+   "beschreibung": "Rüsselsheim droht Insolvenz: Kreditrahmen soll auf 230 Millionen Euro steigen FAZ",
+   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZnlTT2VKTnAwbnNpeldVRFI0LWJpSmdNVWRCWDRDRmg4WWI3VmhRUmdGVmNQdHNndndLT1h6Ry01RFNSbXFybndHUlJOSUNWdmtNdnl3eDIxT0JfRE1DV1dnTG1uRmtxcy1vN1dlTUZkdnRxeG1yXzI5TE9QbUVnRDdnSFZ1UVNleWFqcWR2UGk3d1dCSzg4Q3FMX0FSWTgydVpMaXMzVno2enJUNFdJZ3pITHV6YThiR3hLekZVSWRnUk9XMWpSdzlpTlhNVEF6U05tai1heXhZMXBIWlhRUFhrQQ?oc=5",
+   "source": "FAZ",
    "datum": "2026-09-03",
-   "datum_iso": "2026-09-03T08:16:22+00:00",
+   "datum_iso": "2026-09-03T15:30:00+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
-    "sucht Investor"
+    "droht Insolvenz",
+    "Insolvenz"
    ]
   },
   {
@@ -1834,21 +1880,6 @@
    "datum_unbekannt": false,
    "keywords": [
     "Moratorium"
-   ]
-  },
-  {
-   "quelle": "GNews Fruehsignal",
-   "titel": "Rüsselsheim droht Insolvenz: Kreditrahmen soll auf 230 Millionen Euro steigen - FAZ",
-   "beschreibung": "Rüsselsheim droht Insolvenz: Kreditrahmen soll auf 230 Millionen Euro steigen FAZ",
-   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZnlTT2VKTnAwbnNpeldVRFI0LWJpSmdNVWRCWDRDRmg4WWI3VmhRUmdGVmNQdHNndndLT1h6Ry01RFNSbXFybndHUlJOSUNWdmtNdnl3eDIxT0JfRE1DV1dnTG1uRmtxcy1vN1dlTUZkdnRxeG1yXzI5TE9QbUVnRDdnSFZ1UVNleWFqcWR2UGk3d1dCSzg4Q3FMX0FSWTgydVpMaXMzVno2enJUNFdJZ3pITHV6YThiR3hLekZVSWRnUk9XMWpSdzlpTlhNVEF6U05tai1heXhZMXBIWlhRUFhrQQ?oc=5",
-   "source": "FAZ",
-   "datum": "2026-09-03",
-   "datum_iso": "2026-09-03T15:30:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "droht Insolvenz",
-    "Insolvenz"
    ]
   },
   {
