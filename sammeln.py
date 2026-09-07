@@ -9,7 +9,7 @@ sammeln.py - Stufe 2 des Distressed-Tickers: Presse- und Fachfeeds einsammeln.
 Schreibt rohtreffer.json (unveraendertes Rohmaterial) und feed_health.json.
 Kein Modell, keine Bewertung - nur Abruf, Zeitfenster und Keyword-Vorfilter.
 """
-import argparse, json, os, sys, time, urllib.parse, urllib.request
+import argparse, hashlib, json, os, sys, time, urllib.parse, urllib.request
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone, timedelta
@@ -130,10 +130,28 @@ def schreibe_digest(ordner, payload, pro_datei=25, problem=None):
         kw = ",".join(x.get("keywords", []))[:80].replace("|", "/")
         zeilen.append(f"{i}|{x['datum']}|{x['signal']}|{kw}|{x['quelle'][:28]}|{titel}|{besch}|{x['link']}")
     teile = [zeilen[i:i + pro_datei] for i in range(0, len(zeilen), pro_datei)] or [[]]
-    for n, teil in enumerate(teile, 1):
-        with open(os.path.join(ordner, f"treffer_{n:02d}.txt"), "w", encoding="utf-8") as f:
-            f.write("\n".join(teil) + "\n")
     m = payload["meta"]
+    # Laufkennung und Pruefsumme (Audit 07.09.2026): jede Teildatei traegt in der ersten
+    # Zeile "lauf=<Zeitstempel>", damit digest_lesen.py Dateien aus zwei Laeufen sicher
+    # erkennt, auch wenn die Nummernfolge zufaellig stimmt. Der Leser ueberspringt
+    # "lauf="-Zeilen schon immer, das Format bleibt also abwaertskompatibel. In index.txt
+    # steht je Datei eine SHA-256-Pruefsumme ueber die Datenzeilen.
+    summen = []
+    for n, teil in enumerate(teile, 1):
+        inhalt = "\n".join(teil) + "\n"
+        summen.append(hashlib.sha256(inhalt.encode("utf-8")).hexdigest()[:16])
+        with open(os.path.join(ordner, f"treffer_{n:02d}.txt"), "w", encoding="utf-8") as f:
+            f.write(f"lauf={m['lauf_utc']}\n" + inhalt)
+    # Alte Teildateien eines groesseren Vorlaufs entfernen, sonst bleiben treffer_06.txt und
+    # folgende liegen und ein Leser mit treffer_*.txt mischt zwei Laeufe.
+    for alt_datei in os.listdir(ordner):
+        if alt_datei.startswith("treffer_") and alt_datei.endswith(".txt"):
+            try:
+                nr = int(alt_datei[8:10])
+            except ValueError:
+                continue
+            if nr > len(teile):
+                os.remove(os.path.join(ordner, alt_datei))
     with open(os.path.join(ordner, "index.txt"), "w", encoding="utf-8") as f:
         f.write(f"lauf={m['lauf_utc']}\nfenster_tage={m['fenster_tage']}\n"
                 f"feeds_ok={m['feeds_ok']}/{m['feeds_gesamt']}\n"
@@ -142,7 +160,8 @@ def schreibe_digest(ordner, payload, pro_datei=25, problem=None):
                 f"dateien={len(teile)}\npro_datei={pro_datei}\n"
                 f"version={m.get('version','')}\n"
                 f"problem={', '.join(problem or m.get('problem') or []) or 'keine'}\n"
-                f"format=nr|datum|signal|keywords|quelle|titel|beschreibung|link\n")
+                + "".join(f"pruefsumme_{n:02d}={sm}\n" for n, sm in enumerate(summen, 1))
+                + f"format=nr|datum|signal|keywords|quelle|titel|beschreibung|link\n")
 
 def main():
     ap = argparse.ArgumentParser()

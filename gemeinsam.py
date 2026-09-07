@@ -3,7 +3,7 @@
 
 # Eine Kennung fuer ALLE Skripte. Sie laeuft in index.txt und im Blatt "Lauf" mit, damit
 # Skilltext und Skriptstand nicht unbemerkt auseinanderlaufen (siehe SKILL.md, Fassung).
-VERSION = "2026-08-21h"
+VERSION = "2026-09-07a"
 import re, html, unicodedata
 
 # ---------------------------------------------------------------- Normalisierung
