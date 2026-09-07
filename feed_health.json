@@ -1,5 +1,5 @@
 {
- "lauf": "2026-09-07T08:36:48",
+ "lauf": "2026-09-07T09:28:18",
  "health": {
   "Handelsblatt Unternehmen": "ok:20",
   "Handelsblatt Finanzen": "ok:20",
@@ -9,7 +9,7 @@
   "SZ Wirtschaft": "ok:15",
   "WELT Wirtschaft": "ok:30",
   "Zeit Wirtschaft": "ok:15",
-  "Tagesschau Wirtschaft": "ok:26",
+  "Tagesschau Wirtschaft": "ok:27",
   "ntv Wirtschaft": "ok:30",
   "Focus (Finanzen)": "ok:400",
   "Capital": "ok:20",
@@ -25,7 +25,7 @@
   "Radio Bremen (buten un binnen)": "ok:25",
   "WAZ Wirtschaft": "ok:63",
   "Rheinische Post": "ok:6",
-  "Koelner Stadt-Anzeiger Wirtschaft": "ok:36",
+  "Koelner Stadt-Anzeiger Wirtschaft": "ok:37",
   "Westfaelische Nachrichten": "ok:100",
   "Neue Westfaelische": "ok:10",
   "Ruhr Nachrichten": "ok:12",
@@ -35,8 +35,8 @@
   "Rhein-Neckar-Zeitung Wirtschaft": "ok:30",
   "Rhein-Zeitung": "ok:10",
   "Creditreform News": "ok:310",
-  "Deutscher AnwaltSpiegel": "ok:10",
-  "FINANCE Magazin": "ok:10",
+  "Deutscher AnwaltSpiegel": "FAIL:HTTPError",
+  "FINANCE Magazin": "FAIL:HTTPError",
   "JUVE": "ok:10",
   "pressebox (PM-Wire)": "ok:20",
   "presseportal Wirtschaft": "ok:15",
@@ -53,10 +53,13 @@
   "Kreiszeitung Niedersachsen (Lokal)": "ok:40",
   "come-on Maerkischer Kreis (Lokal)": "ok:40",
   "GNews Insolvenzantrag": "ok:35",
-  "GNews Verfahren/Verwalter": "ok:22",
+  "GNews Verfahren/Verwalter": "ok:23",
   "GNews Sanierung/StaRUG": "ok:14",
   "GNews Investorenprozess": "ok:3",
   "GNews Fruehsignal": "ok:14"
  },
- "problem": []
+ "problem": [
+  "Deutscher AnwaltSpiegel(FAIL:HTTPError)",
+  "FINANCE Magazin(FAIL:HTTPError)"
+ ]
 }

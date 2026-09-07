@@ -1,14 +1,17 @@
 {
  "meta": {
-  "lauf": "2026-09-07T08:36:48",
-  "lauf_utc": "2026-09-07T08:36:48+00:00",
+  "lauf": "2026-09-07T09:28:18",
+  "lauf_utc": "2026-09-07T09:28:18+00:00",
   "version": "2026-08-21h",
-  "problem": [],
+  "problem": [
+   "Deutscher AnwaltSpiegel(FAIL:HTTPError)",
+   "FINANCE Magazin(FAIL:HTTPError)"
+  ],
   "fenster_tage": 3,
   "feeds_gesamt": 56,
-  "feeds_ok": 56,
-  "n_roh": 93,
-  "n_stark": 63
+  "feeds_ok": 54,
+  "n_roh": 91,
+  "n_stark": 65
  },
  "health": {
   "Handelsblatt Unternehmen": "ok:20",
@@ -19,7 +22,7 @@
   "SZ Wirtschaft": "ok:15",
   "WELT Wirtschaft": "ok:30",
   "Zeit Wirtschaft": "ok:15",
-  "Tagesschau Wirtschaft": "ok:26",
+  "Tagesschau Wirtschaft": "ok:27",
   "ntv Wirtschaft": "ok:30",
   "Focus (Finanzen)": "ok:400",
   "Capital": "ok:20",
@@ -35,7 +38,7 @@
   "Radio Bremen (buten un binnen)": "ok:25",
   "WAZ Wirtschaft": "ok:63",
   "Rheinische Post": "ok:6",
-  "Koelner Stadt-Anzeiger Wirtschaft": "ok:36",
+  "Koelner Stadt-Anzeiger Wirtschaft": "ok:37",
   "Westfaelische Nachrichten": "ok:100",
   "Neue Westfaelische": "ok:10",
   "Ruhr Nachrichten": "ok:12",
@@ -45,8 +48,8 @@
   "Rhein-Neckar-Zeitung Wirtschaft": "ok:30",
   "Rhein-Zeitung": "ok:10",
   "Creditreform News": "ok:310",
-  "Deutscher AnwaltSpiegel": "ok:10",
-  "FINANCE Magazin": "ok:10",
+  "Deutscher AnwaltSpiegel": "FAIL:HTTPError",
+  "FINANCE Magazin": "FAIL:HTTPError",
   "JUVE": "ok:10",
   "pressebox (PM-Wire)": "ok:20",
   "presseportal Wirtschaft": "ok:15",
@@ -63,7 +66,7 @@
   "Kreiszeitung Niedersachsen (Lokal)": "ok:40",
   "come-on Maerkischer Kreis (Lokal)": "ok:40",
   "GNews Insolvenzantrag": "ok:35",
-  "GNews Verfahren/Verwalter": "ok:22",
+  "GNews Verfahren/Verwalter": "ok:23",
   "GNews Sanierung/StaRUG": "ok:14",
   "GNews Investorenprozess": "ok:3",
   "GNews Fruehsignal": "ok:14"
@@ -109,20 +112,6 @@
    "datum_unbekannt": false,
    "keywords": [
     "Sanierungskonzept"
-   ]
-  },
-  {
-   "quelle": "Zeit Wirtschaft",
-   "titel": "Volkswagen: So schlimm ist die Lage bei VW",
-   "beschreibung": "Stagnierende Verkaufszahlen, drohende Werksschließungen und Jobabbau: VW muss sparen. Diese Grafiken zeigen das Ausmaß der Krise bei dem deutschen Autokonzern.",
-   "link": "https://www.zeit.de/wirtschaft/2026-09/volkswagen-unternehmen-autoindustrie-profit-entlassungen",
-   "source": "",
-   "datum": "2026-09-04",
-   "datum_iso": "2026-09-04T18:23:33+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Werksschließung"
    ]
   },
   {
@@ -222,20 +211,6 @@
    "datum_unbekannt": false,
    "keywords": [
     "Turnaround"
-   ]
-  },
-  {
-   "quelle": "Neue Westfaelische",
-   "titel": "DFB-Schreck Grosso in Florenz nach drei Pleiten schon raus",
-   "beschreibung": "2006 sorgte Fabio Grosso im WM-Halbfinale in Dortmund für viele Tränen auf deutscher Seite und krönte sich mit Italien kurz darauf zum Weltmeister. Als Trainer läuft es dagegen holprig.",
-   "link": "https://www.nw.de/sport/sport_nachrichten/24412805_DFB-Schreck-Grosso-in-Florenz-nach-drei-Pleiten-schon-raus.html",
-   "source": "",
-   "datum": "2026-09-07",
-   "datum_iso": "2026-09-07T08:09:48+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Pleite"
    ]
   },
   {
@@ -384,20 +359,6 @@
    ]
   },
   {
-   "quelle": "FINANCE Magazin",
-   "titel": "Angeschlagene Tele Columbus holt Sebastian Rudow als CRO",
-   "beschreibung": "Erst Varta, jetzt auch Tele Columbus: Sebastian Rudow von FTI Andersch soll als CRO die Refinanzierung beim hochverschuldeten Telekommunikationsanbieter hinter der Marke PŸUR vorantreiben.",
-   "link": "https://www.finance-magazin.de/finanzierungen/restrukturierung/angeschlagene-tele-columbus-holt-sebastian-rudow-als-cro-250351/",
-   "source": "",
-   "datum": "2026-09-04",
-   "datum_iso": "2026-09-04T11:10:12+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Refinanzierung"
-   ]
-  },
-  {
    "quelle": "JUVE",
    "titel": "Renault-Händler König hofft auf Sanierer von Eckert und BRL",
    "beschreibung": "Die Autohaus König Gruppe, einer der größten Renault-Händler in Deutschland, hat beim Amtsgericht Berlin-Charlottenburg Insolvenz angemeldet. Dr. Rainer Eckert wurde zum vorläufigen Insolvenzverwalter für die beiden Kerngesellschaften bestellt. Rund 1.200 Beschäftigte an 84 Standorten sind betroffen. Der Beitrag Renault-Händler König hofft auf Sanierer von Eckert und BRL erschien zuerst auf juve.de .",
@@ -428,25 +389,25 @@
    ]
   },
   {
-   "quelle": "Westf. Anzeiger wa.de (Lokal)",
-   "titel": "SVE Heessen zeigt die richtige Reaktion: Klarer Heimsieg gegen Altenrheine nach Derby-Pleite",
-   "beschreibung": "Nach der Derby-Niederlage gegen die Hammer SpVg meldet sich der SVE Heessen eindrucksvoll zurück und besiegt den SC Altenrheine verdient mit 3:0.",
-   "link": "https://www.wa.de/sport/hamm/sve-heessen-schlaegt-altenrheine-landesliga-fussball-hamm-94477811.html",
-   "source": "",
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "1898 gegründete Traditionsfirma: Autohaus-Riese ist insolvent - Berliner Kurier",
+   "beschreibung": "1898 gegründete Traditionsfirma: Autohaus-Riese ist insolvent Berliner Kurier",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQkNfR0RkaHNmUkZxT09mOXdZZk85bXA5S2ZVbm5iRjZ2VjZ0UnBINmZpVmVUWlFxQ3BmZEFhRVJYSUlmYkpwVzkzejQtY0FFWklSWDlXbDFBUHpnQl9iaFdyM191WUE2Sk5zNHd5X2d3d25FdmcwbXFqZllpbXJZaGtaWWdBZ1JTNlIzUQ?oc=5",
+   "source": "Berliner Kurier",
    "datum": "2026-09-07",
-   "datum_iso": "2026-09-07T09:00:00+02:00",
-   "signal": "schwach",
+   "datum_iso": "2026-09-07T07:44:36+00:00",
+   "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
-    "Pleite"
+    "insolvent"
    ]
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "\"Ältester BMW-Händler der Welt\" ist insolvent: 31 Standorte, 1.000 Mitarbeiter betroffen - auto-motor-und-sport.de",
-   "beschreibung": "\"Ältester BMW-Händler der Welt\" ist insolvent: 31 Standorte, 1.000 Mitarbeiter betroffen auto-motor-und-sport.de",
+   "titel": "\"Ältester BMW-Händler der Welt\" ist insolvent: 31 Standorte, 1.000 Mitarbeiter betroffen - Auto Motor und Sport",
+   "beschreibung": "\"Ältester BMW-Händler der Welt\" ist insolvent: 31 Standorte, 1.000 Mitarbeiter betroffen Auto Motor und Sport",
    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNeXpNRTZ6Sm9xSVVtSkpXeW9fb0lCVVNYOFRzVHMySW9lTEZIaEF0NDBIcUJDVE02ZjF1cUZwSjFhSjZqVllkY0VXdjVJX2dnRVZoOGlET3U0dGQyUDU3eVNRbEZ4UE9zZERPaEhENE03X1dJc19fR21aLW9sX242M0dQYW5YTzhSd1ZCdlFKZzdLbUZjVlAzWWwyVHpaMWNIZ3ZxZG5rQmprM3FEbVdYdjhtelpqdXRKbk41bHBTRkdObFZkdWVZTjBpNA?oc=5",
-   "source": "auto-motor-und-sport.de",
+   "source": "Auto Motor und Sport",
    "datum": "2026-09-07",
    "datum_iso": "2026-09-07T07:55:09+00:00",
    "signal": "stark",
@@ -457,12 +418,12 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "1898 gegründete Traditionsfirma: Autohaus-Riese ist insolvent - Berliner Kurier",
-   "beschreibung": "1898 gegründete Traditionsfirma: Autohaus-Riese ist insolvent Berliner Kurier",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQkNfR0RkaHNmUkZxT09mOXdZZk85bXA5S2ZVbm5iRjZ2VjZ0UnBINmZpVmVUWlFxQ3BmZEFhRVJYSUlmYkpwVzkzejQtY0FFWklSWDlXbDFBUHpnQl9iaFdyM191WUE2Sk5zNHd5X2d3d25FdmcwbXFqZllpbXJZaGtaWWdBZ1JTNlIzUQ?oc=5",
-   "source": "Berliner Kurier",
+   "titel": "Schuldenberg von 33,4 Millionen Euro: Österreichischer Fahrradhersteller ist erneut insolvent - CHIP",
+   "beschreibung": "Schuldenberg von 33,4 Millionen Euro: Österreichischer Fahrradhersteller ist erneut insolvent CHIP",
+   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOR0Ryd25IYXVrdmJqQU1BY2RpNzZGRmNRZ0s0MGFnd0dKZGxhNmotSWlMZDhSTlBpOHpYRjJqcFQ5UHlTVXh5dkRUN0QxQ2ROWENkSXp0OFYtQWNhQnlkdlhpenUwbm14U3h6bExMdms2S2tYOXBEN0MzY3AyQ3l5M3N6WTB4YnBhc3lyQi1VSFByUzFhaFh0anZGMDZKdEVRZi1uUF9KV0ZYcXlfak1qOTZHb3BFM21hRi1tWF9jUjhnNlNCWS1YbDNPTGhZQk1JZW45STJuRE5oMW1JMkUwVW0zUDFHTzc1aWthMkFwazJUVHdvYWpRLUxIejZFZw?oc=5",
+   "source": "CHIP",
    "datum": "2026-09-07",
-   "datum_iso": "2026-09-07T07:44:36+00:00",
+   "datum_iso": "2026-09-07T07:30:00+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -528,30 +489,30 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Sanierung gescheitert - Simplon-Nachfolger beantragt Insolvenzverfahren - Ride MTB",
-   "beschreibung": "Sanierung gescheitert - Simplon-Nachfolger beantragt Insolvenzverfahren Ride MTB",
+   "titel": "Autohaus insolvent: 1.000 Mitarbeiter betroffen - weekend.at",
+   "beschreibung": "Autohaus insolvent: 1.000 Mitarbeiter betroffen weekend.at",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5IS2piaGpCWHVldmh5c044TzFNZUdJN2s5WVY3RnNyRHBSOUYwWjVIMjh0TjFBVkNMZWNvTkVUSnVVd2U0ZXc5Rk9Xak52MzhMdWgwdXp1OXNQYUVSM2xpQ2lsUTVfOEdGRlRwcWR2UzdPc3MzV1E?oc=5",
+   "source": "weekend.at",
+   "datum": "2026-09-07",
+   "datum_iso": "2026-09-07T08:48:08+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Sanierung gescheitert - Simplon-Nachfolger beantragt Insolvenzverfahren - ride-mtb.com",
+   "beschreibung": "Sanierung gescheitert - Simplon-Nachfolger beantragt Insolvenzverfahren ride-mtb.com",
    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQckhfSjlxT2l1RWFvcXJRY0drMV9XZTlPSnhwTU1nRkF6cjdHdllReUNDNUlDa3ZYdjF6NjNyN3MyQko4VkpOVGVCenZvU25IZW5WS1VmWTNDV1hjekw2MTExaDE3UWdfbXVwSEY2UFB3YkJRcEc3WnBjUU42UTR0R1R3dmVOallIVHVXdG5iQk8zdzkyOTJocXFtNGNBVjFKallLWA?oc=5",
-   "source": "Ride MTB",
+   "source": "ride-mtb.com",
    "datum": "2026-09-06",
    "datum_iso": "2026-09-06T15:51:19+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
     "Insolvenzverfahren"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Autohaus mit 1200 Beschäftigten insolvent: Was wird aus den Standorten in Bayern? - Augsburger Allgemeine",
-   "beschreibung": "Autohaus mit 1200 Beschäftigten insolvent: Was wird aus den Standorten in Bayern? Augsburger Allgemeine",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQLVp2RVZLRVE3Z0o5cjJTMlZrQ3R4bl9hclN5LWEtV0d3YUFRN3FfOVcyZDZEVHB0YmpaUm9uV1RhZlVSNTNFSmwyYmRqaTlxYXdHUnhzUUF3Yk5FbnZySXVtWEV1blVTc01Ud3A3QkdKRFIzcTBaMGNLVzQzR1pwYkcxTzJ4WnVJc3pPS29vMVp1QjN4c3NyZVJ3YllBRWpfaUZuN2daVUV3M0RidWo5YXQtRG5hcTlab0JiVzlKTQ?oc=5",
-   "source": "Augsburger Allgemeine",
-   "datum": "2026-09-06",
-   "datum_iso": "2026-09-06T16:32:40+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
    ]
   },
   {
@@ -571,6 +532,20 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
+   "titel": "Autohaus mit 1200 Beschäftigten insolvent: Was wird aus den Standorten in Bayern? - Augsburger Allgemeine",
+   "beschreibung": "Autohaus mit 1200 Beschäftigten insolvent: Was wird aus den Standorten in Bayern? Augsburger Allgemeine",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQLVp2RVZLRVE3Z0o5cjJTMlZrQ3R4bl9hclN5LWEtV0d3YUFRN3FfOVcyZDZEVHB0YmpaUm9uV1RhZlVSNTNFSmwyYmRqaTlxYXdHUnhzUUF3Yk5FbnZySXVtWEV1blVTc01Ud3A3QkdKRFIzcTBaMGNLVzQzR1pwYkcxTzJ4WnVJc3pPS29vMVp1QjN4c3NyZVJ3YllBRWpfaUZuN2daVUV3M0RidWo5YXQtRG5hcTlab0JiVzlKTQ?oc=5",
+   "source": "Augsburger Allgemeine",
+   "datum": "2026-09-06",
+   "datum_iso": "2026-09-06T16:32:40+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
    "titel": "Autohaus König insolvent – zehn Standorte in Sachsen-Anhalt betroffen - WELT",
    "beschreibung": "Autohaus König insolvent – zehn Standorte in Sachsen-Anhalt betroffen WELT",
    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcDM4UWJCNDAtQktSUjNvNUU3ODZBN2xvbzBXRFVkZS1nYjRRb3ZpeGNHc0stVkVmRmxZN01CR3pLNkh2ODJrWnkwOUVyeTRhSlE5Sm9na1Z3UDZaZDcyZ3JCWkhpVzlfVVJEMU9Fd2lBZkxEbFBDRElhV0JOX3Q1c0ZSaFJqOU9BbG9vaGhQMUZaZmIyX2MzTWZXcWdBemdicDhZTW9MOEZIcXl5LUJhQVp0WGh6aE02Vl84UW5HUDJDb3Rmc1Q4M2dYOXVhZVZ6SzY0YV9wVkJQSTRUTmE4?oc=5",
@@ -585,12 +560,26 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Autohaus König führt trotz Insolvenz Geschäftsbetrieb fort - Nordkurier",
-   "beschreibung": "Autohaus König führt trotz Insolvenz Geschäftsbetrieb fort Nordkurier",
+   "titel": "Autohaus König führt trotz Insolvenz Geschäftsbetrieb fort - nordkurier.de",
+   "beschreibung": "Autohaus König führt trotz Insolvenz Geschäftsbetrieb fort nordkurier.de",
    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVTdKbVZDdUFoRmVIREdiRi1Lb0tsNndhZ3VCRWNFVnZtYTZOODg3NUZHaG9fVlk1bkVLMjRjdGhQVGQ3a1hXM2JnSG8tSHk2NkxnQlRUYWFEZEIwRThiVEliRVE2SlFxUnN5dDBUN1lWd0REbEM5V1NfeGRteWFBMUkwNTh2cVMxTGpmSXZ0S19GTFlrbVlsRU1Ka2kzaHI1Rmg3SnZLZ3NLRzhlYUdXNHdwSGc?oc=5",
-   "source": "Nordkurier",
+   "source": "nordkurier.de",
    "datum": "2026-09-06",
    "datum_iso": "2026-09-06T03:05:00+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Bekannter Fahrradhersteller steckt erneut in der Insolvenz - T-Online",
+   "beschreibung": "Bekannter Fahrradhersteller steckt erneut in der Insolvenz T-Online",
+   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNNzNsQlQyT2ZQTkQ3M1pLZFhZd1I2YzlDQW9HYlk0VXVORW1UMmJXQU9qa0hBaUcweEdVRktiTkdXMHRaM003QkZqUXM0aUZVaTFfeGlCcG1RRWtKdl93R2JKT2lwWXlwQm0xYUpiMVdndkRXQmpYQzlpLVZ4WElaNGU5WWRsT29ZSjNycUR4WXVkWGNqRTRkaUhndy1fcnM0OURyTlhPU010SVgzQ0tPQkIxM052Y3NMdmJ1SUtuRjF0Z2RvZzI0N0dWZ0tMT0JseV9Cd0JCU1pwVVY4T0JDVg?oc=5",
+   "source": "T-Online",
+   "datum": "2026-09-05",
+   "datum_iso": "2026-09-05T04:59:22+00:00",
    "signal": "schwach",
    "datum_unbekannt": false,
    "keywords": [
@@ -614,34 +603,6 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Bekannter Fahrradhersteller steckt erneut in der Insolvenz - T-Online",
-   "beschreibung": "Bekannter Fahrradhersteller steckt erneut in der Insolvenz T-Online",
-   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNNzNsQlQyT2ZQTkQ3M1pLZFhZd1I2YzlDQW9HYlk0VXVORW1UMmJXQU9qa0hBaUcweEdVRktiTkdXMHRaM003QkZqUXM0aUZVaTFfeGlCcG1RRWtKdl93R2JKT2lwWXlwQm0xYUpiMVdndkRXQmpYQzlpLVZ4WElaNGU5WWRsT29ZSjNycUR4WXVkWGNqRTRkaUhndy1fcnM0OURyTlhPU010SVgzQ0tPQkIxM052Y3NMdmJ1SUtuRjF0Z2RvZzI0N0dWZ0tMT0JseV9Cd0JCU1pwVVY4T0JDVg?oc=5",
-   "source": "T-Online",
-   "datum": "2026-09-05",
-   "datum_iso": "2026-09-05T04:59:22+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Schulden von 33,4 Millionen Euro: Fahrradhersteller aus Österreich ist erneut insolvent - CHIP",
-   "beschreibung": "Schulden von 33,4 Millionen Euro: Fahrradhersteller aus Österreich ist erneut insolvent CHIP",
-   "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOY2IzUEtOZFVVb2JyRkJ3ODRpM1FpQ1BsN1BKajVXUTJOaUJuRzdHdjRBNzcxcjV5VGhmMy1ZRjlEMjlLRkhmakNjRWRZQWJ1QXh5eTNfLV94YUd6LVI0a2VZaEx5VGprQ2lDSXBMVGhHZzlpUFljVkJrQmh0Y3Y2bEctY2hnNnE0SjZuWVd3N0s1M3Z2MkVnU0NCMjhEXzM4eW1nR3JDTlc1OGFOa2VmUXZyWTBqd0F2emlMVlRSMDFvSEhiUHJ4dml2NTVia0dCcFhOc0g1T3l1Q2VqMUswLTFDbVRhd2c1OGdVSW1DNllMRkVHNlE?oc=5",
-   "source": "CHIP",
-   "datum": "2026-09-05",
-   "datum_iso": "2026-09-05T16:00:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
    "titel": "„In Deutschland leider nicht mehr möglich“: Beliebter deutscher Taschen- und Rucksack-Hersteller ist insolvent - Merkur",
    "beschreibung": "„In Deutschland leider nicht mehr möglich“: Beliebter deutscher Taschen- und Rucksack-Hersteller ist insolvent Merkur",
    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORFYwdEI1SVF1VGdGR19zMW01SUc4WHpNekp4VjF5VWxxMzNXOWo2S1hSWVBPdDRncEJIMk5xSER0MVRzOW5lSnVLNWdvRzJRZ0FteERydFhjR25mUkR1VUl0N0hadl9iNTVZVXh2V3VqYkZueDR5UGU3NUhsdGpBVTFSYVdXMm1mN3pSdVVCYkJHUVZEaGdpX0J0M3dpUTlPV3VGTGh3ck8?oc=5",
@@ -652,21 +613,6 @@
    "datum_unbekannt": false,
    "keywords": [
     "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "1.000 Jobs und 31 Standorte betroffen: Autohaus Wahl-Gruppe meldet Insolvenz an - CHIP",
-   "beschreibung": "1.000 Jobs und 31 Standorte betroffen: Autohaus Wahl-Gruppe meldet Insolvenz an CHIP",
-   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPQU53MGRNYjI2WTdnMldwbGVfZ0RPYm00SXg5RTMwMWFhY3VaYzBwQ01ERVBTUHFpbjY3Y0NlSjBqTTZhMlR0aWtIOE42OWdXQW0xcl9LTU96WGJJWWJKdWhVZjA5MFdmNndMYVNvYTZHaHowTW15VGFCWU1HQ1RiOXNiV2RlSy1UUlpFUnQxU01aQ0syTVBHeV9ZdERaVW4zTDM0LWF6SGgwNXg2ZkZMZXIzbHM5Vi14ejIwZUFKUXJjekJUN0pmSWF0YkVLWkRHNlRVbUQ1djZHZXFlQ2ZLOWlwY1Y3RnVHdlE?oc=5",
-   "source": "CHIP",
-   "datum": "2026-09-04",
-   "datum_iso": "2026-09-04T09:02:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "meldet Insolvenz",
-    "Insolvenz"
    ]
   },
   {
@@ -728,10 +674,10 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "12.000 Artikel, 65 Beschäftigte: Bio-Großhändler ist insolvent - Rosenheim24",
-   "beschreibung": "12.000 Artikel, 65 Beschäftigte: Bio-Großhändler ist insolvent Rosenheim24",
+   "titel": "12.000 Artikel, 65 Beschäftigte: Bio-Großhändler ist insolvent - rosenheim24.de",
+   "beschreibung": "12.000 Artikel, 65 Beschäftigte: Bio-Großhändler ist insolvent rosenheim24.de",
    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPN3phRE15bmpjb0VnNFNMd1lyaE9MUDVjSGE4MkU4Z2F3UWxnaEZrRGJFaExzZzlJaldNTmlmam9OLVdnQ2ttZFJxMm03ckNQcnVjTTkzVzVGdUpOQXlFTGNkU2dfTXVESUZ3ZEN3OU8wQUJGbEltSmVBcC1lcm1rRGFUSzNyNW9nMjVPX0ZiMzhMQmhxVWdfQ2hwYnoya2tkUzB1dTRacFBBdUROSmlKNmlB?oc=5",
-   "source": "Rosenheim24",
+   "source": "rosenheim24.de",
    "datum": "2026-09-06",
    "datum_iso": "2026-09-06T12:38:03+00:00",
    "signal": "stark",
@@ -786,10 +732,10 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Bittere Pleite - Vorarlberger ADEG-Betreiber ist erneut insolvent - Kronen Zeitung",
-   "beschreibung": "Bittere Pleite - Vorarlberger ADEG-Betreiber ist erneut insolvent Kronen Zeitung",
+   "titel": "Bittere Pleite - Vorarlberger ADEG-Betreiber ist erneut insolvent - krone.at",
+   "beschreibung": "Bittere Pleite - Vorarlberger ADEG-Betreiber ist erneut insolvent krone.at",
    "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5WdGdqaC1xWU5IQzNSVlhDc0tBRV9YR3dqcWhYVjRwbHc0MXgwd25vLThpTkZBZkdjd3p1aFhXYUxydw?oc=5",
-   "source": "Kronen Zeitung",
+   "source": "krone.at",
    "datum": "2026-09-06",
    "datum_iso": "2026-09-06T23:30:55+00:00",
    "signal": "stark",
@@ -801,10 +747,10 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Firma insolvent: Cochemer Feinkostkette: Alle 80 Beschäftigten entlassen - Kreis Cochem-Zell - rhein-zeitung.de",
-   "beschreibung": "Firma insolvent: Cochemer Feinkostkette: Alle 80 Beschäftigten entlassen - Kreis Cochem-Zell rhein-zeitung.de",
+   "titel": "Firma insolvent: Cochemer Feinkostkette: Alle 80 Beschäftigten entlassen - Kreis Cochem-Zell - Rhein-Zeitung",
+   "beschreibung": "Firma insolvent: Cochemer Feinkostkette: Alle 80 Beschäftigten entlassen - Kreis Cochem-Zell Rhein-Zeitung",
    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPOFk3c3dURmo4TjJaNHFwa2wzN1RHSWJadVNZZnZxZ0JFQ2ZDYVRWUGFtNXdmOVhmcnBSODhWVTZzNXRJZGM3eFQ3UDFJbEFXU2E3dGI1MDRiWlJFa3NBVzI2RzBqd0pqVjU5ZzhPSm9hUzlkZDdYOG8wUVE0Ml9jeDdyT1VRcnBCT0ZWbWlWbGF0Yl9SME81MWxFUWdUR3ZOMzhuaHNVQ05adFJGRkhPUk50bDF3VDdHRGpkNHVhMnd2Z3dNQWkw?oc=5",
-   "source": "rhein-zeitung.de",
+   "source": "Rhein-Zeitung",
    "datum": "2026-09-04",
    "datum_iso": "2026-09-04T10:00:00+00:00",
    "signal": "stark",
@@ -829,10 +775,10 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Zondacrypto insolvent: So meldest du deine Forderung fristgerecht an - cryptoticker.io",
-   "beschreibung": "Zondacrypto insolvent: So meldest du deine Forderung fristgerecht an cryptoticker.io",
+   "titel": "Zondacrypto insolvent: So meldest du deine Forderung fristgerecht an - CryptoTicker",
+   "beschreibung": "Zondacrypto insolvent: So meldest du deine Forderung fristgerecht an CryptoTicker",
    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5QWG85Y2lYRU5SNHl3bm1VZXRiNjkzVWoyQkNCTFdhRHVDbGpuM0lYWGNOUTlCT2hlTjhXaXZXUlJzVm1qdmEtd0JLTWd1ejFFS3ZLeWhwWFo0azd3R2RwSURsRWp1aTNLLThxSFJrTDM0VnMwQ0RV?oc=5",
-   "source": "cryptoticker.io",
+   "source": "CryptoTicker",
    "datum": "2026-09-06",
    "datum_iso": "2026-09-06T12:17:43+00:00",
    "signal": "stark",
@@ -913,12 +859,12 @@
   },
   {
    "quelle": "GNews Verfahren/Verwalter",
-   "titel": "1898 gegründete Traditionsfirma: Autohaus-Riese ist insolvent - Berliner Kurier",
-   "beschreibung": "1898 gegründete Traditionsfirma: Autohaus-Riese ist insolvent Berliner Kurier",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQkNfR0RkaHNmUkZxT09mOXdZZk85bXA5S2ZVbm5iRjZ2VjZ0UnBINmZpVmVUWlFxQ3BmZEFhRVJYSUlmYkpwVzkzejQtY0FFWklSWDlXbDFBUHpnQl9iaFdyM191WUE2Sk5zNHd5X2d3d25FdmcwbXFqZllpbXJZaGtaWWdBZ1JTNlIzUQ?oc=5",
-   "source": "Berliner Kurier",
+   "titel": "Schuldenberg von 33,4 Millionen Euro: Österreichischer Fahrradhersteller ist erneut insolvent - CHIP",
+   "beschreibung": "Schuldenberg von 33,4 Millionen Euro: Österreichischer Fahrradhersteller ist erneut insolvent CHIP",
+   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOR0Ryd25IYXVrdmJqQU1BY2RpNzZGRmNRZ0s0MGFnd0dKZGxhNmotSWlMZDhSTlBpOHpYRjJqcFQ5UHlTVXh5dkRUN0QxQ2ROWENkSXp0OFYtQWNhQnlkdlhpenUwbm14U3h6bExMdms2S2tYOXBEN0MzY3AyQ3l5M3N6WTB4YnBhc3lyQi1VSFByUzFhaFh0anZGMDZKdEVRZi1uUF9KV0ZYcXlfak1qOTZHb3BFM21hRi1tWF9jUjhnNlNCWS1YbDNPTGhZQk1JZW45STJuRE5oMW1JMkUwVW0zUDFHTzc1aWthMkFwazJUVHdvYWpRLUxIejZFZw?oc=5",
+   "source": "CHIP",
    "datum": "2026-09-07",
-   "datum_iso": "2026-09-07T07:44:36+00:00",
+   "datum_iso": "2026-09-07T07:30:00+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -938,6 +884,20 @@
    "keywords": [
     "Eigenverwaltung",
     "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Verfahren/Verwalter",
+   "titel": "1898 gegründete Traditionsfirma: Autohaus-Riese ist insolvent - Berliner Kurier",
+   "beschreibung": "1898 gegründete Traditionsfirma: Autohaus-Riese ist insolvent Berliner Kurier",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQkNfR0RkaHNmUkZxT09mOXdZZk85bXA5S2ZVbm5iRjZ2VjZ0UnBINmZpVmVUWlFxQ3BmZEFhRVJYSUlmYkpwVzkzejQtY0FFWklSWDlXbDFBUHpnQl9iaFdyM191WUE2Sk5zNHd5X2d3d25FdmcwbXFqZllpbXJZaGtaWWdBZ1JTNlIzUQ?oc=5",
+   "source": "Berliner Kurier",
+   "datum": "2026-09-07",
+   "datum_iso": "2026-09-07T07:44:36+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
    ]
   },
   {
@@ -999,10 +959,10 @@
   },
   {
    "quelle": "GNews Verfahren/Verwalter",
-   "titel": "Autohaus König führt trotz Insolvenz Geschäftsbetrieb fort - Nordkurier",
-   "beschreibung": "Autohaus König führt trotz Insolvenz Geschäftsbetrieb fort Nordkurier",
+   "titel": "Autohaus König führt trotz Insolvenz Geschäftsbetrieb fort - nordkurier.de",
+   "beschreibung": "Autohaus König führt trotz Insolvenz Geschäftsbetrieb fort nordkurier.de",
    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVTdKbVZDdUFoRmVIREdiRi1Lb0tsNndhZ3VCRWNFVnZtYTZOODg3NUZHaG9fVlk1bkVLMjRjdGhQVGQ3a1hXM2JnSG8tSHk2NkxnQlRUYWFEZEIwRThiVEliRVE2SlFxUnN5dDBUN1lWd0REbEM5V1NfeGRteWFBMUkwNTh2cVMxTGpmSXZ0S19GTFlrbVlsRU1Ka2kzaHI1Rmg3SnZLZ3NLRzhlYUdXNHdwSGc?oc=5",
-   "source": "Nordkurier",
+   "source": "nordkurier.de",
    "datum": "2026-09-06",
    "datum_iso": "2026-09-06T03:05:00+00:00",
    "signal": "schwach",
@@ -1013,10 +973,10 @@
   },
   {
    "quelle": "GNews Verfahren/Verwalter",
-   "titel": "12.000 Artikel, 65 Beschäftigte: Bio-Großhändler ist insolvent - Rosenheim24",
-   "beschreibung": "12.000 Artikel, 65 Beschäftigte: Bio-Großhändler ist insolvent Rosenheim24",
+   "titel": "12.000 Artikel, 65 Beschäftigte: Bio-Großhändler ist insolvent - rosenheim24.de",
+   "beschreibung": "12.000 Artikel, 65 Beschäftigte: Bio-Großhändler ist insolvent rosenheim24.de",
    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPN3phRE15bmpjb0VnNFNMd1lyaE9MUDVjSGE4MkU4Z2F3UWxnaEZrRGJFaExzZzlJaldNTmlmam9OLVdnQ2ttZFJxMm03ckNQcnVjTTkzVzVGdUpOQXlFTGNkU2dfTXVESUZ3ZEN3OU8wQUJGbEltSmVBcC1lcm1rRGFUSzNyNW9nMjVPX0ZiMzhMQmhxVWdfQ2hwYnoya2tkUzB1dTRacFBBdUROSmlKNmlB?oc=5",
-   "source": "Rosenheim24",
+   "source": "rosenheim24.de",
    "datum": "2026-09-06",
    "datum_iso": "2026-09-06T12:38:03+00:00",
    "signal": "stark",
@@ -1055,6 +1015,20 @@
   },
   {
    "quelle": "GNews Verfahren/Verwalter",
+   "titel": "\"Autohaus König\": Das sind die neuen brisanten Details zur Pleite - Business Insider Deutschland",
+   "beschreibung": "\"Autohaus König\": Das sind die neuen brisanten Details zur Pleite Business Insider Deutschland",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPU2hGbnV6YldwLVhXNm92S1dwdjcxaW8yZjF5UjB0YlZzdkU4N0pQZDRXVkZSUm5XUFd2NkxISnl5clRwekdOeGRJLWJOTEx3WVNFNks0M2hTRmFvVTZ5LVFiQVlkLTI1c3RMZ2ZmaGtVbUd2X0VpSVZHN3R0N0tmaDJQX21zZ1FPVWRUSm9EZEJNRFZsVURmZzNUOEFtQldHRVY4M1NlV1M1QQ?oc=5",
+   "source": "Business Insider Deutschland",
+   "datum": "2026-09-07",
+   "datum_iso": "2026-09-07T08:49:32+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Pleite"
+   ]
+  },
+  {
+   "quelle": "GNews Verfahren/Verwalter",
    "titel": "Insolvenz von großem Bio-Händler: „In doppelter Hinsicht“ getroffen - fnp.de",
    "beschreibung": "Insolvenz von großem Bio-Händler: „In doppelter Hinsicht“ getroffen fnp.de",
    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONHRlWVR0RFU3N1Y4ZmlxdHZBRVlMS21tZEZiZHZ1S1JkMjVmNW9CZTE5X1kzbkdfVzVNNm1EZUhfY25xRDhVVHRncG90YzdXeDhZLS1zZEhjNE5jUFVIU1pLMlBvVHlkazE2NUZuZGRnZmxFWUlmRmt2M3EwOUtQYUV5SGhfdDd0cTg3UUZxTG1wbUlGbjRkRGgtc3hKMnlOTWVtZw?oc=5",
@@ -1065,34 +1039,6 @@
    "datum_unbekannt": false,
    "keywords": [
     "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Verfahren/Verwalter",
-   "titel": "Schulden von 33,4 Millionen Euro: Fahrradhersteller aus Österreich ist erneut insolvent - CHIP",
-   "beschreibung": "Schulden von 33,4 Millionen Euro: Fahrradhersteller aus Österreich ist erneut insolvent CHIP",
-   "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOY2IzUEtOZFVVb2JyRkJ3ODRpM1FpQ1BsN1BKajVXUTJOaUJuRzdHdjRBNzcxcjV5VGhmMy1ZRjlEMjlLRkhmakNjRWRZQWJ1QXh5eTNfLV94YUd6LVI0a2VZaEx5VGprQ2lDSXBMVGhHZzlpUFljVkJrQmh0Y3Y2bEctY2hnNnE0SjZuWVd3N0s1M3Z2MkVnU0NCMjhEXzM4eW1nR3JDTlc1OGFOa2VmUXZyWTBqd0F2emlMVlRSMDFvSEhiUHJ4dml2NTVia0dCcFhOc0g1T3l1Q2VqMUswLTFDbVRhd2c1OGdVSW1DNllMRkVHNlE?oc=5",
-   "source": "CHIP",
-   "datum": "2026-09-05",
-   "datum_iso": "2026-09-05T16:00:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Verfahren/Verwalter",
-   "titel": "\"Autohaus König\": Neue Details zur Pleite - Business Insider Deutschland",
-   "beschreibung": "\"Autohaus König\": Neue Details zur Pleite Business Insider Deutschland",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMHBzU2RrVHBWZnZsZ3NkZml0RE5WZm5KS1NFRDY2cEhWZE9ITi0xZEYzb2ZWdE9RS2U2dk9UMlVIbWpnYUFfVlkwMC1Hc2FNeENEd1VveE9MUUxhVjN2c1pBSFdaV3owaExNUE5TQnM1MnctQS1DaHFPMUxxYzhHS1ljcHlpWlNYckxHZTVYbw?oc=5",
-   "source": "Business Insider Deutschland",
-   "datum": "2026-09-05",
-   "datum_iso": "2026-09-05T06:33:31+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Pleite"
    ]
   },
   {
@@ -1111,10 +1057,25 @@
   },
   {
    "quelle": "GNews Verfahren/Verwalter",
-   "titel": "Wiener Kult-Café erneut pleite - oe24.at",
-   "beschreibung": "Wiener Kult-Café erneut pleite oe24.at",
+   "titel": "Die Rohrbacher Schlosswarenfabrik Wilh. Grundmann Gesellschaft mbH hat beim Landesgericht St. Pölten einen Antrag auf Eröffnung eines Sanierungsverfahrens ohne Eigenverwaltung eingebracht. - Heute",
+   "beschreibung": "Die Rohrbacher Schlosswarenfabrik Wilh. Grundmann Gesellschaft mbH hat beim Landesgericht St. Pölten einen Antrag auf Eröffnung eines Sanierungsverfahrens ohne Eigenverwaltung eingebracht. Heute",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdXJqMzJhYlViamFkUVF6ejNXMjNrUWhiVzNGWFBvSjhmUWtnVUkxYXQwWEJEQk54OGVxNU9RYUt2THlNUGg5a3piaDVJYnE0Tk02OWlDNlNlWnhXcE1Ocm9adVVIS0JEMzN4eHk2d1kzMWdGRDNDZTFiYWlXTGVER1pCZlNYYzhVS2lVQVowakd4Q3NKVEJXX01RZFI?oc=5",
+   "source": "Heute",
+   "datum": "2026-09-07",
+   "datum_iso": "2026-09-07T04:37:42+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Eigenverwaltung",
+    "Sanierungsverfahren"
+   ]
+  },
+  {
+   "quelle": "GNews Verfahren/Verwalter",
+   "titel": "Wiener Kult-Café erneut pleite - oe24",
+   "beschreibung": "Wiener Kult-Café erneut pleite oe24",
    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1ZTVVQcTRaMmVJVkZ5bG9pbzAzWFA0SVFSSEdtNEFkSmJmajR4b2FMMnlYVzdOQUg0VEdrRmpMbmVZNTR2Y2hMc0VSVWc1ZjBJYnZ3c0ppRUlCamZXVmYxT3lJcDBmQlptQS01SjVRSdIBdEFVX3lxTE84dWxXN293cjk0NEhPRHdUNW1oTXpfNUktb2taQk9WZGF5anpCNGd4dGhWNUNxQkt3QmVkaHozNUtON19oSmVlQ2V4ZV9NdlZzbFEwT0FIWVg1S3RMLUtvamZtSGV6M1RUNU9WNTdUMkJZN2d5?oc=5",
-   "source": "oe24.at",
+   "source": "oe24",
    "datum": "2026-09-06",
    "datum_iso": "2026-09-06T20:21:12+00:00",
    "signal": "schwach",
@@ -1196,10 +1157,10 @@
   },
   {
    "quelle": "GNews Sanierung/StaRUG",
-   "titel": "Bittere Pleite - Vorarlberger ADEG-Betreiber ist erneut insolvent - Kronen Zeitung",
-   "beschreibung": "Bittere Pleite - Vorarlberger ADEG-Betreiber ist erneut insolvent Kronen Zeitung",
+   "titel": "Bittere Pleite - Vorarlberger ADEG-Betreiber ist erneut insolvent - krone.at",
+   "beschreibung": "Bittere Pleite - Vorarlberger ADEG-Betreiber ist erneut insolvent krone.at",
    "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5WdGdqaC1xWU5IQzNSVlhDc0tBRV9YR3dqcWhYVjRwbHc0MXgwd25vLThpTkZBZkdjd3p1aFhXYUxydw?oc=5",
-   "source": "Kronen Zeitung",
+   "source": "krone.at",
    "datum": "2026-09-06",
    "datum_iso": "2026-09-06T23:30:55+00:00",
    "signal": "stark",
@@ -1239,12 +1200,12 @@
   },
   {
    "quelle": "GNews Sanierung/StaRUG",
-   "titel": "Schulden von 33,4 Millionen Euro: Fahrradhersteller aus Österreich ist erneut insolvent - CHIP",
-   "beschreibung": "Schulden von 33,4 Millionen Euro: Fahrradhersteller aus Österreich ist erneut insolvent CHIP",
-   "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOY2IzUEtOZFVVb2JyRkJ3ODRpM1FpQ1BsN1BKajVXUTJOaUJuRzdHdjRBNzcxcjV5VGhmMy1ZRjlEMjlLRkhmakNjRWRZQWJ1QXh5eTNfLV94YUd6LVI0a2VZaEx5VGprQ2lDSXBMVGhHZzlpUFljVkJrQmh0Y3Y2bEctY2hnNnE0SjZuWVd3N0s1M3Z2MkVnU0NCMjhEXzM4eW1nR3JDTlc1OGFOa2VmUXZyWTBqd0F2emlMVlRSMDFvSEhiUHJ4dml2NTVia0dCcFhOc0g1T3l1Q2VqMUswLTFDbVRhd2c1OGdVSW1DNllMRkVHNlE?oc=5",
+   "titel": "Schuldenberg von 33,4 Millionen Euro: Österreichischer Fahrradhersteller ist erneut insolvent - CHIP",
+   "beschreibung": "Schuldenberg von 33,4 Millionen Euro: Österreichischer Fahrradhersteller ist erneut insolvent CHIP",
+   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOR0Ryd25IYXVrdmJqQU1BY2RpNzZGRmNRZ0s0MGFnd0dKZGxhNmotSWlMZDhSTlBpOHpYRjJqcFQ5UHlTVXh5dkRUN0QxQ2ROWENkSXp0OFYtQWNhQnlkdlhpenUwbm14U3h6bExMdms2S2tYOXBEN0MzY3AyQ3l5M3N6WTB4YnBhc3lyQi1VSFByUzFhaFh0anZGMDZKdEVRZi1uUF9KV0ZYcXlfak1qOTZHb3BFM21hRi1tWF9jUjhnNlNCWS1YbDNPTGhZQk1JZW45STJuRE5oMW1JMkUwVW0zUDFHTzc1aWthMkFwazJUVHdvYWpRLUxIejZFZw?oc=5",
    "source": "CHIP",
-   "datum": "2026-09-05",
-   "datum_iso": "2026-09-05T16:00:00+00:00",
+   "datum": "2026-09-07",
+   "datum_iso": "2026-09-07T07:30:00+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -1264,6 +1225,20 @@
    "keywords": [
     "Eigenverwaltung",
     "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Sanierung/StaRUG",
+   "titel": "Autohaus insolvent: 1.000 Mitarbeiter betroffen - weekend.at",
+   "beschreibung": "Autohaus insolvent: 1.000 Mitarbeiter betroffen weekend.at",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5IS2piaGpCWHVldmh5c044TzFNZUdJN2s5WVY3RnNyRHBSOUYwWjVIMjh0TjFBVkNMZWNvTkVUSnVVd2U0ZXc5Rk9Xak52MzhMdWgwdXp1OXNQYUVSM2xpQ2lsUTVfOEdGRlRwcWR2UzdPc3MzV1E?oc=5",
+   "source": "weekend.at",
+   "datum": "2026-09-07",
+   "datum_iso": "2026-09-07T08:48:08+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
    ]
   },
   {
@@ -1352,10 +1327,10 @@
   },
   {
    "quelle": "GNews Fruehsignal",
-   "titel": "Autohaus König führt trotz Insolvenz Geschäftsbetrieb fort - Nordkurier",
-   "beschreibung": "Autohaus König führt trotz Insolvenz Geschäftsbetrieb fort Nordkurier",
+   "titel": "Autohaus König führt trotz Insolvenz Geschäftsbetrieb fort - nordkurier.de",
+   "beschreibung": "Autohaus König führt trotz Insolvenz Geschäftsbetrieb fort nordkurier.de",
    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVTdKbVZDdUFoRmVIREdiRi1Lb0tsNndhZ3VCRWNFVnZtYTZOODg3NUZHaG9fVlk1bkVLMjRjdGhQVGQ3a1hXM2JnSG8tSHk2NkxnQlRUYWFEZEIwRThiVEliRVE2SlFxUnN5dDBUN1lWd0REbEM5V1NfeGRteWFBMUkwNTh2cVMxTGpmSXZ0S19GTFlrbVlsRU1Ka2kzaHI1Rmg3SnZLZ3NLRzhlYUdXNHdwSGc?oc=5",
-   "source": "Nordkurier",
+   "source": "nordkurier.de",
    "datum": "2026-09-06",
    "datum_iso": "2026-09-06T03:05:00+00:00",
    "signal": "schwach",
@@ -1380,10 +1355,10 @@
   },
   {
    "quelle": "GNews Fruehsignal",
-   "titel": "Wiener Kult-Café erneut pleite - oe24.at",
-   "beschreibung": "Wiener Kult-Café erneut pleite oe24.at",
+   "titel": "Wiener Kult-Café erneut pleite - oe24",
+   "beschreibung": "Wiener Kult-Café erneut pleite oe24",
    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1ZTVVQcTRaMmVJVkZ5bG9pbzAzWFA0SVFSSEdtNEFkSmJmajR4b2FMMnlYVzdOQUg0VEdrRmpMbmVZNTR2Y2hMc0VSVWc1ZjBJYnZ3c0ppRUlCamZXVmYxT3lJcDBmQlptQS01SjVRSdIBdEFVX3lxTE84dWxXN293cjk0NEhPRHdUNW1oTXpfNUktb2taQk9WZGF5anpCNGd4dGhWNUNxQkt3QmVkaHozNUtON19oSmVlQ2V4ZV9NdlZzbFEwT0FIWVg1S3RMLUtvamZtSGV6M1RUNU9WNTdUMkJZN2d5?oc=5",
-   "source": "oe24.at",
+   "source": "oe24",
    "datum": "2026-09-06",
    "datum_iso": "2026-09-06T20:21:12+00:00",
    "signal": "schwach",
