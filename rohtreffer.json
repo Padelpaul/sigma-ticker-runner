@@ -1,14 +1,14 @@
 {
  "meta": {
-  "lauf": "2026-09-11T09:26:08",
-  "lauf_utc": "2026-09-11T09:26:08+00:00",
+  "lauf": "2026-09-12T07:42:43",
+  "lauf_utc": "2026-09-12T07:42:43+00:00",
   "version": "2026-09-07a",
   "problem": [],
   "fenster_tage": 3,
   "feeds_gesamt": 56,
   "feeds_ok": 56,
-  "n_roh": 147,
-  "n_stark": 110
+  "n_roh": 144,
+  "n_stark": 107
  },
  "health": {
   "Handelsblatt Unternehmen": "ok:20",
@@ -19,7 +19,7 @@
   "SZ Wirtschaft": "ok:15",
   "WELT Wirtschaft": "ok:30",
   "Zeit Wirtschaft": "ok:15",
-  "Tagesschau Wirtschaft": "ok:20",
+  "Tagesschau Wirtschaft": "ok:23",
   "ntv Wirtschaft": "ok:30",
   "Focus (Finanzen)": "ok:400",
   "Capital": "ok:20",
@@ -27,15 +27,15 @@
   "FinanzNachrichten": "ok:20",
   "wallstreet-online": "ok:101",
   "WDR Wirtschaft": "ok:35",
-  "BR24": "ok:10",
+  "BR24": "ok:12",
   "MDR": "ok:5",
-  "SWR": "ok:62",
+  "SWR": "ok:55",
   "hessenschau Wirtschaft (HR)": "ok:25",
   "rbb24 Wirtschaft": "ok:116",
-  "Radio Bremen (buten un binnen)": "ok:37",
+  "Radio Bremen (buten un binnen)": "ok:30",
   "WAZ Wirtschaft": "ok:63",
   "Rheinische Post": "ok:6",
-  "Koelner Stadt-Anzeiger Wirtschaft": "ok:34",
+  "Koelner Stadt-Anzeiger Wirtschaft": "ok:36",
   "Westfaelische Nachrichten": "ok:100",
   "Neue Westfaelische": "ok:10",
   "Ruhr Nachrichten": "ok:12",
@@ -62,28 +62,13 @@
   "Westf. Anzeiger wa.de (Lokal)": "ok:40",
   "Kreiszeitung Niedersachsen (Lokal)": "ok:40",
   "come-on Maerkischer Kreis (Lokal)": "ok:40",
-  "GNews Insolvenzantrag": "ok:83",
-  "GNews Verfahren/Verwalter": "ok:28",
-  "GNews Sanierung/StaRUG": "ok:14",
-  "GNews Investorenprozess": "ok:5",
-  "GNews Fruehsignal": "ok:34"
+  "GNews Insolvenzantrag": "ok:74",
+  "GNews Verfahren/Verwalter": "ok:30",
+  "GNews Sanierung/StaRUG": "ok:17",
+  "GNews Investorenprozess": "ok:4",
+  "GNews Fruehsignal": "ok:26"
  },
  "treffer": [
-  {
-   "quelle": "Handelsblatt Unternehmen",
-   "titel": "Volkswagen: Stellenabbau und mögliche Werksschließungen: VW-Sanierung könnte 16 Milliarden Euro kosten",
-   "beschreibung": "Der größte Umbau der Konzerngeschichte soll Kosten senken, verursacht zunächst aber selbst hohe Ausgaben. Interne Unterlagen zeigen, wie groß die Lücken im Sanierungsplan sind.",
-   "link": "https://www.handelsblatt.com/unternehmen/industrie/volkswagen-vw-sanierung-koennte-16-milliarden-euro-kosten/100253519.html",
-   "source": "",
-   "datum": "2026-09-10",
-   "datum_iso": "2026-09-10T11:36:42+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Stellenabbau",
-    "Werksschließung"
-   ]
-  },
   {
    "quelle": "Manager Magazin",
    "titel": "United Internet: Stellenabbau bei 1&1 und Ionos - Rund 800 Jobs fallen weg",
@@ -100,8 +85,22 @@
   },
   {
    "quelle": "WirtschaftsWoche Unternehmen",
-   "titel": "Insolvenz-Statistik: So viele Pleiten wie seit 2013 nicht mehr",
-   "beschreibung": "18,5 Milliarden Euro Forderungen, mehr als 12.800 Insolvenzen: Welche Branchen am stärksten betroffen sind und wie sich die Lage seit 2013 verändert hat.",
+   "titel": "Insolvenzen: Diese Fehler zwingen Autohändler in die Knie",
+   "beschreibung": "Die Insolvenzen häufen sich – als Gründe nennen die Händler oft steigende Kosten oder Kaufzurückhaltung. Doch auch Managementfehler spielen eine Rolle.",
+   "link": "https://www.wiwo.de/unternehmen/auto/autohaendler-insolvenzen-warum-so-viele-unternehmen-scheitern/100253127.html",
+   "source": "",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T15:26:00+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "WirtschaftsWoche Unternehmen",
+   "titel": "Insolvenz-Statistik: Insolvenzwelle auf langjährigem Rekordhoch",
+   "beschreibung": "18,5 Milliarden Euro Forderungen und mehr als 12.800 Insolvenzen im ersten Halbjahr. Warum sich an dem Trend so schnell nichts ändern wird.",
    "link": "https://www.wiwo.de/unternehmen/offizielle-insolvenz-statistik-so-viele-pleiten-wie-seit-2013-nicht-mehr/100253797.html",
    "source": "",
    "datum": "2026-09-11",
@@ -109,66 +108,21 @@
    "signal": "schwach",
    "datum_unbekannt": false,
    "keywords": [
-    "Insolvenz",
-    "Pleite"
-   ]
-  },
-  {
-   "quelle": "WirtschaftsWoche Unternehmen",
-   "titel": "Autobauer: Volkswagen beziffert Kosten für Stellenabbau offenbar auf 16 Milliarden Euro",
-   "beschreibung": "Der Stellenabbau könnte VW Milliarden kosten. Allein für Emden und Zwickau rechnet der Konzern laut einem Insider mit jeweils einer Milliarde Euro.",
-   "link": "https://www.wiwo.de/unternehmen/auto/vw-autobauer-beziffert-kosten-fuer-stellenabbau-offenbar-auf-16-milliarden-euro/100253533.html",
-   "source": "",
-   "datum": "2026-09-10",
-   "datum_iso": "2026-09-10T10:51:00+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Stellenabbau"
-   ]
-  },
-  {
-   "quelle": "WirtschaftsWoche Unternehmen",
-   "titel": "Iran-Sanktionen: BaFin schickt deutschen Ableger der iranischen Bank Sepah in die Insolvenz",
-   "beschreibung": "Die deutsche Zweigstelle der iranischen Bank Sepah hat Millionen Euro bei der Bundesbank deponiert. Trotzdem wurde ein Insolvenzverfahren eröffnet.",
-   "link": "https://www.wiwo.de/unternehmen/banken/bank-sepah-bafin-schickt-deutschen-ableger-der-iranischen-bank-in-die-insolvenz/100253284.html",
-   "source": "",
-   "datum": "2026-09-10",
-   "datum_iso": "2026-09-10T09:32:57+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenzverfahren eröffnet",
-    "Insolvenzverfahren",
     "Insolvenz"
    ]
   },
   {
-   "quelle": "WELT Wirtschaft",
-   "titel": "US-israelisches Start-up will Marschflugkörper bauen",
-   "beschreibung": "Das US-israelische Rüstungsunternehmen Covenant will im Raum Leipzig eine umfangreiche Produktion weitreichender Marschflugkörper aufbauen. Die Produktion des Systems „Anthem“ solle im kommenden Jahr für europäische Kunden beginnen.",
-   "link": "https://www.welt.de/wirtschaft/video6aa151cd181cb962d4889661/waffenproduktion-in-sachsen-us-israelisches-start-up-will-marschflugkoerper-bauen.html",
+   "quelle": "SZ Wirtschaft",
+   "titel": "Konjunktur: Die Unternehmenspleiten in Deutschland steigen auf Höchststand seit 2013",
+   "beschreibung": "Besonders häufig waren Insolvenzen im Bereich Verkehr und Lagerei und im Gast- und Baugewerbe, wie neue Zahlen des Statistischen Bundesamtes zeigen.",
+   "link": "https://www.sueddeutsche.de/wirtschaft/pleiten-insolvenzen-hoechstwert-unternehmen-destatis-li.3546053",
    "source": "",
-   "datum": "2026-09-09",
-   "datum_iso": "2026-09-09T12:53:52+00:00",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T12:47:36+00:00",
    "signal": "schwach",
    "datum_unbekannt": false,
    "keywords": [
-    "Covenant"
-   ]
-  },
-  {
-   "quelle": "WELT Wirtschaft",
-   "titel": "US-israelische Rüstungsfirma will Marschflugkörper in Sachsen bauen",
-   "beschreibung": "Das US-israelische Rüstungsunternehmen Covenant will ab 2027 im Raum Leipzig weitreichende Marschflugkörper produzieren. Im ersten Jahr sollen rund 1000 Anthem-Systeme entstehen. Gespräche mit der Bundeswehr laufen offenbar bereits.",
-   "link": "https://www.welt.de/wirtschaft/article6aa12ed4181cb962d48892cf/us-israelische-ruestungsfirma-will-marschflugkoerper-in-sachsen-bauen.html",
-   "source": "",
-   "datum": "2026-09-09",
-   "datum_iso": "2026-09-09T10:04:54+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Covenant"
+    "Insolvenz"
    ]
   },
   {
@@ -186,20 +140,6 @@
    ]
   },
   {
-   "quelle": "ntv Wirtschaft",
-   "titel": "Diese Standorte müssen schließen: Discounter Kodi streicht nach Insolvenz das Filialnetz zusammen",
-   "beschreibung": "Die Wirtschaftskrise führt zu immer mehr Insolvenzen im Einzelhandel - so auch beim Non-Food-Discounter Kodi. Im Zuge der Sanierung schrumpft die Zahl der Filialen. Nun steht fest, welche Standorte bald schließen müssen.",
-   "link": "https://www.n-tv.de/wirtschaft/Discounter-Kodi-streicht-nach-Insolvenz-das-Filialnetz-zusammen-id31287742.html",
-   "source": "",
-   "datum": "2026-09-09",
-   "datum_iso": "2026-09-09T15:46:38+02:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenz"
-   ]
-  },
-  {
    "quelle": "Capital",
    "titel": "Insolvenzen: Zahl der Firmenpleiten steigt auf höchsten Stand seit 13 Jahren",
    "beschreibung": "Die Pleitewelle in Deutschland gewinnt an Fahrt: Im ersten Halbjahr meldeten so viele Unternehmen Insolvenz an wie seit 13 Jahren nicht mehr. Besonders hart trifft es drei Branchen",
@@ -211,6 +151,63 @@
    "datum_unbekannt": false,
    "keywords": [
     "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "Boersen-Zeitung",
+   "titel": "Pleiten, Pech und Pannen im Wahlkampf",
+   "beschreibung": "Berlins Wahlkampf gerät kurz vor dem Urnengang zur Belastungsprobe für CDU und SPD. Während die Linke in Umfragen führt, strahlt der der Disput um Wohnen und Enteignung auf die Bundespolitik aus.",
+   "link": "https://www.boersen-zeitung.de/news/bz-all-rss/konjunktur-politik/kein-titel-101",
+   "source": "",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T16:21:08+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Pleite"
+   ]
+  },
+  {
+   "quelle": "Boersen-Zeitung",
+   "titel": "VID nennt Anstieg der Insolvenzen „beherrschbar“",
+   "beschreibung": "Die Zahl der Firmenpleiten steigt weiter, dennoch sieht der Verband der Insolvenzverwalter keine Insolvenzwelle. Der Anstieg bleibe beherrschbar.",
+   "link": "https://www.boersen-zeitung.de/news/bz-all-rss/unternehmen-branchen/vid-nennt-anstieg-der-insolvenzen-beherrschbar",
+   "source": "",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T15:24:27+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenzverwalter",
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "Boersen-Zeitung",
+   "titel": "KI verhilft United Internet zu Sparprogramm",
+   "beschreibung": "United Internet folgt mit ihrem Stellenabbau dem Beispiel des Wettbewerbers Telefónica Deutschland. Deren Hoffnungen auf einen Zusammenschluss erscheinen zunehmend unrealistisch.",
+   "link": "https://www.boersen-zeitung.de/news/bz-all-rss/unternehmen-branchen/ki-verhilft-united-internet-zu-sparprogramm",
+   "source": "",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T15:08:53+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Stellenabbau"
+   ]
+  },
+  {
+   "quelle": "Boersen-Zeitung",
+   "titel": "Vanquis verliert CEO Ian McLaughlin",
+   "beschreibung": "Vanquis-CEO Ian McLaughlin will sein Amt bis spätestens Ende des Jahres „aus persönlichen Gründen“ niederlegen. Im Juli hatte das Institut eine Gewinnwarnung abgegeben.",
+   "link": "https://www.boersen-zeitung.de/news/bz-all-rss/personen/vanquis-verliert-ceo-ian-mclaughlin",
+   "source": "",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T09:48:26+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Gewinnwarnung"
    ]
   },
   {
@@ -329,64 +326,6 @@
    ]
   },
   {
-   "quelle": "wallstreet-online",
-   "titel": "Turnaround-Kandidat?: Nach Crash: RBC sieht jetzt bei dieser Burger-Aktie 28 % Potenzial!",
-   "beschreibung": "Die Shake-Shack-Aktie hat sich seit ihrem Hoch mehr als halbiert. RBC setzt auf ein Comeback. Die Hintergründe.",
-   "link": "https://www.wallstreet-online.de/nachricht/21349994-turnaround-kandidat-crash-rbc-burger-aktie-28-potenzial",
-   "source": "",
-   "datum": "2026-09-08",
-   "datum_iso": "2026-09-08T20:30:00+02:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Turnaround"
-   ]
-  },
-  {
-   "quelle": "WDR Wirtschaft",
-   "titel": "Kodi schließt 19 Filialen in NRW",
-   "beschreibung": "Im Juli hatte der Discounter Kodi Insolvenz angemeldet. Nun schließt er 19 weitere Filialen - alle in Nordrhein-Westfalen.",
-   "link": "https://www1.wdr.de/nrw/kodi-discounter-filialen-100.html",
-   "source": "",
-   "datum": "2026-09-09",
-   "datum_iso": "2026-09-09T12:17:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenz angemeldet",
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "BR24",
-   "titel": "Statistiker verzeichnen mehr Insolvenzen in Deutschland",
-   "beschreibung": "Firmenpleiten in Deutschland steigen rapide an: Im ersten Halbjahr 2026 sind so viele Unternehmen insolvent gegangen, wie seit 2013 nicht mehr. Das teilte das Statistische Bundesamt mit. Die Zahl der Firmenpleiten ist in den ersten sechs Monaten im Vergleich zum Vorjahr um 6,7 Prozent auf fast 13.000 gestiegen. Am häufigsten betroffen waren Betriebe in den Bereichen Verkehr und Lagerei, Gast- sowie Baugewerbe. ( BR24 Radio-Nachrichten 11.09.2026 10:15)",
-   "link": "https://www.br.de/nachrichten/meldungen/index.html#n3",
-   "source": "",
-   "datum": "2026-09-11",
-   "datum_iso": "2026-09-11T11:16:53+02:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent",
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "MDR",
-   "titel": "Firmenpleiten auf höchstem Stand seit 2013",
-   "beschreibung": "In Deutschland ist die Zahl der Firmenpleiten auf den höchsten Stand seit 13 Jahren gestiegen. Wie das Statistische Bundesamt mitteilte, wurden im ersten Halbjahr fast 13.000 Unternehmens-Insolvenzen beantragt. Das seien 6,7 Prozent mehr gewesen als im Vorjahreszeitraum. - Die meisten Anträge kamen demnach aus den Bereichen Verkehr, Gastgewerbe und der Baubranche.",
-   "link": "https://www.mdr.de/nachrichten/nachrichten-mdr-104.html#Firmenpleiten-auf-hoechstem-Stand-seit-2013",
-   "source": "",
-   "datum": "2026-09-11",
-   "datum_iso": "2026-09-11T11:21:03+02:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenz"
-   ]
-  },
-  {
    "quelle": "WAZ Wirtschaft",
    "titel": "US-Rüstungsfirma will pro Jahr 5000 Marschflugkörper in Sachsen bauen",
    "beschreibung": "Die Rüstungsfirma Covenant plant eine Fabrik im Raum Leipzig. Ab 2027 sollen dort jährlich bis zu 5000 Marschflugkörper gebaut werden.",
@@ -398,6 +337,20 @@
    "datum_unbekannt": false,
    "keywords": [
     "Covenant"
+   ]
+  },
+  {
+   "quelle": "Rheinische Post",
+   "titel": "Nach Produktionsstopp in Düsseldorf: Löwensenf investiert Millionen in neuen Laden – und wird dort ABB-Senf produzieren",
+   "beschreibung": "Ende 2025 wurde die traditionsreiche Senfproduktion in Düsseldorf aufgegeben, jetzt kommt vom Mutterkonzern Develey eine gute Nachricht: Der künftige Standort nahe dem Carlsplatz wird deutlich größer als bisher – und holt ein Stück „Düsseldorfer Mostert“ zurück.",
+   "link": "https://rp-online.de/nrw/staedte/duesseldorf/duesseldorf-loewensenf-laden-wird-bis-sommer-2027-neu-eroeffnet_aid-151792125",
+   "source": "",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T17:41:00+02:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Produktionsstopp"
    ]
   },
   {
@@ -418,10 +371,10 @@
    "quelle": "Augsburger Allgemeine Wirtschaft",
    "titel": "Autohaus mit 1200 Beschäftigten insolvent: Was wird aus den Standorten in Bayern?",
    "beschreibung": "Die Autohaus Gotthard König GmbH aus Berlin hat Insolvenz angemeldet. Auch in München hat der Konzern zwei Standorte.",
-   "link": "https://www.augsburger-allgemeine.de/bayern/autohaus-koenig-insolvent-auch-standorte-in-bayern-betroffen-11-09-115166926",
+   "link": "https://www.augsburger-allgemeine.de/bayern/autohaus-koenig-insolvent-auch-standorte-in-bayern-betroffen-115166926",
    "source": "",
-   "datum": "2026-09-11",
-   "datum_iso": "2026-09-11T04:16:02+00:00",
+   "datum": "2026-09-12",
+   "datum_iso": "2026-09-12T05:33:27+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -432,12 +385,27 @@
   },
   {
    "quelle": "Muenchner Merkur Wirtschaft",
-   "titel": "Seit 1737 Papier produziert – jetzt ist nach Insolvenz für immer Schluss",
-   "beschreibung": "Ein Industriebetrieb mit Geschichte seit 1737 findet keinen Investor mehr. Für die Region endet damit ein Stück Papiergeschichte.",
-   "link": "https://www.merkur.de/wirtschaft/papierfabrik-schleipen-schliesst-nach-fast-300-jahren-zr-94483748.html",
+   "titel": "Nach geplatztem Investorenprozess: Logistik-Gruppe am Bodensee muss Insolvenz anmelden",
+   "beschreibung": "Weil ein außergerichtlicher Investorenprozess nicht erfolgreich war, meldete die KÖGL-Gruppe Insolvenz an. Das ist der aktuelle Stand im Verfahren.",
+   "link": "https://www.merkur.de/wirtschaft/anmelden-logistik-gruppe-am-bodensee-muss-insolvenz-94487934.html",
    "source": "",
-   "datum": "2026-09-10",
-   "datum_iso": "2026-09-10T08:03:17+02:00",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T14:12:13+02:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Investorenprozess",
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "Muenchner Merkur Wirtschaft",
+   "titel": "Alle 20 Minuten eine Insolvenz: Zahlen zeigen düsteren Trend – diese Branchen sind jetzt im Fokus",
+   "beschreibung": "Die Zahl der Insolvenzen steigt wieder und erreicht den höchsten Wert seit 2013. Das Statistische Bundesamt meldet zudem neue Tendenzen bei den Firmenpleiten.",
+   "link": "https://www.merkur.de/wirtschaft/insolvenzen-rekord-alle-20-minuten-eine-pleite-diese-branchen-trifft-es-jetzt-zr-94487452.html",
+   "source": "",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T13:06:14+02:00",
    "signal": "schwach",
    "datum_unbekannt": false,
    "keywords": [
@@ -446,16 +414,17 @@
   },
   {
    "quelle": "Muenchner Merkur Wirtschaft",
-   "titel": "Rekordpleiten: Deutschlands Autobranche stürzt in die Insolvenzfalle",
-   "beschreibung": "Sieben Großinsolvenzen in sechs Monaten: Die Autobranche ist Deutschlands Pleite-Spitzenreiter 2026 – und eine Entspannung ist nicht in Sicht.",
-   "link": "https://www.merkur.de/wirtschaft/grossinsolvenzen-2026-autobranche-fuehrt-deutschlands-pleitenliste-zr-94483623.html",
+   "titel": "VW-Sanierung: 16 Mrd. Euro für den Abschied vom Personal",
+   "beschreibung": "Volkswagen kalkuliert laut Insider-Angaben 16 Mrd. Euro für Stellenabbau und mögliche Werksschließungen; Emden und Zwickau drohen ab 2031 das Aus, entschieden ist aber noch nichts.",
+   "link": "https://www.merkur.de/wirtschaft/vw-sanierung-16-mrd-euro-fuer-den-abschied-vom-personal-zr-94486677.html",
    "source": "",
-   "datum": "2026-09-09",
-   "datum_iso": "2026-09-09T22:30:25+02:00",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T12:19:00+02:00",
    "signal": "schwach",
    "datum_unbekannt": false,
    "keywords": [
-    "Pleite"
+    "Stellenabbau",
+    "Werksschließung"
    ]
   },
   {
@@ -473,13 +442,42 @@
    ]
   },
   {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "LIV Golf insolvent: 14 Spieler auf der Gläubigerliste – Rahm, DeChambeau und Johnson ganz oben - Golf Post",
-   "beschreibung": "LIV Golf insolvent: 14 Spieler auf der Gläubigerliste – Rahm, DeChambeau und Johnson ganz oben Golf Post",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMHRVRUhwZ29VZ01KOFUzcWtGQ1FEVXJiWm5xU01Ncktlc1dPM2pmNkwtSVFwN3VBQUxydm1KRGRLNERnUEUydDNQNTRTLTI5eUxjWG5hanBQTnhkekstekREQ1JvMENwMk01Ml9PSWkzNmdyRGwtWmlRemVKc0dNLTlCRFBKdW9WSEU5RXhXVkw3Z0hjZDNndndRdXhyb2E5RzVoNDVpdFkzSm5oRzJJMzVodXhTYWswZlV4N1k4TE5vQnRIN0E?oc=5",
-   "source": "Golf Post",
+   "quelle": "JUVE",
+   "titel": "BRL, Reimer und Pluta übernehmen bei Enerparc-Rettung",
+   "beschreibung": "Der Hamburger Solarparkentwickler und -betreiber Enerparc ist insolvent. Die Krise trifft eine Unternehmensgruppe, die noch im Frühjahr eine Refinanzierung von mehr als einer Milliarde Euro vereinbart hatte. Die hohe Verschuldung und komplexe Finanzierungsstruktur legen nun einen umfassenden Sanierungsbedarf offen. Der Beitrag BRL, Reimer und Pluta übernehmen bei Enerparc-Rettung erschien zuerst auf juve.de .",
+   "link": "https://www.juve.de/verfahren/brl-reimer-und-pluta-uebernehmen-enerparc-rettung-von-moehrle-und-freshfields/",
+   "source": "",
    "datum": "2026-09-11",
-   "datum_iso": "2026-09-11T08:06:12+00:00",
+   "datum_iso": "2026-09-11T14:34:45+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent",
+    "Refinanzierung"
+   ]
+  },
+  {
+   "quelle": "Merkur Muenchen (Lokal)",
+   "titel": "Alt-OB im Interview: Reiter spricht über die Wiesn – und sein neues Privatleben",
+   "beschreibung": "Sechs Monate nach der Wahl-Pleite: Dieter Reiter über Selfies am Marienplatz, Bike-Touren auf der Theresienwiese und Wiesn-Besuche ohne Bodyguards.",
+   "link": "https://www.merkur.de/lokales/muenchen/reiter-ueber-die-oktoberfest-wiesn-heuer-trink-ich-mittags-eine-richtige-mass-94488912.html",
+   "source": "",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T18:00:00+02:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Pleite"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Immer mehr Autohäuser insolvent – wie der klassische Autohandel überleben kann - MDR.de",
+   "beschreibung": "Immer mehr Autohäuser insolvent – wie der klassische Autohandel überleben kann MDR.de",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVWVKRGtBVzJWZExsbHNiTHpRX0VNbDlaVF9rZUFoNUNuc3JKcUxZRkRhVGdhV0phRm9YRXllc1hzZmd2YTU2UnlwNmpTc3J4YTg0Nkk2VngtdFdsa25XMjF0ZXFYN2ZBUHpfTUlIM19yem5fMnpJZk45dVYxN2VZOTlKOWNjLXhYU2FjVklRUkQ1M3U2TFZXZktYdm5pcG5MY042dTVkemY2Vlg2VkZ4RFh4emItQTdveHc?oc=5",
+   "source": "MDR.de",
+   "datum": "2026-09-12",
+   "datum_iso": "2026-09-12T03:00:00+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -488,27 +486,41 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Digitales Lernen in Wermelskirchen: Rockid.one meldet Insolvenz an – die Idee lebt weiter - RP Online",
-   "beschreibung": "Digitales Lernen in Wermelskirchen: Rockid.one meldet Insolvenz an – die Idee lebt weiter RP Online",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZHo5VnBReFdDY1VVZlVNdXdCNXB0OGpUVDVDbF9sNDlpQlZzbkk1Uk1zZ0s3VmZBTENzSHJaVU1iU2l3X190ZjR4elV3cGlneFFoMEpnNkFyZk1Dbm9MSUZuZlZQSWotdEFMYnQ4eGh0djhRTUxXVFVXc2tLTU9VaUFSRVk1OG02c1dacXVHN0JuVE1iZHk4dl9oNmNsbUE0NXdqTU45VXpvT1JDeWpsNlpYeks1aG9tXzNVRlFaMWdiRkJKZHg4?oc=5",
-   "source": "RP Online",
+   "titel": "Traditionsbetrieb Tullauer Pappen steckt in der Krise und meldet Insolvenz an - SWR",
+   "beschreibung": "Traditionsbetrieb Tullauer Pappen steckt in der Krise und meldet Insolvenz an SWR",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSXFFZXQ1dllkZmQwMENFNWpnUS14MHBIa0ZMN3lRcWJ6Y0RLY3Z3M0pzQlF0eDVrNk03UFVNUUV6OTh1RVh6Mm9UdnAyTzdTdVVnQm5ZN1ZPbk1oWldoTkp3NFF5X09wVTFtbUZ2QS1UNnFGbGY0UEEwOEplSGROYmlvcFhyY2ZyVFk3WHdVWlpxVi03U0lYdGlSUWNOZTFtdWRocENyWXVJNVRxS2E2UWphYVFTQXFGVnBDSW1R?oc=5",
+   "source": "SWR",
    "datum": "2026-09-11",
-   "datum_iso": "2026-09-11T07:43:00+00:00",
+   "datum_iso": "2026-09-11T13:52:30+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
     "meldet Insolvenz",
     "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Papierfabrik nach 150 Jahren insolvent: So viele Jobs stehen auf der Kippe - BILD",
+   "beschreibung": "Papierfabrik nach 150 Jahren insolvent: So viele Jobs stehen auf der Kippe BILD",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOOWU3UXR1V1R6LVRiZ3JRUEdjM3B1WnJjbHpBekUtMWFkYk92OF9pX05Va2t1Z0dXcU05M1RWSHJ6dWFuQUhHblN2b3pUXzMtdUJtQTlDa2U3a0t6aGFZaF8xb1pZSzNSeXZBbWtVeHhFZ1lFOTNPa3ZSMWpfaWdSNWNzTThzTVppbmxlUzRneXpOX3VfYTVacDZsNkZVU3FoNHhiaVVhbXJxekJzVTd4dTdJbmt3STczdDBSbFdoS3Q0dGRPelNOX0RGQk94TmJjRE5EY2xvOHNWd2VDdmlr?oc=5",
+   "source": "BILD",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T13:31:15+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
    ]
   },
   {
    "quelle": "GNews Insolvenzantrag",
    "titel": "Prinz-Mayweg meldet Insolvenz an: 150 Altenaer Arbeitsplätze in Gefahr - Come-on",
    "beschreibung": "Prinz-Mayweg meldet Insolvenz an: 150 Altenaer Arbeitsplätze in Gefahr Come-on",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOajg5TXhvRC1uVEF6aEJ6OGV1bloyOEx4bjVHMnFnY05YbE5SZnVzd1p3R05aZ3lyUEhOZThjTHU3OV9rSzhkVDgwSkp4aS0tVEFBUGJtR2NMR3pBSWZqSC0xUmdhMWN4VElGT3JuSldSZDRJU3pOVjFjamJyZ3pzZWZvdVdCVHRUZFVkRVNTMlp2UWVvNXcxTmZ2cngxRDFzSkhGWFVKOA?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSUxDN1V1Zk5ZaUs1cnR2cVZvSy1DdEhyNFBnWFNydC16RGtBUWdKWVdFQ1VwTmFFNkcxbTR2T0dGeDRfSnJRX1Z4N3RyMk5ib25NSEowbjdPVDhUYkdjU0xCTTZOenRuQlJpQnlnMGU0eHJ6bkFsanUxSnZEMEN1X1drVFduRnp4YUNQX0VYUzc2RTNTZ3BEX0hxM0p1dGRCWEtGTmhLMA?oc=5",
    "source": "Come-on",
-   "datum": "2026-09-10",
-   "datum_iso": "2026-09-10T16:54:21+00:00",
+   "datum": "2026-09-12",
+   "datum_iso": "2026-09-12T02:48:00+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -518,45 +530,30 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Tullau Pappen stellt Insolvenzantrag: Betrieb wird an beiden Standorten fortgeführt - euwid-papier.de",
-   "beschreibung": "Tullau Pappen stellt Insolvenzantrag: Betrieb wird an beiden Standorten fortgeführt euwid-papier.de",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWlhHYXpNY05md283WG5LUTgwLUtubGM2dkcxTExxRTBlbTdldjBBeVJsUGhQSW02RWJPakdqQ0JNMVRXQzRqRHdMSEtIVFBmMHdFV0hncnlXTDRhVm5VR2Y0NkhIYVdQb2k1b3lzNHUxZFBDSGRmdjk3dk5CNDlnR3JDcXp6djZleUZjcHJ4RWdCSldlcmNlekFUU0xfeGdrNXJkbXR3?oc=5",
-   "source": "euwid-papier.de",
-   "datum": "2026-09-11",
-   "datum_iso": "2026-09-11T06:04:00+00:00",
-   "signal": "stark",
+   "titel": "Insolvenz der Wahl-Gruppe trifft auch Aachener Standort - Aachener Zeitung",
+   "beschreibung": "Insolvenz der Wahl-Gruppe trifft auch Aachener Standort Aachener Zeitung",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdmJ1cUJGZ1hPRnU3OW12cWc1d2xHR213MElTcWtFaGFGcHlFRy10Q1M4d1dqZkZvREs1UHM4cnJ4c3BmZ1pYcGtVODhmVF9FR2xfNDV4OGxmSzNmZ09rYUdwaGtSbGdrMGdwYUVyR3h3VkplVy10djl0ZHNsQ252a0t0Y29LRUFZaEN6T0RvWFpJYTJTNm9vcGNaalR0NHJDTDd2MW80a0U1WGxybzA2NlNNTGdjNTJHZEpfSk9YYWwzbG1kYlhJQUYyNA?oc=5",
+   "source": "Aachener Zeitung",
+   "datum": "2026-09-12",
+   "datum_iso": "2026-09-12T02:00:00+00:00",
+   "signal": "schwach",
    "datum_unbekannt": false,
    "keywords": [
-    "Insolvenzantrag",
-    "stellt Insolvenzantrag"
+    "Insolvenz"
    ]
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Räumungsverkauf nach Insolvenzantrag: Discounter schließt 19 Filialen - BILD",
-   "beschreibung": "Räumungsverkauf nach Insolvenzantrag: Discounter schließt 19 Filialen BILD",
-   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQcDNaRHR6UU12Y1dQOG5lOEthUzktOXI1X3JBbHRRbGRzRktwTS1iSW9OQ3FwcDZ6bkhMRV9GX0FwWTRqbGVjMlFqazlULXF6NWVFZnNsYU9EWEVCd0hSYWlDbHpaVXY0XzMyaGNFN2Jkd0lQZFdtdC1JMzctYWxQaTgxbGxzWjduOE5rdjFnWmlselVObm5vN0poQmRzSl9TcTVvUWFVekxCTUxJZHBkQ3lmQkc4dzhFX1lRZHpkOWV4RjJMY0VTdm9RbnZ6a21yRUtOUVVuT0puT2NG?oc=5",
-   "source": "BILD",
-   "datum": "2026-09-10",
-   "datum_iso": "2026-09-10T15:58:39+00:00",
-   "signal": "stark",
+   "titel": "Automobilzulieferer Paragon: Was bedeutet die Insolvenz für den Standort in Landsberg? - Augsburger Allgemeine",
+   "beschreibung": "Automobilzulieferer Paragon: Was bedeutet die Insolvenz für den Standort in Landsberg? Augsburger Allgemeine",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQ2pkd3lRcWNxSTVkNDdaSU1hOENadWtNb2ZjQy01UV9rVENCeWJIZzVPd05XQWIyN3RzaFUyeFF6QUQ1bEphbGZPbDFkdXdOZGhnajVneDVWOEhsTVVSQUZ2Y2pfMVVYeFJKX3ZaQXdCV0FVcXJVejV4QWNRT3o4ZHVYWWxwRDJoZlVkTGwzNlhKdWZHZDR4MnFHMGRtNXlaNFpBYkpCa1k0LU9LTy15OTVIZlIzOFhRSnVLbUJjOUN0T0RqNmFPQ2dvd0EwZ1hI?oc=5",
+   "source": "Augsburger Allgemeine",
+   "datum": "2026-09-12",
+   "datum_iso": "2026-09-12T07:00:00+00:00",
+   "signal": "schwach",
    "datum_unbekannt": false,
    "keywords": [
-    "Insolvenzantrag"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Traditionsunternehmen ist insolvent: 310 Mitarbeiter an drei Standorten betroffen - Soester Anzeiger",
-   "beschreibung": "Traditionsunternehmen ist insolvent: 310 Mitarbeiter an drei Standorten betroffen Soester Anzeiger",
-   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQMmF2NVY2MlhkSGpJb0JSdEQ2NWktOGpCWVhsdEljVHhFN0JVZHlSU1F4Z2VYRnl2aWJDTlVMQzZkSEMycUNxdUpLeGlOVXpoVXZyc2UwZXczSXNpN2VwRHhYWlVTMHJtWElCaF9IbE1kaXRVSEp3MVZjVFlHRUFpbmFRdG9ybGRRT3JmbHhzLXlaeXFPUzBLV19ZTXZ2cUFZaFVObWhpVW0wUXdTLTh6OXVKVnJ5U2ZLQ0d1Qm1mM3hnYzg3Ry1LMlFyaWU5Rmh1Rm1qU1dERkcyNnc?oc=5",
-   "source": "Soester Anzeiger",
-   "datum": "2026-09-10",
-   "datum_iso": "2026-09-10T16:00:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
+    "Insolvenz"
    ]
   },
   {
@@ -575,59 +572,59 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Enerparc in der Hafencity pleite: Was die Solarpark-Insolvenz über die Energiewende verrät - ndr.de",
-   "beschreibung": "Enerparc in der Hafencity pleite: Was die Solarpark-Insolvenz über die Energiewende verrät ndr.de",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbkgxMUxwV19hQjR5N3ZGOVJpcjh3WDFNUUE0cXRZb00wdVB6cDlERndHS010cVZVblJ0emI4MGNoR2N4ZEFtbVdHVkl4NFNCdUh6LURkQmRIUnduUnJWbVY1NWVORmxZYVhycHVmRzl3YWdYaE12TlpZdHFrOEU0ZUFjdzBrckxvMHVsUzhYeENpcHpJSDhOY251SktCZ2lTX2VETG5IaTM2QldmOWUxN1ZremJEbmJzZnFR?oc=5",
-   "source": "ndr.de",
-   "datum": "2026-09-09",
-   "datum_iso": "2026-09-09T03:51:00+00:00",
-   "signal": "schwach",
+   "titel": "Tullau Pappen stellt Insolvenzantrag: Betrieb wird an beiden Standorten fortgeführt - EUWID Papier und Zellstoff",
+   "beschreibung": "Tullau Pappen stellt Insolvenzantrag: Betrieb wird an beiden Standorten fortgeführt EUWID Papier und Zellstoff",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWlhHYXpNY05md283WG5LUTgwLUtubGM2dkcxTExxRTBlbTdldjBBeVJsUGhQSW02RWJPakdqQ0JNMVRXQzRqRHdMSEtIVFBmMHdFV0hncnlXTDRhVm5VR2Y0NkhIYVdQb2k1b3lzNHUxZFBDSGRmdjk3dk5CNDlnR3JDcXp6djZleUZjcHJ4RWdCSldlcmNlekFUU0xfeGdrNXJkbXR3?oc=5",
+   "source": "EUWID Papier und Zellstoff",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T06:04:00+00:00",
+   "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
-    "Insolvenz",
-    "Pleite"
+    "Insolvenzantrag",
+    "stellt Insolvenzantrag"
    ]
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Kodi schließt 19 Filialen: Diese NRW-Städte sind von der Insolvenz des Discounters betroffen - WDR",
-   "beschreibung": "Kodi schließt 19 Filialen: Diese NRW-Städte sind von der Insolvenz des Discounters betroffen WDR",
-   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE51MVYzSjdGRnY0WVZJYjAxZExLZDNZcXRWbXNuQWpsb3N3MDQ1aldjMUJyU2tSUUItaFRWU0piOGE1d0U3dnZHSEVrSEpaTVBqbXVkUDBITFA0LVJjWXQ0M2traGtWd3lT?oc=5",
-   "source": "WDR",
-   "datum": "2026-09-09",
-   "datum_iso": "2026-09-09T11:40:12+00:00",
+   "titel": "Traditionsunternehmen ist insolvent: 310 Mitarbeiter an drei Standorten betroffen - Soester Anzeiger",
+   "beschreibung": "Traditionsunternehmen ist insolvent: 310 Mitarbeiter an drei Standorten betroffen Soester Anzeiger",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQMmF2NVY2MlhkSGpJb0JSdEQ2NWktOGpCWVhsdEljVHhFN0JVZHlSU1F4Z2VYRnl2aWJDTlVMQzZkSEMycUNxdUpLeGlOVXpoVXZyc2UwZXczSXNpN2VwRHhYWlVTMHJtWElCaF9IbE1kaXRVSEp3MVZjVFlHRUFpbmFRdG9ybGRRT3JmbHhzLXlaeXFPUzBLV19ZTXZ2cUFZaFVObWhpVW0wUXdTLTh6OXVKVnJ5U2ZLQ0d1Qm1mM3hnYzg3Ry1LMlFyaWU5Rmh1Rm1qU1dERkcyNnc?oc=5",
+   "source": "Soester Anzeiger",
+   "datum": "2026-09-10",
+   "datum_iso": "2026-09-10T16:00:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Christof Industries neuerlich insolvent, 180 Mitarbeiter betroffen - derStandard.de",
+   "beschreibung": "Christof Industries neuerlich insolvent, 180 Mitarbeiter betroffen derStandard.de",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUGt5RlBITDY4OC1xN0xQanY5WVJaaG5raWxmTWdOdmpjbGNQZVFSR05aMUxabzk3dV9Qd1l0alVnQWtLWnU3aW12eWlKX2ZJZEc2Q29qQWJsTlN2Q1JHeDJFWHdoUUZlZVVGUkRkY3RPa3NPMVJSTWNneUs0TjJZLUF2dGx4UUY2MlNCTm1iWS1YckVvWHJrMFZ1NW4zWmZ4Rk9oV0RGTFVaV1YzQ1hpY01R?oc=5",
+   "source": "derStandard.de",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T09:59:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Insolvenz in Nienburg: Holiday Land schließt Reisebüro in der Georgstraße - DIE HARKE",
+   "beschreibung": "Insolvenz in Nienburg: Holiday Land schließt Reisebüro in der Georgstraße DIE HARKE",
+   "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOME9Qc1k4ajRRVHdiQ08tbGlORTM3SkQ0Nm9oQVdLeC1xQXFHRlVXZUpFRHZKNmdyUTdkZVRqUFQxT0NFQ0xkbTc4ZC1VeTJTZTlpMWdlMFBvd1JQNHlibEJ3eVNtNld2cFg4aGJzVkR3WFM0bG53SjF4QUM5cUJHV0s2ZkNIYzhYMGVFMzgzWFc0a214MnN5LUQ2ekxZWnFRMEJjVnExWXUtQ3RzZm9vWmZudEJJRXNSVld1LWI1Ylp3eWFpdl8zLU5qalNXVW9WQ3h2b2tDekFraXJnOFp5R0xoY0JaQ3NDdi1wOV9ybUlEQdIBjgJBVV95cUxNTTJIemRhb1piOEJvRzlyd1NHUVVZRXI1Z0lHQTFfTVVQd252WUxpZXB1NlBzRzFoa2F6TWFiaUw3TVNDTExDNzlyLUE4TDV4UjVBT1hzZ3VlaU5WVXZPeURERWdGeTgxZmtNT05laWdGcGpNVzBucUN3RV9rak41SEJUWlBBQWh3Q2lybWtmUHBwMEhReGxtM2RIa0hKRlYtSWRSM21xalNWWHhnY1Z6VUxsWk5YTEU2YVhsc3ZOZkRQTkFrTWxOQ2ZxTzhqZnRmREp1RGE0WVdpSjV6aHVwS3lrU2JxWkI3S1hlZHVtY0ZZdFptZUFQeVN5RmR4VzRwbEdOV21VaEV4QWk4Umc?oc=5",
+   "source": "DIE HARKE",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T15:09:23+00:00",
    "signal": "schwach",
    "datum_unbekannt": false,
    "keywords": [
     "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "„Das ist sehr fragwürdig“ – Almil Polling zieht Insolvenzantrag zurück und hüllt sich in Schweigen - Innsalzach24",
-   "beschreibung": "„Das ist sehr fragwürdig“ – Almil Polling zieht Insolvenzantrag zurück und hüllt sich in Schweigen Innsalzach24",
-   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOWjhiazhKZjhzWnBFX2Y3anh1SC02YjJXaTdwd0tOdi02b2VGekxhcUVCOFpuRy10bEFhdVBzVWNZZlpVaEpiM3ExSHc0N3dEdXI3N1JIZmo2dzM5NThMa21nNXJzRWJOd2dHSEM0LXVQaXozZGNvVXJCYzY3RkpsWkh3WWdOOWF5ck5CNW5vRzNKeHQ4N293Z1hYbjNmLTJnc08zR2NUSzJBRG1NQi1YUms2MHhIb1BFRzEwOHBybmIxQklQbGxNUl94R3JwME9kOEowTk1aZHVIbzk3OWhMcVlWQ0dTQnFEemYtZ0ZlQQ?oc=5",
-   "source": "Innsalzach24",
-   "datum": "2026-09-10",
-   "datum_iso": "2026-09-10T15:08:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenzantrag"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Paragon nach Insolvenzantrag: Entscheidet der 7. Oktober über den Fortbestand? - ad-hoc-news.de",
-   "beschreibung": "Paragon nach Insolvenzantrag: Entscheidet der 7. Oktober über den Fortbestand? ad-hoc-news.de",
-   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUmdSUUZaY0xSZ1R6VjdWVzVHeUtUMDNZM0p2ZlNDa0JXX0ZTNndpRFBQWWxaMmw2cUsxcnBZSkF1RHFrWURUcFJDeVBTekZUNldlX3pralk1czlnM2pZMlN2MzBKN1B0RUZKOXptQV9FWHR3ZUxhWG5PQm1fRm9Eei1hZ21aNFhOWEM5Q0VBSHFEMTl4emNKdnF1OEJWeG9tSkZZTUJsaWtwX3l5S1VzX0xzR3pnVXFNd3d5cXpGanh4dmZYOFA5ZGZuSElvb2xuM1E?oc=5",
-   "source": "ad-hoc-news.de",
-   "datum": "2026-09-11",
-   "datum_iso": "2026-09-11T01:18:07+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenzantrag"
    ]
   },
   {
@@ -642,36 +639,6 @@
    "datum_unbekannt": false,
    "keywords": [
     "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Neue Unsicherheit beim Ruhrfestspielhaus: Planungsbüro PASD meldet Insolvenz an - Recklinghäuser Zeitung",
-   "beschreibung": "Neue Unsicherheit beim Ruhrfestspielhaus: Planungsbüro PASD meldet Insolvenz an Recklinghäuser Zeitung",
-   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTFRGQVVpaEZkLXZIOTUyQ2FJZTlqY3p0Z0tmbUhGYlFvWlR0OXM5NE1ZRFVCOG14V0cyRGF2a05VLXFtMGlLLS0wY252dEowQmlRbGQtUC1fVlZTVXJ6RndQblZzbnV3YUxNc0pZaHdxTWs5RE12eUFhZ0RRaERDaXdncEFLdVhVdW9xa19qWkJEbzdER2h0amRGUDZ1Ti1KRUZOcmo1dlFEMVJWckNLdzRmNDZjakd4NzVfQ1lTYVZtNkZhX3RGTTA4UGdjUHNCV0sxRUNSZ1RfTXowclE?oc=5",
-   "source": "Recklinghäuser Zeitung",
-   "datum": "2026-09-10",
-   "datum_iso": "2026-09-10T14:03:33+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "meldet Insolvenz",
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Über 1.000 Jahre alter Schrein in Japan meldet Insolvenz an - Sumikai",
-   "beschreibung": "Über 1.000 Jahre alter Schrein in Japan meldet Insolvenz an Sumikai",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcklLQmVZWUJWdXROcWF2LUFWM3VCU0M3am93UEZpemhSdExsc1hmcUVodGcwaVF3b0NvQmlkTzhaNFNLTUZDTVFwOWxwQUZKWUU2eWtYREtDMkpjdFE3Tnd5SlJOTUVBOWRsMU5Cb2FGNTFOYTlUbk9uX3NaNUxTem1pQ0dLZF93dlpJYllYOTlqekFUOWduczYxbS1wMmg5V1UzbnQzTzE2S3JxWU10RzMxYmNFZw?oc=5",
-   "source": "Sumikai",
-   "datum": "2026-09-10",
-   "datum_iso": "2026-09-10T14:28:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "meldet Insolvenz",
-    "Insolvenz"
    ]
   },
   {
@@ -692,16 +659,31 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Nach Ausstieg der Saudis - LIV-Golftour hat Insolvenz angemeldet. - deutschlandfunk.de",
-   "beschreibung": "Nach Ausstieg der Saudis - LIV-Golftour hat Insolvenz angemeldet. deutschlandfunk.de",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQ0dSOVIzZDZZUXM0OTZNZ2NQQmxRZVFxamlLSU1VWmVyWU1EMWZKTDVkb1NKTHdEV1N5WkJYTlZzaDFWeFg1Sl9YSEZxTXZHQXhkdHNSOGh0d1Fndml1VXR2SWxFVXg3T2dCZGFuU1hVcFN3Q2RMdEJNRWdlSl9RcjNrWQ?oc=5",
-   "source": "deutschlandfunk.de",
-   "datum": "2026-09-10",
-   "datum_iso": "2026-09-10T10:25:42+00:00",
+   "titel": "Digitales Lernen in Wermelskirchen: Rockid.one meldet Insolvenz an – die Idee lebt weiter - RP Online",
+   "beschreibung": "Digitales Lernen in Wermelskirchen: Rockid.one meldet Insolvenz an – die Idee lebt weiter RP Online",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZHo5VnBReFdDY1VVZlVNdXdCNXB0OGpUVDVDbF9sNDlpQlZzbkk1Uk1zZ0s3VmZBTENzSHJaVU1iU2l3X190ZjR4elV3cGlneFFoMEpnNkFyZk1Dbm9MSUZuZlZQSWotdEFMYnQ4eGh0djhRTUxXVFVXc2tLTU9VaUFSRVk1OG02c1dacXVHN0JuVE1iZHk4dl9oNmNsbUE0NXdqTU45VXpvT1JDeWpsNlpYeks1aG9tXzNVRlFaMWdiRkJKZHg4?oc=5",
+   "source": "RP Online",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T07:43:00+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
-    "Insolvenz angemeldet",
+    "meldet Insolvenz",
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Prinz-Mayweg meldet Insolvenz an: Stahlrohr-Spezialist mit Werken in Altena und Wickede - WDR",
+   "beschreibung": "Prinz-Mayweg meldet Insolvenz an: Stahlrohr-Spezialist mit Werken in Altena und Wickede WDR",
+   "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNdTZBRTlZLTJpX3QzVkRmazB5RlBNcFZDNjZvVm5qVjZkb3ZyR1Z1eHZwS3ZtRDc2RnRsNVZPWDJrX1ZBN2h4U2ZXTGxMUmxWNU1vM1cxUllFOEk2b20wSE1FbHRoWmgxcXJKdHJLbWFaUnBNTlBDbk5nMlRJRHBoTzZPOWVNTnVPb3JSS25jZ196ZTNOOWhLcWd5SDZBZGJBUDhQSXpRUXZvWHVoOEI1RU9NbW91S3Fvc0x3cWNjWVRMcGtNQXZiY09xVVl5YS1keFFzdUpKcjhtOEFOcW5kTkRwTmk5bnRETzk5dmVlelpZeXhBT2JiSdIB9wFBVV95cUxOQnNkOHFtWkZrRXZTcUtXNTNtWElqYldjT1NBRXhRMHg3VUIxQ2w3QkdRLXQ1OEhTU0NrUlVYZ2pBQ3B0ZTl4dWMzSWNDNERINzRTVElnQS1tazBfSG9heEpoOWJjY2pHNmlFS3ZvUFF4XzdZODQ3NFEzV2F2TmFHVU1zWEFyMHlEaUhTazZCR1VIVWNsV1M1WXY4M3IzX0JTZDhpUmt3dzZpQ0Fmc1RMbE1TaHRaUmN6RHVCdTZTZlFuWFBTU1c5TXBmOTE0Uk5RUFlYM3ZlaWQ5WjF2a3lqX1BzZkJsS0U1NE81SHRpa3JkbXFyVklJ?oc=5",
+   "source": "WDR",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T18:54:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "meldet Insolvenz",
     "Insolvenz"
    ]
   },
@@ -721,12 +703,26 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Solarparkbetreiber Enerparc AG ist insolvent - FAZ",
-   "beschreibung": "Solarparkbetreiber Enerparc AG ist insolvent FAZ",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSlI4dDVfd3RLM1JZMzlfMW45a1NUTFFzd2E3d3llY09vc0RMQ2RsbEpzM3ZtZDlwNDNPblZHcS1mbWs4RnRGNHQ5TDRlOEdaZ0FwZTZ0dlFFb2ltSlJaSzJnVGRtZkdaX0h6Y1VpdktHbXNwODNoODlxQVQ2WnllclVZTFNKVk04NGREa1BYLURuMnpuc3hxV1M5V09uU3Mzd0lnV1dUSVMxUENMTUhN?oc=5",
-   "source": "FAZ",
-   "datum": "2026-09-08",
-   "datum_iso": "2026-09-08T14:41:05+00:00",
+   "titel": "Kodi schließt 19 Filialen: Diese NRW-Städte sind von der Insolvenz des Discounters betroffen - WDR",
+   "beschreibung": "Kodi schließt 19 Filialen: Diese NRW-Städte sind von der Insolvenz des Discounters betroffen WDR",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE51MVYzSjdGRnY0WVZJYjAxZExLZDNZcXRWbXNuQWpsb3N3MDQ1aldjMUJyU2tSUUItaFRWU0piOGE1d0U3dnZHSEVrSEpaTVBqbXVkUDBITFA0LVJjWXQ0M2traGtWd3lT?oc=5",
+   "source": "WDR",
+   "datum": "2026-09-09",
+   "datum_iso": "2026-09-09T11:40:12+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Autohaus mit 1200 Beschäftigten insolvent: Was wird aus den Standorten in Bayern? - Augsburger Allgemeine",
+   "beschreibung": "Autohaus mit 1200 Beschäftigten insolvent: Was wird aus den Standorten in Bayern? Augsburger Allgemeine",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdExNbzQ0UzVycVpDODdkUmtyMkZjQks2QVVfd0xMbEw5dExaaDFqTlY2VnUzRU16aUpzaVYzUjZRUzlMd0szSFdBaXlCWU1ueWdJZWppMXNUaUJ0RW1kRmpVNjgwQWplaUtYS2V2cGk2M3MxUjNwbTkzTHVJZnVXVDRkd1dQdG5MLUFjZm1wRU1mMnZ2UjVGRjNITGxtcDRnLTVpUHB4RElzREwyYkNTclpyQjhpWWlpRGNYNA?oc=5",
+   "source": "Augsburger Allgemeine",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T04:16:02+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -735,16 +731,73 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Weihnachtsmarkt-Veranstalter in Weidenau insolvent – wie geht es jetzt weiter? - siegener-zeitung.de",
-   "beschreibung": "Weihnachtsmarkt-Veranstalter in Weidenau insolvent – wie geht es jetzt weiter? siegener-zeitung.de",
-   "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNVWtUNWtOZF9zQ2ZacnR3bi1HYl9VS0w2aTZGd3VndlAxRG16bmx1UkxlaUhhWXNoNXN6U01CNjdWRGx5WXFVUFloaGNycG5EWXA0T0d1QUFETm85UlV3c0lfLWFTMmpmZVBzTE5MU2RGVkFwMDZNdGlPSlphVUM1aTEtakUtN2U1UmVBbzNXTkt2XzNRNFRMV1JsaVptSHNNWThCWF9Pb3cxV2pkVjBrZGNFd3NRNmxFaUhpaDl4Xy1zXzVlSjhNUnh1MnMyZWxnMGYyeGNYU0R2emxObzFfNDNOdjZTSHEzd0c0TzI0aHp3RzhjRUlfbNIBlAJBVV95cUxNMkI4Tkd2bEx5RndMZEY1VDZ5UlhJQWV4dWhKZ2RGZ0oyOWVZOEwyS1pSNjZMdDNSQXZjaHQtMFFtdnlwenVWX3NVN1NZdU93R0Job0RVU2tiaXJmUmExTFhYaWo5VmJBcUdJQ2pzVWVhUFhKRDVyaDhlOTRYNlhhUjQ0UUxOYlRNNGY2Uk5mOWJiUkFuNTAzLUNLemVtLWxkY1Q4b2o1am4wcXA4ck54bGxtN3phdmQzTS1PQWI5N19haFp0TjhQeWVWSjlLbkhiUHEybGVSMXhybU85LTgtZEJlRkl5VkhtYWZKMzlwQ3ByN1JNTGZQYTlzaTc3LUZiTmkwV1FfR1k2NU5ta04wUmRFYWo?oc=5",
-   "source": "siegener-zeitung.de",
+   "titel": "Räumungsverkauf nach Insolvenzantrag: Discounter schließt 19 Filialen - BILD",
+   "beschreibung": "Räumungsverkauf nach Insolvenzantrag: Discounter schließt 19 Filialen BILD",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQcDNaRHR6UU12Y1dQOG5lOEthUzktOXI1X3JBbHRRbGRzRktwTS1iSW9OQ3FwcDZ6bkhMRV9GX0FwWTRqbGVjMlFqazlULXF6NWVFZnNsYU9EWEVCd0hSYWlDbHpaVXY0XzMyaGNFN2Jkd0lQZFdtdC1JMzctYWxQaTgxbGxzWjduOE5rdjFnWmlselVObm5vN0poQmRzSl9TcTVvUWFVekxCTUxJZHBkQ3lmQkc4dzhFX1lRZHpkOWV4RjJMY0VTdm9RbnZ6a21yRUtOUVVuT0puT2NG?oc=5",
+   "source": "BILD",
    "datum": "2026-09-10",
-   "datum_iso": "2026-09-10T13:52:23+00:00",
+   "datum_iso": "2026-09-10T15:58:39+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenzantrag"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Discounter Kodi ist insolvent: Räumungsverkauf in 19 NRW-Filialen startet - Soester Anzeiger",
+   "beschreibung": "Discounter Kodi ist insolvent: Räumungsverkauf in 19 NRW-Filialen startet Soester Anzeiger",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOcG5yTGltWmZRVFEyLTU1RUY4NDh0UnUwTnlBNmh0NGtzaFIxeWpsYmtNVm1wbmRfd3NlVldEcF9hU09tZ1VFa1VkODNmazZGcXNXc2pqTnFuRHFIZkhwUTFQZFlobTcwekJsUGZ3QnBMeFRFS2pRREhVdnVXX2djVDhEaFFkYWhTSVNtendNbFB4VXpkcktWSlUyc2NnQWNjaElOMWN5NW9DcE1Dck9GdWhiTkgxWjF6cnUzNklhZnVETmw3VjFia3pvanNCVms?oc=5",
+   "source": "Soester Anzeiger",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T14:13:15+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
     "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Nach Ausstieg der Saudis - LIV-Golftour hat Insolvenz angemeldet. - Deutschlandfunk",
+   "beschreibung": "Nach Ausstieg der Saudis - LIV-Golftour hat Insolvenz angemeldet. Deutschlandfunk",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQ0dSOVIzZDZZUXM0OTZNZ2NQQmxRZVFxamlLSU1VWmVyWU1EMWZKTDVkb1NKTHdEV1N5WkJYTlZzaDFWeFg1Sl9YSEZxTXZHQXhkdHNSOGh0d1Fndml1VXR2SWxFVXg3T2dCZGFuU1hVcFN3Q2RMdEJNRWdlSl9RcjNrWQ?oc=5",
+   "source": "Deutschlandfunk",
+   "datum": "2026-09-10",
+   "datum_iso": "2026-09-10T10:25:42+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenz angemeldet",
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Kosten zu hoch: Pappenproduzent insolvent – nach fast 150 Jahren - T-Online",
+   "beschreibung": "Kosten zu hoch: Pappenproduzent insolvent – nach fast 150 Jahren T-Online",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNQWZyZndNNHpLemhJblVGWm81TEctZTVaMktzemxCYk1yeER3VkU3N0QzVUN1ZUFPdl9EdE8wSG52QVR0bjduRnJZN1ZWdWttQU8zM3d4RXB6ZkE4ek10Q0tfbVVKZkZjRXNBX3loV01VYUlfLXFUbXdIQWg2ejJQNkhyUzVDc2lwRndNYzZNUFl1V0FyWXJ3SHMtXzBYWUVORlVRNHQ0ZVd2NTFjRkxxWHNqWGpNZU92R3B1YkRickJxWVQyY1NkM2lyNVhMN0VyQm9SR0tn?oc=5",
+   "source": "T-Online",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T19:08:21+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "„Das ist sehr fragwürdig“ – Almil Polling zieht Insolvenzantrag zurück und hüllt sich in Schweigen - Innsalzach24",
+   "beschreibung": "„Das ist sehr fragwürdig“ – Almil Polling zieht Insolvenzantrag zurück und hüllt sich in Schweigen Innsalzach24",
+   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOWjhiazhKZjhzWnBFX2Y3anh1SC02YjJXaTdwd0tOdi02b2VGekxhcUVCOFpuRy10bEFhdVBzVWNZZlpVaEpiM3ExSHc0N3dEdXI3N1JIZmo2dzM5NThMa21nNXJzRWJOd2dHSEM0LXVQaXozZGNvVXJCYzY3RkpsWkh3WWdOOWF5ck5CNW5vRzNKeHQ4N293Z1hYbjNmLTJnc08zR2NUSzJBRG1NQi1YUms2MHhIb1BFRzEwOHBybmIxQklQbGxNUl94R3JwME9kOEowTk1aZHVIbzk3OWhMcVlWQ0dTQnFEemYtZ0ZlQQ?oc=5",
+   "source": "Innsalzach24",
+   "datum": "2026-09-10",
+   "datum_iso": "2026-09-10T15:08:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenzantrag"
    ]
   },
   {
@@ -763,6 +816,49 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
+   "titel": "Autohaus König insolvent: Was bedeutet das für die Filialen in Halle und Merseburg? - Mitteldeutsche Zeitung",
+   "beschreibung": "Autohaus König insolvent: Was bedeutet das für die Filialen in Halle und Merseburg? Mitteldeutsche Zeitung",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYnZ4ZEtxSXRsS0NwMVNrSkl0bzN2WVo5bExaTzZoc3p1dXh1NVljRUdqSjltVTZGaXFsajY0eWxnOXgyckdsajZOYi1CWHhLNjdWelJzb0JqNFE4OXotVy0wN1A1bEs3Uzhyd0ZqVTNtc1ZSQ0l5WUpNRTJ0UldJbWdQcWxwbUNFNEF1bHdpcmR6VUhEcVp5MV9DZXE1UDhvSEtQWHFlY0s3Tjcwa3c?oc=5",
+   "source": "Mitteldeutsche Zeitung",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T15:12:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Christof Industries neuerlich insolvent, 180 Mitarbeiter betroffen - Der Standard",
+   "beschreibung": "Christof Industries neuerlich insolvent, 180 Mitarbeiter betroffen Der Standard",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQTdxdHJ3dGlpc09NbU00Q1NVLVJtcDZScFFQRHhDOGJVTnBlUmhCcURzRGZFVHlLY09NeGtKcEFHRHBqaGg1M05HSldJbXJZLU9WRTZ5V2tWS2pBaWt3S1dKd1ZxaVlxSnRvMVNwWnJUaGxMdVBHVnV4YUNLekZVUjZCNnYyQWtjaF9GX0NxdFVrRXQ1dmVnUFg4Y1JpZUtfMzlEVGVia0lEdndLTXdnYm1n?oc=5",
+   "source": "Der Standard",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T09:59:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Über 1.000 Jahre alter Schrein in Japan meldet Insolvenz an - Sumikai",
+   "beschreibung": "Über 1.000 Jahre alter Schrein in Japan meldet Insolvenz an Sumikai",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcklLQmVZWUJWdXROcWF2LUFWM3VCU0M3am93UEZpemhSdExsc1hmcUVodGcwaVF3b0NvQmlkTzhaNFNLTUZDTVFwOWxwQUZKWUU2eWtYREtDMkpjdFE3Tnd5SlJOTUVBOWRsMU5Cb2FGNTFOYTlUbk9uX3NaNUxTem1pQ0dLZF93dlpJYllYOTlqekFUOWduczYxbS1wMmg5V1UzbnQzTzE2S3JxWU10RzMxYmNFZw?oc=5",
+   "source": "Sumikai",
+   "datum": "2026-09-10",
+   "datum_iso": "2026-09-10T14:28:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "meldet Insolvenz",
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
    "titel": "Solarparkbetreiber Enerparc AG ist pleite - top agrar",
    "beschreibung": "Solarparkbetreiber Enerparc AG ist pleite top agrar",
    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQOUpfN0dKOU5xdkdYNWZNNmp0UkZTcmJWblRCR3NvMW05NWFCdTg5Nl81Q1FxRU9qNDRkQWx0aEdYa3BoQ3JjUnJmM2VuamxtNDlib09pWkVlTFhTVjgyX0F6QVRjYklZV0NhUDk2Y01PU2RYX3J2LXBCY2h1R2RhQ05xRFdmWnNndzlCOExsSGVieksxUkc4WGxCdw?oc=5",
@@ -777,52 +873,10 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Boston-Projekt scheitert, Fonds pleite: Deutsche Anleger bangen um ihre Geldanlage - t-online.de",
-   "beschreibung": "Boston-Projekt scheitert, Fonds pleite: Deutsche Anleger bangen um ihre Geldanlage t-online.de",
-   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPbzZUZDZ3RWhhSEtFS2xxTnc0UUg3eGFHOEswWkVTbVhtYm1femI0ZEJ2dE9sNE9STUh4NElqTTBFWUN3MllYYmhrbnVfbG0yYzA4QUo1Z2xMYkRtZkFVbWJHN2tRZFJGZ2NPUjJJV2RrM3YwZFBFVFNVZkpLZTVzTklCUGZybHJLVmprUmd6bVJHdmdqcldObkhrUnp6UjhLbl9aWkJHcXpBempEZ0YwSnhGLTVhcnBGSWxnbVBUUmtVOHBCUjA1TDFEc0diY25RRTJXR0RR?oc=5",
-   "source": "t-online.de",
-   "datum": "2026-09-09",
-   "datum_iso": "2026-09-09T06:37:57+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Pleite"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Weihnachtsmarkt-Veranstalter in Weidenau insolvent – wie geht es jetzt weiter? - siegener-zeitung.de",
-   "beschreibung": "Weihnachtsmarkt-Veranstalter in Weidenau insolvent – wie geht es jetzt weiter? siegener-zeitung.de",
-   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQQnJKS3lXVEhrcDNiNEhsWkFLbDY3bHF6ZG8tLXV3XzZSbUR1TWp6UFZ6b0M5OWtxMkEzNlNTemlTM2RYM0NWdXozZEJUV3RpU0ZPOHh4VFlBaUFaXzBTQlBQUzJWYU04TGNyWmY2TnBiNloyVDg4djJndG93dkxodnIyM3E4WWFPbVZJNGdNemRkbHZtMTZaZWRtWTVZYmNza01TTENyNVlwbGctQVB3cEFwcHNIWDNjeWVhTVh4dnd6S2VrQWkyOF9QMDN4aDFUdkt4TGIzQ0xEOVB2WlJxdVlDQl9UY19HcElISGllMNIBiwJBVV95cUxONGF0RU1ZNUxrRWJDLW5lcTRIRFRWZWZSUFhNcmdFSzh4Yndna0tXOGRXc3otZDVkZ1dPV1Z3RXRycjA5Q3pPR3VtWnlSNk9nNEpIZ2NHUFBTY3RFVXF3dkNvRGZXSmRDMXVEbzNveDZfRGdZVU83MF83X2NPY041c2FrRUNjcE03ODNNckgwd1YwbmpCWkVxSm96ZVE1b0txUGN3dGxNdnZ2a1lROWx3bXk4YUlvSGVwUkJxWjAwN3NkMFgxZVhrVUdPeDZuQ3NzLWVHRmhUUDdlZnlEbFdFbEpFTEx2amYyVFhxS1lHenBhbWpYaHNoaTZRNWhsekJuU2JYTDRiNjFKWm8?oc=5",
-   "source": "siegener-zeitung.de",
-   "datum": "2026-09-10",
-   "datum_iso": "2026-09-10T12:38:57+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Jetzt auch der älteste BMW-Händler der Welt insolvent – 1000 Jobs in Gefahr - Merkur",
-   "beschreibung": "Jetzt auch der älteste BMW-Händler der Welt insolvent – 1000 Jobs in Gefahr Merkur",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYzZ1WU9SQUwyR2ZTc1RaZzlvVnJGY3JZYnhaSG9DSjJ2UDd0TnRXdTAwMFlNTW1VY3hsNVJfaHpyVDRmSGY2Q3Baa3hnMmEtbFJXSHBKLVBkMnhQWE94SVRRX0NXR2tvT05ESGFvWTRMUng3cmVXT2d5THd6V0F6U25xeFBwNThLVGZyZW9MQlM5R3R1YVJvcDl5MFAxSkp4LVFIYnk1dXVDSXV3R0pWVGFUbzFpRWZqYUZEOXpnWXF3QTA?oc=5",
-   "source": "Merkur",
-   "datum": "2026-09-08",
-   "datum_iso": "2026-09-08T10:42:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "PGA-Konkurrent: Rückzug des saudischen Geldgebers – LIV-Tour meldet Insolvenz an - welt.de",
-   "beschreibung": "PGA-Konkurrent: Rückzug des saudischen Geldgebers – LIV-Tour meldet Insolvenz an welt.de",
+   "titel": "PGA-Konkurrent: Rückzug des saudischen Geldgebers – LIV-Tour meldet Insolvenz an - WELT",
+   "beschreibung": "PGA-Konkurrent: Rückzug des saudischen Geldgebers – LIV-Tour meldet Insolvenz an WELT",
    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOd1VNX0JZQnFVQktaR2N6NHZWMld2V2lCRE01dGEtTlU3NG9MSGl6NDNGR3QzbTVSMEx6X0paN2NkeVUxcHlOUjBYWjlZNzZHV0NJOWI5Q3ppME4zcTVlV3RncnoyVGYxdFRtWXlaV2lIWExDaHlVQzJDTkY2dVd6dXpwSzVUNzJiMVU0MGdqLXpsX1hTRERqOXdyRnBTMlRsclhTZHp2Z2poSTM0M3hnTkV0T0kzXzQ0UkZadmtQTjUybjhrdFY1ZGNsODE5Tng2M1Y2MVRFc2xlTzd2OUtn?oc=5",
-   "source": "welt.de",
+   "source": "WELT",
    "datum": "2026-09-09",
    "datum_iso": "2026-09-09T07:49:47+00:00",
    "signal": "stark",
@@ -834,44 +888,32 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Nächste Hamburger Solarfirma insolvent: Was wird aus 100 Projekten? - MOPO",
-   "beschreibung": "Nächste Hamburger Solarfirma insolvent: Was wird aus 100 Projekten? MOPO",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVkNZSzVLNDVWVXEwRVJmOXhNak8tOW5LNlJreDVqeUFtWEdHUXlaQlF1bEJYNFhBYU5nbExVSFg0UDNXd0dpVzJsLUdrZ3NfNVZWQUpsWVZvSVg1alVXc0ktUmtPRG9uSUsxSDdPa3dLekR2cURTd252Sk1QOVVnSWhLNFdIN3hBMjlVVnU3Q1NJcWRveXpERDlaemFmX2Y2M0dkMEtCYmVENWlfWXRBSHpIRjU1MzhMajFCVFdfNFJvclhWZ1E?oc=5",
-   "source": "MOPO",
+   "titel": "Unternehmen in Schieflage: Tullau Pappen meldet Insolvenz an - swp.de",
+   "beschreibung": "Unternehmen in Schieflage: Tullau Pappen meldet Insolvenz an swp.de",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQM01EaWl5bUtXQXlxZ2J0NjhjWklpcE1ZQ3NyVjEtNjJhUnlia2FnWHZNcmtaNnhIZmtVQlUyUzNWVmFGU3VrZ0J5X1ZQVGVQYXJFRG8tbEpHYy1OWkZLdzZwYUVqbzliWndUSDFHTXBEOUV2VURJWnY4Mmk2dGNWU21WVjc4eTZ1QXNJYlZwLVk4TTVFLUZKeU5VcDNMc2NZTlF4bFd5WldydnJpcWJxaF8tQU5lY3kyTk5R?oc=5",
+   "source": "swp.de",
    "datum": "2026-09-11",
-   "datum_iso": "2026-09-11T04:31:58+00:00",
+   "datum_iso": "2026-09-11T12:15:06+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
-    "insolvent"
+    "meldet Insolvenz",
+    "Insolvenz",
+    "in Schieflage"
    ]
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "250-Millionen-Projekt wackelt: Hamburger Investor insolvent - MOPO",
-   "beschreibung": "250-Millionen-Projekt wackelt: Hamburger Investor insolvent MOPO",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUE5QMnd0NEN0UlNwV3U4ZG9sa2piVVFaZTYtYmo2MU9jT1M5UGxtM29WVjBzYzI0Z1pyWWMtV3g3b1NZQ3BQTkJxVzd1eGpDb053YzF2bVhmdi1vZWRKYmZkQ0ViRkNiS3ZHdG5zRXFlU1ZMZ3VDX3EwaVR3NEp5N1RWWjVTT2NfcFBkaGtWNi1LaGZWdWwzMzJ0TkU?oc=5",
-   "source": "MOPO",
-   "datum": "2026-09-08",
-   "datum_iso": "2026-09-08T17:45:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "LIV-Insolvenzantrag im Detail: Der Saudi-Fonds finanziert jetzt das Verfahren – und sieben weitere Fakten aus den 22 Seiten - Golf Post",
-   "beschreibung": "LIV-Insolvenzantrag im Detail: Der Saudi-Fonds finanziert jetzt das Verfahren – und sieben weitere Fakten aus den 22 Seiten Golf Post",
-   "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPS01YTW5jOXpBTjFweUlEYlR0eVRuSl9RUDhiYVdlcWpaT0JVeUh6TWNRQTVqbjREOFp2b2RNWm5BeGdDX2VaUE1VcC05bzQtTU5QX01lR0FYVXdDV0t0ajBsWTUtWUZ1LUZtNWY2cDd2QUJnYWVkQnVseWhGNm1YRU9ocFVQRndGYlBzZ3Q0dEs0R3J3UDVPM21HaUlsVTlLVWZfMDJfQnBKVUlvMHNESkpnTXpMeFhUYmg1SEVZODZIQjBiSmpjTGRKZklNdV90SHNGaTF4UVpsc1U5LVNUWW1sM3E3QUkwVzJLdg?oc=5",
+   "titel": "LIV Golf insolvent: 14 Spieler auf der Gläubigerliste – Rahm, DeChambeau und Johnson ganz oben - Golf Post",
+   "beschreibung": "LIV Golf insolvent: 14 Spieler auf der Gläubigerliste – Rahm, DeChambeau und Johnson ganz oben Golf Post",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMHRVRUhwZ29VZ01KOFUzcWtGQ1FEVXJiWm5xU01Ncktlc1dPM2pmNkwtSVFwN3VBQUxydm1KRGRLNERnUEUydDNQNTRTLTI5eUxjWG5hanBQTnhkekstekREQ1JvMENwMk01Ml9PSWkzNmdyRGwtWmlRemVKc0dNLTlCRFBKdW9WSEU5RXhXVkw3Z0hjZDNndndRdXhyb2E5RzVoNDVpdFkzSm5oRzJJMzVodXhTYWswZlV4N1k4TE5vQnRIN0E?oc=5",
    "source": "Golf Post",
    "datum": "2026-09-09",
-   "datum_iso": "2026-09-09T08:57:31+00:00",
+   "datum_iso": "2026-09-09T09:00:31+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
-    "Insolvenzantrag"
+    "insolvent"
    ]
   },
   {
@@ -891,16 +933,44 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "PANDION-Anleihe nach Insolvenzantrag: Schadensersatz gegen Bank oder Anlageberater prüfen - Anwalt.de",
-   "beschreibung": "PANDION-Anleihe nach Insolvenzantrag: Schadensersatz gegen Bank oder Anlageberater prüfen Anwalt.de",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOYjJfZFlyOXAwWHFDV3FrTlRCLXAtMldfYUJGS3MyRTlXbzVQb3pCcEFYa0k5elVoRW9ibDgtWUNmcGNuWVJuMXBReHZjYnVKOTZNc1BOaGtaTGg4VGIyS2lHZWpZTUVjb18tS2FnU3ZVeE9zcEpwMVh3dG5Ed0xtTzM1QWVNY1FraEpJQUNZT1A2VEZiRmNvUENNV1E2ZmFTX3B6aTZ4THVMZGFWUUk2Y2NEOUZFaS0xMkg5THhNOGJPWEw1dndScUNuMUdJbUFk?oc=5",
-   "source": "Anwalt.de",
-   "datum": "2026-09-09",
-   "datum_iso": "2026-09-09T07:01:42+00:00",
+   "titel": "Golfbetrieb vorerst gesichert: Schafft der insolvente Karlshäuser Hof die Wende? - Pforzheim - Pforzheimer-Zeitung - PZ-news",
+   "beschreibung": "Golfbetrieb vorerst gesichert: Schafft der insolvente Karlshäuser Hof die Wende? - Pforzheim - Pforzheimer-Zeitung PZ-news",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbGpCaXBaNXZmc1NRT1lTSzlKckFxZk85QkFfZXJCdjNmbjFuLTcxVHFXaThiV3hZaHl5Q0gtRUpNNDkxLXhWd2ZwdkJjaFB5T1F5UjhqczhGcnp3ZEYxR3pScnZzQ2hGM2poT0dLQzNPcTgwU1QtR3piSWNsTUNMTEtjTzlXc3RaV1BWeUQ0Y2dxWHBaQ3JDYXptT01HNjVsek5HalBkMjJuT2VnX0RkcHFmY0kxa1kycGRzMzVldHE5Mk1zVi1LRUlFS0k2eXZaSGEzWHFNbw?oc=5",
+   "source": "PZ-news",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T12:45:00+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
-    "Insolvenzantrag"
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Weihnachtsmarkt-Veranstalter in Weidenau insolvent – wie geht es jetzt weiter? - Siegener Zeitung",
+   "beschreibung": "Weihnachtsmarkt-Veranstalter in Weidenau insolvent – wie geht es jetzt weiter? Siegener Zeitung",
+   "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNVWtUNWtOZF9zQ2ZacnR3bi1HYl9VS0w2aTZGd3VndlAxRG16bmx1UkxlaUhhWXNoNXN6U01CNjdWRGx5WXFVUFloaGNycG5EWXA0T0d1QUFETm85UlV3c0lfLWFTMmpmZVBzTE5MU2RGVkFwMDZNdGlPSlphVUM1aTEtakUtN2U1UmVBbzNXTkt2XzNRNFRMV1JsaVptSHNNWThCWF9Pb3cxV2pkVjBrZGNFd3NRNmxFaUhpaDl4Xy1zXzVlSjhNUnh1MnMyZWxnMGYyeGNYU0R2emxObzFfNDNOdjZTSHEzd0c0TzI0aHp3RzhjRUlfbNIBlAJBVV95cUxNMkI4Tkd2bEx5RndMZEY1VDZ5UlhJQWV4dWhKZ2RGZ0oyOWVZOEwyS1pSNjZMdDNSQXZjaHQtMFFtdnlwenVWX3NVN1NZdU93R0Job0RVU2tiaXJmUmExTFhYaWo5VmJBcUdJQ2pzVWVhUFhKRDVyaDhlOTRYNlhhUjQ0UUxOYlRNNGY2Uk5mOWJiUkFuNTAzLUNLemVtLWxkY1Q4b2o1am4wcXA4ck54bGxtN3phdmQzTS1PQWI5N19haFp0TjhQeWVWSjlLbkhiUHEybGVSMXhybU85LTgtZEJlRkl5VkhtYWZKMzlwQ3ByN1JNTGZQYTlzaTc3LUZiTmkwV1FfR1k2NU5ta04wUmRFYWo?oc=5",
+   "source": "Siegener Zeitung",
+   "datum": "2026-09-10",
+   "datum_iso": "2026-09-10T13:52:23+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Weihnachtsmarkt-Veranstalter in Weidenau insolvent – wie geht es jetzt weiter? - Siegener Zeitung",
+   "beschreibung": "Weihnachtsmarkt-Veranstalter in Weidenau insolvent – wie geht es jetzt weiter? Siegener Zeitung",
+   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQQnJKS3lXVEhrcDNiNEhsWkFLbDY3bHF6ZG8tLXV3XzZSbUR1TWp6UFZ6b0M5OWtxMkEzNlNTemlTM2RYM0NWdXozZEJUV3RpU0ZPOHh4VFlBaUFaXzBTQlBQUzJWYU04TGNyWmY2TnBiNloyVDg4djJndG93dkxodnIyM3E4WWFPbVZJNGdNemRkbHZtMTZaZWRtWTVZYmNza01TTENyNVlwbGctQVB3cEFwcHNIWDNjeWVhTVh4dnd6S2VrQWkyOF9QMDN4aDFUdkt4TGIzQ0xEOVB2WlJxdVlDQl9UY19HcElISGllMNIBiwJBVV95cUxONGF0RU1ZNUxrRWJDLW5lcTRIRFRWZWZSUFhNcmdFSzh4Yndna0tXOGRXc3otZDVkZ1dPV1Z3RXRycjA5Q3pPR3VtWnlSNk9nNEpIZ2NHUFBTY3RFVXF3dkNvRGZXSmRDMXVEbzNveDZfRGdZVU83MF83X2NPY041c2FrRUNjcE03ODNNckgwd1YwbmpCWkVxSm96ZVE1b0txUGN3dGxNdnZ2a1lROWx3bXk4YUlvSGVwUkJxWjAwN3NkMFgxZVhrVUdPeDZuQ3NzLWVHRmhUUDdlZnlEbFdFbEpFTEx2amYyVFhxS1lHenBhbWpYaHNoaTZRNWhsekJuU2JYTDRiNjFKWm8?oc=5",
+   "source": "Siegener Zeitung",
+   "datum": "2026-09-10",
+   "datum_iso": "2026-09-10T12:38:57+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
    ]
   },
   {
@@ -919,12 +989,26 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Hamburger Enerparc AG meldet Insolvenz an – 380 Beschäftigte betroffen - photon.info",
-   "beschreibung": "Hamburger Enerparc AG meldet Insolvenz an – 380 Beschäftigte betroffen photon.info",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdEVDWTkweFhwWWg1TU9vWVdnWk1RNWpRbEUweHZhNl9WeVhELUltOTJrWUs3Q3A4ZXF6WGgzclFGVkE4MVpfLXA2QzdIeVhfUWczcWxxcFh0Vk9FaU5GVm1uVWRGSUJzakpsc1pUdG9kaGp6MDlfczA1MHZ0VnJrOWZEYzdmcVJja1hPUlhwMHB4dzhDcWpFYk9fYTZNZjNj?oc=5",
-   "source": "photon.info",
-   "datum": "2026-09-08",
-   "datum_iso": "2026-09-08T13:05:00+00:00",
+   "titel": "Paragon nach Insolvenzantrag: Entscheidet der 7. Oktober über den Fortbestand? - ad-hoc-news.de",
+   "beschreibung": "Paragon nach Insolvenzantrag: Entscheidet der 7. Oktober über den Fortbestand? ad-hoc-news.de",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUmdSUUZaY0xSZ1R6VjdWVzVHeUtUMDNZM0p2ZlNDa0JXX0ZTNndpRFBQWWxaMmw2cUsxcnBZSkF1RHFrWURUcFJDeVBTekZUNldlX3pralk1czlnM2pZMlN2MzBKN1B0RUZKOXptQV9FWHR3ZUxhWG5PQm1fRm9Eei1hZ21aNFhOWEM5Q0VBSHFEMTl4emNKdnF1OEJWeG9tSkZZTUJsaWtwX3l5S1VzX0xzR3pnVXFNd3d5cXpGanh4dmZYOFA5ZGZuSElvb2xuM1E?oc=5",
+   "source": "ad-hoc-news.de",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T01:18:07+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenzantrag"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Neue Unsicherheit beim Ruhrfestspielhaus: Planungsbüro PASD meldet Insolvenz an - Recklinghäuser Zeitung",
+   "beschreibung": "Neue Unsicherheit beim Ruhrfestspielhaus: Planungsbüro PASD meldet Insolvenz an Recklinghäuser Zeitung",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTFRGQVVpaEZkLXZIOTUyQ2FJZTlqY3p0Z0tmbUhGYlFvWlR0OXM5NE1ZRFVCOG14V0cyRGF2a05VLXFtMGlLLS0wY252dEowQmlRbGQtUC1fVlZTVXJ6RndQblZzbnV3YUxNc0pZaHdxTWs5RE12eUFhZ0RRaERDaXdncEFLdVhVdW9xa19qWkJEbzdER2h0amRGUDZ1Ti1KRUZOcmo1dlFEMVJWckNLdzRmNDZjakd4NzVfQ1lTYVZtNkZhX3RGTTA4UGdjUHNCV0sxRUNSZ1RfTXowclE?oc=5",
+   "source": "Recklinghäuser Zeitung",
+   "datum": "2026-09-10",
+   "datum_iso": "2026-09-10T14:03:33+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -934,24 +1018,10 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Autohaus mit 1200 Beschäftigten insolvent: Was wird aus den Standorten in Bayern? - Augsburger Allgemeine",
-   "beschreibung": "Autohaus mit 1200 Beschäftigten insolvent: Was wird aus den Standorten in Bayern? Augsburger Allgemeine",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcEQtUXdiM081aVA5bk9YNnNsbFp4T2ZWUGZKa3BsUDFPOU45NjdYQV9QbjBEOW9xTUpweEcxeXlJaDZWU0ozM2lhdHdUTXBTNjc5SDIyQlVQYldXLXZJcnpob2UxNFRLRDdyalhxRWVLVFFJYzc5QWZDQ3ppS0s1TllSTDlybWZIMDNLTlVfVVVCMjBmcnlISDBDTm9PcmJBWlpXTlR0QzdTV1R2cnNFN1cwcU9mRUpodXEwRw?oc=5",
-   "source": "Augsburger Allgemeine",
-   "datum": "2026-09-09",
-   "datum_iso": "2026-09-09T05:05:32+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Erst Milliardenfinanzierung, jetzt insolvent: Hamburger Solarriese bangt um Existenz - t-online – Hamburg",
-   "beschreibung": "Erst Milliardenfinanzierung, jetzt insolvent: Hamburger Solarriese bangt um Existenz t-online – Hamburg",
+   "titel": "Erst Milliardenfinanzierung, jetzt insolvent: Hamburger Solarriese bangt um Existenz - hamburg.t-online.de",
+   "beschreibung": "Erst Milliardenfinanzierung, jetzt insolvent: Hamburger Solarriese bangt um Existenz hamburg.t-online.de",
    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNWFI4NllaX0p2MkR0NUlqekg0cWtsTkFBT0xrY3dIVVF2Q1M3TGJURTY2c0xRUTdPdndVaEk0cklyMjFRQUhESWpNVjJoQlFZSHhydE94aHFNbVlPWENSNVJYdmVlOHZlZEw5MmFKOE9NRFdfOUt3VWM3Z182NkVldlM1ejdkR1F6ckp0bFJIMFYwUEpDZkN4NTNNdEI1NW9GT3dyYnZSTWViWjl0cWF1MWl1MGFVSTFSaC0tOThWcHFDUF8xY2Y1ZFNrYUZMZw?oc=5",
-   "source": "t-online – Hamburg",
+   "source": "hamburg.t-online.de",
    "datum": "2026-09-09",
    "datum_iso": "2026-09-09T13:37:30+00:00",
    "signal": "stark",
@@ -962,26 +1032,26 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Wahl-Group in Siegen insolvent: Wer ist denn nun der älteste BMW-Händler der Welt? - Kreis Altenkirchen - Rhein-Zeitung",
-   "beschreibung": "Wahl-Group in Siegen insolvent: Wer ist denn nun der älteste BMW-Händler der Welt? - Kreis Altenkirchen Rhein-Zeitung",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQ01ia1h5VElpaUFKRXRSeUJ5bkp1MjB5a24taTF4QlpETzNYQWtBY2pDTkFORGF6dUxoV1lqMXpCMDhjeTU1WjVxRGJRZEdNV0pOcXNyR1o4cXdOc0o2N2VuR1J1bHNaYVNFMEtaN3RoajJneDhaNEhvdVZMWG1fT3hmZC1ISTB4Z2RKeFZNaWVUWTR4SVowb0lKY3R1eW16WGZwZU9UeGpEb3FuT3VFU0tmcGpvNUtFQmI0SDZwVU83UG8?oc=5",
-   "source": "Rhein-Zeitung",
+   "titel": "Insolvenzantrag gegen Bordell in Rüthen: Betreiber aus Meschede räumt Geldprobleme ein - Westfalenpost",
+   "beschreibung": "Insolvenzantrag gegen Bordell in Rüthen: Betreiber aus Meschede räumt Geldprobleme ein Westfalenpost",
+   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPYVlPOUZFYmkyaG95NThjSFZfRkNJeEQzNXJNU1pRbVdra0g3c2RWZXBEcFhNLXZldnVNbUZzMUZmaHAzX0VYOGs5VmhrQ2VtOVNMNWYxeXVjSDk1NnVYOFRaakltY09VdS1sSG5ZSi03NTJMWVhLVUlJZmw1VlQ0UlNFU1djcndXOXdsRVhMazdvb0s0SGF2Qm1UTjBIODFkSzdsX2pfVy12aEhWWHBoZ21XYll6VkhkcGNoVEUxVWpmY19aNWduU3Y4djdNRVc1NUo4ZE0zMGhaWlNjZVl0cm1B?oc=5",
+   "source": "Westfalenpost",
    "datum": "2026-09-10",
-   "datum_iso": "2026-09-10T15:00:00+00:00",
+   "datum_iso": "2026-09-10T08:28:30+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
-    "insolvent"
+    "Insolvenzantrag"
    ]
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Hamburger Pizza-Kette ist insolvent – für drei Standorte bleibt der Ofen aus - Hamburger Abendblatt",
-   "beschreibung": "Hamburger Pizza-Kette ist insolvent – für drei Standorte bleibt der Ofen aus Hamburger Abendblatt",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOaGNWaWJrZmR1YzdWR18yV21tN0N0Q2sxdkxLZ2ZGUlgwTGZ4eWNNbXRlS3NjZUc5Z18xV0ZFZUFnSlZJWnVyZHFKc1hFaW80U28xN21qcUFPUVNaRWZld3NZNTFQamNrWi14U2hveUxIX3MyZm40cmNrMEVjMUZfSUk1LXl1MkJQaWo4NHR2QXpIYmxXcFVHVFVRYi1NVHZRVjVuU0hyYmdvZmxLVW0tczl2VVF0S3VuTlcwWncwczZEQnNpeEJqMXUzQQ?oc=5",
-   "source": "Hamburger Abendblatt",
-   "datum": "2026-09-08",
-   "datum_iso": "2026-09-08T16:59:00+00:00",
+   "titel": "Christof Industries Austria erneut insolvent - steiermark.ORF.at",
+   "beschreibung": "Christof Industries Austria erneut insolvent steiermark.ORF.at",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBwTGtreE1uMkZkaldhUWFJS1NVWVJKQjBKeWIwRVZEdVA5Y0RDSm8xdG05NDEzdk1SZ3ZkQzBJU0VEMXZQdk51Q3RkeUlqMG9ZRlBiQQ?oc=5",
+   "source": "steiermark.ORF.at",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T11:21:47+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -1004,16 +1074,30 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Insolvenzantrag gegen Bordell: „Wird immer schwieriger“, sagt Betreiber aus Meschede - Westfalenpost",
-   "beschreibung": "Insolvenzantrag gegen Bordell: „Wird immer schwieriger“, sagt Betreiber aus Meschede Westfalenpost",
-   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPYVlPOUZFYmkyaG95NThjSFZfRkNJeEQzNXJNU1pRbVdra0g3c2RWZXBEcFhNLXZldnVNbUZzMUZmaHAzX0VYOGs5VmhrQ2VtOVNMNWYxeXVjSDk1NnVYOFRaakltY09VdS1sSG5ZSi03NTJMWVhLVUlJZmw1VlQ0UlNFU1djcndXOXdsRVhMazdvb0s0SGF2Qm1UTjBIODFkSzdsX2pfVy12aEhWWHBoZ21XYll6VkhkcGNoVEUxVWpmY19aNWduU3Y4djdNRVc1NUo4ZE0zMGhaWlNjZVl0cm1B?oc=5",
-   "source": "Westfalenpost",
-   "datum": "2026-09-08",
-   "datum_iso": "2026-09-08T17:58:00+00:00",
+   "titel": "Nächste Hamburger Solarfirma insolvent: Was wird aus 100 Projekten? - MOPO",
+   "beschreibung": "Nächste Hamburger Solarfirma insolvent: Was wird aus 100 Projekten? MOPO",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVkNZSzVLNDVWVXEwRVJmOXhNak8tOW5LNlJreDVqeUFtWEdHUXlaQlF1bEJYNFhBYU5nbExVSFg0UDNXd0dpVzJsLUdrZ3NfNVZWQUpsWVZvSVg1alVXc0ktUmtPRG9uSUsxSDdPa3dLekR2cURTd252Sk1QOVVnSWhLNFdIN3hBMjlVVnU3Q1NJcWRveXpERDlaemFmX2Y2M0dkMEtCYmVENWlfWXRBSHpIRjU1MzhMajFCVFdfNFJvclhWZ1E?oc=5",
+   "source": "MOPO",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T04:31:58+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
-    "Insolvenzantrag"
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "268.000 Euro Schulden: Vorarlberger Bodenleger insolvent - VOL.AT",
+   "beschreibung": "268.000 Euro Schulden: Vorarlberger Bodenleger insolvent VOL.AT",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSFZrOHVpU281eVI3emxXRFhubGdRNHB3N3BPX2F4YWljWDNiVVltR2QzMWNTUktrRXpDUWRGRUxpc2pHMTNsWWtSeXdKM1hvUUxFQmRKRG1CcHpUcTdvM2xlNnlJX0Zkb25qMGM0UzNNY2RSVzdRbk1QSGF2SktTaWFyQVgyS0NWRUpZ?oc=5",
+   "source": "VOL.AT",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T23:35:32+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
    ]
   },
   {
@@ -1033,10 +1117,10 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Café Röhren in Paderborn ist insolvent – erste Gespräche mit möglichen Interessenten - nw.de",
-   "beschreibung": "Café Röhren in Paderborn ist insolvent – erste Gespräche mit möglichen Interessenten nw.de",
+   "titel": "Café Röhren in Paderborn ist insolvent – erste Gespräche mit möglichen Interessenten - Neue Westfälische",
+   "beschreibung": "Café Röhren in Paderborn ist insolvent – erste Gespräche mit möglichen Interessenten Neue Westfälische",
    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQLW5LSVUyblRnaGs0b3ZKTDJzeDdLWElzWW12WGlxQlo1aVJNRE1aWFpBWXc1UVVzSjgxOWZlSS1nMFozUVlZdFA4TmVaM1pWUGRrZElMXzVTSlpiUXdDYmN3SDdlUDFzUmp2aDlGTEZwYXNRM3pMaE1ZNkZkdEtBVXpEWDI0dEl4VWNWbTdwbDFSaDdDLUx2eHBrQmp2TkZJb0lXclFQSkpyT19ocEdIeVc0U0ttRkd2cEFOc29iVjZfYWptM3lZ?oc=5",
-   "source": "nw.de",
+   "source": "Neue Westfälische",
    "datum": "2026-09-10",
    "datum_iso": "2026-09-10T00:25:25+00:00",
    "signal": "stark",
@@ -1047,41 +1131,12 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Investorensuche für Domo-Chemiewerk in Leuna gescheitert - CHEMIE TECHNIK",
-   "beschreibung": "Investorensuche für Domo-Chemiewerk in Leuna gescheitert CHEMIE TECHNIK",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORmhSNmFIdVI5NzZKY0dUTmlCY2RneEF5THdoT0FXTkJHU1VLbVczUkg3UTNveUxqUkUyYXBYZWVKQWNGR0hpWjBjUFZ6Wml2TWJ6ZlR5TGVqT1BiZGpQNHVyYkVpaUhyV0FqUDdCMzdRRnpmNGNMQ2JRenFSd21sRXZ6WDlMWlVEdEJ0eFUtWnJNejk1Wml6eHAyU0V4S0lmYlBHdzRrUmhVOUw4?oc=5",
-   "source": "CHEMIE TECHNIK",
-   "datum": "2026-09-08",
-   "datum_iso": "2026-09-08T11:45:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Investorensuche"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Solar-Pionier Enerparc aus der HafenCity meldet Insolvenz an – so geht es weiter - Hamburger Abendblatt",
-   "beschreibung": "Solar-Pionier Enerparc aus der HafenCity meldet Insolvenz an – so geht es weiter Hamburger Abendblatt",
-   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPOWdEaDdUS0FsZFVONjdzd0hIRkRVR3M5bmJGTlVKTjd1d2Faczh1dDc2UkVvM0tteVk3Z2dodEFWSU9jbVotR2tXSkg3MnpTc3dGQnFyMmtWWmI1ZXkyMU92aWFlaVg2RW9mcUR2cjFPWmwydF9aS2hiWXZUSnEyMjd6dW52bU9qbEtyeTFvMDR2OTRlaEhzZGhhdVFGdExlT1pEdTliSE9JNTIwMFhOYXdUcWQ5Ti04RWRQRlRhNE42Smd3SzNjbmd3QmlGa0FNQjRzOFdXQjZMSWRpZWRxVnFB?oc=5",
-   "source": "Hamburger Abendblatt",
-   "datum": "2026-09-08",
-   "datum_iso": "2026-09-08T10:15:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "meldet Insolvenz",
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Hamburger Solarpionier insolvent: 380 Jobs wackeln - MOPO",
-   "beschreibung": "Hamburger Solarpionier insolvent: 380 Jobs wackeln MOPO",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUlVSS0FTdjBiMGNXcXFSLUVJNGlOdkh6WDJ2Z0R1MHNNaWVFV05zbTNKdEJXS2NPSGl5VFhNRUYwTWE5ZWhrR3lpN0V3RjAzOW4yaTYyazQ4V3RpWXpGeFkydGhFMlpQcUExN1o3YnZhNVdjRm81UXR0X2UzclVEcnpqdjNKWXFOQXZOVGpwRWtaZ3hId1ZJNHgtQ2FjWGhhLVg4RDJyUzM?oc=5",
-   "source": "MOPO",
-   "datum": "2026-09-08",
-   "datum_iso": "2026-09-08T12:06:34+00:00",
+   "titel": "Bank Sepah Frankfurt insolvent: BaFin stellt Entschädigungsfall fest - cristinaiglesias.com",
+   "beschreibung": "Bank Sepah Frankfurt insolvent: BaFin stellt Entschädigungsfall fest cristinaiglesias.com",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZ0k0MU1xSXp0R0RCMzB1MWgwamQ4TU42NFVxaDVVWGpzXzJmZS1DeGhURTQzSzIwVkd6aU9DeDJveW5nUUVqV3NiUXZYYjJHUEFhZ2tnWEY1MDdEWUptdWdKNGZOVlRsLUd1ak1hOTlBa0xvbVNiVXA2ZHpkdXpEUF9YMGR6SUQtdHk0MVBTX1Vwc1Z5UzYtNEN2aTRRRnBnaFp1U0xFeDNVdw?oc=5",
+   "source": "cristinaiglesias.com",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T18:01:47+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -1090,12 +1145,54 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Solar-Schock in Ulmen: Projektpartner meldet Insolvenz an - Wochenspiegel",
-   "beschreibung": "Solar-Schock in Ulmen: Projektpartner meldet Insolvenz an Wochenspiegel",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQN3M1Q2lzSFRXODhlRHkza01FanNka1gzQ2p6dlRVOEh5TXJVeURXclRWRkFmVERWeVhFSjQtQWFSNE5PX2R6OS1rRVJOSTUwZERHRFlhUW4yOERncVBxMXdqX2JYZUtGVk53ZkJONGJBdlMzblBxa2JSeWdqY29BS3RGUmxnemNndXhwNi1CZGNUOVRvdW9QSGRrWEMxemlQU3ZGZU5abXp4V0pOTWE1U3M5YXRTdw?oc=5",
-   "source": "Wochenspiegel",
-   "datum": "2026-09-08",
-   "datum_iso": "2026-09-08T19:00:00+00:00",
+   "titel": "Wahl-Group in Siegen insolvent: Wer ist denn nun der älteste BMW-Händler der Welt? - Kreis Altenkirchen - Rhein-Zeitung",
+   "beschreibung": "Wahl-Group in Siegen insolvent: Wer ist denn nun der älteste BMW-Händler der Welt? - Kreis Altenkirchen Rhein-Zeitung",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQ01ia1h5VElpaUFKRXRSeUJ5bkp1MjB5a24taTF4QlpETzNYQWtBY2pDTkFORGF6dUxoV1lqMXpCMDhjeTU1WjVxRGJRZEdNV0pOcXNyR1o4cXdOc0o2N2VuR1J1bHNaYVNFMEtaN3RoajJneDhaNEhvdVZMWG1fT3hmZC1ISTB4Z2RKeFZNaWVUWTR4SVowb0lKY3R1eW16WGZwZU9UeGpEb3FuT3VFU0tmcGpvNUtFQmI0SDZwVU83UG8?oc=5",
+   "source": "Rhein-Zeitung",
+   "datum": "2026-09-10",
+   "datum_iso": "2026-09-10T15:00:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Christof Industries neuerlich insolvent, 180 Mitarbeiter betroffen - Der Standard",
+   "beschreibung": "Christof Industries neuerlich insolvent, 180 Mitarbeiter betroffen Der Standard",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOQ2RxckhVLTFUaVhOSjlST1pPZnpSMF9HaUZBRHJLVHJHbFZxT0x5eEpzcTFTSXNScDVsNlVTck1Ud3Rkd3lFWUp1a0tKU3NNcTZFMThTam5aOHg3MTFqdEhpV01DQVhLVW9OTzNEaDJzX196N05JTkxEanktVUJfbERldnM2eVRLUGtPX2N6VGV6aktKNHdmMjdZR2dGQ2U3S1RGTUlET1NLZkl0RnBENzZsTVp0dlZGVEdFY3MxdmNUaXk5ckc3UmZlTW9TQQ?oc=5",
+   "source": "Der Standard",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T09:59:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Christof erneut pleite: 180 Mitarbeiter betroffen - weekend.at",
+   "beschreibung": "Christof erneut pleite: 180 Mitarbeiter betroffen weekend.at",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZzY0R19HemlXc1AyemJpSXg3eHNFY2RqUEQ2WUFydDg4VmlzZUZhdEx4aEN4emFPZ2Z2Z3daaER6VWJRNlU4QVpWMzJGTk9uTkFLVWthX3BHSkNJbTZzX283YUhUZkVhVzNxRXB5V2E2c0hjVHcyaVlNb29VNV9ZSmln?oc=5",
+   "source": "weekend.at",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T09:17:11+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Pleite"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "LIV Golf meldet Insolvenz an – mehr als 500 Millionen Dollar Schulden - sportsbusiness.at",
+   "beschreibung": "LIV Golf meldet Insolvenz an – mehr als 500 Millionen Dollar Schulden sportsbusiness.at",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdTdENmk1VEFtUGZNak1FMXhLLTVOZkJKRFM1bXJBbTVsTExKdFBIMmtHbGRkdE9MWmI2d2o4NDdUTDVUbmZ0Zl9ybDhGWk9YQ1I0ZC1Ta3VaZlZkR05Gamt4aDdhYkxTenItaTJOck1sNEJUNXNUVU1GOWdWNGI2SzBPWk9lVFc4dnBrNklid2pNZ3lFUlNsXzN3?oc=5",
+   "source": "sportsbusiness.at",
+   "datum": "2026-09-09",
+   "datum_iso": "2026-09-09T14:05:13+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -1105,12 +1202,26 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "180 Beschäftigte: Grazer Christof Industries abermals insolvent - kleinezeitung.at",
-   "beschreibung": "180 Beschäftigte: Grazer Christof Industries abermals insolvent kleinezeitung.at",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaXRBbThUTi1oT29rTWI2a2JEOWNtclQ2SlVSMGg3SkpUeWdIbkxTc2pEVkd1U3dyM0FBT0l0RHZvN1hYWXpxcFRZb3ctQmFZeFRQbHN4Qkcybk1iM2hXRF9KZEpXVF82OGlZaXBFOFdLUzg0Rk8yamZ5NVJfZnp5NkVzUnBNZm1zdlFUUi1vNVgyM19ud1ptOUx6NVJmYnBFaGlBbzFDUTFOVzE0YXc?oc=5",
-   "source": "kleinezeitung.at",
-   "datum": "2026-09-11",
-   "datum_iso": "2026-09-11T08:39:22+00:00",
+   "titel": "Fiinu Tochtergesellschaft Everfex mit Insolvenzantrag konfrontiert - Investing.com Deutsch",
+   "beschreibung": "Fiinu Tochtergesellschaft Everfex mit Insolvenzantrag konfrontiert Investing.com Deutsch",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMUVVMElvMmYxSThMLWpaUTEtY2J6RnhOZEM3VWJ1QVo5RFYwS0tabkVfd1VUakczeG5EWlVqdmhaV1BTbHl1bnV3T1FUM0l1Z2lNazFZVmFkdW9Gdk91bWU0dmFRSXk1OFRMSFdOcXJraEpFTjJOYzk1b3Z3YW9ra0ZFQUZTTkRkQnBvbTBldDB1RU4wdXFySW9CQmFXLTVqZVNwTUNnMXVNa0tFN2o1VFc1Tm5FVjNmeGRUWQ?oc=5",
+   "source": "Investing.com Deutsch",
+   "datum": "2026-09-10",
+   "datum_iso": "2026-09-10T13:18:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenzantrag"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Ältester BMW-Händler der Welt: Traditionsunternehmen aus NRW ist insolvent - Come-on",
+   "beschreibung": "Ältester BMW-Händler der Welt: Traditionsunternehmen aus NRW ist insolvent Come-on",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRUJQX1NtMW54N1NGYmh6Vnc1QXRUUVhjN3gzRmc4WHpPY1JielVhMVhQaUgzNm1mVEZsQ0MxM2tacEQ4aE1qRktUSWMyQTktdlhRU2xVV2tzdWM1U3JFMndLZUlfZG12Wkd6UFlTNjdFWmhUT1RqSlNVOHpDWXVKNUdUWE1iYm9lbVF0ejR0clVJUkxncG9DQl9UV0YwQVpCVFNzTnRWWC12OTZib0huZHpsdXhfVVdaYW5kbHBXRC1wNVY0bkoxVU00ZG9HZDhl?oc=5",
+   "source": "Come-on",
+   "datum": "2026-09-09",
+   "datum_iso": "2026-09-09T13:30:00+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -1133,156 +1244,40 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Erst vor zwei Jahren gestartet – jetzt ist diese Hamburger Pizza-Kette insolvent - t-online – Hamburg",
-   "beschreibung": "Erst vor zwei Jahren gestartet – jetzt ist diese Hamburger Pizza-Kette insolvent t-online – Hamburg",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQaXZQSzRxUnBtT0txZTFKczZFQlRvcEJ1N1JTVk4xUGVUeXRtaE03SHllU3pJOE5nQUhDQTVrZHJxNFgtV1dUSjhaSmg4cTh6SUF6clBIZDd4c1cxNWRyaXBBMEtHdmlDMXc0a0tHQm5xLVM1QmN4UGNkS2gzaXZ6T0c2RmlLeG5zSUFVVm5YYm1QZVVKVGphWS1pSXFEY3Y1MHhKUlYzanNGT3NQUGZUZVJ5dFlFZjV2TTBpa1Bma0lyaENtYmFCQWw4VQ?oc=5",
-   "source": "t-online – Hamburg",
-   "datum": "2026-09-09",
-   "datum_iso": "2026-09-09T02:38:51+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Paragon nach Insolvenzantrag: Entscheidet sich die Zukunft am 7. Oktober? - ad-hoc-news.de",
-   "beschreibung": "Paragon nach Insolvenzantrag: Entscheidet sich die Zukunft am 7. Oktober? ad-hoc-news.de",
-   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUW1HQWhwSzlOeEF6MkNheXl2V1BxQ0dwSmVJckVFVzN0NkdDdkVkQ1ZaVUU3S25XLVBxX0EtdlZ0U2p4VU1rTzNHR3paa0UzYjhBaThHWldHVm9HVVJLU0otdnRGenZudjFOa2RVc0xDbW05MlFYVzNFbWtPSUhzQVlsUUM0c2JFd29tLUZZQUxleDhfdmNXZHg1U1NFVW5naTdoa29nekRsOTNrdnltOHI0S1lZMDhpc082T0tqcnNaUkJwZW5feDZjbkl4NnBKVWVNaDRvMWVFZw?oc=5",
-   "source": "ad-hoc-news.de",
-   "datum": "2026-09-09",
-   "datum_iso": "2026-09-09T04:13:33+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenzantrag"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "LIV Golf meldet Insolvenz an – mehr als 500 Millionen Dollar Schulden - sportsbusiness.at",
-   "beschreibung": "LIV Golf meldet Insolvenz an – mehr als 500 Millionen Dollar Schulden sportsbusiness.at",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdTdENmk1VEFtUGZNak1FMXhLLTVOZkJKRFM1bXJBbTVsTExKdFBIMmtHbGRkdE9MWmI2d2o4NDdUTDVUbmZ0Zl9ybDhGWk9YQ1I0ZC1Ta3VaZlZkR05Gamt4aDdhYkxTenItaTJOck1sNEJUNXNUVU1GOWdWNGI2SzBPWk9lVFc4dnBrNklid2pNZ3lFUlNsXzN3?oc=5",
-   "source": "sportsbusiness.at",
-   "datum": "2026-09-09",
-   "datum_iso": "2026-09-09T14:05:13+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "meldet Insolvenz",
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Jetzt auch der älteste BMW-Händler der Welt insolvent – 1000 Jobs in Gefahr - Hersfelder Zeitung",
-   "beschreibung": "Jetzt auch der älteste BMW-Händler der Welt insolvent – 1000 Jobs in Gefahr Hersfelder Zeitung",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOX2FiOGozdlI5Y09UZ2txbHNseWo1RzhXSTRLUEVfckNwMWQxcUVIcWJNZnI1ODZuV09HcGJJbjU1LW8tdVdsMnFjZHdhODlheUYzV0pzZi1oY1p5MHIzN2FOVjAzcHM4WlVYVEpfMHMzeklSZkxNVXBORlp4UHFJMU5NWU50aVI5Ykoxd0V6QnpRdkJ2ZU5POGxvZnVwbWFHU1FXMkhzbHNKYTB5aENFd0FETUdRbTIzV0tZZFNfUVlIQmJlcjJQb3hqX0hONk1ac2NJ?oc=5",
-   "source": "Hersfelder Zeitung",
-   "datum": "2026-09-08",
-   "datum_iso": "2026-09-08T10:42:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Enerparc stellt Insolvenzantrag - energate messenger",
-   "beschreibung": "Enerparc stellt Insolvenzantrag energate messenger",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRjU2RUtMd2ZlNHluNkVNNTc3RGhEVHFPSjN3VTY1QzA3WVgtd1pEQVpqdXFjQ0VXVFNRNWdxbHRkSFgzc2w3T3hXRXZhdHdVX21iZm4wRGt5eTlWYXB5Y3Z4SUFseDJnSjFfS0NGNE1MS0hReXJCcU5Nc1hjbXhtc0xKdw?oc=5",
-   "source": "energate messenger",
-   "datum": "2026-09-08",
-   "datum_iso": "2026-09-08T10:57:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenzantrag",
-    "stellt Insolvenzantrag"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Ältester BMW-Händler der Welt: Traditionsunternehmen aus NRW ist insolvent - Come-on",
-   "beschreibung": "Ältester BMW-Händler der Welt: Traditionsunternehmen aus NRW ist insolvent Come-on",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRUJQX1NtMW54N1NGYmh6Vnc1QXRUUVhjN3gzRmc4WHpPY1JielVhMVhQaUgzNm1mVEZsQ0MxM2tacEQ4aE1qRktUSWMyQTktdlhRU2xVV2tzdWM1U3JFMndLZUlfZG12Wkd6UFlTNjdFWmhUT1RqSlNVOHpDWXVKNUdUWE1iYm9lbVF0ejR0clVJUkxncG9DQl9UV0YwQVpCVFNzTnRWWC12OTZib0huZHpsdXhfVVdaYW5kbHBXRC1wNVY0bkoxVU00ZG9HZDhl?oc=5",
-   "source": "Come-on",
-   "datum": "2026-09-09",
-   "datum_iso": "2026-09-09T13:30:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Bekannte Discounter-Kette ist insolvent: Räumungsverkauf in 19 NRW-Filialen startet - Come-on",
-   "beschreibung": "Bekannte Discounter-Kette ist insolvent: Räumungsverkauf in 19 NRW-Filialen startet Come-on",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPb1dDVVMzTWVUcmVfbnNOcW9DMzZiV2oxTXlkUTkzcXd5OXozRTdhTmNSTUFqZTI5MklyUjhnMURkV25XbGVJQkoySmVyNG4tc1BPMEdqYkxCX0VsbWdONGc3UWVmdEdZeFlUT1QzbE5lWGhkQ3Ruc21qalg1TUtxa3JrLTJmX29vdWdfUkFISXU2eDVhQ2FMZThBc3dXbmdoUWdLVXFHQUFMRW9IeDNFcXNDY043ajg3WmZwbkR3?oc=5",
-   "source": "Come-on",
-   "datum": "2026-09-09",
-   "datum_iso": "2026-09-09T11:27:48+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Ricebrothers insolvent: Was jetzt für Hamburgs Filialen gilt - MOPO",
-   "beschreibung": "Ricebrothers insolvent: Was jetzt für Hamburgs Filialen gilt MOPO",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObUcyM2tWT0RxbmRmdnNRRWgzSllqLWYzbWNTOWFSTExiWDdIMGZleHhrNFZFaFVlSllOdkJjOFd2cW96a2VtYjNURTF5cmRHdERtMm1ISzQ5bEJ6VkE5emlDdDJybmNicnloZFpTcEJ5RWdyVDAyZ2N0Q1JOQm9fTFN2SFBKMEVKTHo0TlRSWDZEbkNhcm52U3h1ZXVkSnNUTWUwNFlxUG0?oc=5",
-   "source": "MOPO",
-   "datum": "2026-09-08",
-   "datum_iso": "2026-09-08T09:58:24+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "250 Jobs in Suhl betroffen: Autozulieferer Paragon stellt Insolvenzantrag - inSüdthüringen",
-   "beschreibung": "250 Jobs in Suhl betroffen: Autozulieferer Paragon stellt Insolvenzantrag inSüdthüringen",
-   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNUDFjcUdnTkplR1hyX0tWWnpTZzAwUFRydjRpeUpYS3Q2dEY0VGM2VWdlT0txR0FicXF0a0lrNHE0MEIyZmlaNFNaZlFKdkxuTDJPcjBwZUswb0lUVnVGdzdlYzVkQmZYU0tCcmVtekVQNDVRVU1HZ2h6SWpJUGV6LTdtc0YwRVNGY0swbHYwZk4xSDJhUTRUZHZqczQ0T05RWE96amxQWlJ0ZnUtUTlyMFhZdlIySXNjTmNzc3BhM2Jhd2lXamZSbmJCdjRKRVBQTUl6ekhxa25JaUFwUWx3MFhpMk5PYjNpZU9LcnhBcw?oc=5",
-   "source": "inSüdthüringen",
-   "datum": "2026-09-08",
-   "datum_iso": "2026-09-08T10:06:21+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenzantrag",
-    "stellt Insolvenzantrag"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Golfserie LIV stellt Insolvenzantrag - SPORT1",
-   "beschreibung": "Golfserie LIV stellt Insolvenzantrag SPORT1",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUktqczgyVWt1QTlUTzFQM09Pb1h0RXR1eThmNlN3U2hwM3BEaXdMN19DN05NbkVBZFdFbll5M3hOLVNQWjc3b21mQURLSExoS2N4aXZid0tGTmp5TTFublNpRkxUMlZabWtCY3Exd3JRUDJGMEN2NDJ3bExjVmlCeVFibHpVcUNoLVZGeFl0YVE0ZEpKNjFIMnZzZXFTVDQ?oc=5",
-   "source": "SPORT1",
-   "datum": "2026-09-08",
-   "datum_iso": "2026-09-08T21:24:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenzantrag",
-    "stellt Insolvenzantrag"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
    "titel": "Deutsche Niederlassung der iranischen Bank Sepah nach EU-Sanktionen insolvent - MarketScreener Deutschland",
    "beschreibung": "Deutsche Niederlassung der iranischen Bank Sepah nach EU-Sanktionen insolvent MarketScreener Deutschland",
    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQX0EyUGp5SXFTYVI0U0x6NE1qaUZreG9raVdyWVIxWU5qSk5kQ25fOGZJSjZfbEwyTjFnbTlkSGFGZk1uZ3BVd1ZGZHUxeWpUamFmNW5DY282RnlWZWVqenJ4ZHpUWG5ZZVBkb3B2VGR4VGRFMzI5MTgzTXhrSm1qTDY5OEJ4UVNKVTVIT0R5cWpmSHNxVVMtU09XWll6V3NiazJ6OURYZ1BfVU5pOG5Pc0xxbW9VamF1RVd5N0NsZzJGWm91cWhpeEN3Uy14bEZOS2V1aXRleUxxXzg?oc=5",
    "source": "MarketScreener Deutschland",
    "datum": "2026-09-10",
    "datum_iso": "2026-09-10T09:28:21+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "180 Beschäftigte: Grazer Christof Industries abermals insolvent - kleinezeitung.at",
+   "beschreibung": "180 Beschäftigte: Grazer Christof Industries abermals insolvent kleinezeitung.at",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaXRBbThUTi1oT29rTWI2a2JEOWNtclQ2SlVSMGg3SkpUeWdIbkxTc2pEVkd1U3dyM0FBT0l0RHZvN1hYWXpxcFRZb3ctQmFZeFRQbHN4Qkcybk1iM2hXRF9KZEpXVF82OGlZaXBFOFdLUzg0Rk8yamZ5NVJfZnp5NkVzUnBNZm1zdlFUUi1vNVgyM19ud1ptOUx6NVJmYnBFaGlBbzFDUTFOVzE0YXc?oc=5",
+   "source": "kleinezeitung.at",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T08:39:22+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "„Auftragslage stabil“ - Christof Industries Austria ist erneut insolvent - krone.at",
+   "beschreibung": "„Auftragslage stabil“ - Christof Industries Austria ist erneut insolvent krone.at",
+   "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBNdF9sUGVqMUI4OW5tbHBtUjdDZnJsVlJBaWR4RUhkemJfaFA2SU15NlhaMlg3TXJKS0M2N19YMnktZw?oc=5",
+   "source": "krone.at",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T09:55:00+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -1306,40 +1301,40 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "LIV-Golf-Tour: Zukunft unklar - Nach Saudi-Rückzug: Insolvenzantrag liegt auf dem Tisch - SRF",
-   "beschreibung": "LIV-Golf-Tour: Zukunft unklar - Nach Saudi-Rückzug: Insolvenzantrag liegt auf dem Tisch SRF",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMjZZaXloUmRGdnZ3azkwZzRTM0hzMHBXYmdvV0djQVREZHc2VkYxcjBXVnllbHlZRFdXRm1aZlRmaGJDcHdqcVBxZGprREFQZDMtTnFtOUxLVlpKQm1EakNfWDVVRDdQWThiTm94bERXa0ptb1VzdEZycXN0NHVCeThvM2xFa01GdXBZUXI0Zm12MFJZUHVNWEgxY0YwMmtkOTVUVnJ5UFpPWU0yWURoYldQQW1RbUh6cXRQR3ZmMUlsUkE?oc=5",
-   "source": "SRF",
-   "datum": "2026-09-09",
-   "datum_iso": "2026-09-09T07:04:47+00:00",
+   "titel": "Betrieb mit 180 Arbeitsplätzen: Christof Industries in Graz ist erneut insolvent - meinbezirk.at",
+   "beschreibung": "Betrieb mit 180 Arbeitsplätzen: Christof Industries in Graz ist erneut insolvent meinbezirk.at",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUDVtOWdJVlNpTVNfc2tUd05td2Fsd2Z4S2djc1lHblZsanRyellkeXQ4QUQyeUZ3NHljTzNTQnJra3NMdXh2emhzaXJiT3FPM1RKQ0dEalkweURGYXVDbXl2ekk4R2lnWEFKZVNYM05JUzZGc0xOQXp4Y21kWVYzTXlPbHVkLS05a0lXZnFxZVJIX1RWMTdTdUlCX1gtd3NheFNJ?oc=5",
+   "source": "meinbezirk.at",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T10:42:33+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
-    "Insolvenzantrag"
+    "insolvent"
    ]
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Insolvenz trifft Möbelhändler BoConcept in Dortmund: So geht es jetzt am Hansaplatz weiter - Ruhr Nachrichten",
-   "beschreibung": "Insolvenz trifft Möbelhändler BoConcept in Dortmund: So geht es jetzt am Hansaplatz weiter Ruhr Nachrichten",
-   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNSmFEODgzU2RrU2RtSE1HN1JjTUNLM3ZGQkhjNjdXdllMUkdDQlRUTVFSWFg3U0loWFBwcFFUdk0xTjlCTFUwdkV0RGVyVWtDY0RVSkh6UldWRXQ0UmN3WHZoTGdUQmhwdlhqSlU1MXNDNUZnbVZraUg2NnhZRUE2X2J1enVvYzZCUVZZalZtbzJwMFIzLWdlWEFhWGJVT0dCbEpGcVBINmZxOTVyM0kwd1htNnpRM0RxYVkyS0hFTHBXc0NfbHFmLVhYRlRJemx5MkE?oc=5",
-   "source": "Ruhr Nachrichten",
-   "datum": "2026-09-08",
-   "datum_iso": "2026-09-08T11:06:00+00:00",
-   "signal": "schwach",
+   "titel": "\"Poseidon\" ist insolvent! Beliebter Grieche gibt auf - Heute",
+   "beschreibung": "\"Poseidon\" ist insolvent! Beliebter Grieche gibt auf Heute",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNb3VlWDBFZ2NvWHA5MFoxNU5ybzJDclF0MzhwZDR4NjdaT0JFNGNKck5mbmp1R0VjNGNWV0Q1azQzUXZDSTFvalZ6ckhpZVFoazhkeXM3b0UwcTN6M1NMSGVwS3ZWaDFoREgtMmIzVTJUVHR6MjJmUzZnYTQ3Y2ZNWQ?oc=5",
+   "source": "Heute",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T12:04:00+00:00",
+   "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
-    "Insolvenz"
+    "insolvent"
    ]
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Hellweg in Blumberg insolvent: So reagieren Kunden auf das Aus vom Baumarkt - MOZ.de",
-   "beschreibung": "Hellweg in Blumberg insolvent: So reagieren Kunden auf das Aus vom Baumarkt MOZ.de",
-   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcGFyTHdJZWNSWFZWMU5WZWpTWERFd1RTRFM2NG14cDBFR0lOTXBSajRzLXJQbzRRRGJDa1FDZ25aSEZ3Qm1XWmJ4RlNoa0plQTVrUW00eHMtYXVCUXVxMUptREJhb2MyLXVwaVZma3ZIaUxlemN6bmNXR3I1RWl0SzhUQURUSFdXeXh5bnF0d2JRcFVlcUZMZVpLbXhhLUlVYVBNTjFTdFk0LUNpRjBkNWZnYldnTkhwVW9qNjBtOW5oWDdsNWM2SEZ3?oc=5",
-   "source": "MOZ.de",
-   "datum": "2026-09-09",
-   "datum_iso": "2026-09-09T02:00:00+00:00",
+   "titel": "180 Mitarbeiter betroffen: Grazer Firma Christof Industries ist wieder insolvent - Der Grazer",
+   "beschreibung": "180 Mitarbeiter betroffen: Grazer Firma Christof Industries ist wieder insolvent Der Grazer",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeTNGVmxYWXd4NGVrNHQxQUEwLXJqbndpUlJMeWlPUmFPLUZkbHEwVFBfeDNPSTBrN3VQMzhBa1VSdUJva1pfMkJ4SG05NGFJcVpzTEhuSnhEQnBnM1FUYnNXZVM1Mi1hSnhGX2JZN2w1VmpDN2E2cEZJelRwSDVzTENwY3g5R2VwYzZWdw?oc=5",
+   "source": "Der Grazer",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T12:42:00+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -1363,46 +1358,31 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "LIV-Tour stellt Insolvenzantrag in USA - Tiroler Tageszeitung",
-   "beschreibung": "LIV-Tour stellt Insolvenzantrag in USA Tiroler Tageszeitung",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE51SUdCYlR0aHVLZTZra0JRYXVkRlBNVS1YOU1qQXRITkViRVVBQzB5SFI1aWRLRnBab3k5a05lNlhSTjBteVhpZGY4UWRfYmRKdTd6RElxWGxYVlphaExWeUVSM2kwUzZ6X1BfM2RLTXAtYzlqbjdVWThXQVZ3RUU?oc=5",
-   "source": "Tiroler Tageszeitung",
+   "titel": "LIV Golf hat offiziell Insolvenz angemeldet - Hypebeast",
+   "beschreibung": "LIV Golf hat offiziell Insolvenz angemeldet Hypebeast",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNR09SaE1BOVdhRGtrTExoVXUzMEFyNEVPeG5COFd4X2pEN3dNOHdvSXNwSXhzYWNUSHZZN3BqLVJuWjdJX2pob0JSZ0VQQ1paLXRBNkVJVmlveE1kQVhTWmR1MkFrN3A0Nk50S1dOYjdxYzRhd1UwWlNWY1Y5bmkxaDI4UU81bzA?oc=5",
+   "source": "Hypebeast",
    "datum": "2026-09-09",
-   "datum_iso": "2026-09-09T02:12:50+00:00",
+   "datum_iso": "2026-09-09T08:07:13+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
-    "Insolvenzantrag",
-    "stellt Insolvenzantrag"
+    "Insolvenz angemeldet",
+    "Insolvenz"
    ]
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Lilihill-Firma ist insolvent - Mediapartizan.at",
-   "beschreibung": "Lilihill-Firma ist insolvent Mediapartizan.at",
-   "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1ld3FlU2JjNVBlaFJLUzZYcU16N2xjbHhfUnh1MlFHbDIxY19KMkJ6OFlFVklaNEhUMmIzNUlabmVzdEd5RnRXdTgwTXVnZw?oc=5",
-   "source": "Mediapartizan.at",
-   "datum": "2026-09-10",
-   "datum_iso": "2026-09-10T11:16:17+00:00",
+   "titel": "200.000 Euro Schulden: Vorarlberger Tourismusunternehmen ist Insolvent - VOL.AT",
+   "beschreibung": "200.000 Euro Schulden: Vorarlberger Tourismusunternehmen ist Insolvent VOL.AT",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNLVZCQmx0X1lYWVlGeFhXZG5USTdFNlhEMmZSS21tMmdXQ0RLSEs0eWI3Y09UOU1yaUVxZF94M1FpVU5lVzVjcnIydGlWb3dwd2pfbmZvUWk3RzN0dDlXemtWWHZMcm9MRmMtZWxMVHhTd0hPMkVZUklxMFEtemtNNllHd1NRQ2VKU0pKbjMzZFA2RmtoaWtqNl9zQ0Rjdw?oc=5",
+   "source": "VOL.AT",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T10:42:08+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
     "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "LIV-Tour stellt Insolvenzantrag in USA - NÖN.at - Niederösterreichische Nachrichten",
-   "beschreibung": "LIV-Tour stellt Insolvenzantrag in USA NÖN.at - Niederösterreichische Nachrichten",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQWs2UDcwcWhBYmVhZFd5SGFLcWs0dHdjcTI1S2VKRkprZ1NMTEhkd0pkTUg4bmtacjBWZDRWOEo0d1BfTXhQNml0MHgwOXZjdFMzOHJicnZ6N2FIU0R4bVZwUXVhUDJxbVR5V3pKZkhycngzeWU4cVh0MmJ3SVQ0aGlWNFBBUQ?oc=5",
-   "source": "NÖN.at - Niederösterreichische Nachrichten",
-   "datum": "2026-09-09",
-   "datum_iso": "2026-09-09T02:12:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenzantrag",
-    "stellt Insolvenzantrag"
    ]
   },
   {
@@ -1421,10 +1401,10 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Wie geht‘s weiter? - Paukenschlag! LIV-Golf-Tour meldet Insolvenz an - Kronen Zeitung",
-   "beschreibung": "Wie geht‘s weiter? - Paukenschlag! LIV-Golf-Tour meldet Insolvenz an Kronen Zeitung",
+   "titel": "Wie geht‘s weiter? - Paukenschlag! LIV-Golf-Tour meldet Insolvenz an - krone.at",
+   "beschreibung": "Wie geht‘s weiter? - Paukenschlag! LIV-Golf-Tour meldet Insolvenz an krone.at",
    "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE93VnFLMTJQekp3TXRyYWFORXVfOTN5emFQUTJzc1FrcDl3ZTBpbk5oT3Q3OWJhV2k5YWpSYkRFTWpKdw?oc=5",
-   "source": "Kronen Zeitung",
+   "source": "krone.at",
    "datum": "2026-09-09",
    "datum_iso": "2026-09-09T14:43:00+00:00",
    "signal": "stark",
@@ -1436,69 +1416,12 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Gleisgarten in Wien ist insolvent - GASTRO.at",
-   "beschreibung": "Gleisgarten in Wien ist insolvent GASTRO.at",
-   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBqVVpLSkdWRUhUU2ZQbW1yQThPalhiYU91Q085T0xmVVkyZG5fOWZ3LW53aUVyVTJxOGNOeEJVbnZYdVVBVjRpRTV5eXBDTkJBNDdDc2JiT1VNa0FxenZweGZVeFVuZmwxTTVKTEJTUjhPSW8?oc=5",
-   "source": "GASTRO.at",
-   "datum": "2026-09-08",
-   "datum_iso": "2026-09-08T11:47:23+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "LIV-Tour beantragt Insolvenz in den USA - VOL.AT",
-   "beschreibung": "LIV-Tour beantragt Insolvenz in den USA VOL.AT",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBtVGlHRzYxUlNiNHQ4a0lwTTlZLUw1TjV2dVZDZTVNV2V3aUNiUGRSSmdsWHFmY1pudUJQUmZoMnlXOFE0N3plT2VZWVIzam9HVkxfbmVqUkFkbG9rUW9yWFRXNWdRN3pSM3Z0bHB5bFRYT2Vv?oc=5",
-   "source": "VOL.AT",
-   "datum": "2026-09-09",
-   "datum_iso": "2026-09-09T02:22:03+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "STB offiziell insolvent / Das Unternehmen hat Schulden von über 3 Milliarden Lei - Informat.ro",
-   "beschreibung": "STB offiziell insolvent / Das Unternehmen hat Schulden von über 3 Milliarden Lei Informat.ro",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWTR1dHVSeE1SS204bF9wUVB3MkwwTU8tY19jQkVsdTRoZS1qeHNHZXNNY0dmWENEVVRmcWZaUUduVEFUUGpfMTQ3VXVBZXFZekFYVjdCQUpyYkc2WXFfb1Bmb1Iyc0ZzRThJWmpfS1JqTlRldjhwclBtUkZVTkkySWhHQlVzQW1mcjh1RW80X0k5RlFWdW5uVGpCVjJQcm5hbGFtbFJxWGxPVHZBdUJhUmowZTJ4aDBSMW95eTVYS0swdC1keXo4?oc=5",
-   "source": "Informat.ro",
-   "datum": "2026-09-08",
-   "datum_iso": "2026-09-08T13:20:47+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Hamburger Tierfutterhersteller The Dude Food Company meldet Insolvenz an - Traders Union",
-   "beschreibung": "Hamburger Tierfutterhersteller The Dude Food Company meldet Insolvenz an Traders Union",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQT2pvQ096VHFxaTVQam1FTmNpVWMwczc1Vk1TT2pEY0w1Y1RDMXhhRUJpOGRjUWM0MmxvX2U1WVVJUUZGTENrc3RuT2FHSGh2ZXFSUHBsUzNScnZVTDJIdXVwbTFValozdlVUS25BYjR4aWdMNGlCWkZQczJYTDhuZ3BXNVlLSjFnaFBMVDFMMy10cGRmd1Fkcw?oc=5",
-   "source": "Traders Union",
-   "datum": "2026-09-10",
-   "datum_iso": "2026-09-10T12:07:24+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "meldet Insolvenz",
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Pizzeria \"Fabio’s\" in Puchenau meldet Insolvenz und schließt alle vier Standorte - Welt Stimme",
-   "beschreibung": "Pizzeria \"Fabio’s\" in Puchenau meldet Insolvenz und schließt alle vier Standorte Welt Stimme",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPb2hDa3RYU05nQ0Z0NkZlX21IajJOcTAyWlVTbk1FNEVXREh3TnUxWHh6ZlU0TGRXUW5hdThXUmhROFZwMVdnWFZNRmRhRERnRXZiaEd3OFRkR2ltMjgxTXpoUkN4cWVyMTNRQTk5S0picFI4MVQ3SFFaTXBNT3U4THA1YTAtRFRoRXIzdnhMajBKeklBSFpOcGNEdndXTXhTOW5ramNUU2IyQ2F0Q1VfQ2VuMA?oc=5",
+   "titel": "Christof Industries in Graz meldet Insolvenz und gefährdet 180 Arbeitsplätze - Welt Stimme",
+   "beschreibung": "Christof Industries in Graz meldet Insolvenz und gefährdet 180 Arbeitsplätze Welt Stimme",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQT0Y1bG94dFdPUWU5ZVYxWEczT0tNOXNkYUNXM2JCMHpMTU1rN01RcC15dU81NXNqeTduaG5nQXVDLTdSeVJTNUp4b2NqUmdVQmhYR3hqcnpYQmJiUGhGV24yWWhTak9BMXVVQkRjMlVIVk1vMUZRbEItQ1dpTDJ0b05SR1NGUUZoLXFhYllOWkdTelFpTUQzVkpURjByekVzeUtocGFCYnFvVkg3LTVnVGU0NA?oc=5",
    "source": "Welt Stimme",
-   "datum": "2026-09-09",
-   "datum_iso": "2026-09-09T18:43:56+00:00",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T11:42:59+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -1508,10 +1431,24 @@
   },
   {
    "quelle": "GNews Verfahren/Verwalter",
-   "titel": "Hoffnung für Südpark in Halle: Insolvenzverfahren und Investor - mdr.de",
-   "beschreibung": "Hoffnung für Südpark in Halle: Insolvenzverfahren und Investor mdr.de",
+   "titel": "Mühlenmuseum: Insolvenzverwalter nennt erste Daten zur Sommersaison - WAZ-ONLINE.de",
+   "beschreibung": "Mühlenmuseum: Insolvenzverwalter nennt erste Daten zur Sommersaison WAZ-ONLINE.de",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWGJsWTMtYWNiVmdQMHdFc0Jsb2p0WExJekRGdzNqWVN0T2hjVUtaN0MyZ3VMdlRKVnZZV2RueGtoZk1wOV9pTnV1b25SSlZWaVRvOF83YnYzdmFZYmZwWDNSb2pkZi1xV2RwOTQ0WkV5TFJ2dTB0M3JUQUlzRFkxREkzejI0SHZ2aTBkS2tPbmtFSlhUektPNWZUdS0zUWVMSzZ3RHlkRjZQNTZuUC1TbjBkb2lORWhRaFlPalM5OHZ6QmVtWVVrZUJTSER2cjRkM3fSAe4BQVVfeXFMTlRvemRzUWp5bGFybVpTX2ZIWW92WWZqcTN6RHJES19kVzB3cW5nNEdBQlN0S2EyVE5wQnhycFpkUWo2b2hWQ3EwTjYzZmxrcnZxUVVNQVdKOVZWOWhjbTEtQlN3WkJoN1JDTEEtcG5ZSFZGVVp4NzFqeG56eWZyUEc2dXQzQjU2WnpUWFlubmhNYlppMFpHRE01QURGX3NtVFNSV3JMOUpUYkFPZGY4Z2xFRzFvZ0huOWZFQXY5T0d0aTViS3VjOFVBc3pHSzIxcktWeGN1b0FMZzA5R0xCS1JBdjEweU85d2RYLXhjUQ?oc=5",
+   "source": "WAZ-ONLINE.de",
+   "datum": "2026-09-12",
+   "datum_iso": "2026-09-12T03:00:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenzverwalter"
+   ]
+  },
+  {
+   "quelle": "GNews Verfahren/Verwalter",
+   "titel": "Hoffnung für Südpark in Halle: Insolvenzverfahren und Investor - MDR.de",
+   "beschreibung": "Hoffnung für Südpark in Halle: Insolvenzverfahren und Investor MDR.de",
    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQTDJFUi1TRmt0c05xb2pNcV9BTUlzazVzclFzdnJzWTg2MW5HZmh5aWY4NDFwUFc0cE1vajVIVTkyMFpHRzZBTnBUS1BzNW5nTmdOc0hvaGF0SE1Jb1E4ZXRfeWhmTEs1Y2tlbENmWng5NENVVU1fYmNBekpEU3FnN21mR29XbmJNdG8wZkVPMl94ejJQeGxGZnZ6UGUwZG0wVUFvSmtuQWlRSjR1WWg3MC1ObVNBdmg5bl9tODNucU8zY09wcEhfV3UzemlmUllpTnFjaUVaMnpEdDM4?oc=5",
-   "source": "mdr.de",
+   "source": "MDR.de",
    "datum": "2026-09-11",
    "datum_iso": "2026-09-11T09:19:00+00:00",
    "signal": "stark",
@@ -1522,31 +1459,31 @@
   },
   {
    "quelle": "GNews Verfahren/Verwalter",
-   "titel": "Planethic Group AG: Eigenverwaltung eröffnet, CEO und Gründer sichern Finanzierung - vegconomist - Das vegane Wirtschaftsmagazin",
-   "beschreibung": "Planethic Group AG: Eigenverwaltung eröffnet, CEO und Gründer sichern Finanzierung vegconomist - Das vegane Wirtschaftsmagazin",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRjdYMkNoWTBTYXA5OGZLakdNY1EwZEpjaXVLUTlZcjNWOWJGcHFKM0o4MnJWQlI4OXQ3NXlmVGR3SnlxRk5hSFIxZjF6azFmNmJ3dlFoM19xOWRtVlpzMWR2amVsUG5xSmd4S1NNWlRmeldSMXhaTTVndDdnUEFIUUc0Rml2ZU13VUdYNUl3bENNeGdYdGxaQ3RZZmpNSDRxV3RvUjhaRy16bjdKWXNNMi1wWlZMN1NIMGc?oc=5",
-   "source": "vegconomist - Das vegane Wirtschaftsmagazin",
-   "datum": "2026-09-10",
-   "datum_iso": "2026-09-10T11:43:43+00:00",
+   "titel": "Insolvenzverwalter attestiert Zwickauer Tafel-Trägerverein „unschöne Verhältnisse“ - Freie Presse",
+   "beschreibung": "Insolvenzverwalter attestiert Zwickauer Tafel-Trägerverein „unschöne Verhältnisse“ Freie Presse",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQMjVPeUVYNEwwbU1YSGNNRDROZWxwVHBXQlh0VjhSYzU1MG5PbThIOW9FSzYwem9ILTRka3ZpbVdNM1d2OVN0dHFhVVI5cENYTXlmVEE3cVhiNW9YalJqOXhZNExoOUV2SkhPR1hzTWlQNVZkTlNXbklUb3ZrdFh2bThMaXdPT29Fd2FrLUJxTTNaUHVFLUxfUXdmSVlmZWpXZFJFR2Q0NUI3UFVWR1BFUEdPNS1fQUVDVG5DbEJUalFLeGswQ2QtN0JUS0VabHlhRUk5U21UMktDQQ?oc=5",
+   "source": "Freie Presse",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T16:05:00+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
-    "Eigenverwaltung"
+    "Insolvenzverwalter"
    ]
   },
   {
    "quelle": "GNews Verfahren/Verwalter",
-   "titel": "Insolvenzverwalter einer insolventen Anwaltskanzlei verklagt JPMorgan wegen angeblicher Beihilfe zum Diebstahl durch Anwälte - TradingView",
-   "beschreibung": "Insolvenzverwalter einer insolventen Anwaltskanzlei verklagt JPMorgan wegen angeblicher Beihilfe zum Diebstahl durch Anwälte TradingView",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1YTVhBMC1KZV9kREVGa2E0U0V6V21INlU5a0ljMHVEOW11MDR3VXExTUpqM2hXY3NxWF9tc1Y1UWRDaTRpc25jb3QtbGxaODM0a2hHa2xTMG9qS2RCMnlCRUtiY3k5VUxVVklfUWRFZ1ZDRklzbnpJ?oc=5",
-   "source": "TradingView",
-   "datum": "2026-09-10",
-   "datum_iso": "2026-09-10T22:07:17+00:00",
+   "titel": "Fix Personaldienstleistungen GmbH: Vorläufiger Insolvenzverwalter eingesetzt - Diebewertung",
+   "beschreibung": "Fix Personaldienstleistungen GmbH: Vorläufiger Insolvenzverwalter eingesetzt Diebewertung",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPb25qcTRESm4tRkRNeTl5dWFmOVhQMlFBUmswbWxzcHZNS3RLS2ozbzJ4Q1dBc09RY1k1aVdpNEM4WjNRSzcyU1JuVmFlbmFtQU5rRVRoX21VTm84dlZFYmRZdDgtNTIwXzQ0RjlXZXlSZGNEMXlrbFJDbkVuNXB0YWdZVlg3clMyZnZESFl6RGlKanFMRGpxTEpNZnBzMGdINm11SmVBeHQ?oc=5",
+   "source": "Diebewertung",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T11:37:35+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
-    "insolvent",
-    "Insolvenzverwalter"
+    "Insolvenzverwalter",
+    "vorläufiger Insolvenzverwalter"
    ]
   },
   {
@@ -1567,6 +1504,20 @@
   },
   {
    "quelle": "GNews Verfahren/Verwalter",
+   "titel": "Planethic Group AG: Eigenverwaltung eröffnet, CEO und Gründer sichern Finanzierung - vegconomist.de",
+   "beschreibung": "Planethic Group AG: Eigenverwaltung eröffnet, CEO und Gründer sichern Finanzierung vegconomist.de",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRjdYMkNoWTBTYXA5OGZLakdNY1EwZEpjaXVLUTlZcjNWOWJGcHFKM0o4MnJWQlI4OXQ3NXlmVGR3SnlxRk5hSFIxZjF6azFmNmJ3dlFoM19xOWRtVlpzMWR2amVsUG5xSmd4S1NNWlRmeldSMXhaTTVndDdnUEFIUUc0Rml2ZU13VUdYNUl3bENNeGdYdGxaQ3RZZmpNSDRxV3RvUjhaRy16bjdKWXNNMi1wWlZMN1NIMGc?oc=5",
+   "source": "vegconomist.de",
+   "datum": "2026-09-10",
+   "datum_iso": "2026-09-10T11:43:43+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Eigenverwaltung"
+   ]
+  },
+  {
+   "quelle": "GNews Verfahren/Verwalter",
    "titel": "Augsburger Traditions-Autohaus Brunnhuber: Insolvenzverfahren in Eigenverwaltung - Radio Fantasy",
    "beschreibung": "Augsburger Traditions-Autohaus Brunnhuber: Insolvenzverfahren in Eigenverwaltung Radio Fantasy",
    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNd3pUSTJab0s3anhBV3A3b2p6X3ktekZYY2FJeGNJaGRvN2oybUV0c3VHT016VlJpNEVxZmFKUlVHWE9mb2pVenNLczFNejBxTHVwMlplWjRJQ3djaC1xXzlQdE5GRjRvaHFJT2ZocWpVQUZ1ckozc2ZJLXN2aDlVRlhJZ2xSclk1WmpLRFZKS21lYWw4dld0WDhlajRyV05qZ19fQjdDRjh3eEk?oc=5",
@@ -1578,6 +1529,21 @@
    "keywords": [
     "Insolvenzverfahren",
     "Eigenverwaltung"
+   ]
+  },
+  {
+   "quelle": "GNews Verfahren/Verwalter",
+   "titel": "Insolvenzverwalter einer insolventen Anwaltskanzlei verklagt JPMorgan wegen angeblicher Beihilfe zum Diebstahl durch Anwälte - de.tradingview.com",
+   "beschreibung": "Insolvenzverwalter einer insolventen Anwaltskanzlei verklagt JPMorgan wegen angeblicher Beihilfe zum Diebstahl durch Anwälte de.tradingview.com",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1YTVhBMC1KZV9kREVGa2E0U0V6V21INlU5a0ljMHVEOW11MDR3VXExTUpqM2hXY3NxWF9tc1Y1UWRDaTRpc25jb3QtbGxaODM0a2hHa2xTMG9qS2RCMnlCRUtiY3k5VUxVVklfUWRFZ1ZDRklzbnpJ?oc=5",
+   "source": "de.tradingview.com",
+   "datum": "2026-09-10",
+   "datum_iso": "2026-09-10T22:07:17+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent",
+    "Insolvenzverwalter"
    ]
   },
   {
@@ -1597,20 +1563,6 @@
   },
   {
    "quelle": "GNews Verfahren/Verwalter",
-   "titel": "Autohändler-Insolvenzen: Warum viele Unternehmen scheitern - WiWo",
-   "beschreibung": "Autohändler-Insolvenzen: Warum viele Unternehmen scheitern WiWo",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZW8tUVVBNzZXdmcyZkxPSmpTUHgtc0tzRjNqYy1QOTFHYlczRjMwaFBEOHlXNHZOV185djF4cTFiSDQ1cXQ5anBNRldaUXlqOXB5MzdxRWp0Sk1WX1RjSG5rdzVfbGJ3WFBsLXFNMUt3RFc1ajdNaE9ZSEcweEtqTk5ST3BCRFVzZUpsNTlqQ2FtODZZbmgzQVNrU0xtV2thRU1NN0ROdDN6all1OGo0?oc=5",
-   "source": "WiWo",
-   "datum": "2026-09-09",
-   "datum_iso": "2026-09-09T15:37:13+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Verfahren/Verwalter",
    "titel": "Post vom Insolvenzverwalter - dieblaue24",
    "beschreibung": "Post vom Insolvenzverwalter dieblaue24",
    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFAyZlVuTFRaRzh0MzY5LXBuMHowYTcxZ0dnbkJGaF9DVkVwcExZNHRaVXR5WHFlUHVma2VFb01GbWg0UWVUSWJ3TTR0SHRPazQ3eUd2LVE5MDFyUnFOVF9vd3pUaFlRSG1rMDVITmZDeHVKZw?oc=5",
@@ -1621,34 +1573,6 @@
    "datum_unbekannt": false,
    "keywords": [
     "Insolvenzverwalter"
-   ]
-  },
-  {
-   "quelle": "GNews Verfahren/Verwalter",
-   "titel": "Investorensuche für Domo-Chemiewerk in Leuna gescheitert - CHEMIE TECHNIK",
-   "beschreibung": "Investorensuche für Domo-Chemiewerk in Leuna gescheitert CHEMIE TECHNIK",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORmhSNmFIdVI5NzZKY0dUTmlCY2RneEF5THdoT0FXTkJHU1VLbVczUkg3UTNveUxqUkUyYXBYZWVKQWNGR0hpWjBjUFZ6Wml2TWJ6ZlR5TGVqT1BiZGpQNHVyYkVpaUhyV0FqUDdCMzdRRnpmNGNMQ2JRenFSd21sRXZ6WDlMWlVEdEJ0eFUtWnJNejk1Wml6eHAyU0V4S0lmYlBHdzRrUmhVOUw4?oc=5",
-   "source": "CHEMIE TECHNIK",
-   "datum": "2026-09-08",
-   "datum_iso": "2026-09-08T11:45:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Investorensuche"
-   ]
-  },
-  {
-   "quelle": "GNews Verfahren/Verwalter",
-   "titel": "Jetzt auch der älteste BMW-Händler der Welt insolvent – 1000 Jobs in Gefahr - Merkur",
-   "beschreibung": "Jetzt auch der älteste BMW-Händler der Welt insolvent – 1000 Jobs in Gefahr Merkur",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYzZ1WU9SQUwyR2ZTc1RaZzlvVnJGY3JZYnhaSG9DSjJ2UDd0TnRXdTAwMFlNTW1VY3hsNVJfaHpyVDRmSGY2Q3Baa3hnMmEtbFJXSHBKLVBkMnhQWE94SVRRX0NXR2tvT05ESGFvWTRMUng3cmVXT2d5THd6V0F6U25xeFBwNThLVGZyZW9MQlM5R3R1YVJvcDl5MFAxSkp4LVFIYnk1dXVDSXV3R0pWVGFUbzFpRWZqYUZEOXpnWXF3QTA?oc=5",
-   "source": "Merkur",
-   "datum": "2026-09-08",
-   "datum_iso": "2026-09-08T10:42:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
    ]
   },
   {
@@ -1682,27 +1606,12 @@
   },
   {
    "quelle": "GNews Verfahren/Verwalter",
-   "titel": "Enerparc in der Hafencity pleite: Was die Solarpark-Insolvenz über die Energiewende verrät - ndr.de",
-   "beschreibung": "Enerparc in der Hafencity pleite: Was die Solarpark-Insolvenz über die Energiewende verrät ndr.de",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbkgxMUxwV19hQjR5N3ZGOVJpcjh3WDFNUUE0cXRZb00wdVB6cDlERndHS010cVZVblJ0emI4MGNoR2N4ZEFtbVdHVkl4NFNCdUh6LURkQmRIUnduUnJWbVY1NWVORmxZYVhycHVmRzl3YWdYaE12TlpZdHFrOEU0ZUFjdzBrckxvMHVsUzhYeENpcHpJSDhOY251SktCZ2lTX2VETG5IaTM2QldmOWUxN1ZremJEbmJzZnFR?oc=5",
-   "source": "ndr.de",
-   "datum": "2026-09-09",
-   "datum_iso": "2026-09-09T03:51:00+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenz",
-    "Pleite"
-   ]
-  },
-  {
-   "quelle": "GNews Verfahren/Verwalter",
-   "titel": "Bank Sepah: BaFin schickt deutschen Ableger der iranischen Bank in die Insolvenz - WiWo",
-   "beschreibung": "Bank Sepah: BaFin schickt deutschen Ableger der iranischen Bank in die Insolvenz WiWo",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQa1N5MTkxd3RVQ2dyeVdJend6d2h3YjhEM0x6MnprN1ZhZm53QlRqU2k3SjZRc203NGxoQ2VSclRVY3BfQk9JdTQ1RTltRTZ1eTJBYkl0S1FTSC1SRGNKaGxOaEVyVkhkeE5GTmREX1RCWm4waHpCX1JLWmJuX3IzN1hXSEg2OWR1N09XMHV0alAzX3R6czlmZ0hQNHIySy1Fb0FMbENLQ3djekc4ajd2b3ZsVGdyVVltZllWVEdLaWJyQURGR1lobWtpVjBTZw?oc=5",
-   "source": "WiWo",
-   "datum": "2026-09-10",
-   "datum_iso": "2026-09-10T09:15:21+00:00",
+   "titel": "Autohändler-Insolvenzen: Warum viele Unternehmen scheitern - wiwo.de",
+   "beschreibung": "Autohändler-Insolvenzen: Warum viele Unternehmen scheitern wiwo.de",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSVlLRVRsWE9NQ292bnY4bThhVmxEMkRLZmRFSjVmNHdZX3Vka1RHeWZYZ0VxNDc3cldFMXJReE5VMmRUSmJxT29Uejh4Z3F6UEpjYVJuUjlJTTNIV2xxbkg1dkZHUW5UMGdfSmZkVkdlRFN1dExDWGhvXzRaNFNNUHBmd2ZzMUh4SUJmZ0hRMWlFZDNBREJ3TUdzR0ZZdU1XU0FocmMtQnV2SWs5UG52bVNRMA?oc=5",
+   "source": "wiwo.de",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T15:26:00+00:00",
    "signal": "schwach",
    "datum_unbekannt": false,
    "keywords": [
@@ -1711,12 +1620,41 @@
   },
   {
    "quelle": "GNews Verfahren/Verwalter",
-   "titel": "Seit 1737 Papier produziert – jetzt ist nach Insolvenz für immer Schluss - fr.de",
-   "beschreibung": "Seit 1737 Papier produziert – jetzt ist nach Insolvenz für immer Schluss fr.de",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOM3NXaHkyYnJCVTZROTUtLURWckVyR05MSWQ2VTVfUTRyaFVQSTJaNVVpUmFST2YzNEdGOVV6ZHJfR3B6SkZHVXdKSFlZMWc5ZTdwbV9xNGVUZEJNbnBfWVdtekZrVHZCdUZKM0hvQi1DSDNGVWFtaDVvRjJ4MG1tUlphZDV6WElveXo5ZHp4ZVRwRDlMSmZwaHlMcHFTdXpX?oc=5",
-   "source": "fr.de",
+   "titel": "Nach geplatztem Investorenprozess: Logistik-Gruppe am Bodensee muss Insolvenz anmelden - Merkur",
+   "beschreibung": "Nach geplatztem Investorenprozess: Logistik-Gruppe am Bodensee muss Insolvenz anmelden Merkur",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSXpQNDFYVmlwU05XRV93UXRfY1FmeG1udC1CM0lDMG5PRHV3Qi1ZRzNNM1FSbVc1RUV2UEh5S2h3SE5ua3JoU2JvdWtMZG9WWlFIaVhsWEp5VkxqeW05eUhZcndTSGhsdVNRa0l0WVpUSTBNcURhWEJJUFdqNmpucVA3dm1BOTR0N0pmQ01MemlvNDNva0FneFpSa3BJOFU?oc=5",
+   "source": "Merkur",
+   "datum": "2026-09-12",
+   "datum_iso": "2026-09-12T02:47:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Investorenprozess",
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Verfahren/Verwalter",
+   "titel": "Stemweder Festival-Veranstalter hat nur noch genügend Geld für das Insolvenzverfahren - Neue Westfälische",
+   "beschreibung": "Stemweder Festival-Veranstalter hat nur noch genügend Geld für das Insolvenzverfahren Neue Westfälische",
+   "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQYWFBZWZtd05jSGo4SUtONURQUk9sSkdDRzFhMDBBaHlrZlhaYzd6RWdmOGhMRHA4d1c0VlViWmhCQnJCeGhFbTRrcW9jSjk5QlZvUW5Iem5RVXh0YkV4STdVUEdKdFIzRWRvNW15S05UWGF2cVN3eHJIV192b2NmZ2RSUG9yRW9SRzF6djNKS1pZc3lTcHRocGFEYkdTMnRYRXlUdWFEc00xVHg5aGROYmlwMGRvX015QWdhVzBuSG0xUko1N3BNT0RYT1dxNGNQVVVCUnZzaHFXSFJBZk1pNnB6OTZpQnhGMW9VdlRJeW9Wdw?oc=5",
+   "source": "Neue Westfälische",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T22:09:06+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenzverfahren"
+   ]
+  },
+  {
+   "quelle": "GNews Verfahren/Verwalter",
+   "titel": "Bank Sepah: BaFin schickt deutschen Ableger der iranischen Bank in die Insolvenz - wiwo.de",
+   "beschreibung": "Bank Sepah: BaFin schickt deutschen Ableger der iranischen Bank in die Insolvenz wiwo.de",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQa1N5MTkxd3RVQ2dyeVdJend6d2h3YjhEM0x6MnprN1ZhZm53QlRqU2k3SjZRc203NGxoQ2VSclRVY3BfQk9JdTQ1RTltRTZ1eTJBYkl0S1FTSC1SRGNKaGxOaEVyVkhkeE5GTmREX1RCWm4waHpCX1JLWmJuX3IzN1hXSEg2OWR1N09XMHV0alAzX3R6czlmZ0hQNHIySy1Fb0FMbENLQ3djekc4ajd2b3ZsVGdyVVltZllWVEdLaWJyQURGR1lobWtpVjBTZw?oc=5",
+   "source": "wiwo.de",
    "datum": "2026-09-10",
-   "datum_iso": "2026-09-10T06:03:17+00:00",
+   "datum_iso": "2026-09-10T09:15:21+00:00",
    "signal": "schwach",
    "datum_unbekannt": false,
    "keywords": [
@@ -1739,26 +1677,12 @@
   },
   {
    "quelle": "GNews Verfahren/Verwalter",
-   "titel": "Planethic will Insolvenzverfahren bis Jahresende beenden - 4investors.de",
-   "beschreibung": "Planethic will Insolvenzverfahren bis Jahresende beenden 4investors.de",
-   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1ZUE8wRVpGdDAzd0dJdW5HU1MwMVN4UTd1RnEyV255V1hqaWYxeFBLUF96LUhSRU0tVlhmclYxYUxKV3F1QWxYd3NYaTlSdFV6WXZBT0dfclhTb01MbEk3VXB3djF1aUtaVGRqclFUcTlnMV9XSUVhOGJDN0rSAYIBQVVfeXFMUHZmZFhwdERkRkdzenNMaGNLbHhZYnduRDZDOHpKOXVTYzhOSWQ2aDJCNEUyTkFTZUdJaGxXLWtPQjgzSGVHSTVxajJ2M2lXZDJ0YXM2VzRXTjVULWZKd3NveERONVNua1REeHV0MExwUVdMNm00ck9wTVVka1hVeHI1QQ?oc=5",
-   "source": "4investors.de",
-   "datum": "2026-09-09",
-   "datum_iso": "2026-09-09T08:31:27+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenzverfahren"
-   ]
-  },
-  {
-   "quelle": "GNews Verfahren/Verwalter",
-   "titel": "Insolvenz von großem Bio-Händler: „In doppelter Hinsicht“ getroffen - Merkur",
-   "beschreibung": "Insolvenz von großem Bio-Händler: „In doppelter Hinsicht“ getroffen Merkur",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQ2J2U0s5LWhOSC02NVo0UEFiTmJfZUNxSUFlU21OTVd0SFFFT1h2ZmNoclY4RE9hM21KODFiTjI0bXdsRG50OEg1TVdCdXpMcUJwalVLdGZLNmN6R3JsUnVGam5jVTZoUzY0YzBxOHpoSU1nQ1dJQ2dlX0hYbE9ldlVBOWh0UXgxSXBFbENNMnlWR1RLSzBxYUY5N3hFUjZiT0VodzkzbVhEZw?oc=5",
-   "source": "Merkur",
-   "datum": "2026-09-08",
-   "datum_iso": "2026-09-08T16:57:30+00:00",
+   "titel": "Seit 1737 Papier produziert – jetzt ist nach Insolvenz für immer Schluss - fr.de",
+   "beschreibung": "Seit 1737 Papier produziert – jetzt ist nach Insolvenz für immer Schluss fr.de",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOM3NXaHkyYnJCVTZROTUtLURWckVyR05MSWQ2VTVfUTRyaFVQSTJaNVVpUmFST2YzNEdGOVV6ZHJfR3B6SkZHVXdKSFlZMWc5ZTdwbV9xNGVUZEJNbnBfWVdtekZrVHZCdUZKM0hvQi1DSDNGVWFtaDVvRjJ4MG1tUlphZDV6WElveXo5ZHp4ZVRwRDlMSmZwaHlMcHFTdXpX?oc=5",
+   "source": "fr.de",
+   "datum": "2026-09-10",
+   "datum_iso": "2026-09-10T06:03:17+00:00",
    "signal": "schwach",
    "datum_unbekannt": false,
    "keywords": [
@@ -1780,17 +1704,45 @@
    ]
   },
   {
-   "quelle": "GNews Verfahren/Verwalter",
-   "titel": "Insolvenzwelle 2026: 26.000 Pleiten erwartet – höchster Stand seit 2013 - ad-hoc-news.de",
-   "beschreibung": "Insolvenzwelle 2026: 26.000 Pleiten erwartet – höchster Stand seit 2013 ad-hoc-news.de",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNS2gtOUdFT05oZ3FDc2hsclFwZnNBaXI4VmxPSEllaFdKLUdBX0NvOVZFVHF4THU5OWFRRm5WbkJOSjM3ckhFdG1EUVljS2FVVDU2eXRyc1FZS2liYXdUTXFpWEVHRmp1MDZidVBFWlB1VkhFZHg1VE5HczU2dHRNcDB0TFdIazQ3ekRuN21Pajlia3JEYXBqcWMyMzNHNmhCMjNlTXNpSjhhUDVRSE9HeHkzLWUtX1ZmTnc?oc=5",
-   "source": "ad-hoc-news.de",
-   "datum": "2026-09-08",
-   "datum_iso": "2026-09-08T21:18:10+00:00",
-   "signal": "schwach",
+   "quelle": "GNews Sanierung/StaRUG",
+   "titel": "Oracle erhöht Restrukturierungsplan für das Geschäftsjahr 2026 um 700 Mio. USD - MarketScreener Deutschland",
+   "beschreibung": "Oracle erhöht Restrukturierungsplan für das Geschäftsjahr 2026 um 700 Mio. USD MarketScreener Deutschland",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQbER2UGU0UG82czFIVDRVb19XWXU0RGxRbEN4T2NraEFYZ0NmNXFfY0hKTGtJd0RQbjBfejFZa3AwZEwtUWNhYTNxYXk0cHpSMUZTUVlBeFNmbklya180bUU1ZUR4Z3pYQVNHZ3JzVTYxY2pqekk1UDZSVnZMbFF6V2t1UjV2dXRsWGtjOWlTekNZSUpkX2F5ZFBndW50cGxXRWIwc1gwSmFjVXlFU3YxZGc0VlJBbnN5SXhKWTBqak1mZE1ORFBMcU1HTmFVVG0yMlVTMnhKS3N3VHhWRUVZ?oc=5",
+   "source": "MarketScreener Deutschland",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T22:15:20+00:00",
+   "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
-    "Pleite"
+    "Restrukturierungsplan"
+   ]
+  },
+  {
+   "quelle": "GNews Sanierung/StaRUG",
+   "titel": "Im Sanierungsverfahren: 19 Kodi-Filialen schließen – bei 56 Geschäften ist die Zukunft offen - CHIP",
+   "beschreibung": "Im Sanierungsverfahren: 19 Kodi-Filialen schließen – bei 56 Geschäften ist die Zukunft offen CHIP",
+   "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOZFVEcFp1TUJBVTR3cTl4WjBtQXBwWkdZRE5sVnR0OXk5S25lRHdJSnlGVE5jQ3hmX0VSN0lPTGRnZU5BeUdWd212ampYWjNfa3FEeHkxeWdtb2I2T3JmbGM2cE1JTWpDQ2hnY1lpMmlMcWVXUmYwNGFndDhNcUgwX1lHMWRkOVIxdXJDajNrYUN3a084TGNSSG9DZlBrRkJjM1hFZm5QMHB3c2NzTzZkQ2t4ZGlYby00ZHc1MzYzMC1kalF0WFFYbjltOFdpT0ItWWxOOWJ0bUJZUGdaN2R0VnZZUlU5SXlYSTZ6dlNtY1JKbEpSOEY0ZG41WQ?oc=5",
+   "source": "CHIP",
+   "datum": "2026-09-09",
+   "datum_iso": "2026-09-09T12:29:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Sanierungsverfahren"
+   ]
+  },
+  {
+   "quelle": "GNews Sanierung/StaRUG",
+   "titel": "Christof Industries neuerlich insolvent, 180 Mitarbeiter betroffen - derStandard.de",
+   "beschreibung": "Christof Industries neuerlich insolvent, 180 Mitarbeiter betroffen derStandard.de",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUGt5RlBITDY4OC1xN0xQanY5WVJaaG5raWxmTWdOdmpjbGNQZVFSR05aMUxabzk3dV9Qd1l0alVnQWtLWnU3aW12eWlKX2ZJZEc2Q29qQWJsTlN2Q1JHeDJFWHdoUUZlZVVGUkRkY3RPa3NPMVJSTWNneUs0TjJZLUF2dGx4UUY2MlNCTm1iWS1YckVvWHJrMFZ1NW4zWmZ4Rk9oV0RGTFVaV1YzQ1hpY01R?oc=5",
+   "source": "derStandard.de",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T09:59:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
    ]
   },
   {
@@ -1809,34 +1761,6 @@
   },
   {
    "quelle": "GNews Sanierung/StaRUG",
-   "titel": "Tag: Sanierungsverfahren - windkraft-journal.de",
-   "beschreibung": "Tag: Sanierungsverfahren windkraft-journal.de",
-   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBjQjY2WmlWZUdhNTRJeEQtODhvem9Md2FPel9nQ2I5b1hIRmhNY3lCaWhCT1BJZ0JWbkxPd2ZzaG9rdXJFZlFoQ0FYaDBSMjh1SG1hWEE3UlFwYWdWWXF0U0cwUUhGbFE?oc=5",
-   "source": "windkraft-journal.de",
-   "datum": "2026-09-10",
-   "datum_iso": "2026-09-10T07:50:19+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Sanierungsverfahren"
-   ]
-  },
-  {
-   "quelle": "GNews Sanierung/StaRUG",
-   "titel": "Im Sanierungsverfahren: 19 Kodi-Filialen schließen – bei 56 Geschäften ist die Zukunft offen - chip.de",
-   "beschreibung": "Im Sanierungsverfahren: 19 Kodi-Filialen schließen – bei 56 Geschäften ist die Zukunft offen chip.de",
-   "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOZFVEcFp1TUJBVTR3cTl4WjBtQXBwWkdZRE5sVnR0OXk5S25lRHdJSnlGVE5jQ3hmX0VSN0lPTGRnZU5BeUdWd212ampYWjNfa3FEeHkxeWdtb2I2T3JmbGM2cE1JTWpDQ2hnY1lpMmlMcWVXUmYwNGFndDhNcUgwX1lHMWRkOVIxdXJDajNrYUN3a084TGNSSG9DZlBrRkJjM1hFZm5QMHB3c2NzTzZkQ2t4ZGlYby00ZHc1MzYzMC1kalF0WFFYbjltOFdpT0ItWWxOOWJ0bUJZUGdaN2R0VnZZUlU5SXlYSTZ6dlNtY1JKbEpSOEY0ZG41WQ?oc=5",
-   "source": "chip.de",
-   "datum": "2026-09-09",
-   "datum_iso": "2026-09-09T12:29:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Sanierungsverfahren"
-   ]
-  },
-  {
-   "quelle": "GNews Sanierung/StaRUG",
    "titel": "Enerparc-Insolvenz zieht Kreise: Auch pvwerk beantragt Sanierungsverfahren - markt intern",
    "beschreibung": "Enerparc-Insolvenz zieht Kreise: Auch pvwerk beantragt Sanierungsverfahren markt intern",
    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPLUdzUmc0ZXl3SDZycEtiQ3QySDlweGVVd1VvRXU4N0FUb0hOREk3d08xQ2g3NWRibXZRbGNLdjM4TW11ck50QWtEWU5ORHY3SGl6ZmFTVzV0T3Jhb2ZJQXBpd0ktSUNLQWhHUVBBUTc5ZmJXLVdsbUxiVS1FZHhnU0ozaW9Jb0FGM0JvWmx6UVdUeWJrX3JYS0J2VnhFRFUzWU5ZV3YtVXdKUzY2S2lSc3dsZW9KTld2V3N1N19MZ0d0UFk2NEFZUlZ5YkFpTDZLRkoyRnJlMThqS0NqaFJMWi1yblNzSmYxSGo5Wmh3?oc=5",
@@ -1847,6 +1771,62 @@
    "datum_unbekannt": false,
    "keywords": [
     "Sanierungsverfahren",
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Sanierung/StaRUG",
+   "titel": "Christof Industries Austria: „Überraschender Schiedsspruch\" führt zu zweiter Pleite - trend.at",
+   "beschreibung": "Christof Industries Austria: „Überraschender Schiedsspruch\" führt zu zweiter Pleite trend.at",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSld1NDhHWFdqZ3Z2cDdfajBzdWRrdDVRdXBaYUF0a0RJTzNQWHBLa09nQnRZYzlqcnRfOFduTkJ2bEU1MzhfemxVSmNSNnI4Ti1ReDdvLUctWlRDNnNnaVhERUFjcUh6NG9OTUY2eC01OGdib2JwMzlIamZLdWRGZVo3dnQwckxlT1VFUHdtMUZqWHRPcERMaEozdXdnbTZYVmlWQlh1QVVlMDVGNk9nYV91Rm9HOThsU3E4?oc=5",
+   "source": "trend.at",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T06:09:00+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Pleite"
+   ]
+  },
+  {
+   "quelle": "GNews Sanierung/StaRUG",
+   "titel": "30 Mio Euro Verbindlichkeiten: Großprojekt stürzt Christof Industries trotz schwarzer Zahlen in Sanierungsverfahren - wirtschafts-nachrichten.at",
+   "beschreibung": "30 Mio Euro Verbindlichkeiten: Großprojekt stürzt Christof Industries trotz schwarzer Zahlen in Sanierungsverfahren wirtschafts-nachrichten.at",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZ3d4WElneFY0YzJXWDNodTJSTFhjUmRYQzVxQXBYOHAwTjdTb1hneTEwc0NIS040c18yRkFFMnQtX1NMYTU5WjR0TmpfRlcyRWxJMUh2MXpKbVhyZmI1U3FaOElUb3kyWEhiUlJiSnF5Rm5BN2gza2E0UnRlaVExZE9jcHltQnRFbzhCdWFyZEUzMW1hY1pjS3ZQdE9xRU1lR0dQdnk1MkxqSmhQWktkaGVRYVFWM3o2bG1BaVpsQUxlaUFrRDdaekd2NA?oc=5",
+   "source": "wirtschafts-nachrichten.at",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T10:43:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Sanierungsverfahren"
+   ]
+  },
+  {
+   "quelle": "GNews Sanierung/StaRUG",
+   "titel": "180 Beschäftigte: Grazer Christof Industries abermals insolvent - kleinezeitung.at",
+   "beschreibung": "180 Beschäftigte: Grazer Christof Industries abermals insolvent kleinezeitung.at",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaXRBbThUTi1oT29rTWI2a2JEOWNtclQ2SlVSMGg3SkpUeWdIbkxTc2pEVkd1U3dyM0FBT0l0RHZvN1hYWXpxcFRZb3ctQmFZeFRQbHN4Qkcybk1iM2hXRF9KZEpXVF82OGlZaXBFOFdLUzg0Rk8yamZ5NVJfZnp5NkVzUnBNZm1zdlFUUi1vNVgyM19ud1ptOUx6NVJmYnBFaGlBbzFDUTFOVzE0YXc?oc=5",
+   "source": "kleinezeitung.at",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T08:39:22+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Sanierung/StaRUG",
+   "titel": "Insolvenz der Wahl-Gruppe trifft auch Aachener Standort - Aachener Zeitung",
+   "beschreibung": "Insolvenz der Wahl-Gruppe trifft auch Aachener Standort Aachener Zeitung",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdmJ1cUJGZ1hPRnU3OW12cWc1d2xHR213MElTcWtFaGFGcHlFRy10Q1M4d1dqZkZvREs1UHM4cnJ4c3BmZ1pYcGtVODhmVF9FR2xfNDV4OGxmSzNmZ09rYUdwaGtSbGdrMGdwYUVyR3h3VkplVy10djl0ZHNsQ252a0t0Y29LRUFZaEN6T0RvWFpJYTJTNm9vcGNaalR0NHJDTDd2MW80a0U1WGxybzA2NlNNTGdjNTJHZEpfSk9YYWwzbG1kYlhJQUYyNA?oc=5",
+   "source": "Aachener Zeitung",
+   "datum": "2026-09-12",
+   "datum_iso": "2026-09-12T02:00:00+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
     "Insolvenz"
    ]
   },
@@ -1867,26 +1847,26 @@
   },
   {
    "quelle": "GNews Sanierung/StaRUG",
-   "titel": "Quotenvergleichsrechnung als Kern des Restrukturierungsplans - Börsen-Zeitung",
-   "beschreibung": "Quotenvergleichsrechnung als Kern des Restrukturierungsplans Börsen-Zeitung",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQOU5EREtwRE5qcHBMN2FOMVRFWXI0OEhrdWJDQTNmV2MzTGUydFVlenBtV1V5cDZmMUlDR2Q3TzRqTkYwMWRQbnM0cHpOWVVudHRRVnIzS2lLWmFEZTRrekFsRjdhbFBURjhlaGhDVlB4MU9jVFlTWEhVSnQ0M3BMWEdON0NHb2o3STdBRlMtLWxtNHBmRmhuVHVjRkppcEZOUGE4T1JDT2ZDTVhuN25ZdjhR?oc=5",
-   "source": "Börsen-Zeitung",
-   "datum": "2026-09-09",
-   "datum_iso": "2026-09-09T02:26:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Restrukturierungsplan"
-   ]
-  },
-  {
-   "quelle": "GNews Sanierung/StaRUG",
-   "titel": "180 Beschäftigte: Grazer Christof Industries abermals insolvent - kleinezeitung.at",
-   "beschreibung": "180 Beschäftigte: Grazer Christof Industries abermals insolvent kleinezeitung.at",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaXRBbThUTi1oT29rTWI2a2JEOWNtclQ2SlVSMGg3SkpUeWdIbkxTc2pEVkd1U3dyM0FBT0l0RHZvN1hYWXpxcFRZb3ctQmFZeFRQbHN4Qkcybk1iM2hXRF9KZEpXVF82OGlZaXBFOFdLUzg0Rk8yamZ5NVJfZnp5NkVzUnBNZm1zdlFUUi1vNVgyM19ud1ptOUx6NVJmYnBFaGlBbzFDUTFOVzE0YXc?oc=5",
-   "source": "kleinezeitung.at",
+   "titel": "Christof erneut pleite: 180 Mitarbeiter betroffen - weekend.at",
+   "beschreibung": "Christof erneut pleite: 180 Mitarbeiter betroffen weekend.at",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZzY0R19HemlXc1AyemJpSXg3eHNFY2RqUEQ2WUFydDg4VmlzZUZhdEx4aEN4emFPZ2Z2Z3daaER6VWJRNlU4QVpWMzJGTk9uTkFLVWthX3BHSkNJbTZzX283YUhUZkVhVzNxRXB5V2E2c0hjVHcyaVlNb29VNV9ZSmln?oc=5",
+   "source": "weekend.at",
    "datum": "2026-09-11",
-   "datum_iso": "2026-09-11T08:39:22+00:00",
+   "datum_iso": "2026-09-11T09:17:11+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Pleite"
+   ]
+  },
+  {
+   "quelle": "GNews Sanierung/StaRUG",
+   "titel": "Betrieb mit 180 Arbeitsplätzen: Christof Industries in Graz ist erneut insolvent - meinbezirk.at",
+   "beschreibung": "Betrieb mit 180 Arbeitsplätzen: Christof Industries in Graz ist erneut insolvent meinbezirk.at",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUDVtOWdJVlNpTVNfc2tUd05td2Fsd2Z4S2djc1lHblZsanRyellkeXQ4QUQyeUZ3NHljTzNTQnJra3NMdXh2emhzaXJiT3FPM1RKQ0dEalkweURGYXVDbXl2ekk4R2lnWEFKZVNYM05JUzZGc0xOQXp4Y21kWVYzTXlPbHVkLS05a0lXZnFxZVJIX1RWMTdTdUlCX1gtd3NheFNJ?oc=5",
+   "source": "meinbezirk.at",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T10:42:33+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -1895,12 +1875,12 @@
   },
   {
    "quelle": "GNews Sanierung/StaRUG",
-   "titel": "Jetzt auch der älteste BMW-Händler der Welt insolvent – 1000 Jobs in Gefahr - Merkur",
-   "beschreibung": "Jetzt auch der älteste BMW-Händler der Welt insolvent – 1000 Jobs in Gefahr Merkur",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYzZ1WU9SQUwyR2ZTc1RaZzlvVnJGY3JZYnhaSG9DSjJ2UDd0TnRXdTAwMFlNTW1VY3hsNVJfaHpyVDRmSGY2Q3Baa3hnMmEtbFJXSHBKLVBkMnhQWE94SVRRX0NXR2tvT05ESGFvWTRMUng3cmVXT2d5THd6V0F6U25xeFBwNThLVGZyZW9MQlM5R3R1YVJvcDl5MFAxSkp4LVFIYnk1dXVDSXV3R0pWVGFUbzFpRWZqYUZEOXpnWXF3QTA?oc=5",
-   "source": "Merkur",
-   "datum": "2026-09-08",
-   "datum_iso": "2026-09-08T10:42:00+00:00",
+   "titel": "„Auftragslage stabil“ - Christof Industries Austria ist erneut insolvent - krone.at",
+   "beschreibung": "„Auftragslage stabil“ - Christof Industries Austria ist erneut insolvent krone.at",
+   "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBNdF9sUGVqMUI4OW5tbHBtUjdDZnJsVlJBaWR4RUhkemJfaFA2SU15NlhaMlg3TXJKS0M2N19YMnktZw?oc=5",
+   "source": "krone.at",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T09:55:00+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -1909,73 +1889,74 @@
   },
   {
    "quelle": "GNews Sanierung/StaRUG",
-   "titel": "Vietnam Airlines (HVN) erzielte im ersten Halbjahr einen Gewinn von über 3.800 Milliarden VND und beschleunigte damit ihren Restrukturierungsplan. - vietnam.vn",
-   "beschreibung": "Vietnam Airlines (HVN) erzielte im ersten Halbjahr einen Gewinn von über 3.800 Milliarden VND und beschleunigte damit ihren Restrukturierungsplan. vietnam.vn",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPM3laT1JJcGhQY0xjNzNPVk1IS3VPTmVzRkR5MUVsVVVUSnFFU25CNEc3V2FlOTl6TFZZTGhOZkJrX2FlSDFpMV9jTW5EaEFHS3JINnNxUkpHUVAteWJ6THRPZERfU0tKcGVoWWotaF80alJ6TEVxeXdkcjBaQmozckdheFN1bGxZaUtRRnJfWi13Z3lRb3VPbUpFVndRU1hYX2xWYTZSZW15ZkszX2ZVTmJR?oc=5",
-   "source": "vietnam.vn",
-   "datum": "2026-09-09",
-   "datum_iso": "2026-09-09T03:12:31+00:00",
+   "titel": "Christof Industries neuerlich insolvent, 180 Mitarbeiter betroffen - Der Standard",
+   "beschreibung": "Christof Industries neuerlich insolvent, 180 Mitarbeiter betroffen Der Standard",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQTdxdHJ3dGlpc09NbU00Q1NVLVJtcDZScFFQRHhDOGJVTnBlUmhCcURzRGZFVHlLY09NeGtKcEFHRHBqaGg1M05HSldJbXJZLU9WRTZ5V2tWS2pBaWt3S1dKd1ZxaVlxSnRvMVNwWnJUaGxMdVBHVnV4YUNLekZVUjZCNnYyQWtjaF9GX0NxdFVrRXQ1dmVnUFg4Y1JpZUtfMzlEVGVia0lEdndLTXdnYm1n?oc=5",
+   "source": "Der Standard",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T09:59:00+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
-    "Restrukturierungsplan"
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Sanierung/StaRUG",
+   "titel": "180 Mitarbeiter: Pleite eines großen Anlagenbauers - oe24",
+   "beschreibung": "180 Mitarbeiter: Pleite eines großen Anlagenbauers oe24",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5aVzRVdmZaNW5uYjdZcUVTNFFyeG5wTmlDXzhJbldsTlNGblZwcUpPXzRjTjZqRm1HczdFMnVUUkpjYk80SWVZNXg3T3ppY3BjR3FKMVdyRGdGUm5TRjVvTlJSZEJvZ2Qtc0xsMDE1NTlNMzRjQkN4S3dhdWNSNUHSAYQBQVVfeXFMTTNHTHM3SnQtckdkWW9fNklKZEdaRkV2dEdBSGhkajhUZjdGXzR0TG9VVWJ0ZXJxb1FyNVI1dzY1Qlh5c2N5T0N0anRvS0h1Z2lpOXpCQXFMd1F1Wm5Ta3N2Vlg0Z3piTGxDRWloSW95ZHhrcUY0Rjc0TjJwRU5iaWNORnd1?oc=5",
+   "source": "oe24",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T09:55:38+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Pleite"
+   ]
+  },
+  {
+   "quelle": "GNews Sanierung/StaRUG",
+   "titel": "Christof Industries in Graz meldet Insolvenz und gefährdet 180 Arbeitsplätze - Welt Stimme",
+   "beschreibung": "Christof Industries in Graz meldet Insolvenz und gefährdet 180 Arbeitsplätze Welt Stimme",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQT0Y1bG94dFdPUWU5ZVYxWEczT0tNOXNkYUNXM2JCMHpMTU1rN01RcC15dU81NXNqeTduaG5nQXVDLTdSeVJTNUp4b2NqUmdVQmhYR3hqcnpYQmJiUGhGV24yWWhTak9BMXVVQkRjMlVIVk1vMUZRbEItQ1dpTDJ0b05SR1NGUUZoLXFhYllOWkdTelFpTUQzVkpURjByekVzeUtocGFCYnFvVkg3LTVnVGU0NA?oc=5",
+   "source": "Welt Stimme",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T11:42:59+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "meldet Insolvenz",
+    "Insolvenz"
    ]
   },
   {
    "quelle": "GNews Investorenprozess",
-   "titel": "Sportbad Baunatal sucht Investor: Verfahren ist ergebnisoffen - HNA",
-   "beschreibung": "Sportbad Baunatal sucht Investor: Verfahren ist ergebnisoffen HNA",
+   "titel": "Nach geplatztem Investorenprozess: Logistik-Gruppe am Bodensee muss Insolvenz anmelden - Merkur",
+   "beschreibung": "Nach geplatztem Investorenprozess: Logistik-Gruppe am Bodensee muss Insolvenz anmelden Merkur",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSXpQNDFYVmlwU05XRV93UXRfY1FmeG1udC1CM0lDMG5PRHV3Qi1ZRzNNM1FSbVc1RUV2UEh5S2h3SE5ua3JoU2JvdWtMZG9WWlFIaVhsWEp5VkxqeW05eUhZcndTSGhsdVNRa0l0WVpUSTBNcURhWEJJUFdqNmpucVA3dm1BOTR0N0pmQ01MemlvNDNva0FneFpSa3BJOFU?oc=5",
+   "source": "Merkur",
+   "datum": "2026-09-12",
+   "datum_iso": "2026-09-12T02:47:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Investorenprozess",
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Investorenprozess",
+   "titel": "Marodes Sportbad sucht Investor – Auch Abriss ist möglich - HNA",
+   "beschreibung": "Marodes Sportbad sucht Investor – Auch Abriss ist möglich HNA",
    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRWhhQUZDMEFhS1B2N3VLa2Y0eWdkR3duS2taSjJ0cmRPNDZrdkxhZDdCUFlmVVJPZ3duY2hWQnNyaGliX2ZfUllsckxSVUVBTFVDbnpjUFQtZm1yLUtldlozRlI4c3BOWm5HXzB4V2pzMkJ5OTJzMWFmcnNWY2pPU0M0a3pTb1lMSTMtLTdISmwwOHBGVG4yMHNhYURjVE9jcDlmemxiSzFhZlpIcGRfV2MxTDhINTVIR1FsVng4dFhTLUplS01PNmJKYk5SUQ?oc=5",
    "source": "HNA",
    "datum": "2026-09-11",
-   "datum_iso": "2026-09-11T06:00:00+00:00",
+   "datum_iso": "2026-09-11T08:44:00+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
     "sucht Investor"
-   ]
-  },
-  {
-   "quelle": "GNews Investorenprozess",
-   "titel": "MP Lackierungen in Twist: Vorläufiges Insolvenzverfahren eröffnet - noz.de",
-   "beschreibung": "MP Lackierungen in Twist: Vorläufiges Insolvenzverfahren eröffnet noz.de",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOS3c3M2IwRzQ4VzJGM0c2YnliUVhDbmxWUzBqelh2RFN1Y1lxY2loVVVaem8wLW9UQjJ0NFJub1NMRG5xMVVKdmNReXpRZjV2NzZFOEFoNDlJN0RZcU8tbkNuMmQ5b0pwbVFYa19tRF9wOTJNN1JWQWwzZ3ZRS1RYc0d6ZGhmVGtuRVRmbzhMTUh2dTdxQVZEZGV6bWtVbDZfRUxBdVNpTHZlWmZ5NjQyVVh3WkpsQQ?oc=5",
-   "source": "noz.de",
-   "datum": "2026-09-09",
-   "datum_iso": "2026-09-09T06:12:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenzverfahren eröffnet",
-    "Insolvenzverfahren"
-   ]
-  },
-  {
-   "quelle": "GNews Investorenprozess",
-   "titel": "Investor gesucht Recklinghäuser Polizei erhält jetzt auch in Bottrop ein neues Dienstgebäude - Recklinghäuser Zeitung",
-   "beschreibung": "Investor gesucht Recklinghäuser Polizei erhält jetzt auch in Bottrop ein neues Dienstgebäude Recklinghäuser Zeitung",
-   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQZ0JTU2VzT2lmT0tyNVk3Z1JNem1tOXBWazVkOS1qLVpnMEtka2tZS01iWEdXLWxTRDZ3UFZWVGdzeHAyYzJrcnpvaDRHcWVBcUduRGlGM0ZieWRWa1VHM3RYU0VYVHRmYl96QUU4Tlk1ay1MVC1CREFEbjQ2UWZtc19PZ096c3VBY2otZUNBcjRBb1diUzU0THYwSEMwd0dPVFdsLXZKNzB5UVQzdEI4dFhaMFZta1pqTzJwNnl4ckJ1eFdNa0xRZkFla2hJTzFUdS1QWUhFREJhQQ?oc=5",
-   "source": "Recklinghäuser Zeitung",
-   "datum": "2026-09-08",
-   "datum_iso": "2026-09-08T15:45:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Investor gesucht"
-   ]
-  },
-  {
-   "quelle": "GNews Investorenprozess",
-   "titel": "Traditionsunternehmen ist insolvent: 310 Mitarbeiter an drei Standorten betroffen - Soester Anzeiger",
-   "beschreibung": "Traditionsunternehmen ist insolvent: 310 Mitarbeiter an drei Standorten betroffen Soester Anzeiger",
-   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQMmF2NVY2MlhkSGpJb0JSdEQ2NWktOGpCWVhsdEljVHhFN0JVZHlSU1F4Z2VYRnl2aWJDTlVMQzZkSEMycUNxdUpLeGlOVXpoVXZyc2UwZXczSXNpN2VwRHhYWlVTMHJtWElCaF9IbE1kaXRVSEp3MVZjVFlHRUFpbmFRdG9ybGRRT3JmbHhzLXlaeXFPUzBLV19ZTXZ2cUFZaFVObWhpVW0wUXdTLTh6OXVKVnJ5U2ZLQ0d1Qm1mM3hnYzg3Ry1LMlFyaWU5Rmh1Rm1qU1dERkcyNnc?oc=5",
-   "source": "Soester Anzeiger",
-   "datum": "2026-09-10",
-   "datum_iso": "2026-09-10T16:00:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
    ]
   },
   {
@@ -1990,6 +1971,20 @@
    "datum_unbekannt": false,
    "keywords": [
     "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Investorenprozess",
+   "titel": "Traditionsunternehmen ist insolvent: 310 Mitarbeiter an drei Standorten betroffen - Soester Anzeiger",
+   "beschreibung": "Traditionsunternehmen ist insolvent: 310 Mitarbeiter an drei Standorten betroffen Soester Anzeiger",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQMmF2NVY2MlhkSGpJb0JSdEQ2NWktOGpCWVhsdEljVHhFN0JVZHlSU1F4Z2VYRnl2aWJDTlVMQzZkSEMycUNxdUpLeGlOVXpoVXZyc2UwZXczSXNpN2VwRHhYWlVTMHJtWElCaF9IbE1kaXRVSEp3MVZjVFlHRUFpbmFRdG9ybGRRT3JmbHhzLXlaeXFPUzBLV19ZTXZ2cUFZaFVObWhpVW0wUXdTLTh6OXVKVnJ5U2ZLQ0d1Qm1mM3hnYzg3Ry1LMlFyaWU5Rmh1Rm1qU1dERkcyNnc?oc=5",
+   "source": "Soester Anzeiger",
+   "datum": "2026-09-10",
+   "datum_iso": "2026-09-10T16:00:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
    ]
   },
   {
@@ -2022,40 +2017,40 @@
   },
   {
    "quelle": "GNews Fruehsignal",
-   "titel": "Holger Backhaus-Maul: Ein Moratorium zum Diskutieren, Entscheiden und Handeln - Table.Briefings",
-   "beschreibung": "Holger Backhaus-Maul: Ein Moratorium zum Diskutieren, Entscheiden und Handeln Table.Briefings",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUlJLWEJRZUpVQTh4LWhTSHcxd1dfRjZtbW1RV1UxcTR3Q1lBVUV1UUoySGZlS1Bpak9BNDlrcUhXbXYyQW9DTFIwWkdvLXJxM3VnV2FNclZtaVVzc1U0bm5OaHFXQVlROUNVWVBaSmJCZ2J0Mlo2aWhOWHpQNWRSUWtqYlJpdGVaV19Rd3FzbHk3SlpBSTRNMkk4WXRENVRPMnRCUEVkNlJkSHFqZ00tckpVeFpJc3JD?oc=5",
-   "source": "Table.Briefings",
-   "datum": "2026-09-08",
-   "datum_iso": "2026-09-08T16:35:10+00:00",
-   "signal": "stark",
+   "titel": "Siegen-Weidenau: Weihnachtsmarkt-Veranstalter ist pleite - „ein schlechter Traum“ - Westfalenpost",
+   "beschreibung": "Siegen-Weidenau: Weihnachtsmarkt-Veranstalter ist pleite - „ein schlechter Traum“ Westfalenpost",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOU0JMSmFSTmVhYlpZMnpEVHZBSTVNb25LWXZROVg0bkdhX2lTWmZaaTZsZVZER1F0d3lzSUV6T1RUN0JreUV5TWROdFZNYVljMUFGMTd6TUhMdlNhN3ZJbjlkeE03aEVqbzFrOXFHNHZCSHRETllHVXhLUnhhdEF5NUVtWHRES1FHYVZKcmxNUjVraGw3RGFfOWN6Skdfd1dRVUhxQnpNMWw0NUljdGh0Ul9wYnhEdUtCY01xc0FNRkNTMW45ckdrQmd0U2c2Zk8wb2Y3NWZpSFhCQQ?oc=5",
+   "source": "Westfalenpost",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T12:32:46+00:00",
+   "signal": "schwach",
    "datum_unbekannt": false,
    "keywords": [
-    "Moratorium"
+    "Pleite"
    ]
   },
   {
    "quelle": "GNews Fruehsignal",
-   "titel": "LIV Golf meldet Zahlungsunfähigkeit an und plant Eigentümermodell für Spieler - Investing.com Deutsch",
-   "beschreibung": "LIV Golf meldet Zahlungsunfähigkeit an und plant Eigentümermodell für Spieler Investing.com Deutsch",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMkNWTmkya2d6UFdHSXlTTEJJanhVMmg2czdILTd5WThNc3ZmbWVBelJ0VHdhaUFaSkotWVpBMjh4ZE5lLVhvaTNCLXg1X0IxR2QwVDZoa3RxcEw1NWpJUkZXV3pQWjBvemZvZzBQdmlDd0wzUnJFVWpGOVh6d05UWFpLZTdiaUVlTlRJUVRsTTR1cDkzTjhTRHFwZjdGcVplVU1Udm1UVTJ3NnJfOE9iTG9YTVYwbWl3SlIxRWVtZmF2cjhJLTdqTnlVUGRtdw?oc=5",
-   "source": "Investing.com Deutsch",
-   "datum": "2026-09-08",
-   "datum_iso": "2026-09-08T20:40:00+00:00",
-   "signal": "stark",
+   "titel": "Insolvenzen: Wie das Statistische Bundesamt Unternehmenszahlen erfasst - cristinaiglesias.com",
+   "beschreibung": "Insolvenzen: Wie das Statistische Bundesamt Unternehmenszahlen erfasst cristinaiglesias.com",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbV8yUENZXzBZaXpjQmIxMGRfVWFfNFhOSndDNHBxb3JPdXh6TTVWZHhyRUJBT1UtSEhYV2pPRUIzR1pBcGZnM1lwbTBZOXRTNWZkWFhoXzVWRzR5ZHhGRk1jWmxIaVc1d2xKT2UzVzc2Vy1zajVHSHBaTHlILS1waFgyOGxRSXg0OF9sY3Q0MERsRzlRekZ5YWxRc0NBNVVKZ2hzUEZFUEdVMnM?oc=5",
+   "source": "cristinaiglesias.com",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T15:51:20+00:00",
+   "signal": "schwach",
    "datum_unbekannt": false,
    "keywords": [
-    "Zahlungsunfähigkeit"
+    "Insolvenz"
    ]
   },
   {
    "quelle": "GNews Fruehsignal",
-   "titel": "Solarparkbetreiber Enerparc AG ist insolvent - FAZ",
-   "beschreibung": "Solarparkbetreiber Enerparc AG ist insolvent FAZ",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSlI4dDVfd3RLM1JZMzlfMW45a1NUTFFzd2E3d3llY09vc0RMQ2RsbEpzM3ZtZDlwNDNPblZHcS1mbWs4RnRGNHQ5TDRlOEdaZ0FwZTZ0dlFFb2ltSlJaSzJnVGRtZkdaX0h6Y1VpdktHbXNwODNoODlxQVQ2WnllclVZTFNKVk04NGREa1BYLURuMnpuc3hxV1M5V09uU3Mzd0lnV1dUSVMxUENMTUhN?oc=5",
-   "source": "FAZ",
-   "datum": "2026-09-08",
-   "datum_iso": "2026-09-08T14:41:05+00:00",
+   "titel": "Christof Industries Austria erneut insolvent - steiermark.ORF.at",
+   "beschreibung": "Christof Industries Austria erneut insolvent steiermark.ORF.at",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBwTGtreE1uMkZkaldhUWFJS1NVWVJKQjBKeWIwRVZEdVA5Y0RDSm8xdG05NDEzdk1SZ3ZkQzBJU0VEMXZQdk51Q3RkeUlqMG9ZRlBiQQ?oc=5",
+   "source": "steiermark.ORF.at",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T11:21:47+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -2064,25 +2059,25 @@
   },
   {
    "quelle": "GNews Fruehsignal",
-   "titel": "Enerparc stellt Insolvenzantrag - energate messenger",
-   "beschreibung": "Enerparc stellt Insolvenzantrag energate messenger",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRjU2RUtMd2ZlNHluNkVNNTc3RGhEVHFPSjN3VTY1QzA3WVgtd1pEQVpqdXFjQ0VXVFNRNWdxbHRkSFgzc2w3T3hXRXZhdHdVX21iZm4wRGt5eTlWYXB5Y3Z4SUFseDJnSjFfS0NGNE1MS0hReXJCcU5Nc1hjbXhtc0xKdw?oc=5",
-   "source": "energate messenger",
-   "datum": "2026-09-08",
-   "datum_iso": "2026-09-08T10:57:00+00:00",
+   "titel": "Nach geplatztem Investorenprozess: Logistik-Gruppe am Bodensee muss Insolvenz anmelden - Merkur",
+   "beschreibung": "Nach geplatztem Investorenprozess: Logistik-Gruppe am Bodensee muss Insolvenz anmelden Merkur",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSXpQNDFYVmlwU05XRV93UXRfY1FmeG1udC1CM0lDMG5PRHV3Qi1ZRzNNM1FSbVc1RUV2UEh5S2h3SE5ua3JoU2JvdWtMZG9WWlFIaVhsWEp5VkxqeW05eUhZcndTSGhsdVNRa0l0WVpUSTBNcURhWEJJUFdqNmpucVA3dm1BOTR0N0pmQ01MemlvNDNva0FneFpSa3BJOFU?oc=5",
+   "source": "Merkur",
+   "datum": "2026-09-12",
+   "datum_iso": "2026-09-12T02:47:00+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
-    "Insolvenzantrag",
-    "stellt Insolvenzantrag"
+    "Investorenprozess",
+    "Insolvenz"
    ]
   },
   {
    "quelle": "GNews Fruehsignal",
-   "titel": "Weihnachtsmarkt-Veranstalter in Weidenau insolvent – wie geht es jetzt weiter? - siegener-zeitung.de",
-   "beschreibung": "Weihnachtsmarkt-Veranstalter in Weidenau insolvent – wie geht es jetzt weiter? siegener-zeitung.de",
+   "titel": "Weihnachtsmarkt-Veranstalter in Weidenau insolvent – wie geht es jetzt weiter? - Siegener Zeitung",
+   "beschreibung": "Weihnachtsmarkt-Veranstalter in Weidenau insolvent – wie geht es jetzt weiter? Siegener Zeitung",
    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQQnJKS3lXVEhrcDNiNEhsWkFLbDY3bHF6ZG8tLXV3XzZSbUR1TWp6UFZ6b0M5OWtxMkEzNlNTemlTM2RYM0NWdXozZEJUV3RpU0ZPOHh4VFlBaUFaXzBTQlBQUzJWYU04TGNyWmY2TnBiNloyVDg4djJndG93dkxodnIyM3E4WWFPbVZJNGdNemRkbHZtMTZaZWRtWTVZYmNza01TTENyNVlwbGctQVB3cEFwcHNIWDNjeWVhTVh4dnd6S2VrQWkyOF9QMDN4aDFUdkt4TGIzQ0xEOVB2WlJxdVlDQl9UY19HcElISGllMNIBiwJBVV95cUxONGF0RU1ZNUxrRWJDLW5lcTRIRFRWZWZSUFhNcmdFSzh4Yndna0tXOGRXc3otZDVkZ1dPV1Z3RXRycjA5Q3pPR3VtWnlSNk9nNEpIZ2NHUFBTY3RFVXF3dkNvRGZXSmRDMXVEbzNveDZfRGdZVU83MF83X2NPY041c2FrRUNjcE03ODNNckgwd1YwbmpCWkVxSm96ZVE1b0txUGN3dGxNdnZ2a1lROWx3bXk4YUlvSGVwUkJxWjAwN3NkMFgxZVhrVUdPeDZuQ3NzLWVHRmhUUDdlZnlEbFdFbEpFTEx2amYyVFhxS1lHenBhbWpYaHNoaTZRNWhsekJuU2JYTDRiNjFKWm8?oc=5",
-   "source": "siegener-zeitung.de",
+   "source": "Siegener Zeitung",
    "datum": "2026-09-10",
    "datum_iso": "2026-09-10T12:38:57+00:00",
    "signal": "stark",
@@ -2093,10 +2088,10 @@
   },
   {
    "quelle": "GNews Fruehsignal",
-   "titel": "Es fehlen 12 Millionen Euro: Deutscher Elektronikhersteller muss Insolvenz anmelden - chip.de",
-   "beschreibung": "Es fehlen 12 Millionen Euro: Deutscher Elektronikhersteller muss Insolvenz anmelden chip.de",
+   "titel": "Es fehlen 12 Millionen Euro: Deutscher Elektronikhersteller muss Insolvenz anmelden - CHIP",
+   "beschreibung": "Es fehlen 12 Millionen Euro: Deutscher Elektronikhersteller muss Insolvenz anmelden CHIP",
    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNVlBzUVdkcnl3YVM2UU9rcm0yNHhIRkhVaUZjblpsMk5zbVFqVktsMkJZUWN1c25raWRnTDdpZjZVUnNHbUc5RnFYeFBGSFZJR3M3X0IxOGFrYzBieU9tbnI0V09FbXFFanQwbk5DbWFaQXVtNFZxZ0hSa2FhM3djckRqSjlXZUVyTVB2bXlRMTNCYXBsdWdFUXZJWExUSFFxUm1oeUl6TU1hWlZxbTJLeTk2VDBrSldocXlyYzRLcUprYWNLQjdCVnNram9rRk0zRm56elM4cE9GYVdESlJLT1U1UzZnRmVfRnV3VW9KMA?oc=5",
-   "source": "chip.de",
+   "source": "CHIP",
    "datum": "2026-09-11",
    "datum_iso": "2026-09-11T04:04:00+00:00",
    "signal": "schwach",
@@ -2107,72 +2102,30 @@
   },
   {
    "quelle": "GNews Fruehsignal",
-   "titel": "DF Deutsche Finance Investment Fund 17 – Club Deal Boston II - vorläufige Insolvenzverwaltung - Anwalt.de",
-   "beschreibung": "DF Deutsche Finance Investment Fund 17 – Club Deal Boston II - vorläufige Insolvenzverwaltung Anwalt.de",
-   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVWV5U2tYc2lCZGRxb0ZqZmVQZ3JEOU1jRE5JUnpITTNzNmt5TkMzUW9HZlZkM0VRYWVnSy1uZFo0d05xT0JlNmdpNWRxQjlSRkw4bG96dU5JdTJSeEtZSFN1UUdpYzFrX2NBRUVaMnNwVEc4QkdMc1VWMTRLVUZHN1pUNzZmdmhKem8xSUxPbThLRV9ERHBFQ2o2RHRobkNIWjliX3F1T3ZVYnhoNnNQUDRoclZfZ1A3QVFSaWRTQTd4RzNabEZpQjNBc0tadFBjdUE?oc=5",
-   "source": "Anwalt.de",
-   "datum": "2026-09-09",
-   "datum_iso": "2026-09-09T20:38:07+00:00",
+   "titel": "Zahlungsunfähig? Darum macht das Agostea in Karlsruhe dicht - Badische Neueste Nachrichten",
+   "beschreibung": "Zahlungsunfähig? Darum macht das Agostea in Karlsruhe dicht Badische Neueste Nachrichten",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTGpyRUItcWhVcnRTdlptUEhRdldKeUtnWGVmdDZoNmxlX2J1a3RGV3JEejRRalZKbGFPbXBIXzdYZkEzVENucHpBeGxfUU9VejBUMThKblVqUm1PaFlVQ0tlZ3NPa0JfOW81bmZiS1N5V0hQTk9CaU8ydlBpdWNSd1lNay1CZ1lwc0NxNFQwbzRZS01BQlN5aTJMUDJfaXBNdGc?oc=5",
+   "source": "Badische Neueste Nachrichten",
+   "datum": "2026-09-11",
+   "datum_iso": "2026-09-11T15:38:43+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
-    "vorläufige Insolvenzverwaltung"
+    "zahlungsunfähig"
    ]
   },
   {
    "quelle": "GNews Fruehsignal",
-   "titel": "„Leider nicht geschafft“: Nach Aus der „Naschwerkstatt“ – jetzt ist die Insolvenz offiziell - Rosenheim24",
-   "beschreibung": "„Leider nicht geschafft“: Nach Aus der „Naschwerkstatt“ – jetzt ist die Insolvenz offiziell Rosenheim24",
-   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPQkdTOXAweUxtQXhMcFgzWUtMbTFkQzZEUEtBTDNYZmdIQUFZc3NQdzdBNlNKeWlRcVV0Zy1zcDBZRlVTTVVJbjVOMVZ4Y08wZXlMMDZGejNDMy1ocXc5UDdjeWtfdkVTemtyb1gtb3RMUEs1a3kzNTFXNGFELTY2UGg3N1RsdEFtUVNsd3ZwTXhrSWw3RE5QY29kcmNDdUtlWnlIU1d3RUhGeTctcVlwSUY2SUpBQUgxa3ZvQXhOSnlobk11cDdTS1FrYXdoWTlRMDFFR0pvWG1MeGZyYUtOLQ?oc=5",
-   "source": "Rosenheim24",
+   "titel": "Brauerei pleite - Marke Eichbaum bleibt - Radio Regenbogen",
+   "beschreibung": "Brauerei pleite - Marke Eichbaum bleibt Radio Regenbogen",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOS3ZCaXpmSmlmUXlPT0FwY0doSVZsRFd2VUpXb1lWMXFCS2VZTmdyTldDVk01aVFlTFFMdFVtVjNVTU9LZzZFcGlSYjhYVWdVWWVCQ0JJYjdMRF8zazZvM19wdzZ2bnR1NkxkV0t2NVhabTJzeVl6eGpBbXNzbUY0Ti1zX0JvZGk5X19raWdXazEtYm82SXVaNHI1amEyZ2c?oc=5",
+   "source": "Radio Regenbogen",
    "datum": "2026-09-09",
-   "datum_iso": "2026-09-09T15:05:00+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Fruehsignal",
-   "titel": "Brauerei pleite - Marke Eichbaum bleibt - Zeitungsverlag Waiblingen",
-   "beschreibung": "Brauerei pleite - Marke Eichbaum bleibt Zeitungsverlag Waiblingen",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbE5rNTJSb3Y5Qm5aSVBldlc1TzhjNF9ENnAzQ1BhY2lMRDVnek8wWlFvdzJkWTRtQ09mZ0tJZ3N3bGtOWEpLc0JWM0R5S0N0YnB3aGhwRU9SNlozNGM0c0FuVG9Hc09mV3NPZmQ5VTNjRWtHSmtBTkRkS1RCT1YwM0pVeHJ1ZmVLN18xVjllcnlXdmgtNUQw?oc=5",
-   "source": "Zeitungsverlag Waiblingen",
-   "datum": "2026-09-09",
-   "datum_iso": "2026-09-09T11:04:00+00:00",
+   "datum_iso": "2026-09-09T11:02:06+00:00",
    "signal": "schwach",
    "datum_unbekannt": false,
    "keywords": [
     "Pleite"
-   ]
-  },
-  {
-   "quelle": "GNews Fruehsignal",
-   "titel": "Nach QimiQ-Pleite: Klagenfurter Marketingagentur im Konkurs - weekend.at",
-   "beschreibung": "Nach QimiQ-Pleite: Klagenfurter Marketingagentur im Konkurs weekend.at",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOGRRRzRsdlc0VXBIeVAyVTlfUXJkREJFWFpIWnZUUWlIcFk4SGlxMXpiX2dnYjNvcjZyM042Q2trbFVUMGJjWFJNVzhTTnBUOTN5cS1ZZE0xRGVJMk5sNkI2eG0td0xORW1PWk00R3ROSWZtLUxrQ3Y4OWsybTk0eTI3dFo?oc=5",
-   "source": "weekend.at",
-   "datum": "2026-09-08",
-   "datum_iso": "2026-09-08T13:35:22+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Pleite"
-   ]
-  },
-  {
-   "quelle": "GNews Fruehsignal",
-   "titel": "Zwei Insolvenzen auf einen Schlag – Mitarbeiter stehen ohne Job da - KOSMO | Eine starke Verbindung!",
-   "beschreibung": "Zwei Insolvenzen auf einen Schlag – Mitarbeiter stehen ohne Job da KOSMO | Eine starke Verbindung!",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYnpYNVNGWk00aTZvSm5oNG54U0hGRlc1MnNNRTk1UUZoa2RZN0E1ZlRBVjJvQUNiZTRFd2ZXWDBTeHprY2ptV3FpVWpDdHRLczdNb2hTa2JpMjQ2OE43ZDNRTnQyUThOeWVCR3VuUU9fYlExNU1GYV9iZ1JwR2hZQlBVbGRnNDVDTkJlRmZjOA?oc=5",
-   "source": "KOSMO | Eine starke Verbindung!",
-   "datum": "2026-09-09",
-   "datum_iso": "2026-09-09T05:24:29+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenz"
    ]
   }
  ]
