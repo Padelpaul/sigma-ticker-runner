@@ -1,14 +1,14 @@
 {
  "meta": {
-  "lauf": "2026-09-20T13:06:01",
-  "lauf_utc": "2026-09-20T13:06:01+00:00",
+  "lauf": "2026-09-20T13:34:31",
+  "lauf_utc": "2026-09-20T13:34:31+00:00",
   "version": "2026-09-07a",
   "problem": [],
   "fenster_tage": 3,
   "feeds_gesamt": 56,
   "feeds_ok": 56,
-  "n_roh": 92,
-  "n_stark": 66
+  "n_roh": 87,
+  "n_stark": 62
  },
  "health": {
   "Handelsblatt Unternehmen": "ok:20",
@@ -62,9 +62,9 @@
   "Westf. Anzeiger wa.de (Lokal)": "ok:40",
   "Kreiszeitung Niedersachsen (Lokal)": "ok:40",
   "come-on Maerkischer Kreis (Lokal)": "ok:40",
-  "GNews Insolvenzantrag": "ok:37",
+  "GNews Insolvenzantrag": "ok:33",
   "GNews Verfahren/Verwalter": "ok:19",
-  "GNews Sanierung/StaRUG": "ok:10",
+  "GNews Sanierung/StaRUG": "ok:9",
   "GNews Investorenprozess": "ok:7",
   "GNews Fruehsignal": "ok:20"
  },
@@ -125,22 +125,6 @@
    "datum_unbekannt": false,
    "keywords": [
     "Gewinnwarnung"
-   ]
-  },
-  {
-   "quelle": "WirtschaftsWoche Unternehmen",
-   "titel": "Luxus-Krise: Die deutsche Tochter des Luxuslabels Bally ist insolvent",
-   "beschreibung": "Die Schweizer Traditionsmarke Bally kämpft ums Überleben. Jetzt hat die deutsche Tochter Insolvenz angemeldet – und bereitet den Ausverkauf vor.",
-   "link": "https://www.wiwo.de/unternehmen/handel/bally-die-deutsche-tochter-des-luxuslabels-ist-insolvent/100255297.html",
-   "source": "",
-   "datum": "2026-09-17",
-   "datum_iso": "2026-09-17T15:43:05+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenz angemeldet",
-    "insolvent",
-    "Insolvenz"
    ]
   },
   {
@@ -459,6 +443,20 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
+   "titel": "Doch noch keine PV-Großanlage in Schönberg: Projektträger insolvent - Kieler Nachrichten",
+   "beschreibung": "Doch noch keine PV-Großanlage in Schönberg: Projektträger insolvent Kieler Nachrichten",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSFBmTE03TUJaZTB0cUppZjlVQVN1RXQxcXJvclFsOEo2WjU2YWYyUThwTmJFOGZBZWRxZFFUbDJxVkl4SG56QnVvcDB5OUYya1hjaTBmU2NOT0xQY3VMTTFpb0M1TGhuVjN6dldSSFB5U0puYmFrWktSekY5NG1fcDlTY2JqM2I5UEthMm9YR1NickZfaXlacm01SmRheVMyV3J5bnVuM0YzcG90Zm9UTnJXenBVSVZDNG4zUk05YkRIa21uSE1QMGhxUkpBdmFaNHBIQjdzZ9IB8wFBVV95cUxNSzJnRGZsNWVpRWdQWmFldFplXzVPVkVSR1dXcjRwX3AtR2h3MFdhQjJSVUNYQjJsQ0FqdDNUQlBSelYwanZ0Sl9WRDQxZndoY281YndjckZ3TkdzTGFKYVNUN3U5T0JXZ1o4bFlkaVdtY3VIeXgyWFY2VzE2YlU2LXBCOTlFS19nU2Zvel84THRaSzRROXgzXzY5NUZiQW1iOF9BbnlMRU96TnhpMFF4alJJbi1SYzBUbEs5Q1FEUW9EampnTzQ5cHlQOWNZS01md3lpQmplbzJJLVdkdHU1dHRwdWFUYjdSQUplSURJNUxDMDg?oc=5",
+   "source": "Kieler Nachrichten",
+   "datum": "2026-09-20",
+   "datum_iso": "2026-09-20T05:50:22+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
    "titel": "Arztstreit Bad Nenndorf: Medoplan MVZ insolvent, Stadt von Wittum & Eriksen abhängig - Schaumburger Nachrichten",
    "beschreibung": "Arztstreit Bad Nenndorf: Medoplan MVZ insolvent, Stadt von Wittum & Eriksen abhängig Schaumburger Nachrichten",
    "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNazgxRUdPajExRkNoNGRFalU2UG1tOEoyNmtHUnl0QU5EeUZ4SUtiZEJlVWRjOVhLTU1FZUt3akJWLXJGZlN1NkhfZC04QkhneGR0UHc0N1c4bWdvVzdmbWltSWF5Nk1CWTZSbWdFVmdvZGpGS1JYUjlmZXFaZ3VhaVMzdUpSamtiajdrYmc0NWRDSTVMdDl6TV9xVnUwc3ZCQi1GUWRKbTZlTVVfcm0wSVhxWi1IemZGRkxFLTBVS1pKeXo4QThDUlQtU3ZDci1VcWxmcjJ0SGtzTjIyTFhRa2JsWlVGZC01UXNJeWhtQVJZcmtnbEtudnFqdTMwU2fSAZsCQVVfeXFMUFpYaS1hUDJxX0xVbVQ3QWJsS1FFR0lVd2Y5eFdtanJDQTVyZU9KM0Z0R25HNEZiZ1ZGOXI3eGQzaGJWQkI1SXJBR0hKam4tZDVsUElVQVVpUzVPTjk2NkhEbnpJMG95Z2VBSEtZa1ItRFpHdVJ5amV2TEJSRzRNX05aMC1VNXo2Q0RGNXYzbWxxbENGWV9VVnZsQXd4eXRvNEVUU2I4ZEVMVjJ6TmwxY2dLUXNSMDNPRXJ3a1g3Mkhabk8yQXI0OEx4VG96VlExTXRPSE52U2ZxUElHdzlKRlNhZFhGZ2xCRkxPVVlBdlJpYmRENzNodWlhNW9XczNLb1RERFJtcXlNVHNsaDZrODJuMVhCUWVBdlRFSQ?oc=5",
@@ -473,10 +471,10 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "An A2 in Verl: Riesige Anlage geplant – Unternehmen ist plötzlich insolvent - nw.de",
-   "beschreibung": "An A2 in Verl: Riesige Anlage geplant – Unternehmen ist plötzlich insolvent nw.de",
+   "titel": "An A2 in Verl: Riesige Anlage geplant – Unternehmen ist plötzlich insolvent - Neue Westfälische",
+   "beschreibung": "An A2 in Verl: Riesige Anlage geplant – Unternehmen ist plötzlich insolvent Neue Westfälische",
    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQSU5Zbjc1T2hfdnlhcVp5QXN0cmdOc0pycUZwemswcnhTN2NsLWQwbW5oaVVQYUFvTGtDa2tfc2ZIN3d6ZFVvZUVmREhqMFFtdm92MFZpSEVYVXR6Y3JBckRBOTVnekplbFRGc1UzRWx6TDRHUjJxVVBKVU94Y3FUcjg3dEtHU1J5TkRINWxGNDhrclQ0b0NPcVdhcjFXMHQtSFpFaktBSmRVanZtTHlKUkpQckRSQXg4TE5jeW5ydWN4cGRVaTJBbXJkb3l0dw?oc=5",
-   "source": "nw.de",
+   "source": "Neue Westfälische",
    "datum": "2026-09-20",
    "datum_iso": "2026-09-20T09:30:00+00:00",
    "signal": "stark",
@@ -487,16 +485,16 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Insolvenz-Drama: Krankenhaus kämpft ums Überleben - SWR",
-   "beschreibung": "Insolvenz-Drama: Krankenhaus kämpft ums Überleben SWR",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRnFpV2hYdjJyM3pPVmZ1WWZpZWtTTEVZOTlSY2diclYzcGxBZjltd2Z4UzhiOWNuQVVYZXhxYVFaRkNSN084WEVlNWRIUHh2alBSZjdZX3QwamlJOVhOVUdGTGNSUjR1TFRaSzgxS3VQbnV5ZUlXaS1xVktQS0RpM2h2T0JoR1RmdDZ0cGpxRHFtMEI4X2JfUmV5YzdCRU5MOE5WYWpTeUQ2dWRHN1E?oc=5",
-   "source": "SWR",
+   "titel": "„Ungewöhnliche externe Umstände“: Wegen Sanktionen gegen Verbrecherboss? Zigarren-Importeur ist insolvent - merkur.de",
+   "beschreibung": "„Ungewöhnliche externe Umstände“: Wegen Sanktionen gegen Verbrecherboss? Zigarren-Importeur ist insolvent merkur.de",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQ3J4V2dacWxZdXVLVXQtcTZlNGhfcXdLQXBKV095YXJqblhjbEVyTmNLM0M0S1dzYWhFN3B6dE9fT0xXT25iTzFURmZjYWlCV0lqVjdtSnpjUHQ0YXI1eTdQcG1XQmlOT2NJbUs5NXloVkxQeFQ1TFRfQ1pmdmRfcFVjcHhNRWRlN1B5aUJNdnhWeDY0bHZuYnJ2N1lMcy1taDZLWWs4bE5oSVRXc0ItUTBIOA?oc=5",
+   "source": "merkur.de",
    "datum": "2026-09-18",
-   "datum_iso": "2026-09-18T18:00:00+00:00",
-   "signal": "schwach",
+   "datum_iso": "2026-09-18T06:53:32+00:00",
+   "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
-    "Insolvenz"
+    "insolvent"
    ]
   },
   {
@@ -507,20 +505,6 @@
    "source": "WiWo",
    "datum": "2026-09-17",
    "datum_iso": "2026-09-17T15:43:05+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "„Ungewöhnliche externe Umstände“: Wegen Sanktionen gegen Verbrecherboss? Zigarren-Importeur ist insolvent - Merkur",
-   "beschreibung": "„Ungewöhnliche externe Umstände“: Wegen Sanktionen gegen Verbrecherboss? Zigarren-Importeur ist insolvent Merkur",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQ3J4V2dacWxZdXVLVXQtcTZlNGhfcXdLQXBKV095YXJqblhjbEVyTmNLM0M0S1dzYWhFN3B6dE9fT0xXT25iTzFURmZjYWlCV0lqVjdtSnpjUHQ0YXI1eTdQcG1XQmlOT2NJbUs5NXloVkxQeFQ1TFRfQ1pmdmRfcFVjcHhNRWRlN1B5aUJNdnhWeDY0bHZuYnJ2N1lMcy1taDZLWWs4bE5oSVRXc0ItUTBIOA?oc=5",
-   "source": "Merkur",
-   "datum": "2026-09-18",
-   "datum_iso": "2026-09-18T06:53:32+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -543,54 +527,12 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "ZDF-Moderatorin ist insolvent: Andrea Ballschuh hat rund 230.000 Euro Schulden - Berliner Zeitung",
-   "beschreibung": "ZDF-Moderatorin ist insolvent: Andrea Ballschuh hat rund 230.000 Euro Schulden Berliner Zeitung",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdkVxQzlCM3hNQ2NzTk9mOE5DakpkQmdHSEpxdjVmekNFbGxoSmFrN21WaTdxckNmN21Oek5kQ1JKM3dUM3dVRnlnNEhKYmFMSGZOOW5nR2JRazRsakpnb2FtWHVZUy1DQnJIZGNod2c2VERnZEVfMHA4ODBPRlpYOGtBWFNIb0NDeHNjV2lJR2FqTnBuTWFZcVdsOENLd29QT0NwaVhqYmczUk9VbGhGaWxPejRaN3VuYjdpMU5tT2F5ejg?oc=5",
-   "source": "Berliner Zeitung",
-   "datum": "2026-09-17",
-   "datum_iso": "2026-09-17T13:23:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
    "titel": "Autohaus mit 1200 Beschäftigten insolvent: Was wird aus den Standorten in Bayern? - Augsburger Allgemeine",
    "beschreibung": "Autohaus mit 1200 Beschäftigten insolvent: Was wird aus den Standorten in Bayern? Augsburger Allgemeine",
    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPal93OFZfTk5YZUpoLWdUa2U5YWFwdTMtRk5iZm5vdVB6LV93UUhfQWs1Tl9FbUhwTTBBdms5c0hOYnN6amxBTzR0S2dKQXF3N2g1RmdjRy1MY1hucjdJZF9ZSEJTNEMya3pXMnpWSzRudFNtMnM3ZFdvTl80VFd0LUJnbVFpU184ajNkV1d0QzluNnY1bkZjRFVYWVJEVEZLWkg3RmJLamt2cnliM2NNS3ZjRlp2b054NVcwYw?oc=5",
    "source": "Augsburger Allgemeine",
    "datum": "2026-09-18",
    "datum_iso": "2026-09-18T03:41:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Autohaus Mayrhofen ist insolvent: Fortführung offen - top.tirol",
-   "beschreibung": "Autohaus Mayrhofen ist insolvent: Fortführung offen top.tirol",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMnRSUVpuWDdtQ2lSbFpmYlFWZHhSMWdoYmlySVVlVXVSbDc4NDBtNU9CSGd2d01RSUs4MFh3SGxZck83andPYVgzT0FEdnpGUGNJUjNCNkZtVUJVS0RMYnhZSldBYkh1dGNhajRISFdZN0FhaFFqdWNjNXRUR2Y2QUxxc0s?oc=5",
-   "source": "top.tirol",
-   "datum": "2026-09-17",
-   "datum_iso": "2026-09-17T13:27:42+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Vier Filialen in Franken: Bäckerei ist insolvent – nach 263 Jahren - inFranken.de",
-   "beschreibung": "Vier Filialen in Franken: Bäckerei ist insolvent – nach 263 Jahren inFranken.de",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNV0NQZ3ptQ09UWFB1T2Y5S0lXdGp4aDlqNER5blA3Q3Z5UkxhcHZ2YWpPd2FEcThNTGczZHF4d2hKQWMzVUlNLWN0U2lqTHhQOThyU0kxN1FDR0pVVGpRVUg2X1NIeTJ6RC1BdE1HNTZIQzRobGgxYmJrVVNPcVBQbkVqS3pwZjR4d1o0ZkhZSU5DZVYxVFotMnN5U3V5QTRyMXlvLTFpblhuQUV1dGdwNUpvdWNkZVJmMVAw?oc=5",
-   "source": "inFranken.de",
-   "datum": "2026-09-19",
-   "datum_iso": "2026-09-19T14:29:00+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -613,10 +555,24 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "17:30 SAT.1 Bayern - Krise in der Autobranche: Zulieferer Plastic Manufacturing insolvent - joyn.de",
-   "beschreibung": "17:30 SAT.1 Bayern - Krise in der Autobranche: Zulieferer Plastic Manufacturing insolvent joyn.de",
+   "titel": "Vier Filialen in Franken: Bäckerei ist insolvent – nach 263 Jahren - inFranken.de",
+   "beschreibung": "Vier Filialen in Franken: Bäckerei ist insolvent – nach 263 Jahren inFranken.de",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNV0NQZ3ptQ09UWFB1T2Y5S0lXdGp4aDlqNER5blA3Q3Z5UkxhcHZ2YWpPd2FEcThNTGczZHF4d2hKQWMzVUlNLWN0U2lqTHhQOThyU0kxN1FDR0pVVGpRVUg2X1NIeTJ6RC1BdE1HNTZIQzRobGgxYmJrVVNPcVBQbkVqS3pwZjR4d1o0ZkhZSU5DZVYxVFotMnN5U3V5QTRyMXlvLTFpblhuQUV1dGdwNUpvdWNkZVJmMVAw?oc=5",
+   "source": "inFranken.de",
+   "datum": "2026-09-19",
+   "datum_iso": "2026-09-19T14:29:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "17:30 SAT.1 Bayern - Krise in der Autobranche: Zulieferer Plastic Manufacturing insolvent - Joyn",
+   "beschreibung": "17:30 SAT.1 Bayern - Krise in der Autobranche: Zulieferer Plastic Manufacturing insolvent Joyn",
    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZm5nbHRhRURyazFZam1mWkJJcjlYSEVVMXJQMDctZW45azZNUGt5c0MzdWhjUnAyTksyTzBxWHFiX2Z4YnFvZDVyNFNhUGhQWGVvQk9JYUtCN1RTZGdVQzg1NXlTREQ1eXJsbGpsb21ZbXd3OTVQRzk2bERYLVhSTmFoLVBxMXVsNUFFaXkxTnZpMFp3NjRQci1LbGdIZw?oc=5",
-   "source": "joyn.de",
+   "source": "Joyn",
    "datum": "2026-09-19",
    "datum_iso": "2026-09-19T03:34:49+00:00",
    "signal": "stark",
@@ -627,10 +583,10 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Nach fast 160 Jahren die Pleite: Karosseriewerk für Spezialaufbauten insolvent - BILD",
-   "beschreibung": "Nach fast 160 Jahren die Pleite: Karosseriewerk für Spezialaufbauten insolvent BILD",
+   "titel": "Nach fast 160 Jahren die Pleite: Karosseriewerk für Spezialaufbauten insolvent - bild.de",
+   "beschreibung": "Nach fast 160 Jahren die Pleite: Karosseriewerk für Spezialaufbauten insolvent bild.de",
    "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOdUZZamcyOGlEN0VPb0ozeEhzSHdKQ19hVGkyeFV4c1hVbHE5M3BFV3NwanNJQnhQQlNGNm9ZMmhQTWVkbTQ2MTF6S0RodVlzek1jQ01TTHZkU2Y3OXBGMnVfRFlNVkJoWnlYVDR0aXdyN0NZaGFLQU5OTzNRczNnX1VCZEJNMGI3U05pNnkzLTd2ZVVpN3lXdDJBQ0VyaGVxSmd5ZGJiTWRtb29BNXliU3l2MVVqUUhoSjJuSG1Jb2xhY2VnZEVpUG4wLUtaOHlQLUFCZHoyYy02M3VMTTNPbDl0ZVkwZw?oc=5",
-   "source": "BILD",
+   "source": "bild.de",
    "datum": "2026-09-18",
    "datum_iso": "2026-09-18T13:40:23+00:00",
    "signal": "stark",
@@ -638,20 +594,6 @@
    "keywords": [
     "insolvent",
     "Pleite"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Insolvente Baumarktketten: Ausverkauf läuft bundesweit an - T-Online",
-   "beschreibung": "Insolvente Baumarktketten: Ausverkauf läuft bundesweit an T-Online",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQYzN0N0FpaW1VV2Q5SzVRZ0JUNWFHc2U1eXE3OURmNjIzOEhEY2FNVloxVDRXc0hWbTdmWS1lWXcyOHBUdUthLUw1WHhaeFhuU0RacGQ3VjAzZnpKNFFUcFV4MEtSZmd2YXFMdjNEV3hHdzlLc2FfYXJVWkpkaW9heHlKV1A3b3o4Vkl3aEdGMDlxUVpoMUppTk9BRVBqb0hlMTBfUFhoWHN6blVsMkozN1oxVDdQdUhMbGtaWmdOYnZWOHdIaVNRQlBnRlEyQQ?oc=5",
-   "source": "T-Online",
-   "datum": "2026-09-17",
-   "datum_iso": "2026-09-17T16:35:14+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
    ]
   },
   {
@@ -670,12 +612,12 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Internationale Fluggesellschaft insolvent – trotz Lufthansa-Beteiligung - Merkur",
-   "beschreibung": "Internationale Fluggesellschaft insolvent – trotz Lufthansa-Beteiligung Merkur",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUHVFd0Fkei0zNzc1T0NTbGFCdS1RYTBlNVI3dnBPMU53T3JUc1JZZ2c3Nk0tNHhmdUVNSW1kWjAzQ0VPNVNMUVpKc2EyYUQ1ZWtEaE5Zd2ctd25ydndjSTlscHprTE03bm1KSGhUVFlXRXNQdzRlNXBTc3NVWEZrLTdYNlUxMnV2UnA4NS0zWDItaS1odjJ1Z3JWSDh1YUN2OUM0eWEtTTVDd3F0d3Z5TlpUYTRkMTRjUGdBU3ZXMkwzREk?oc=5",
-   "source": "Merkur",
-   "datum": "2026-09-19",
-   "datum_iso": "2026-09-19T02:47:00+00:00",
+   "titel": "Insolvente Baumarktketten: Ausverkauf läuft bundesweit an - T-Online",
+   "beschreibung": "Insolvente Baumarktketten: Ausverkauf läuft bundesweit an T-Online",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQYzN0N0FpaW1VV2Q5SzVRZ0JUNWFHc2U1eXE3OURmNjIzOEhEY2FNVloxVDRXc0hWbTdmWS1lWXcyOHBUdUthLUw1WHhaeFhuU0RacGQ3VjAzZnpKNFFUcFV4MEtSZmd2YXFMdjNEV3hHdzlLc2FfYXJVWkpkaW9heHlKV1A3b3o4Vkl3aEdGMDlxUVpoMUppTk9BRVBqb0hlMTBfUFhoWHN6blVsMkozN1oxVDdQdUhMbGtaWmdOYnZWOHdIaVNRQlBnRlEyQQ?oc=5",
+   "source": "T-Online",
+   "datum": "2026-09-17",
+   "datum_iso": "2026-09-17T16:35:14+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -684,12 +626,26 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Autohaus König insolvent: Kampf um Standorte und Jobs - Betrieb läuft weiter - Joyn",
-   "beschreibung": "Autohaus König insolvent: Kampf um Standorte und Jobs - Betrieb läuft weiter Joyn",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcUJoRkM0ZUFyMS00VmtxTGxBdFBBWHlKY19QbTFTWmFqNXFtd3hGTWRQUjRabzFzMFVBcGJXX3U3UEQ0bThmbmxIUmRyR01EekY0RVpDTXQ5X3RkV3VtRlV3c1dSMEUyeUsxajVGeDdaMm5aXzBvZGg4OTdsMG1BcXd3SDFURkxEYkxpTlhXdmE3UFpTb0tWQl9rWFd1TkE?oc=5",
-   "source": "Joyn",
-   "datum": "2026-09-17",
-   "datum_iso": "2026-09-17T13:11:16+00:00",
+   "titel": "Firma hinter Fischer Air ist insolvent - Anklage gegen Václav Fischer - aerotelegraph.com",
+   "beschreibung": "Firma hinter Fischer Air ist insolvent - Anklage gegen Václav Fischer aerotelegraph.com",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdi1LWW5ZQ0VxdTNXbGVEVDI3eDg3VFdzTUU3MzktZDN2ajYyVE1IeTFrZ3hvMWV0c3Q2anc1Wlo4cTY0OE9NZzlSX19oM1JKM0dKZk9GeWdrbmdIbDN3WmR3SWhHNWxGYTQzSFJUc0REUVNCUjYwLUVhd29tYVdxeVVGSkphSjNib2VkVkc0ODBEV3lpR2Jvc29UMDVsYWxRZ1dQb0Z3UDNOMHBRSjRrQjJB?oc=5",
+   "source": "aerotelegraph.com",
+   "datum": "2026-09-18",
+   "datum_iso": "2026-09-18T09:45:58+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Internationale Fluggesellschaft insolvent – trotz Lufthansa-Beteiligung - merkur.de",
+   "beschreibung": "Internationale Fluggesellschaft insolvent – trotz Lufthansa-Beteiligung merkur.de",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUHVFd0Fkei0zNzc1T0NTbGFCdS1RYTBlNVI3dnBPMU53T3JUc1JZZ2c3Nk0tNHhmdUVNSW1kWjAzQ0VPNVNMUVpKc2EyYUQ1ZWtEaE5Zd2ctd25ydndjSTlscHprTE03bm1KSGhUVFlXRXNQdzRlNXBTc3NVWEZrLTdYNlUxMnV2UnA4NS0zWDItaS1odjJ1Z3JWSDh1YUN2OUM0eWEtTTVDd3F0d3Z5TlpUYTRkMTRjUGdBU3ZXMkwzREk?oc=5",
+   "source": "merkur.de",
+   "datum": "2026-09-19",
+   "datum_iso": "2026-09-19T02:47:00+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -712,30 +668,16 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Insolvenz von Traditionsbäckerei aus Bayern : Familienbetrieb in fünfter Generation – so steht es um die Filialen - Merkur",
-   "beschreibung": "Insolvenz von Traditionsbäckerei aus Bayern : Familienbetrieb in fünfter Generation – so steht es um die Filialen Merkur",
+   "titel": "Insolvenz von Traditionsbäckerei aus Bayern : Familienbetrieb in fünfter Generation – so steht es um die Filialen - merkur.de",
+   "beschreibung": "Insolvenz von Traditionsbäckerei aus Bayern : Familienbetrieb in fünfter Generation – so steht es um die Filialen merkur.de",
    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSnJiYmlkNktNY1A1OTB0eXNOMWdwczZ5SzIwUWVmeW5GV3ppR3R6RXhzdUdfamZXN0dDOE9ITXlvU1VzNmFkR3FxT1FSRF9aRGQwV1hvOUVTV2VRNHkxSUZlTVNUSmg2aXN0LTNQa3NUTUVObm1Eb0lEVVFpX1pJRUpFa1I0TE5WYnlURUxhNVVQUjZQT0txS2lzY0E2SGlGcFI3SjJEbDFqOFdsX0xtTFVHOW50T2JySkFURGxDSEhRSndfaTkzLXBzYTJWMlk?oc=5",
-   "source": "Merkur",
+   "source": "merkur.de",
    "datum": "2026-09-19",
    "datum_iso": "2026-09-19T02:47:24+00:00",
    "signal": "schwach",
    "datum_unbekannt": false,
    "keywords": [
     "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Firma hinter Fischer Air ist insolvent - Anklage gegen Václav Fischer - aeroTELEGRAPH",
-   "beschreibung": "Firma hinter Fischer Air ist insolvent - Anklage gegen Václav Fischer aeroTELEGRAPH",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdi1LWW5ZQ0VxdTNXbGVEVDI3eDg3VFdzTUU3MzktZDN2ajYyVE1IeTFrZ3hvMWV0c3Q2anc1Wlo4cTY0OE9NZzlSX19oM1JKM0dKZk9GeWdrbmdIbDN3WmR3SWhHNWxGYTQzSFJUc0REUVNCUjYwLUVhd29tYVdxeVVGSkphSjNib2VkVkc0ODBEV3lpR2Jvc29UMDVsYWxRZ1dQb0Z3UDNOMHBRSjRrQjJB?oc=5",
-   "source": "aeroTELEGRAPH",
-   "datum": "2026-09-18",
-   "datum_iso": "2026-09-18T09:45:58+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
    ]
   },
   {
@@ -750,21 +692,6 @@
    "datum_unbekannt": false,
    "keywords": [
     "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Seukendorf: Traditionsbäckerei Gräf stellt Insolvenzantrag - Fürth Aktuell",
-   "beschreibung": "Seukendorf: Traditionsbäckerei Gräf stellt Insolvenzantrag Fürth Aktuell",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQM2pnUy1HTExuSERGaXNIR0d0WUlHQnF2VjdNVHUtaGVSbGV1bTZXZHM0azZVMVp1SFkyWVVJVmlZak81VFVhLTZ0dWwtN3BReHN1dXVuQnJqbHZORnBVNEFfNmZtODVKMkFZYWNSSk0zYUVsSUZUOUFxLUNiSkRBOTBfelhZN3pWTXljZFkweEpiekpqZEZianJYamVpVW5IT3JGbQ?oc=5",
-   "source": "Fürth Aktuell",
-   "datum": "2026-09-17",
-   "datum_iso": "2026-09-17T17:08:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenzantrag",
-    "stellt Insolvenzantrag"
    ]
   },
   {
@@ -937,12 +864,12 @@
   },
   {
    "quelle": "GNews Verfahren/Verwalter",
-   "titel": "Baumärkte insolvent: Räumungsverkauf läuft – welche Filialen schließen und wer übernimmt - Merkur",
-   "beschreibung": "Baumärkte insolvent: Räumungsverkauf läuft – welche Filialen schließen und wer übernimmt Merkur",
+   "titel": "Baumärkte insolvent: Räumungsverkauf läuft – welche Filialen schließen und wer übernimmt - merkur.de",
+   "beschreibung": "Baumärkte insolvent: Räumungsverkauf läuft – welche Filialen schließen und wer übernimmt merkur.de",
    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPM2lTT1pRYTgzcTdYTlVybXdueE85ellQX1BfYl9IYzZ3Ulh1OUd2alhEUGRUZTlic3JsLUxBd3FZUTdYYlc0bXZMcktFeGdaeU90OHIxdV9hQW1pdnh2azRTd0U5a2RmV1NjcFVnMlFiY0JHcGUxZmx4YUZQRmljTUt0WWdRN0xtRGFuX1FwQ1VlQkpkbWJsZjM5aldaZDUzUjdEV1hjMlZZSUpUVzdoclFSb092c0h0eEJXdzZWb2dKSS1XWHp1SUNUU2ZlOUFqOEpz?oc=5",
-   "source": "Merkur",
+   "source": "merkur.de",
    "datum": "2026-09-20",
-   "datum_iso": "2026-09-20T12:05:27+00:00",
+   "datum_iso": "2026-09-20T13:20:10+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -1022,10 +949,10 @@
   },
   {
    "quelle": "GNews Verfahren/Verwalter",
-   "titel": "„Ungewöhnliche externe Umstände“: Wegen Sanktionen gegen Verbrecherboss? Zigarren-Importeur ist insolvent - Merkur",
-   "beschreibung": "„Ungewöhnliche externe Umstände“: Wegen Sanktionen gegen Verbrecherboss? Zigarren-Importeur ist insolvent Merkur",
+   "titel": "„Ungewöhnliche externe Umstände“: Wegen Sanktionen gegen Verbrecherboss? Zigarren-Importeur ist insolvent - merkur.de",
+   "beschreibung": "„Ungewöhnliche externe Umstände“: Wegen Sanktionen gegen Verbrecherboss? Zigarren-Importeur ist insolvent merkur.de",
    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQ3J4V2dacWxZdXVLVXQtcTZlNGhfcXdLQXBKV095YXJqblhjbEVyTmNLM0M0S1dzYWhFN3B6dE9fT0xXT25iTzFURmZjYWlCV0lqVjdtSnpjUHQ0YXI1eTdQcG1XQmlOT2NJbUs5NXloVkxQeFQ1TFRfQ1pmdmRfcFVjcHhNRWRlN1B5aUJNdnhWeDY0bHZuYnJ2N1lMcy1taDZLWWs4bE5oSVRXc0ItUTBIOA?oc=5",
-   "source": "Merkur",
+   "source": "merkur.de",
    "datum": "2026-09-18",
    "datum_iso": "2026-09-18T06:53:32+00:00",
    "signal": "stark",
@@ -1162,10 +1089,10 @@
   },
   {
    "quelle": "GNews Investorenprozess",
-   "titel": "Branche steckt in der Krise: Bielefelder Traditionsunternehmen Seidensticker sucht Investor - nw.de",
-   "beschreibung": "Branche steckt in der Krise: Bielefelder Traditionsunternehmen Seidensticker sucht Investor nw.de",
+   "titel": "Branche steckt in der Krise: Bielefelder Traditionsunternehmen Seidensticker sucht Investor - Neue Westfälische",
+   "beschreibung": "Branche steckt in der Krise: Bielefelder Traditionsunternehmen Seidensticker sucht Investor Neue Westfälische",
    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNF9Md2hUMmhISXd5WUhhRERTVExCWTJVUmZPZGw5WHFRTDAtMTdoVC01RzhHNFl4XzlaUEozRXlYM21PbTNNZzNyRUNoUWF0YnozX0dNQWk4ZTNTc25BQjFGVlFUQnFvREpLU3VZSzVYdGVjM1hDNW1sM1loUHh3OFpQUWRSa3JtLTFsNmZrOTBUZXhtRU9kb1hrV0txb3JWZS1kR2RMLU9UUDkxeDViQkhaWENwRUdmV1JTWGNnYkg0VGJSOXV2RGctOUttRzZ5Z1ZYTlJadHVFRnRR?oc=5",
-   "source": "nw.de",
+   "source": "Neue Westfälische",
    "datum": "2026-09-18",
    "datum_iso": "2026-09-18T09:03:00+00:00",
    "signal": "stark",
@@ -1176,10 +1103,10 @@
   },
   {
    "quelle": "GNews Investorenprozess",
-   "titel": "Insolvenz von Traditionsbäckerei aus Bayern : Familienbetrieb in fünfter Generation – so steht es um die Filialen - Merkur",
-   "beschreibung": "Insolvenz von Traditionsbäckerei aus Bayern : Familienbetrieb in fünfter Generation – so steht es um die Filialen Merkur",
+   "titel": "Insolvenz von Traditionsbäckerei aus Bayern : Familienbetrieb in fünfter Generation – so steht es um die Filialen - merkur.de",
+   "beschreibung": "Insolvenz von Traditionsbäckerei aus Bayern : Familienbetrieb in fünfter Generation – so steht es um die Filialen merkur.de",
    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSnJiYmlkNktNY1A1OTB0eXNOMWdwczZ5SzIwUWVmeW5GV3ppR3R6RXhzdUdfamZXN0dDOE9ITXlvU1VzNmFkR3FxT1FSRF9aRGQwV1hvOUVTV2VRNHkxSUZlTVNUSmg2aXN0LTNQa3NUTUVObm1Eb0lEVVFpX1pJRUpFa1I0TE5WYnlURUxhNVVQUjZQT0txS2lzY0E2SGlGcFI3SjJEbDFqOFdsX0xtTFVHOW50T2JySkFURGxDSEhRSndfaTkzLXBzYTJWMlk?oc=5",
-   "source": "Merkur",
+   "source": "merkur.de",
    "datum": "2026-09-19",
    "datum_iso": "2026-09-19T02:47:24+00:00",
    "signal": "schwach",
@@ -1204,10 +1131,10 @@
   },
   {
    "quelle": "GNews Fruehsignal",
-   "titel": "Geburtsstationen - Kein Moratorium gegen Schließungen - rbb-online.de",
-   "beschreibung": "Geburtsstationen - Kein Moratorium gegen Schließungen rbb-online.de",
+   "titel": "Geburtsstationen - Kein Moratorium gegen Schließungen - rbb24.de",
+   "beschreibung": "Geburtsstationen - Kein Moratorium gegen Schließungen rbb24.de",
    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMmZmRi02U0RvMWhkSkIyNnpKbXNrTE5mUEhwSVdGN2tuM1dIWjl3MVBXS2xVSFh3R3ZhbzFCeVc1YXFXX0FpdWItU1BBUUhHVERRQktFZ0M1c2RQZTc4b1RBcDlGZmlucW4tV2pvNGVld2RCRVVjcXdpWjdWZnRSbjlVc2lENnl5Ym11SjFmNklMREo4ZWcxZjZZVzBnaWpNa3U4SDd0eFpRczl5dlg3MktNTU1iWHVPMWI4M2M4ZHJ5THM?oc=5",
-   "source": "rbb-online.de",
+   "source": "rbb24.de",
    "datum": "2026-09-18",
    "datum_iso": "2026-09-18T17:30:00+00:00",
    "signal": "stark",
@@ -1260,10 +1187,10 @@
   },
   {
    "quelle": "GNews Fruehsignal",
-   "titel": ":newstime - Überschuldung steigt: Mütter besonders betroffen - joyn.de",
-   "beschreibung": ":newstime - Überschuldung steigt: Mütter besonders betroffen joyn.de",
+   "titel": ":newstime - Überschuldung steigt: Mütter besonders betroffen - Joyn",
+   "beschreibung": ":newstime - Überschuldung steigt: Mütter besonders betroffen Joyn",
    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMHBLT3ZON252WEc3bzdpWTJkQ253aWZobGxvMmhOb3UyZER2anIwUzZqRFlZQ2Jsd3lFb2c0dkFpSXAxbEdvZHdzT3JZcHI2TFVBdS1pZHFIQVBzaVVrUVNwVi1JdWJRZkJDdlBNVnlnNEtKMEgtNzBGRlpaTXBoT3g1TGR3WWFDbHQ3STRBeUFFU0FkWXlDU3FsZ3BUTl9HYWIxTGdrZWE?oc=5",
-   "source": "joyn.de",
+   "source": "Joyn",
    "datum": "2026-09-18",
    "datum_iso": "2026-09-18T08:40:18+00:00",
    "signal": "stark",
