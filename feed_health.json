@@ -1,5 +1,5 @@
 {
- "lauf": "2026-09-21T14:18:13",
+ "lauf": "2026-09-21T14:30:29",
  "health": {
   "Handelsblatt Unternehmen": "ok:20",
   "Handelsblatt Finanzen": "ok:20",
@@ -19,7 +19,7 @@
   "WDR Wirtschaft": "ok:34",
   "BR24": "ok:10",
   "MDR": "ok:5",
-  "SWR": "ok:58",
+  "SWR": "ok:59",
   "hessenschau Wirtschaft (HR)": "ok:25",
   "rbb24 Wirtschaft": "ok:116",
   "Radio Bremen (buten un binnen)": "ok:28",
@@ -52,11 +52,17 @@
   "Westf. Anzeiger wa.de (Lokal)": "ok:40",
   "Kreiszeitung Niedersachsen (Lokal)": "ok:40",
   "come-on Maerkischer Kreis (Lokal)": "ok:40",
-  "GNews Insolvenzantrag": "ok:29",
-  "GNews Verfahren/Verwalter": "ok:11",
-  "GNews Sanierung/StaRUG": "ok:8",
-  "GNews Investorenprozess": "ok:4",
-  "GNews Fruehsignal": "ok:13"
+  "GNews Insolvenzantrag": "FAIL:HTTPError",
+  "GNews Verfahren/Verwalter": "FAIL:HTTPError",
+  "GNews Sanierung/StaRUG": "FAIL:HTTPError",
+  "GNews Investorenprozess": "FAIL:HTTPError",
+  "GNews Fruehsignal": "FAIL:HTTPError"
  },
- "problem": []
+ "problem": [
+  "GNews Insolvenzantrag(FAIL:HTTPError)",
+  "GNews Verfahren/Verwalter(FAIL:HTTPError)",
+  "GNews Sanierung/StaRUG(FAIL:HTTPError)",
+  "GNews Investorenprozess(FAIL:HTTPError)",
+  "GNews Fruehsignal(FAIL:HTTPError)"
+ ]
 }
