@@ -1,13 +1,13 @@
 {
  "meta": {
-  "lauf": "2026-09-22T13:29:22",
-  "lauf_utc": "2026-09-22T13:29:22+00:00",
+  "lauf": "2026-09-22T14:01:50",
+  "lauf_utc": "2026-09-22T14:01:50+00:00",
   "version": "2026-09-07a",
   "problem": [],
   "fenster_tage": 3,
   "feeds_gesamt": 56,
   "feeds_ok": 56,
-  "n_roh": 69,
+  "n_roh": 70,
   "n_stark": 40
  },
  "health": {
@@ -63,26 +63,12 @@
   "Kreiszeitung Niedersachsen (Lokal)": "ok:40",
   "come-on Maerkischer Kreis (Lokal)": "ok:40",
   "GNews Insolvenzantrag": "ok:23",
-  "GNews Verfahren/Verwalter": "ok:18",
+  "GNews Verfahren/Verwalter": "ok:19",
   "GNews Sanierung/StaRUG": "ok:7",
   "GNews Investorenprozess": "ok:2",
   "GNews Fruehsignal": "ok:19"
  },
  "treffer": [
-  {
-   "quelle": "Handelsblatt Unternehmen",
-   "titel": "Deep Read: Wut in der Autoindustrie: „Und dann stellt sich der in Berlin da hin und sagt, wir sollen länger arbeiten“",
-   "beschreibung": "Zehntausende Arbeiter protestieren beim Aktionstag der IG Metall gegen die Auto-Manager und den massiven Stellenabbau. In den Werken mischt sich Angst mit Wut – auch gegen Kanzler Merz.",
-   "link": "https://www.handelsblatt.com/unternehmen/industrie/autobauer-und-dann-sagt-der-in-berlin-wir-sollen-laenger-arbeiten/100254592.html",
-   "source": "",
-   "datum": "2026-09-22",
-   "datum_iso": "2026-09-22T07:24:00+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Stellenabbau"
-   ]
-  },
   {
    "quelle": "Manager Magazin",
    "titel": "Evonik: Warum Interimschef Claus Rettig Tausende Arbeitsplätze streicht",
@@ -165,6 +151,20 @@
    "datum_unbekannt": false,
    "keywords": [
     "Werksschließung"
+   ]
+  },
+  {
+   "quelle": "Boersen-Zeitung",
+   "titel": "Umsatzeinbruch bei Galeria",
+   "beschreibung": "Galeria steuert auf einen wenig erfreulichen Abschluss des Geschäftsjahres zu. Nach Informationen der Börsen-Zeitung gibt es deutliche Rückgänge beim Umsatz und Bruttogewinn. Mit einem Ausbau des Offprice-Geschäfts will der Konzern das Ruder rumreißen.",
+   "link": "https://www.boersen-zeitung.de/news/bz-all-rss/unternehmen-branchen/galeria-laeuft-rueckgaenge-in-umsatz-bruttogewinn-und-marge-in-25-26-zu",
+   "source": "",
+   "datum": "2026-09-22",
+   "datum_iso": "2026-09-22T13:48:32+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Umsatzeinbruch"
    ]
   },
   {
@@ -259,7 +259,7 @@
    "link": "https://www.br.de/nachrichten/meldungen/index.html#n6",
    "source": "",
    "datum": "2026-09-22",
-   "datum_iso": "2026-09-22T15:11:20+02:00",
+   "datum_iso": "2026-09-22T15:58:42+02:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -274,7 +274,7 @@
    "link": "https://www.br.de/nachrichten/meldungen/index.html#n8",
    "source": "",
    "datum": "2026-09-22",
-   "datum_iso": "2026-09-22T15:11:20+02:00",
+   "datum_iso": "2026-09-22T15:58:42+02:00",
    "signal": "schwach",
    "datum_unbekannt": false,
    "keywords": [
@@ -325,6 +325,34 @@
    ]
   },
   {
+   "quelle": "Kreiszeitung Niedersachsen (Lokal)",
+   "titel": "Spezialchemiekonzern kündigt massiven Stellenabbau an – das sind die Folgen für Mitarbeiter im Norden",
+   "beschreibung": "Der Chemiekonzern Evonik streicht bis 2029 über 3000 Stellen. Viele davon fallen in Deutschland weg. Was das für den Norden bedeutet.",
+   "link": "https://www.kreiszeitung.de/lokales/schleswig-holstein/spezialchemiekonzern-kuendigt-massiven-stellenabbau-an-das-sind-die-folgen-fuer-mitarbeiter-im-norden-94504367.html",
+   "source": "",
+   "datum": "2026-09-22",
+   "datum_iso": "2026-09-22T15:40:14+02:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Stellenabbau"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Urzeit-Erlebniswelt in Königswinter: Edutain AG insolvent: Was bedeutet das für die „Dinoxperience“? - General-Anzeiger Bonn",
+   "beschreibung": "Urzeit-Erlebniswelt in Königswinter: Edutain AG insolvent: Was bedeutet das für die „Dinoxperience“? General-Anzeiger Bonn",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQaTVKb2dBRTUwZGtPZGxyekxHY0d0THhVV2MxeHhtbDVhWnh2VVdYY3l3VmdlRDRMYUdtRThqOFUyblQtSlJYa202YUM2VGhWQ2NSRmd6d2QzbjBJTzZSNktsalN4Q0p4VkpJTkxGOUpCSnBVUkdTWE9SX3dnaldmcmNjcWI3d3haUlJRT2xFaXR4a3FoajRoQ0RoU2t0dmpSQmUwazBHYXBpdw?oc=5",
+   "source": "General-Anzeiger Bonn",
+   "datum": "2026-09-22",
+   "datum_iso": "2026-09-22T07:21:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
    "quelle": "GNews Insolvenzantrag",
    "titel": "Höhbauer stellt Insolvenzantrag – vorläufiger Insolvenzverwalter bestellt - Oberpfalzecho",
    "beschreibung": "Höhbauer stellt Insolvenzantrag – vorläufiger Insolvenzverwalter bestellt Oberpfalzecho",
@@ -359,10 +387,10 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Energiekrise und Corona-Folgen: Sternekoch aus der Rhön muss Insolvenz anmelden - Fuldaer Zeitung",
-   "beschreibung": "Energiekrise und Corona-Folgen: Sternekoch aus der Rhön muss Insolvenz anmelden Fuldaer Zeitung",
+   "titel": "Energiekrise und Corona-Folgen: Sternekoch aus der Rhön muss Insolvenz anmelden - fuldaerzeitung.de",
+   "beschreibung": "Energiekrise und Corona-Folgen: Sternekoch aus der Rhön muss Insolvenz anmelden fuldaerzeitung.de",
    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcGRBVS04SjhFNkM2Z21vZ3dyM0JweWd2Z0prSW0xZDhQS200NU80NXZLUTl1dGdWYzg5TUkzMUxCN256R0R6Z0dQRldmRVBtZGxyaWI4TnpFTmpLdW1fSE5qUnNkNnNWQVhBNDlLdENhQWFGeXgwTlZXTlBEd21Wb0RGUkNQX3JRM1U5N2FyU0pIa3NZbmNKdDJlSmlJeXEwTnBIcjJ4SXhKdDRMeDVOM1BGdmVfRE42RHYtMTh6Z0huRm9aeXc?oc=5",
-   "source": "Fuldaer Zeitung",
+   "source": "fuldaerzeitung.de",
    "datum": "2026-09-22",
    "datum_iso": "2026-09-22T02:42:00+00:00",
    "signal": "schwach",
@@ -387,10 +415,10 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Deutscher Importeur für Premium-Zigarren ist insolvent: ungewöhnlicher Grund - BILD",
-   "beschreibung": "Deutscher Importeur für Premium-Zigarren ist insolvent: ungewöhnlicher Grund BILD",
+   "titel": "Deutscher Importeur für Premium-Zigarren ist insolvent: ungewöhnlicher Grund - bild.de",
+   "beschreibung": "Deutscher Importeur für Premium-Zigarren ist insolvent: ungewöhnlicher Grund bild.de",
    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQS1lPaHBQRnN4U3pIOEF1RW1SMngzcHluT3I4MUk4MVBjN2ZsZ1ZCaEo0Tzkza1FITTR1WWltSXRWNzVRZVVUTU5jT2I1bWZQWXJPeUZZekVla0RsMUNVN0NDeHVMYVpXWTI2MU9IRmFHOHl3MWxPZjBGWnZRaHVNY1RYcVpSS1k5ZjVXOEpwWnJhXzNtNEVRMkM5aUdrOUtxVVo3UzFCeVlBQUpQVUNSb2JnMFVhN010c3FYZmM3M3NFZHFfbjdSVUUtR21UZjQ?oc=5",
-   "source": "BILD",
+   "source": "bild.de",
    "datum": "2026-09-21",
    "datum_iso": "2026-09-21T07:54:04+00:00",
    "signal": "stark",
@@ -416,6 +444,21 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
+   "titel": "Schüle Druckguss in Gmünd: Automobilzulieferer stellt Insolvenzantrag - Gmünder Tagespost",
+   "beschreibung": "Schüle Druckguss in Gmünd: Automobilzulieferer stellt Insolvenzantrag Gmünder Tagespost",
+   "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOU291MEZCUHFXM3N3TmQ0ZF9Ua2VQSnR5bjFzOUh4QWctR1p6ajJYaXI0Z3poZnZDanUxZVZ0dGFpQzh2MUdMS2p6SGdvU2x4b2dPeGxFZG1lYzlhUEg1RW9fbVliSVJiUmZzbExMcHVaUnQ0VHl1OTBWS3hGUkpkZkxFSGJFdkFGemc4eEw3SktPZ01lUFNETXFKbGJRWVY5Sm50R011NU1obTlWSzdLWW9EZjRvU3pqNktULUZ1eUdKSHJ0WG05RU5jZ05laDh2LW5pQ3lCcDZ0eU5BSnBKYXZidi1aYjd1a0syYU51cVEtYk1ZWjg0?oc=5",
+   "source": "Gmünder Tagespost",
+   "datum": "2026-09-22",
+   "datum_iso": "2026-09-22T10:05:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenzantrag",
+    "stellt Insolvenzantrag"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
    "titel": "DinoXperience in Königswinter: Betreiberin Edutain AG insolvent - Bad Honnef heute",
    "beschreibung": "DinoXperience in Königswinter: Betreiberin Edutain AG insolvent Bad Honnef heute",
    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQV3BQVF9vMDVsUHpKdkM1WU9KSkFuX2xta2NqWE9SQml3Y1M3WDNiejQ1M0ZWODBFaXpyN0hXdm43aXkyVUVMbk41LXI2Q3hfYTRFYlo4NHBfMExvWXJiSkFMczdYZjNaWTRZRk4zUHJhbkFwemRjTGNsUVBXZTBSMXZhQlliWF9zbHdEbkplQ2Jqdw?oc=5",
@@ -430,10 +473,10 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Existiert seit 5 Generationen: Traditionsbäckerei meldet Insolvenz an - chip.de",
-   "beschreibung": "Existiert seit 5 Generationen: Traditionsbäckerei meldet Insolvenz an chip.de",
+   "titel": "Existiert seit 5 Generationen: Traditionsbäckerei meldet Insolvenz an - CHIP",
+   "beschreibung": "Existiert seit 5 Generationen: Traditionsbäckerei meldet Insolvenz an CHIP",
    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPaVB3WmJVY3lmNFhHZ09QdzM1ZGQyaTdITER2ZEdVS0JxeDBSTDhVaWx0OWpEX1lBcWh1QXZweGI4d0NLVUpKb1lDRTNuN1czSlY1TVhEQlI1TDluX2R1SmJjbm13U3BOR0J0VVAwSHV5NzFsaEpocVUwTFIyYm12YnNXcm5SR2xkQTR5NGNFRFVXTjQtcUU4a29uYWVzTExMX0lJWWpfQ3FHX09QSGNza212a2FoTVFQMzRwam8ySTlVeExkTTctLU1oNWkzZldRakg5SW83VDlTamFkb2c?oc=5",
-   "source": "chip.de",
+   "source": "CHIP",
    "datum": "2026-09-21",
    "datum_iso": "2026-09-21T09:51:00+00:00",
    "signal": "stark",
@@ -445,39 +488,10 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Wirtschaftliche Schwierigkeiten: Betreiberin der Königswinterer „Dinoxperience“ ist insolvent - General-Anzeiger Bonn",
-   "beschreibung": "Wirtschaftliche Schwierigkeiten: Betreiberin der Königswinterer „Dinoxperience“ ist insolvent General-Anzeiger Bonn",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRVlwZUV1VlF1a0Q1T0lMdkJCUV92NG1RQ3c2UEF6dzRLOUstSWdYd1prX1p2RTVadmFLaVBzWlFzdmRJRGxlTzBNSUJ6VW54Y1RUZUUxYnpZRXVHRmxvMUlGSnd3VlNFUW9GNkc0VlFuaExSMnBXei1fX0Iwc284dnNqY1RhQXhzNVdPU3NwLVVZZDkyRUxEQW9LSVV1cjRLRXNqLUE0VWlUaUU?oc=5",
-   "source": "General-Anzeiger Bonn",
-   "datum": "2026-09-21",
-   "datum_iso": "2026-09-21T03:02:06+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Schüle Druckguss in Gmünd: Automobilzulieferer stellt Insolvenzantrag - Gmünder Tagespost",
-   "beschreibung": "Schüle Druckguss in Gmünd: Automobilzulieferer stellt Insolvenzantrag Gmünder Tagespost",
-   "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOU291MEZCUHFXM3N3TmQ0ZF9Ua2VQSnR5bjFzOUh4QWctR1p6ajJYaXI0Z3poZnZDanUxZVZ0dGFpQzh2MUdMS2p6SGdvU2x4b2dPeGxFZG1lYzlhUEg1RW9fbVliSVJiUmZzbExMcHVaUnQ0VHl1OTBWS3hGUkpkZkxFSGJFdkFGemc4eEw3SktPZ01lUFNETXFKbGJRWVY5Sm50R011NU1obTlWSzdLWW9EZjRvU3pqNktULUZ1eUdKSHJ0WG05RU5jZ05laDh2LW5pQ3lCcDZ0eU5BSnBKYXZidi1aYjd1a0syYU51cVEtYk1ZWjg0?oc=5",
-   "source": "Gmünder Tagespost",
-   "datum": "2026-09-22",
-   "datum_iso": "2026-09-22T09:50:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenzantrag",
-    "stellt Insolvenzantrag"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Arthur Hayes warnt: US-Versicherer sind durch KI-Schulden insolvent, was bedeutet das für Sie? - BeInCrypto",
-   "beschreibung": "Arthur Hayes warnt: US-Versicherer sind durch KI-Schulden insolvent, was bedeutet das für Sie? BeInCrypto",
+   "titel": "Arthur Hayes warnt: US-Versicherer sind durch KI-Schulden insolvent, was bedeutet das für Sie? - de.beincrypto.com",
+   "beschreibung": "Arthur Hayes warnt: US-Versicherer sind durch KI-Schulden insolvent, was bedeutet das für Sie? de.beincrypto.com",
    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE05UlpaeUY1eGxGQzRkTWdVT2REbHE2M0NrZm1RQ0F5cnQxMUN0QUVXa1R1UE1KOHEwRnBWMnVSMFdtd0NuMGpVZ1FYaGZkbFM1aUIxR3VQcFo4UU5uVGR0dGNTQTlIQWpnLUpab0FSdmMzbTNKOEY1RE5JUUNBdw?oc=5",
-   "source": "BeInCrypto",
+   "source": "de.beincrypto.com",
    "datum": "2026-09-22",
    "datum_iso": "2026-09-22T03:20:00+00:00",
    "signal": "stark",
@@ -516,10 +530,10 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Arztstreit Bad Nenndorf: Medoplan MVZ insolvent, Stadt von Wittum & Eriksen abhängig - Schaumburger Nachrichten",
-   "beschreibung": "Arztstreit Bad Nenndorf: Medoplan MVZ insolvent, Stadt von Wittum & Eriksen abhängig Schaumburger Nachrichten",
+   "titel": "Arztstreit Bad Nenndorf: Medoplan MVZ insolvent, Stadt von Wittum & Eriksen abhängig - sn-online.de",
+   "beschreibung": "Arztstreit Bad Nenndorf: Medoplan MVZ insolvent, Stadt von Wittum & Eriksen abhängig sn-online.de",
    "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNazgxRUdPajExRkNoNGRFalU2UG1tOEoyNmtHUnl0QU5EeUZ4SUtiZEJlVWRjOVhLTU1FZUt3akJWLXJGZlN1NkhfZC04QkhneGR0UHc0N1c4bWdvVzdmbWltSWF5Nk1CWTZSbWdFVmdvZGpGS1JYUjlmZXFaZ3VhaVMzdUpSamtiajdrYmc0NWRDSTVMdDl6TV9xVnUwc3ZCQi1GUWRKbTZlTVVfcm0wSVhxWi1IemZGRkxFLTBVS1pKeXo4QThDUlQtU3ZDci1VcWxmcjJ0SGtzTjIyTFhRa2JsWlVGZC01UXNJeWhtQVJZcmtnbEtudnFqdTMwU2fSAZsCQVVfeXFMUFpYaS1hUDJxX0xVbVQ3QWJsS1FFR0lVd2Y5eFdtanJDQTVyZU9KM0Z0R25HNEZiZ1ZGOXI3eGQzaGJWQkI1SXJBR0hKam4tZDVsUElVQVVpUzVPTjk2NkhEbnpJMG95Z2VBSEtZa1ItRFpHdVJ5amV2TEJSRzRNX05aMC1VNXo2Q0RGNXYzbWxxbENGWV9VVnZsQXd4eXRvNEVUU2I4ZEVMVjJ6TmwxY2dLUXNSMDNPRXJ3a1g3Mkhabk8yQXI0OEx4VG96VlExTXRPSE52U2ZxUElHdzlKRlNhZFhGZ2xCRkxPVVlBdlJpYmRENzNodWlhNW9XczNLb1RERFJtcXlNVHNsaDZrODJuMVhCUWVBdlRFSQ?oc=5",
-   "source": "Schaumburger Nachrichten",
+   "source": "sn-online.de",
    "datum": "2026-09-20",
    "datum_iso": "2026-09-20T05:29:46+00:00",
    "signal": "stark",
@@ -530,10 +544,10 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Riesige Anlage an A2 in Verl geplant – Unternehmen ist plötzlich insolvent - Neue Westfälische",
-   "beschreibung": "Riesige Anlage an A2 in Verl geplant – Unternehmen ist plötzlich insolvent Neue Westfälische",
+   "titel": "Riesige Anlage an A2 in Verl geplant – Unternehmen ist plötzlich insolvent - nw.de",
+   "beschreibung": "Riesige Anlage an A2 in Verl geplant – Unternehmen ist plötzlich insolvent nw.de",
    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNcEdRaEFkOVFIQW1YOV9yT2Vvd2lWczRLRWp5djFkRFRybjhCSzMzZnJMOXV4c1dkaWgyZ1N1aUxYbG1LdDFvZEg0WjZoa1YwbGRIR2tJbkhQX1V5SUVKZHRWX3ZYamx3TWtaUjJJNmFBZU1kbEdIZU55Z2U2S2pWNTFTMWdpOFY5WHFDcUt3TTZDVTRUdmdlSGlkZkt0Mkh3LXN1RVZzMlZNdXAzcHppbVZfX3NFN3FyZFVLa3ZHWGhBcUZNT2k0akVBNDVLQQ?oc=5",
-   "source": "Neue Westfälische",
+   "source": "nw.de",
    "datum": "2026-09-20",
    "datum_iso": "2026-09-20T11:19:04+00:00",
    "signal": "stark",
@@ -614,10 +628,10 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Solarfirma LuMack Pro nach weniger als einem Jahr insolvent - Blackout News",
-   "beschreibung": "Solarfirma LuMack Pro nach weniger als einem Jahr insolvent Blackout News",
+   "titel": "Solarfirma LuMack Pro nach weniger als einem Jahr insolvent - blackout-news.de",
+   "beschreibung": "Solarfirma LuMack Pro nach weniger als einem Jahr insolvent blackout-news.de",
    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQX0JNSUx6UnhGVGpxQWo5aWkwOFhTeFkxMFItZTREZmc0Y1paXzJSeXNnLUlRNHpCUXc5ZDdDc3B3SnNjYklnY25NbWN4SHNTYjk1c3RIMGdENWFCUGFpbmhueVNjWS1TcjY5VUdxVUZYYWRSYjFyckx3Wk5wUTRPU3BCTEdkVUU2djdiNzU5bGg2eWpzaC1fLU4yZzc?oc=5",
-   "source": "Blackout News",
+   "source": "blackout-news.de",
    "datum": "2026-09-20",
    "datum_iso": "2026-09-20T14:05:40+00:00",
    "signal": "stark",
@@ -690,12 +704,12 @@
   },
   {
    "quelle": "GNews Verfahren/Verwalter",
-   "titel": "Schüle Druckguss in Gmünd: Automobilzulieferer stellt Insolvenzantrag - Schwäbische Post",
-   "beschreibung": "Schüle Druckguss in Gmünd: Automobilzulieferer stellt Insolvenzantrag Schwäbische Post",
-   "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPZW12ZzA2ZmpjRUt6d0dzcXNodk04Tk5GaFlPVTVxT0diVmtKZmlwUlhWT3FKZzRTbjZ1QjdlSTczVGI5aERnQ1hCWFBkRFZRQVlMcGdaQ3N3YlZBNEJ6cU1aellIYnhFZTNKdF9wY2JHYVhrME8xb24wVVBhQ3hxZExabnJ0SFAxTm1PQUVnTm1kUllkMFRmcm5wMndVbWNPaTZsMzhOMVJpNVQwQjlGbVBCQ2pZUFNfOWJoODBGUVVEOWw3SHBPVDRFQjdGZkJ2U1FUc0tob1RQZEQ2NjZfYTZwQ1hOMmx5akNZMnBqcGFFbDhBeEE?oc=5",
-   "source": "Schwäbische Post",
+   "titel": "Schüle Druckguss in Gmünd: Automobilzulieferer stellt Insolvenzantrag - Gmünder Tagespost",
+   "beschreibung": "Schüle Druckguss in Gmünd: Automobilzulieferer stellt Insolvenzantrag Gmünder Tagespost",
+   "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOU291MEZCUHFXM3N3TmQ0ZF9Ua2VQSnR5bjFzOUh4QWctR1p6ajJYaXI0Z3poZnZDanUxZVZ0dGFpQzh2MUdMS2p6SGdvU2x4b2dPeGxFZG1lYzlhUEg1RW9fbVliSVJiUmZzbExMcHVaUnQ0VHl1OTBWS3hGUkpkZkxFSGJFdkFGemc4eEw3SktPZ01lUFNETXFKbGJRWVY5Sm50R011NU1obTlWSzdLWW9EZjRvU3pqNktULUZ1eUdKSHJ0WG05RU5jZ05laDh2LW5pQ3lCcDZ0eU5BSnBKYXZidi1aYjd1a0syYU51cVEtYk1ZWjg0?oc=5",
+   "source": "Gmünder Tagespost",
    "datum": "2026-09-22",
-   "datum_iso": "2026-09-22T09:50:00+00:00",
+   "datum_iso": "2026-09-22T10:05:00+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -719,10 +733,10 @@
   },
   {
    "quelle": "GNews Verfahren/Verwalter",
-   "titel": "Insolvenz in Dermbach: Rhöner Botschaft – Pleite soll verhindert werden - insuedthueringen.de",
-   "beschreibung": "Insolvenz in Dermbach: Rhöner Botschaft – Pleite soll verhindert werden insuedthueringen.de",
+   "titel": "Insolvenz in Dermbach: Rhöner Botschaft – Pleite soll verhindert werden - inSüdthüringen",
+   "beschreibung": "Insolvenz in Dermbach: Rhöner Botschaft – Pleite soll verhindert werden inSüdthüringen",
    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOV0w0SmhrenN1STcxb3UyTE5oSUJWQzFVWG95Uk0xOS12Q3dRRUF1c2Fib2MyUU5KOHNxM3hZZkk0OHp6Y3hnTU4xOGl3WVdKd0xDYlY4S3JJeUNkd1VZQVVUT3R4dnl2TmJCTk1ianpaSjNUc3kzVF8xRjZ6TTNHVEt0V1J5bzZqV2FUVjlMVDJ3ZkNWWUhCOTU5SWJ1dE1HekVFX09fX3F1REg4UWtfYk8ycy15Nm5jb1kxbzlpdHpOVGlLMUtFVC1rMDdQSEZ3VGpoTGRfbDhaZk1halE0ano0REQ?oc=5",
-   "source": "insuedthueringen.de",
+   "source": "inSüdthüringen",
    "datum": "2026-09-21",
    "datum_iso": "2026-09-21T12:00:00+00:00",
    "signal": "schwach",
@@ -805,6 +819,20 @@
   },
   {
    "quelle": "GNews Verfahren/Verwalter",
+   "titel": "Nach Obi und Bauhaus: Auch Hornbach übernimmt Märkte des Pleite-Konkurrenten - CHIP",
+   "beschreibung": "Nach Obi und Bauhaus: Auch Hornbach übernimmt Märkte des Pleite-Konkurrenten CHIP",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQajR6YzEtSThPaVBaY2VoWUhPbUY4SHI4NmZHaFpjbGxVcldmUm05UVVxdE1mQk9OVFFwdFhhWElHUHZidjhBQTdtNGcwdEVadk9pTzFwRjByOUJPTjJPOEhqRWNNbkcyX1JNU2pZVlBuS2tsSzd3cXE5ckxleUV3V081ZVBOYUNfU3hLZTFZLTR4SHhDUVk0aENKaVRkRGxYS2ZNVUh4U0xhRUFJLXJfSnNYOHY2bWc0XzY3SHJoSzY0MHVJVnNTVktKRFFxX3cwNE5wcUVIS2V4QlEtWkF3MzRKV3REOE1T?oc=5",
+   "source": "CHIP",
+   "datum": "2026-09-22",
+   "datum_iso": "2026-09-22T04:45:00+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Pleite"
+   ]
+  },
+  {
+   "quelle": "GNews Verfahren/Verwalter",
    "titel": "Insolvenz von Luxus-Modemarke: Ausverkauf soll vorbereitet werden - Merkur",
    "beschreibung": "Insolvenz von Luxus-Modemarke: Ausverkauf soll vorbereitet werden Merkur",
    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObE1IdmJNUDRJMF9yNjh5ZjNUWW5Ocmg5aGRTTUlMV1NjdXJuWldwSVdHNm9xYkprZVZET1pUMUhLYkZPcnZTYUxma2dLcW9zOVdRaUU5ZGs0WWQyUnpkU2Z2UVg1emZGTlY3OFRJeDZfOGk3UUxJczVlWFVRNnZPQ0pZWXp2elR6a1ktNGI3SV85Q004Qm1VX2ZiMUt6OUhCLUU2dkJBaHB6cGw4SXFlNGlTZXBQaUdhVVdz?oc=5",
@@ -876,10 +904,10 @@
   },
   {
    "quelle": "GNews Sanierung/StaRUG",
-   "titel": "Gemeinde Pölstal: Traditionsbetrieb Steirerpack schlittert in die Insolvenz - meinbezirk.at",
-   "beschreibung": "Gemeinde Pölstal: Traditionsbetrieb Steirerpack schlittert in die Insolvenz meinbezirk.at",
+   "titel": "Gemeinde Pölstal: Traditionsbetrieb Steirerpack schlittert in die Insolvenz - MeinBezirk.at",
+   "beschreibung": "Gemeinde Pölstal: Traditionsbetrieb Steirerpack schlittert in die Insolvenz MeinBezirk.at",
    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMkJBWFdGaV9lelR6Zk53cGVxUlNTNi1Dcm02OUVhRGNlNW9ST1FFUTJPUXlYNkVOT2g2S3BDZ2xUYlRIdFR2a3p5NkVsVDd4Y2VmbXl1NnkyTWVjaXlmVGk2eWdYSVhvazh4VkF1WGpVNjZSNDdfUFBjZ09WdFNFWGF6VnN3ckxWc0VSVHNjSkpWd01QQmV1dms2VEtESXJSUE5iZlNhWVJFYWZLUlF1d1ZR?oc=5",
-   "source": "meinbezirk.at",
+   "source": "MeinBezirk.at",
    "datum": "2026-09-21",
    "datum_iso": "2026-09-21T11:58:06+00:00",
    "signal": "schwach",
@@ -890,10 +918,10 @@
   },
   {
    "quelle": "GNews Sanierung/StaRUG",
-   "titel": "Nach Obi und Bauhaus: Auch Hornbach übernimmt Märkte des Pleite-Konkurrenten - chip.de",
-   "beschreibung": "Nach Obi und Bauhaus: Auch Hornbach übernimmt Märkte des Pleite-Konkurrenten chip.de",
+   "titel": "Nach Obi und Bauhaus: Auch Hornbach übernimmt Märkte des Pleite-Konkurrenten - CHIP",
+   "beschreibung": "Nach Obi und Bauhaus: Auch Hornbach übernimmt Märkte des Pleite-Konkurrenten CHIP",
    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQajR6YzEtSThPaVBaY2VoWUhPbUY4SHI4NmZHaFpjbGxVcldmUm05UVVxdE1mQk9OVFFwdFhhWElHUHZidjhBQTdtNGcwdEVadk9pTzFwRjByOUJPTjJPOEhqRWNNbkcyX1JNU2pZVlBuS2tsSzd3cXE5ckxleUV3V081ZVBOYUNfU3hLZTFZLTR4SHhDUVk0aENKaVRkRGxYS2ZNVUh4U0xhRUFJLXJfSnNYOHY2bWc0XzY3SHJoSzY0MHVJVnNTVktKRFFxX3cwNE5wcUVIS2V4QlEtWkF3MzRKV3REOE1T?oc=5",
-   "source": "chip.de",
+   "source": "CHIP",
    "datum": "2026-09-22",
    "datum_iso": "2026-09-22T04:45:00+00:00",
    "signal": "schwach",
@@ -946,10 +974,10 @@
   },
   {
    "quelle": "GNews Fruehsignal",
-   "titel": "Unterschriften für Moratorium zum Gasnetz eingereicht - Kreuzlingen24",
-   "beschreibung": "Unterschriften für Moratorium zum Gasnetz eingereicht Kreuzlingen24",
+   "titel": "Unterschriften für Moratorium zum Gasnetz eingereicht - kreuzlingen24.ch",
+   "beschreibung": "Unterschriften für Moratorium zum Gasnetz eingereicht kreuzlingen24.ch",
    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcDhHMjVleEs1TV9idGViTENjT2pmVE1YVUtPUS12NDJOdWRlNkZGdl85WER2anp4bUdidzl0M2xidmJsMzJPbmFtdVZuZmQ1T2FDd0RtZlliaGVUbVlfdVl2U2hOLVp1TDJYVGlOMjRHSm9pRjB3V3dZazJ6Sy1qMEQxN0luOUkyXzNqZV9kRHVIMkV1WU5ldnVxSQ?oc=5",
-   "source": "Kreuzlingen24",
+   "source": "kreuzlingen24.ch",
    "datum": "2026-09-22",
    "datum_iso": "2026-09-22T06:30:02+00:00",
    "signal": "stark",
@@ -960,10 +988,10 @@
   },
   {
    "quelle": "GNews Fruehsignal",
-   "titel": "Zahlungsunfähigkeit und strafrechtliche Ermittlungen belasten den geplanten Neustart von Fischer Air - aviation.direct",
-   "beschreibung": "Zahlungsunfähigkeit und strafrechtliche Ermittlungen belasten den geplanten Neustart von Fischer Air aviation.direct",
+   "titel": "Zahlungsunfähigkeit und strafrechtliche Ermittlungen belasten den geplanten Neustart von Fischer Air - Aviation.Direct",
+   "beschreibung": "Zahlungsunfähigkeit und strafrechtliche Ermittlungen belasten den geplanten Neustart von Fischer Air Aviation.Direct",
    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeFMtS2RaOUxubWZybWM0dWpaQV96WTlnVHdfNXpCa3FxRmlscjg4SzBKTjRabFVZWDQ4VTl4MWVmTTZ1SWpzamJXczdqeHhPMzNFNGhsdVltNmthc1U1VzJQRzduRnJqZ3hjZEpVcEJORG01VzhfeFBTdkVvZUozUWZTUVl1NkdULXUyMm9wZGxpM1hGeTAwdWNybHZBcWYyZ25JMnI5RnRmUHVWTDNvT25reF9LN0dfWVE2c2JRU3JFejQ?oc=5",
-   "source": "aviation.direct",
+   "source": "Aviation.Direct",
    "datum": "2026-09-21",
    "datum_iso": "2026-09-21T09:05:00+00:00",
    "signal": "stark",
@@ -1002,6 +1030,20 @@
   },
   {
    "quelle": "GNews Fruehsignal",
+   "titel": "Solarparkbetreiber Enerparc AG ist pleite - top agrar",
+   "beschreibung": "Solarparkbetreiber Enerparc AG ist pleite top agrar",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNVdMTnZaUkdULWt3Zk1Dd0Q0aVVEdHlVSXpOUlBxeTRuUnhtd0tfb3FreEc1WnU0Yk1qYmJXZlF6a1RYckNPb3NGbzQySzJGTXUzWVBkN1BOemhhU2VqdkVFZm9ocDlGVW1EeFNhUWJnb0w0cGgwa2JJbW9lWkxucFdGUUs2aHdaVmxlT2ZkTGVES1l6dC1HUFBJZw?oc=5",
+   "source": "top agrar",
+   "datum": "2026-09-19",
+   "datum_iso": "2026-09-19T19:30:55+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Pleite"
+   ]
+  },
+  {
+   "quelle": "GNews Fruehsignal",
    "titel": "Internes Leck bei OpenAI: KI beginnt, selbst KI zu erzeugen, Sam Altman erlässt umgehend ein globales Moratorium - eu.36kr.com",
    "beschreibung": "Internes Leck bei OpenAI: KI beginnt, selbst KI zu erzeugen, Sam Altman erlässt umgehend ein globales Moratorium eu.36kr.com",
    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE41czhTWFRUQVdYQUFMU3c5dFJyRmcwZHVPYXFoX0REdnFkMnk2MTNQVTNYOFVtSFNQdmppTUZpYktXeV9yQW1yZFoyek5xNnI1QnBZ?oc=5",
@@ -1026,34 +1068,6 @@
    "datum_unbekannt": false,
    "keywords": [
     "Moratorium"
-   ]
-  },
-  {
-   "quelle": "GNews Fruehsignal",
-   "titel": "Aus für zwei Traditionslokale: Pendel und Cartoon in Bonn machen nach Insolvenz dicht - General-Anzeiger Bonn",
-   "beschreibung": "Aus für zwei Traditionslokale: Pendel und Cartoon in Bonn machen nach Insolvenz dicht General-Anzeiger Bonn",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdzJVNGhFQ2o2aDFlUS1aZk56U0JrNThLUlIxNktscEVlVzRqVDFQVEVYS3VnX3BZcnJHVkFwZ2NhODF5MFY3RGxRTVlTdDE3Y3JjeEFqZG84RG5ZVlJYbFQyTnQ2YzFha1dQRDJkQ0hMRkFwaW41RlhQN1BHWnJleWsySmNUZjZnd25RTVMyNXBEUGNwQTVla1dtMDBRSzg?oc=5",
-   "source": "General-Anzeiger Bonn",
-   "datum": "2026-09-21",
-   "datum_iso": "2026-09-21T15:50:00+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Fruehsignal",
-   "titel": "Solarparkbetreiber Enerparc AG ist pleite - top agrar",
-   "beschreibung": "Solarparkbetreiber Enerparc AG ist pleite top agrar",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNVdMTnZaUkdULWt3Zk1Dd0Q0aVVEdHlVSXpOUlBxeTRuUnhtd0tfb3FreEc1WnU0Yk1qYmJXZlF6a1RYckNPb3NGbzQySzJGTXUzWVBkN1BOemhhU2VqdkVFZm9ocDlGVW1EeFNhUWJnb0w0cGgwa2JJbW9lWkxucFdGUUs2aHdaVmxlT2ZkTGVES1l6dC1HUFBJZw?oc=5",
-   "source": "top agrar",
-   "datum": "2026-09-19",
-   "datum_iso": "2026-09-19T19:30:55+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Pleite"
    ]
   }
  ]
