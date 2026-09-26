@@ -1,14 +1,17 @@
 {
  "meta": {
-  "lauf": "2026-09-26T12:23:49",
-  "lauf_utc": "2026-09-26T12:23:49+00:00",
+  "lauf": "2026-09-26T13:14:03",
+  "lauf_utc": "2026-09-26T13:14:03+00:00",
   "version": "2026-09-23a",
-  "problem": [],
+  "problem": [
+   "Deutscher AnwaltSpiegel(FAIL:HTTPError)",
+   "FINANCE Magazin(FAIL:HTTPError)"
+  ],
   "fenster_tage": 3,
   "feeds_gesamt": 56,
-  "feeds_ok": 56,
-  "n_roh": 96,
-  "n_stark": 67
+  "feeds_ok": 54,
+  "n_roh": 93,
+  "n_stark": 66
  },
  "health": {
   "Handelsblatt Unternehmen": "ok:20",
@@ -35,7 +38,7 @@
   "Radio Bremen (buten un binnen)": "ok:26",
   "WAZ Wirtschaft": "ok:63",
   "Rheinische Post": "ok:6",
-  "Koelner Stadt-Anzeiger Wirtschaft": "ok:54",
+  "Koelner Stadt-Anzeiger Wirtschaft": "ok:51",
   "Westfaelische Nachrichten": "ok:100",
   "Neue Westfaelische": "ok:10",
   "Ruhr Nachrichten": "ok:12",
@@ -45,8 +48,8 @@
   "Rhein-Neckar-Zeitung Wirtschaft": "ok:30",
   "Rhein-Zeitung": "ok:10",
   "Creditreform News": "ok:310",
-  "Deutscher AnwaltSpiegel": "ok:10",
-  "FINANCE Magazin": "ok:10",
+  "Deutscher AnwaltSpiegel": "FAIL:HTTPError",
+  "FINANCE Magazin": "FAIL:HTTPError",
   "JUVE": "ok:10",
   "pressebox (PM-Wire)": "ok:20",
   "presseportal Wirtschaft": "ok:15",
@@ -62,8 +65,8 @@
   "Westf. Anzeiger wa.de (Lokal)": "ok:40",
   "Kreiszeitung Niedersachsen (Lokal)": "ok:40",
   "come-on Maerkischer Kreis (Lokal)": "ok:40",
-  "GNews Insolvenzantrag": "ok:58",
-  "GNews Verfahren/Verwalter": "ok:18",
+  "GNews Insolvenzantrag": "ok:57",
+  "GNews Verfahren/Verwalter": "ok:16",
   "GNews Sanierung/StaRUG": "ok:12",
   "GNews Investorenprozess": "ok:8",
   "GNews Fruehsignal": "ok:18"
@@ -212,10 +215,10 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Ruff’s Burger aus München: Dieser Hamburger Standort ist insolvent - Hamburger Abendblatt",
-   "beschreibung": "Ruff’s Burger aus München: Dieser Hamburger Standort ist insolvent Hamburger Abendblatt",
+   "titel": "Ruff’s Burger aus München: Dieser Hamburger Standort ist insolvent - abendblatt.de",
+   "beschreibung": "Ruff’s Burger aus München: Dieser Hamburger Standort ist insolvent abendblatt.de",
    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbDVSZ0ViVG1ZQnpjbThWM3FxTnk3Yjg0MUFrakVBZnJQSGFjZXFtTUEtc3dNcGlMRjgwUWw5eDFtNlg1VXhJRDNQVzk3QlgxUGxfRHc0WWl0LXJyVy1CX2xwU0I0aG0xcHc3MVNSZk1WaHpiUkdtcGlQRGxqR3NGUGxIZ3hWTGtFOVhpdC1iZHdSaDRQNmF3NEZQSVA4MUtfWF80RXdBVFk4TThFM05VQ2VYZFNMR1Jub2tSMmFuemJ6WkVJTTlTQnRsWE9DMXI3d01rUW8zSkZkUQ?oc=5",
-   "source": "Hamburger Abendblatt",
+   "source": "abendblatt.de",
    "datum": "2026-09-26",
    "datum_iso": "2026-09-26T04:03:00+00:00",
    "signal": "stark",
@@ -339,16 +342,30 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Bad Sobernheim: Ruegenberg GmbH meldet Insolvenz an - Allgemeine Zeitung",
-   "beschreibung": "Bad Sobernheim: Ruegenberg GmbH meldet Insolvenz an Allgemeine Zeitung",
+   "titel": "Bad Sobernheim: Ruegenberg GmbH hat Insolvenz angemeldet - allgemeine-zeitung.de",
+   "beschreibung": "Bad Sobernheim: Ruegenberg GmbH hat Insolvenz angemeldet allgemeine-zeitung.de",
    "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQWHVCMXBLUjFMT1FmY3hmWmFPaGVWNU1ERVlOVXRFQk1reUxLcUdjSnVDd0JNRUUwcHpka25BMndYdE5RVGdOamotRWphcVdWVWVTaHU3UW9Wd1RNZ2MtQ2pyZHFPRTdjUkRIdnlzSmJIcGlqWi1NMlROdDlmTy1vc3BoelBLdkp6ZW5iNXdIaEtXMW1VRkxIWk9CV0pXajdfUFdERWo1UjdMZHhJdllvTUVNTHJ6WWRkeG4tdnZCVU5SQUllUVA4bXZIc0NFbndiaVdjdUtmaEV6S0ZzS194azk5em9pTVY4V29wdENnTlN4cnRzMWYzZmV2cw?oc=5",
-   "source": "Allgemeine Zeitung",
+   "source": "allgemeine-zeitung.de",
    "datum": "2026-09-25",
    "datum_iso": "2026-09-25T14:30:00+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
-    "meldet Insolvenz",
+    "Insolvenz angemeldet",
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Kein Auto - und Geld erst nach Jahren zurück: Ärger nach Insolvenz des Autohauses Wahl in Siegen - Siegener Zeitung",
+   "beschreibung": "Kein Auto - und Geld erst nach Jahren zurück: Ärger nach Insolvenz des Autohauses Wahl in Siegen Siegener Zeitung",
+   "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQelJsRUpUb0FmQTcwT3o5WkFudjR2aV9tR18wbDZXWHI0X2xuSDFWN2FlZ3pTSTNnb2JLc0I1MUlxMnZ1MC1oQ2dDSWhleE9TYjlQUklBQ2poTlhROHNkSU5XdjZDMzVLTVR4Rm5Sd0ZnSWZxZjhnMzVsUnJMZnV6U2VJNXEzRUNObzNXNFhmQTlsODhrb3oxRWVkTy1nZ29hSENiYkVuUFVaczl5blZEY1hmNXpIaFFGTW8wdUxCS0FzZm54MUk1MnREMTZyd2lLcWJhb3ZCQkEyRllMS0pESkxHV1dkalFKWjdrMHRzOFdsZ0dOY1VONmFkajRpR2U0WnJhcmJoVUU2cW94MUNVUDZBa9IBrwJBVV95cUxNVWV0T2xNanlGMGpXN250eWlkZUFxNWFuQkpOVEp6MDNIS29mbTl5ellJWnVEdnBmbE1TSXNLNUptTmNDR21ydFhmWE1lZTZFX1Nia1N2NUdSQUtBeWRkS2dsSmlHbVlFNHJycHZnLXdCb3RLbDlONml4blQwd3duczg2bWt5OWtCNGNUbi1mMWZyTWw3V2paYmR3UmVmVlJMRUMzcHZIMndkcVhyYzAtelFtQWFBQXAxOFdwdEExQUFRS283X0dYWE4zejRXZ3hEVURlYUlMTnlmMW1wOXNzb2w4cW5lLTlqeDJSakxPWHdIZHl3QmNzQlA0LUtreWdsaFVjbFd3VmFYWXc3cEYyZjk3NUluOWo4N0hnZTB0VGJCM3NWZGpPMmUxYlpGUVk?oc=5",
+   "source": "Siegener Zeitung",
+   "datum": "2026-09-24",
+   "datum_iso": "2026-09-24T08:35:12+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
     "Insolvenz"
    ]
   },
@@ -368,20 +385,6 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Kein Auto - und Geld erst nach Jahren zurück: Ärger nach Insolvenz des Autohauses Wahl in Siegen - Siegener Zeitung",
-   "beschreibung": "Kein Auto - und Geld erst nach Jahren zurück: Ärger nach Insolvenz des Autohauses Wahl in Siegen Siegener Zeitung",
-   "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQelJsRUpUb0FmQTcwT3o5WkFudjR2aV9tR18wbDZXWHI0X2xuSDFWN2FlZ3pTSTNnb2JLc0I1MUlxMnZ1MC1oQ2dDSWhleE9TYjlQUklBQ2poTlhROHNkSU5XdjZDMzVLTVR4Rm5Sd0ZnSWZxZjhnMzVsUnJMZnV6U2VJNXEzRUNObzNXNFhmQTlsODhrb3oxRWVkTy1nZ29hSENiYkVuUFVaczl5blZEY1hmNXpIaFFGTW8wdUxCS0FzZm54MUk1MnREMTZyd2lLcWJhb3ZCQkEyRllMS0pESkxHV1dkalFKWjdrMHRzOFdsZ0dOY1VONmFkajRpR2U0WnJhcmJoVUU2cW94MUNVUDZBa9IBrwJBVV95cUxNVWV0T2xNanlGMGpXN250eWlkZUFxNWFuQkpOVEp6MDNIS29mbTl5ellJWnVEdnBmbE1TSXNLNUptTmNDR21ydFhmWE1lZTZFX1Nia1N2NUdSQUtBeWRkS2dsSmlHbVlFNHJycHZnLXdCb3RLbDlONml4blQwd3duczg2bWt5OWtCNGNUbi1mMWZyTWw3V2paYmR3UmVmVlJMRUMzcHZIMndkcVhyYzAtelFtQWFBQXAxOFdwdEExQUFRS283X0dYWE4zejRXZ3hEVURlYUlMTnlmMW1wOXNzb2w4cW5lLTlqeDJSakxPWHdIZHl3QmNzQlA0LUtreWdsaFVjbFd3VmFYWXc3cEYyZjk3NUluOWo4N0hnZTB0VGJCM3NWZGpPMmUxYlpGUVk?oc=5",
-   "source": "Siegener Zeitung",
-   "datum": "2026-09-24",
-   "datum_iso": "2026-09-24T08:35:12+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
    "titel": "Traditionsunternehmen aus Bayern meldet nach 75 Jahren Insolvenz an – „Schritt nicht leichtgefallen“ - Merkur",
    "beschreibung": "Traditionsunternehmen aus Bayern meldet nach 75 Jahren Insolvenz an – „Schritt nicht leichtgefallen“ Merkur",
    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOenlOR0Y0VHpBUkNLYWx6VUxzbDdmdGhZUVFodEdJTE13Nk1KS0ZhcGViMnBhdElQZ3FsaGlRN3FHMElBSDRXeFRTc2I4ZVZJTmJJSkVIeWJCTFd5Z3RYRkFnbWZGeHV6V0RZS1FZMkk2bUlHN1JwMTVqZFNxakRaUnh6dTZVVEVycVd5UGNuWUhhZmF4SC11ZTF2VjVYaFBYcWk4TzlxYndqdw?oc=5",
@@ -392,6 +395,20 @@
    "datum_unbekannt": false,
    "keywords": [
     "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Bierbrunnen Olpe ist insolvent: Aus nach nur drei Jahren - SauerlandKurier",
+   "beschreibung": "Bierbrunnen Olpe ist insolvent: Aus nach nur drei Jahren SauerlandKurier",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZHpfLWdxdmxWS1UxYkdkZmlPaTlNTndsMnhtc0tjR09weWlrWnpVdFRPcnRLMnQzUG4zaVYtV2RIcVc5VF9nVU5FLWpSajM5aFRaMy10M2ZvUnFRY1ZBYVVfbWhSendlQnpnc3ZnalF6eGU0Y2VNR2VOVkp3dEh5bklZNHdPNnpNYklFZXN4M0RLdjhfNTZmUmRORW1PYnV4OUZnMW1Fa09FeW9EOXdZVlRMeEJpZGc?oc=5",
+   "source": "SauerlandKurier",
+   "datum": "2026-09-24",
+   "datum_iso": "2026-09-24T12:00:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
    ]
   },
   {
@@ -497,24 +514,10 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Bierbrunnen Olpe ist insolvent: Aus nach nur drei Jahren - SauerlandKurier",
-   "beschreibung": "Bierbrunnen Olpe ist insolvent: Aus nach nur drei Jahren SauerlandKurier",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZHpfLWdxdmxWS1UxYkdkZmlPaTlNTndsMnhtc0tjR09weWlrWnpVdFRPcnRLMnQzUG4zaVYtV2RIcVc5VF9nVU5FLWpSajM5aFRaMy10M2ZvUnFRY1ZBYVVfbWhSendlQnpnc3ZnalF6eGU0Y2VNR2VOVkp3dEh5bklZNHdPNnpNYklFZXN4M0RLdjhfNTZmUmRORW1PYnV4OUZnMW1Fa09FeW9EOXdZVlRMeEJpZGc?oc=5",
-   "source": "SauerlandKurier",
-   "datum": "2026-09-24",
-   "datum_iso": "2026-09-24T12:00:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Braunschweiger Traditionsfirma insolvent! Doch Rettung ist in Sicht - News38",
-   "beschreibung": "Braunschweiger Traditionsfirma insolvent! Doch Rettung ist in Sicht News38",
+   "titel": "Braunschweiger Traditionsfirma insolvent! Doch Rettung ist in Sicht - news38.de",
+   "beschreibung": "Braunschweiger Traditionsfirma insolvent! Doch Rettung ist in Sicht news38.de",
    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWFR5VmVxQkpTeVpvb0ZDYUJ2cENvSWdzdWpsRF9tV1YzVFVzdXBPMW5JRFZUb2QyTnBNNVh3SzhQWkVsbDdkUWlLekEwSk5QWUZHMmNhZnIxU1puTk82SWVWcml1dnVoRWtHenJZcjBJdkNialpnVWN1Uy1HUHc3MTBhZy13Ni1oNjJPTDE2THphZGZoemJlZTlnYko3SXI0alJTU0VRN1hCMHBvRXdpOVctN0IxNTNBY2lzcU1wMU4?oc=5",
-   "source": "News38",
+   "source": "news38.de",
    "datum": "2026-09-24",
    "datum_iso": "2026-09-24T17:00:00+00:00",
    "signal": "stark",
@@ -596,20 +599,6 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "MindsEye-Macher insolvent: GTA-Veteran steht mit seinem Studio vor dem Aus - eurogamer.de",
-   "beschreibung": "MindsEye-Macher insolvent: GTA-Veteran steht mit seinem Studio vor dem Aus eurogamer.de",
-   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBQeEEtcTFROWhlT2Y5VTJ0UUFsdFQ4aUJFdGU5dW91c3dnTTFGamNTUEN6NDltS2JVbkF5ZUFYWGdSQVpyWGYzemxZWmdsNGpZa2lBOXdPVjVWN3VndlpkRFBWaldJTFNZbms0U1gwdw?oc=5",
-   "source": "eurogamer.de",
-   "datum": "2026-09-25",
-   "datum_iso": "2026-09-25T13:26:09+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
    "titel": "Online-Apotheke Disapo aus Heerlen meldet Insolvenz an und sucht neuen Käufer - Aachener Zeitung",
    "beschreibung": "Online-Apotheke Disapo aus Heerlen meldet Insolvenz an und sucht neuen Käufer Aachener Zeitung",
    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQY2pfbFRYeWh4Q1o4WXJvNnQ5UTY5MVpscVFKOHY4TzNmRHpEeDk4OHhPNEI1TTl0OUF0V1FTM1lPVi1lZTlRYlhLUld3WnFLR0x3Mk91MzFCeGNIOWdPVW5HRFZjRU55UlFybXpNaWdTbTB0bTdpSjlwSms3cFQ2V2N0ZkFvdlJ3Q0xQTTZqdEotR2szVDB0eTBKUWxIMkdXWGd6b0ZLNW5xSjA4cmdSMVJoWHJtMzJveGJHYlJHVC1XdDNNQUl6dFFRMmFfM1Bxcl9mNlhPRkN4OTBtOXJTVTN1cU4?oc=5",
@@ -639,10 +628,10 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Leclanché meldet Insolvenzantrag für deutsche Tochtergesellschaften an - Finanz und Wirtschaft",
-   "beschreibung": "Leclanché meldet Insolvenzantrag für deutsche Tochtergesellschaften an Finanz und Wirtschaft",
+   "titel": "Leclanché meldet Insolvenzantrag für deutsche Tochtergesellschaften an - fuw.ch",
+   "beschreibung": "Leclanché meldet Insolvenzantrag für deutsche Tochtergesellschaften an fuw.ch",
    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYkNrTDVZMWF5MF9GcXE0WnZkMW5vcmRfRDQ0c1NZOGJ4d2dWX05JMW1lMXoxT2h1cGNxWnBmX19SWDN3VFBnZVVtRVEtX1V6RkFsVGNhdDh1VlRUUERvdzlyZDAzaDdNZmM1ZjB6UUpUdXo4YUxqejllY2Q0M1k1bUI1NHdlVUJGQ3I4SlZuSUZ1UmZzcmlCdQ?oc=5",
-   "source": "Finanz und Wirtschaft",
+   "source": "fuw.ch",
    "datum": "2026-09-24",
    "datum_iso": "2026-09-24T05:10:10+00:00",
    "signal": "stark",
@@ -653,17 +642,16 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Brightline meldet Insolvenz an: Floridas Privatbahn kämpft mit Schuldenberg - aktien.news",
-   "beschreibung": "Brightline meldet Insolvenz an: Floridas Privatbahn kämpft mit Schuldenberg aktien.news",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMDRSejlxYmtCUVIxYk85dWs4M21lRzhURmZ0QUlSUGxnR1hpUkpxczR0bUh5ZEhaZ1YwcFNoRzBndjd3S0RsRmlTY0pOQjQtRXVoT0hXNjE5VEhfeWlKT2p3MFhxXy1tRkxDSU5QUnlnaXFIN0VMMTNvMTBralA3ZUtpQ0dsU25zWnBFandXRlgxVWwwR3Y0Qlk4YXNIVWs?oc=5",
-   "source": "aktien.news",
+   "titel": "MindsEye-Macher insolvent: GTA-Veteran steht mit seinem Studio vor dem Aus - Eurogamer.de",
+   "beschreibung": "MindsEye-Macher insolvent: GTA-Veteran steht mit seinem Studio vor dem Aus Eurogamer.de",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBQeEEtcTFROWhlT2Y5VTJ0UUFsdFQ4aUJFdGU5dW91c3dnTTFGamNTUEN6NDltS2JVbkF5ZUFYWGdSQVpyWGYzemxZWmdsNGpZa2lBOXdPVjVWN3VndlpkRFBWaldJTFNZbms0U1gwdw?oc=5",
+   "source": "Eurogamer.de",
    "datum": "2026-09-25",
-   "datum_iso": "2026-09-25T15:32:16+00:00",
+   "datum_iso": "2026-09-25T13:26:09+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
-    "meldet Insolvenz",
-    "Insolvenz"
+    "insolvent"
    ]
   },
   {
@@ -693,6 +681,21 @@
    "datum_unbekannt": false,
    "keywords": [
     "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Brightline meldet Insolvenz an: Floridas Privatbahn kämpft mit Schuldenberg - aktien.news",
+   "beschreibung": "Brightline meldet Insolvenz an: Floridas Privatbahn kämpft mit Schuldenberg aktien.news",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMDRSejlxYmtCUVIxYk85dWs4M21lRzhURmZ0QUlSUGxnR1hpUkpxczR0bUh5ZEhaZ1YwcFNoRzBndjd3S0RsRmlTY0pOQjQtRXVoT0hXNjE5VEhfeWlKT2p3MFhxXy1tRkxDSU5QUnlnaXFIN0VMMTNvMTBralA3ZUtpQ0dsU25zWnBFandXRlgxVWwwR3Y0Qlk4YXNIVWs?oc=5",
+   "source": "aktien.news",
+   "datum": "2026-09-25",
+   "datum_iso": "2026-09-25T15:32:16+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "meldet Insolvenz",
+    "Insolvenz"
    ]
   },
   {
@@ -741,12 +744,12 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Konkurs in Kärnten: PV-Montagefirma aus Nikelsdorf insolvent - nachrichten.jetzt",
-   "beschreibung": "Konkurs in Kärnten: PV-Montagefirma aus Nikelsdorf insolvent nachrichten.jetzt",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSUM4UEtSMk16MFJKR0g0VkE0dEpyZkpZR1N0anM5Skk0Q0E4WEE4Q1lIN1d6X0xhZXQ1TXNrYkFRdmJuSFZlTUxJczFhaHRlanE2Q3hQSms4Z3JJNTZfVzUtSms5WWUwa2VITEo2VDZBOWtGUGdZaHV1RnpDSmp3dWNnNDFDMUxhLU5Hcm9sR3BmNHBDdjJmbHA4dw?oc=5",
-   "source": "nachrichten.jetzt",
-   "datum": "2026-09-25",
-   "datum_iso": "2026-09-25T11:09:43+00:00",
+   "titel": "Gutschein-Gläubiger - Kerzenvertrieb PartyLite in Österreich insolvent - Kronen Zeitung",
+   "beschreibung": "Gutschein-Gläubiger - Kerzenvertrieb PartyLite in Österreich insolvent Kronen Zeitung",
+   "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFA4bzhkWG03SVU3WG1oaVR3c2RiYUlhSWU4OTNvNldLd0JqTDJMeGtMdWl0SDN5S0RYbDRpVnpOMlBOdw?oc=5",
+   "source": "Kronen Zeitung",
+   "datum": "2026-09-24",
+   "datum_iso": "2026-09-24T15:40:00+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -755,12 +758,12 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Gutschein-Gläubiger - Kerzenvertrieb PartyLite in Österreich insolvent - Kronen Zeitung",
-   "beschreibung": "Gutschein-Gläubiger - Kerzenvertrieb PartyLite in Österreich insolvent Kronen Zeitung",
-   "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFA4bzhkWG03SVU3WG1oaVR3c2RiYUlhSWU4OTNvNldLd0JqTDJMeGtMdWl0SDN5S0RYbDRpVnpOMlBOdw?oc=5",
-   "source": "Kronen Zeitung",
-   "datum": "2026-09-24",
-   "datum_iso": "2026-09-24T15:40:00+00:00",
+   "titel": "Konkurs in Kärnten: PV-Montagefirma aus Nickelsdorf insolvent - nachrichten.jetzt",
+   "beschreibung": "Konkurs in Kärnten: PV-Montagefirma aus Nickelsdorf insolvent nachrichten.jetzt",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZG00b1JQR2tGZ2kzd2o0b0V1cGRVQUs4bF9hQnlEOVlaM2h2eV9WcndxLUlYY0FxcXZqT0hCUVhuaG1qSlBqXzVxcXFEMUxDdFBsQlk0cVlHdzY2ZFhoZUFxZlc1blZLdWZ5ZjQ3RkxlUmRiV0RLd3RaUm9hX1NUQkd5WHJMUm8wckQ4OFRpa2J6T0NlckVuUG11YzE?oc=5",
+   "source": "nachrichten.jetzt",
+   "datum": "2026-09-25",
+   "datum_iso": "2026-09-25T11:09:43+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -826,20 +829,6 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "228.000 Euro Schulden, 15 Mitarbeiter betroffen: Restaurant Trenta ist insolvent - Der Grazer",
-   "beschreibung": "228.000 Euro Schulden, 15 Mitarbeiter betroffen: Restaurant Trenta ist insolvent Der Grazer",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOa2U1VHdUamVXZjc3YWJHQ05CT1VyNWVmd3lPWVVyUWZFaWpoZEs2T0xqa3hVdkZwbkJRcjFMLVJJcmNxYWtBLWpDUlNxNGd2SUw0c0s4aE9lVmJnMS11d0pxcm1RaldYcmh1a0EwLUtqb0NiMDBJNTk3akZpQ0hrT2xHRVpyOFpGRUd0Uzh0TUk?oc=5",
-   "source": "Der Grazer",
-   "datum": "2026-09-25",
-   "datum_iso": "2026-09-25T13:35:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
    "titel": "24 Mio. Euro Schulden - Nach Pleite: Hellweg-Baumärkte vor der Schließung - Kronen Zeitung",
    "beschreibung": "24 Mio. Euro Schulden - Nach Pleite: Hellweg-Baumärkte vor der Schließung Kronen Zeitung",
    "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE4yWlZTaXN5WWpzeVlFWlQ1a0U4bzR4MjI4QkJSSkZtb1JBWnlVTDlUakV2dFhsOEtqd1JZc2hDQXVHZw?oc=5",
@@ -850,6 +839,20 @@
    "datum_unbekannt": false,
    "keywords": [
     "Pleite"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "228.000 Euro Schulden, 15 Mitarbeiter betroffen: Restaurant Trenta ist insolvent - Der Grazer",
+   "beschreibung": "228.000 Euro Schulden, 15 Mitarbeiter betroffen: Restaurant Trenta ist insolvent Der Grazer",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOa2U1VHdUamVXZjc3YWJHQ05CT1VyNWVmd3lPWVVyUWZFaWpoZEs2T0xqa3hVdkZwbkJRcjFMLVJJcmNxYWtBLWpDUlNxNGd2SUw0c0s4aE9lVmJnMS11d0pxcm1RaldYcmh1a0EwLUtqb0NiMDBJNTk3akZpQ0hrT2xHRVpyOFpGRUd0Uzh0TUk?oc=5",
+   "source": "Der Grazer",
+   "datum": "2026-09-25",
+   "datum_iso": "2026-09-25T13:35:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
    ]
   },
   {
@@ -927,10 +930,10 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Winzer insolvent, weil er seine Kunden gegendert ansprach - Tichys Einblick",
-   "beschreibung": "Winzer insolvent, weil er seine Kunden gegendert ansprach Tichys Einblick",
+   "titel": "Winzer insolvent, weil er seine Kunden gegendert ansprach - tichyseinblick.de",
+   "beschreibung": "Winzer insolvent, weil er seine Kunden gegendert ansprach tichyseinblick.de",
    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1TbTR6bTlnckdxcVM2TXFXQm1KT3BxeWh0eldhX0xFWmNKbTlXQWZUN2xxaHR2LTM2RzRhSVpJdVdiU3k5czJ5dk0xOHloMVdFdVZaRllCZmEwdW1iT01XM0RFVXFIZzVlN2VyaUxPZURnQVZueHpZcGlOZG1iTjg?oc=5",
-   "source": "Tichys Einblick",
+   "source": "tichyseinblick.de",
    "datum": "2026-09-24",
    "datum_iso": "2026-09-24T17:00:42+00:00",
    "signal": "stark",
@@ -966,20 +969,6 @@
    "keywords": [
     "Eigenverwaltung",
     "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Verfahren/Verwalter",
-   "titel": "Mehrheitsbeteiligung nach Eigenverwaltung: Schnellecke steigt bei Wandt Spedition ein - Eurotransport",
-   "beschreibung": "Mehrheitsbeteiligung nach Eigenverwaltung: Schnellecke steigt bei Wandt Spedition ein Eurotransport",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQUtHZk9kN2JaUXlUTkdCY0NQQmIyS1ludzRHNHlQUXM1RzdnNm1WdHpPcWVQTjFSUmJYMUg3TGdHQ0tJOXN0WFFlcFh1SlU1UTVEZzNuZEsxT3YxZlBHcVlPd2NoeHByb193aFJVY0M1TFNGWUxVUHVlWDVYcEU4a0JORGZHalJqNWtiVjJKRG9MSjlZcDBhQzdEZVBBa0E1UlhDa2R4LURwMXhzSmJWdjZHdDI?oc=5",
-   "source": "Eurotransport",
-   "datum": "2026-09-23",
-   "datum_iso": "2026-09-23T13:11:48+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Eigenverwaltung"
    ]
   },
   {
@@ -1027,6 +1016,20 @@
   },
   {
    "quelle": "GNews Verfahren/Verwalter",
+   "titel": "Nach dem Insolvenz-Schock: Zuversicht bei der Dorfkäserei Geifertshofen - Stimme",
+   "beschreibung": "Nach dem Insolvenz-Schock: Zuversicht bei der Dorfkäserei Geifertshofen Stimme",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQeGNZUkdCd0dHUk9WOUllMllSVnRWenQ0NDdVNUhSNDBSQW4yQ3pJN1NlcUlkZlpnVlFBWFZYS1B6WWlacFhZQm5FT3V6Q0s4Z2pFdV9vYV9VaVF0aEhGTWlMcHQ0blc2dmtJSGNEbHdDMTdzR3B1VEFCUlItUU4zWXFmV2FhQkJnNUNjRVFoTXdUeUV4eEEtM0FJeEsxd3hCQlc4VTZ6OEl5XzhRNnZMV29JeHV6Qm5TZURxemdsU2lia2hMX1BDa3lzUU12b3laazJtNlVsQXZOalJYTHc?oc=5",
+   "source": "Stimme",
+   "datum": "2026-09-24",
+   "datum_iso": "2026-09-24T11:11:00+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Verfahren/Verwalter",
    "titel": "Infracore-Deal ist vom Tisch – Datum für GZO-Gläubigerversammlung steht - ZO-Online",
    "beschreibung": "Infracore-Deal ist vom Tisch – Datum für GZO-Gläubigerversammlung steht ZO-Online",
    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcVRsLVctYm9xdVNSUWdsc1lncXNQcTc2cFRjajhXN3JsdTVvb0ljWG5QbklVZEJ2bjgwS2dsUm4xREZONTN5ekNha3pwcVdCYTBGNFJBYm9SUE1seW9SOHJNaHJIcVp1LWJwU2JLZ0ZlakczQkhJRTZncVFNS3dPb0lqZDZmS3NRMENhc213U0NoQnVwWklZbnowX25CbVRMR1FsRXY4R21FVktMSXgwRHliN0F3aUl6X0E?oc=5",
@@ -1061,34 +1064,6 @@
    "source": "T-Online",
    "datum": "2026-09-24",
    "datum_iso": "2026-09-24T09:34:24+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Verfahren/Verwalter",
-   "titel": "Nach dem Insolvenz-Schock: Zuversicht bei der Dorfkäserei Geifertshofen - Stimme",
-   "beschreibung": "Nach dem Insolvenz-Schock: Zuversicht bei der Dorfkäserei Geifertshofen Stimme",
-   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQeGNZUkdCd0dHUk9WOUllMllSVnRWenQ0NDdVNUhSNDBSQW4yQ3pJN1NlcUlkZlpnVlFBWFZYS1B6WWlacFhZQm5FT3V6Q0s4Z2pFdV9vYV9VaVF0aEhGTWlMcHQ0blc2dmtJSGNEbHdDMTdzR3B1VEFCUlItUU4zWXFmV2FhQkJnNUNjRVFoTXdUeUV4eEEtM0FJeEsxd3hCQlc4VTZ6OEl5XzhRNnZMV29JeHV6Qm5TZURxemdsU2lia2hMX1BDa3lzUU12b3laazJtNlVsQXZOalJYTHc?oc=5",
-   "source": "Stimme",
-   "datum": "2026-09-24",
-   "datum_iso": "2026-09-24T11:11:00+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Verfahren/Verwalter",
-   "titel": "Aus für zwei Traditionslokale: Pendel und Cartoon in Bonn machen nach Insolvenz dicht - General-Anzeiger Bonn",
-   "beschreibung": "Aus für zwei Traditionslokale: Pendel und Cartoon in Bonn machen nach Insolvenz dicht General-Anzeiger Bonn",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWGNmQTF6T0FSNnIwdGcxWG8teldPOEZzXzhaTC1JY0x4b2RSUVB0Q1dfcXF5OVZNakZ2Rk5vOEtWSU9oYTkwSmxNQ2dxbzFyM05iR0NDOC1NR2JJWmJ6WjlhdEhfTktXUkltWGhjVVVLdFMtYndTaFBOVlNRM1dicFhqUnFxb1l6N0t6SGJ1cE1jNDJjeXpqOHpNb3VXdVByOXhhYUhlV1M?oc=5",
-   "source": "General-Anzeiger Bonn",
-   "datum": "2026-09-23",
-   "datum_iso": "2026-09-23T13:09:00+00:00",
    "signal": "schwach",
    "datum_unbekannt": false,
    "keywords": [
@@ -1196,6 +1171,21 @@
   },
   {
    "quelle": "GNews Sanierung/StaRUG",
+   "titel": "Grazer Gastro: Beliebtes Restaurant in Eggenberg meldet Insolvenz an - MeinBezirk.at",
+   "beschreibung": "Grazer Gastro: Beliebtes Restaurant in Eggenberg meldet Insolvenz an MeinBezirk.at",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTGxLdnZVZ21IbzlCT1A4Qk1zTHl5amd5OWVUZkJCT2EyRHJFcXE3VkxIVExFNktjM2NjZnNmaWpzLW5uTGxPZm9kcG12ZUZnUkZOSjVLMFFIclpicUZQTXRVRnd0YWZsV3RxWXN6ZVhaSXplc2dldHdwTVNNVDN6dHlpcVFOLU9US2pfWVpyX2M2ZTdHMFVlRUZTbXBWeDU3dEN4UVVR?oc=5",
+   "source": "MeinBezirk.at",
+   "datum": "2026-09-24",
+   "datum_iso": "2026-09-24T10:51:10+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "meldet Insolvenz",
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Sanierung/StaRUG",
    "titel": "5,9 Millionen Euro Passiva: So will LILIHILL die Insolvenz bewältigen - 5 Minuten",
    "beschreibung": "5,9 Millionen Euro Passiva: So will LILIHILL die Insolvenz bewältigen 5 Minuten",
    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNazRlaFV6SG9tZENGejBySzVoa3lVZ2tBbEIwYTYyM3IwMXlCVGFOVFA2LVlsdVZZZ1JYQ1ExTXlxMGczRXNUeV9UUTA2emRnU0t6MER2eFZqZGFjYWVyeFdhMGhCZkRXTGZjdEI0S3BmekltSnFZUzZTcUZtdFNBNUs2clJzR1lhQUhWemJFTXFrdm5kam40THFIN09teTNlNVhKbS0yQjlfSmtDUGs3bnBpNGtydw?oc=5",
@@ -1219,21 +1209,6 @@
    "signal": "schwach",
    "datum_unbekannt": false,
    "keywords": [
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Sanierung/StaRUG",
-   "titel": "Grazer Gastro: Beliebtes Restaurant in Eggenberg meldet Insolvenz an - MeinBezirk.at",
-   "beschreibung": "Grazer Gastro: Beliebtes Restaurant in Eggenberg meldet Insolvenz an MeinBezirk.at",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTGxLdnZVZ21IbzlCT1A4Qk1zTHl5amd5OWVUZkJCT2EyRHJFcXE3VkxIVExFNktjM2NjZnNmaWpzLW5uTGxPZm9kcG12ZUZnUkZOSjVLMFFIclpicUZQTXRVRnd0YWZsV3RxWXN6ZVhaSXplc2dldHdwTVNNVDN6dHlpcVFOLU9US2pfWVpyX2M2ZTdHMFVlRUZTbXBWeDU3dEN4UVVR?oc=5",
-   "source": "MeinBezirk.at",
-   "datum": "2026-09-24",
-   "datum_iso": "2026-09-24T10:51:10+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "meldet Insolvenz",
     "Insolvenz"
    ]
   },
@@ -1385,20 +1360,6 @@
    "source": "Apotheke Adhoc",
    "datum": "2026-09-24",
    "datum_iso": "2026-09-24T13:40:00+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Fruehsignal",
-   "titel": "Aus für zwei Traditionslokale: Pendel und Cartoon in Bonn machen nach Insolvenz dicht - General-Anzeiger Bonn",
-   "beschreibung": "Aus für zwei Traditionslokale: Pendel und Cartoon in Bonn machen nach Insolvenz dicht General-Anzeiger Bonn",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWGNmQTF6T0FSNnIwdGcxWG8teldPOEZzXzhaTC1JY0x4b2RSUVB0Q1dfcXF5OVZNakZ2Rk5vOEtWSU9oYTkwSmxNQ2dxbzFyM05iR0NDOC1NR2JJWmJ6WjlhdEhfTktXUkltWGhjVVVLdFMtYndTaFBOVlNRM1dicFhqUnFxb1l6N0t6SGJ1cE1jNDJjeXpqOHpNb3VXdVByOXhhYUhlV1M?oc=5",
-   "source": "General-Anzeiger Bonn",
-   "datum": "2026-09-23",
-   "datum_iso": "2026-09-23T13:09:00+00:00",
    "signal": "schwach",
    "datum_unbekannt": false,
    "keywords": [
