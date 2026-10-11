@@ -1,7 +1,7 @@
 {
  "meta": {
-  "lauf": "2026-10-11T14:58:15",
-  "lauf_utc": "2026-10-11T14:58:15+00:00",
+  "lauf": "2026-10-11T15:38:50",
+  "lauf_utc": "2026-10-11T15:38:50+00:00",
   "version": "2026-09-23a",
   "problem": [
    "Capital(FAIL:HTTPError)",
@@ -10,8 +10,8 @@
   "fenster_tage": 3,
   "feeds_gesamt": 56,
   "feeds_ok": 54,
-  "n_roh": 99,
-  "n_stark": 68
+  "n_roh": 101,
+  "n_stark": 71
  },
  "health": {
   "Handelsblatt Unternehmen": "ok:20",
@@ -30,7 +30,7 @@
   "FinanzNachrichten": "ok:20",
   "wallstreet-online": "ok:101",
   "WDR Wirtschaft": "ok:34",
-  "BR24": "ok:11",
+  "BR24": "ok:10",
   "MDR": "ok:5",
   "SWR": "ok:55",
   "hessenschau Wirtschaft (HR)": "ok:25",
@@ -65,10 +65,10 @@
   "Westf. Anzeiger wa.de (Lokal)": "ok:40",
   "Kreiszeitung Niedersachsen (Lokal)": "ok:40",
   "come-on Maerkischer Kreis (Lokal)": "ok:40",
-  "GNews Insolvenzantrag": "ok:48",
-  "GNews Verfahren/Verwalter": "ok:17",
+  "GNews Insolvenzantrag": "ok:47",
+  "GNews Verfahren/Verwalter": "ok:18",
   "GNews Sanierung/StaRUG": "ok:11",
-  "GNews Investorenprozess": "ok:6",
+  "GNews Investorenprozess": "ok:5",
   "GNews Fruehsignal": "ok:16"
  },
  "treffer": [
@@ -254,20 +254,6 @@
    "datum_unbekannt": false,
    "keywords": [
     "Stellenabbau"
-   ]
-  },
-  {
-   "quelle": "wallstreet-online",
-   "titel": "Albtraum-Trade: Diese Horror-Prognose dürfte Anlegern den Schlaf rauben",
-   "beschreibung": "Ein Stratege sieht den S&P 500 2027 rund 36 Prozent tiefer. Der Grund: Die KI-Rally könnte genau an dem Kapitalbedarf zerbrechen, der sie bislang antreibt.",
-   "link": "https://www.wallstreet-online.de/nachricht/21494971-albtraum-trade-horror-prognose-anlegern-schlaf-rauben",
-   "source": "",
-   "datum": "2026-10-08",
-   "datum_iso": "2026-10-08T17:29:00+02:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Kapitalbedarf"
    ]
   },
   {
@@ -507,26 +493,27 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Galeria wieder insolvent: Was der vierte Antrag für Filialen bedeutet - SWR",
-   "beschreibung": "Galeria wieder insolvent: Was der vierte Antrag für Filialen bedeutet SWR",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQzFVbmYyQk8tWGJJMzZ6MjVrVXF3dGI0d3g3X3hCVUtQS01sZzE2MXl6OVpabzBmWC1Ga3ZMQ1JERGIyYWRJWkRqLUt3YkRWN0hpNXlSbDZPUHJCSHZiZ1I4MHhPU25kdGlEWUtKV1ZlQzhRaDNNTlQ4NHlIR01yeUNGNFRvSktESHJ4amR5RUpCeGxW?oc=5",
-   "source": "SWR",
-   "datum": "2026-10-09",
-   "datum_iso": "2026-10-09T22:00:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
    "titel": "Solar-Pionier meldet Insolvenz für zwei Gesellschaften an – scharfe Kritik an Brüssel - T-Online",
    "beschreibung": "Solar-Pionier meldet Insolvenz für zwei Gesellschaften an – scharfe Kritik an Brüssel T-Online",
    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNT2lieWlfZUcybGYwT2RzYm1yaHJtUzFEOTdFNGNTVjhlZnFWVHlyc1J4RE0tdGNrR29ENmFuR0lSRGstT2hiRGdzVXNsYWRjQ1c2emkzRVpVQ1doaDBHeDBjd3hQM2NULUo2bG1fMkk5eW1EeWJWS0txcThCLXRTSWpVZjNZajRqeHFjdWdaNjFZb3o1SVc4RnpDZm9xa1J1ZzgzcDk3UUxLSGprTDF5MUtOczFfSmNjN2NhU0dkQ2xrWUxsdWtpVXVNazQtLVN3UFd6Mw?oc=5",
    "source": "T-Online",
    "datum": "2026-10-11",
    "datum_iso": "2026-10-11T13:48:11+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "meldet Insolvenz",
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Über 150 Wohnungen und 90 Arbeitsplätze auf der Kippe: Bauunternehmen meldet Insolvenz an - CHIP",
+   "beschreibung": "Über 150 Wohnungen und 90 Arbeitsplätze auf der Kippe: Bauunternehmen meldet Insolvenz an CHIP",
+   "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOeHRtSmpvbk5rYlR4N2hOa0Y1SkFERHQ5dnloY0NGWGgzVy02ZFVkTU5yVkhyaU00eWlXZEJsSkhDeW1VbklhQXk0ZEtzc2dNUndPMGxQQ3R6d1hNdndvX2YzZzNQUU5YckdpR2stTldxbjNSSjc5Y2E2WWxNR05QUWttM0QzdEcwXzhNb045VnZwMFVfdjM5VW9pRmE0OUhMQTZaaWNWa3VNQi1Hb3JiVGhlaXg1WjNGaHVYc19JaGxPYVlqekpGXy1hNFZJMzVQd0RSMGE2MVQ2ck9TanhlNnRYOFBZYkpScHMweC1Hb0M4NVZYSFBSektB?oc=5",
+   "source": "CHIP",
+   "datum": "2026-10-11",
+   "datum_iso": "2026-10-11T15:02:00+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -551,6 +538,20 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
+   "titel": "Kitzingen: Carl Klein GmbH ist insolvent: Dienstleistungen bleiben, aber es gibt Kündigungen - Main-Post",
+   "beschreibung": "Kitzingen: Carl Klein GmbH ist insolvent: Dienstleistungen bleiben, aber es gibt Kündigungen Main-Post",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxORFIyM0J6SE5Ldmp4a2I5Ym9WWkhlZVRzWEU5SjFpdWNXYk5wbDJJVHNVUXJQMlRyY2N3MUV5UU1kMWFQRGNJY2ROZjk5YW5wY1M4YnpBRkR3M1E5RzRWM2pYOFpWWDdnakxFT1I4SUo1VVY5TENYRDdPOFNWdXptaHFrcU5OT3dXVEJKSGhBWUI5elhpYUN0eG1TdUJPVHZNMS1RLWNoejVydzNjdHF1dUp0LUpzOXFnYlIyYnh1VmJvd3Vkbi01d29LTU0xNGc?oc=5",
+   "source": "Main-Post",
+   "datum": "2026-10-11",
+   "datum_iso": "2026-10-11T15:00:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
    "titel": "Autohaus mit 1200 Beschäftigten insolvent: Was wird aus den Standorten in Bayern? - Augsburger Allgemeine",
    "beschreibung": "Autohaus mit 1200 Beschäftigten insolvent: Was wird aus den Standorten in Bayern? Augsburger Allgemeine",
    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbWRTTG5ZcUh6aG9DYnpodWZSNGxPNnNWTFlXd3RtZ3MzdEdqclVpSnRIdnZEUWgtNHJNRXh0OWJFbjc1c0tSZUpyZktLY3hreUpXX0Vrdzl3VWw4RzM4NGtERGM3NGo4OW5BTUUtZWd5cjJYNkwwbmxSRnN6TEVvM2FkcTlYa1hZNDhrSHJ5cThHbEllMHZoQVdXdnBFT0xVTnlhblJsb1FpZ3FFUHk0bWxaV1VkU3g4MHVrd1Q0eFg1QkJi?oc=5",
@@ -561,20 +562,6 @@
    "datum_unbekannt": false,
    "keywords": [
     "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Galeria-Insolvenz: Warum gut gefüllte Regale bei Karstadt in Saarbrücken jetzt abgesperrt sind - Saarbrücker Zeitung",
-   "beschreibung": "Galeria-Insolvenz: Warum gut gefüllte Regale bei Karstadt in Saarbrücken jetzt abgesperrt sind Saarbrücker Zeitung",
-   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQU1ZLQ2NieXBzVk8zeGNDQkxEUlFqcU85UW81NVhvZ0tmQkhTYS1oM0FTdnhndEF1X08wUWROQlhFLVozZmNpUm4tMXNTbk5yY1FyWnUxZlVPV21HS2Jhb2hPeTl5N0JpaWx6SGM4RGpNZnR1eEllQUNvZ2Q2TmtMTWRWNjFrUHl2WkstMHdFZ25KalN2NFl5Si1fZ1l1UzBrQmc4aVFQWFpua3R2VUtFUlJVazZRWHo3dlBlNlQ2OUZGbTVvWjZCNjNEZTI2QzRNdU56TVZwYlhMeW9acUVLS2VzRVgzdTlndHFmT1htZ3JKaUJ4Y0pybFdZeXY0dw?oc=5",
-   "source": "Saarbrücker Zeitung",
-   "datum": "2026-10-11",
-   "datum_iso": "2026-10-11T11:03:00+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenz"
    ]
   },
   {
@@ -607,12 +594,26 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Nach erneuter Insolvenz: Wie sicher ist Galeria in der Bayreuther Innenstadt jetzt? - NN.de",
-   "beschreibung": "Nach erneuter Insolvenz: Wie sicher ist Galeria in der Bayreuther Innenstadt jetzt? NN.de",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWDdoQ0FsUEJGZFZudndKWmE2dUxKZTZIZUpwNEsxZlhVMl9NeDZ4T21HSFRXcWNSUmlOR0FfMDNXdmowWFlPbHdXaXBpWG1wd3VGbl9EQkJ3LXc1VXJwTHVnN1E2eXcwdnpPQmFIVmdBMmpUQVZDbG5DYTNKTFpHMmZjbmhxbk0yQWdQTjRxYi1zVnJNYml4VmNjdktWQTdzWG9CTlJkZWZZSHU2d1UtZ2IyakpUakpvWlo1REpCOXVlREU?oc=5",
-   "source": "NN.de",
+   "titel": "Galeria-Insolvenz: Warum gut gefüllte Regale bei Karstadt in Saarbrücken jetzt abgesperrt sind - Saarbrücker Zeitung",
+   "beschreibung": "Galeria-Insolvenz: Warum gut gefüllte Regale bei Karstadt in Saarbrücken jetzt abgesperrt sind Saarbrücker Zeitung",
+   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQU1ZLQ2NieXBzVk8zeGNDQkxEUlFqcU85UW81NVhvZ0tmQkhTYS1oM0FTdnhndEF1X08wUWROQlhFLVozZmNpUm4tMXNTbk5yY1FyWnUxZlVPV21HS2Jhb2hPeTl5N0JpaWx6SGM4RGpNZnR1eEllQUNvZ2Q2TmtMTWRWNjFrUHl2WkstMHdFZ25KalN2NFl5Si1fZ1l1UzBrQmc4aVFQWFpua3R2VUtFUlJVazZRWHo3dlBlNlQ2OUZGbTVvWjZCNjNEZTI2QzRNdU56TVZwYlhMeW9acUVLS2VzRVgzdTlndHFmT1htZ3JKaUJ4Y0pybFdZeXY0dw?oc=5",
+   "source": "Saarbrücker Zeitung",
    "datum": "2026-10-11",
-   "datum_iso": "2026-10-11T07:00:00+00:00",
+   "datum_iso": "2026-10-11T11:03:00+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "\"Die Ampel steht auf rot\": Sind nach Klinik-Insolvenz weitere Krankenhäuser im Land in Gefahr? - SWR",
+   "beschreibung": "\"Die Ampel steht auf rot\": Sind nach Klinik-Insolvenz weitere Krankenhäuser im Land in Gefahr? SWR",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQaS1tWWNVVGR4YVB2QTFPdXNBYURSSy1Gd3hHVVE5M3JRYUFvTWctRFVReEN4YlRHclQxSDhaU3R6ZTBGR08wcy1kUnpObTZ0T0dZUHdTODdlRXhqU2lZaFFqd2tYcVh5Y3Z2TE5xQUUzdzBZbGROUlktbUtIZVdaZHJPVGpYbm5xTExwYmtUU1huUQ?oc=5",
+   "source": "SWR",
+   "datum": "2026-10-09",
+   "datum_iso": "2026-10-09T22:00:00+00:00",
    "signal": "schwach",
    "datum_unbekannt": false,
    "keywords": [
@@ -721,20 +722,6 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "\"Die Ampel steht auf rot\": Sind nach Klinik-Insolvenz weitere Krankenhäuser im Land in Gefahr? - SWR",
-   "beschreibung": "\"Die Ampel steht auf rot\": Sind nach Klinik-Insolvenz weitere Krankenhäuser im Land in Gefahr? SWR",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQaS1tWWNVVGR4YVB2QTFPdXNBYURSSy1Gd3hHVVE5M3JRYUFvTWctRFVReEN4YlRHclQxSDhaU3R6ZTBGR08wcy1kUnpObTZ0T0dZUHdTODdlRXhqU2lZaFFqd2tYcVh5Y3Z2TE5xQUUzdzBZbGROUlktbUtIZVdaZHJPVGpYbm5xTExwYmtUU1huUQ?oc=5",
-   "source": "SWR",
-   "datum": "2026-10-09",
-   "datum_iso": "2026-10-09T22:00:00+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
    "titel": "Nur Monate nach Neueröffnung: Hotelbetreiber in Ostfriesland meldet Insolvenz an - T-Online",
    "beschreibung": "Nur Monate nach Neueröffnung: Hotelbetreiber in Ostfriesland meldet Insolvenz an T-Online",
    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPRzBsZ2pqVVpIM2JkdFZkcHdoNDh0SHpmcnpZY3JlcmF2ekpiU0Y5ZzhwQlAxeWZkcENXVGJoekoxMXZPc2FZRlFSaE9YU2FqVlpfbVpQeHVYcDJHVHVRMDRBM3NyaVQxNXpqbWFQLWVaRHZZbm9GdVJseVE0d2xXaTJhUzBKMS1kV2lhYk5KblYtZThST3JoTUtfTlNpNWdudzI2allFbVk2M19qX0NVbFZJc0JBS0JuQXEyRUFHODZtcXVWMkdtUUpEeVUtcU5uY2tCVUhCaw?oc=5",
@@ -750,12 +737,12 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Modehaus-Kette nach 162 Jahren insolvent: Traditionsunternehmen droht das Aus - T-Online",
-   "beschreibung": "Modehaus-Kette nach 162 Jahren insolvent: Traditionsunternehmen droht das Aus T-Online",
-   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPLXNsSVRrX3AxYWo2RW9JMTd2WWJIOVNRbGM3bm9kZ25VamhMYU9IM1p2a0RwR0hya1lyQzdfbDlxWkFTbmhoVlZwRHRtcmV1YUQ5eGZoUUhsWXVEb0NYY1JUR3hHcmxYZ2x1dldQT3JZa0NVeW1QYURQaW41MzFkbGFBNUxCOHZVa1dKd3VKVjVWell6d1d2TVNBa1VHT24wZk5DUElCMnNlM1ZQVnpFd0dDNFVySkpuYnI1RjMySkl0eFJUSlg2YUM0NHZzSHRQWE12M3ZEbw?oc=5",
-   "source": "T-Online",
-   "datum": "2026-10-08",
-   "datum_iso": "2026-10-08T16:23:34+00:00",
+   "titel": "Tides Boutique-Hotel in Ostfriesland insolvent: Gäste können trotzdem kommen - Berliner Kurier",
+   "beschreibung": "Tides Boutique-Hotel in Ostfriesland insolvent: Gäste können trotzdem kommen Berliner Kurier",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUE5iRTVZSkF2YWF1bnI4UjZwZVBfS0kyWkZFbExoMG5kWGhEZGRoMXpHMHNhNnhXTkQtSk1iVTM3R3pXYWIzMFFlaV9YT0VJM0pzYWxXOXlQZnBhUXdSQ2pSdVE5eEdnd1YtT3IxUWNtZTduS1JnQjV5YnkwYVlDbTJCTFdPeFlreWc3dkZrOHMxRENobGpfckhZdWlqUEE?oc=5",
+   "source": "Berliner Kurier",
+   "datum": "2026-10-10",
+   "datum_iso": "2026-10-10T13:00:00+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -764,12 +751,12 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Tides Boutique-Hotel in Ostfriesland insolvent: Gäste können trotzdem kommen - Berliner Kurier",
-   "beschreibung": "Tides Boutique-Hotel in Ostfriesland insolvent: Gäste können trotzdem kommen Berliner Kurier",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUE5iRTVZSkF2YWF1bnI4UjZwZVBfS0kyWkZFbExoMG5kWGhEZGRoMXpHMHNhNnhXTkQtSk1iVTM3R3pXYWIzMFFlaV9YT0VJM0pzYWxXOXlQZnBhUXdSQ2pSdVE5eEdnd1YtT3IxUWNtZTduS1JnQjV5YnkwYVlDbTJCTFdPeFlreWc3dkZrOHMxRENobGpfckhZdWlqUEE?oc=5",
-   "source": "Berliner Kurier",
-   "datum": "2026-10-10",
-   "datum_iso": "2026-10-10T13:00:00+00:00",
+   "titel": "Modehaus-Kette nach 162 Jahren insolvent: Traditionsunternehmen droht das Aus - T-Online",
+   "beschreibung": "Modehaus-Kette nach 162 Jahren insolvent: Traditionsunternehmen droht das Aus T-Online",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPLXNsSVRrX3AxYWo2RW9JMTd2WWJIOVNRbGM3bm9kZ25VamhMYU9IM1p2a0RwR0hya1lyQzdfbDlxWkFTbmhoVlZwRHRtcmV1YUQ5eGZoUUhsWXVEb0NYY1JUR3hHcmxYZ2x1dldQT3JZa0NVeW1QYURQaW41MzFkbGFBNUxCOHZVa1dKd3VKVjVWell6d1d2TVNBa1VHT24wZk5DUElCMnNlM1ZQVnpFd0dDNFVySkpuYnI1RjMySkl0eFJUSlg2YUM0NHZzSHRQWE12M3ZEbw?oc=5",
+   "source": "T-Online",
+   "datum": "2026-10-08",
+   "datum_iso": "2026-10-08T16:23:34+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -879,20 +866,6 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Blue Air: Europäische Airline muss Insolvenz anmelden – Flüge vorübergehend eingestellt - CHIP",
-   "beschreibung": "Blue Air: Europäische Airline muss Insolvenz anmelden – Flüge vorübergehend eingestellt CHIP",
-   "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPeV9uMEVIMC1wRWIxczZMZWRyUzNpdTlNUHFmbHNYb1Z4dGh5Y1Q4d0JmZ2cwZTc5SkxPRUIxbm5JUVM1aGFQZGlITGkzMVg5bzN1c2NrUHpfb2JnVU1aYTdDYXFwYU96YnBvbzNSU2E0cUE3MjZ5S0JEb2pzaWU2bUtHbEllaTVFSC11Q3FNRUtLMVo1blhnbkVDMHhBV3BLdVZuTHI5bndyVTV6a0lscU5CQzB2RFhodXFFZVBSTXRZbHJ6Mzd2M3ZodzNnc1hoLUUzUWE0clpJU2RSMUR0dHUxaThVNndMbDRjYWlmYmtCNWYtX1E?oc=5",
-   "source": "CHIP",
-   "datum": "2026-10-10",
-   "datum_iso": "2026-10-10T16:38:00+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
    "titel": "„Keine Lösung gefunden“: Ludwigsburger Day Spa Milk&Honey ist insolvent – Was Betroffene tun können - Ludwigsburger Kreiszeitung",
    "beschreibung": "„Keine Lösung gefunden“: Ludwigsburger Day Spa Milk&Honey ist insolvent – Was Betroffene tun können Ludwigsburger Kreiszeitung",
    "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQUk9oaW5IbGZ6dl83MHB1RkhQSHdlblp5Z3BhQTE0VnVfbHNoMDBfQl9kMDViVHNiQ0I0OUdhNkhYcWdBdlloaWxSUUdRYUd5cktQMW1naWdBM0MyVjRCZFdqQ0lxUjNBekoyZldUWVJEYXZTeXB2LVh0S2RGMGVCVkN6NTdlOGlfeWNyYjZfTzBNa2lNT1FZZzRia3ZNMDV1Wi0yLVk1bVg2bnBhcC1SUWhMQTRiMEtNeVAtTEh5dlNmYlY2enM5VHpwalFWOC1ya01ENnRycmtjekJDTnpTck01TUJmRWlpTmR5UGZhbk8wQTRwNVRVZmlB?oc=5",
@@ -921,16 +894,16 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Anbieter ist insolvent: Drogeriemarkt dm stellt umstrittenes Angebot wieder ein - CHIP",
-   "beschreibung": "Anbieter ist insolvent: Drogeriemarkt dm stellt umstrittenes Angebot wieder ein CHIP",
-   "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPRkMwVE15Skg2d09IYWlBVzdRSnhnNTFVeWF6WU04WFc5NDZKRnAwYWtuYU54Zk9RU2tVZEFBb0VvS1RwcnhmUC0yOU94UDEwWDVUckN2YnViX2hHMEswb01CeWp5ekdxTGdTcmJBaFY4ZkZhYUpwYmdvUmxMZ3VWa0VhRExzRVEwN3BWYk9IZU0zS0diLWFzZTdmc1l0X1lGRmlLZlFlRFhjTnpCTGpxLVhhVmkweGhDbGQybnh3bERnTDNLNlpKeWlLeXpzMnpFSTJOX18yaG1xRnd3ako3TEx5VjNLUmZlSFFpeGxCOEYtWml6M1k3TTFHNF9yRWNF?oc=5",
+   "titel": "Blue Air: Europäische Airline muss Insolvenz anmelden – Flüge vorübergehend eingestellt - CHIP",
+   "beschreibung": "Blue Air: Europäische Airline muss Insolvenz anmelden – Flüge vorübergehend eingestellt CHIP",
+   "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPeV9uMEVIMC1wRWIxczZMZWRyUzNpdTlNUHFmbHNYb1Z4dGh5Y1Q4d0JmZ2cwZTc5SkxPRUIxbm5JUVM1aGFQZGlITGkzMVg5bzN1c2NrUHpfb2JnVU1aYTdDYXFwYU96YnBvbzNSU2E0cUE3MjZ5S0JEb2pzaWU2bUtHbEllaTVFSC11Q3FNRUtLMVo1blhnbkVDMHhBV3BLdVZuTHI5bndyVTV6a0lscU5CQzB2RFhodXFFZVBSTXRZbHJ6Mzd2M3ZodzNnc1hoLUUzUWE0clpJU2RSMUR0dHUxaThVNndMbDRjYWlmYmtCNWYtX1E?oc=5",
    "source": "CHIP",
-   "datum": "2026-10-08",
-   "datum_iso": "2026-10-08T15:00:00+00:00",
-   "signal": "stark",
+   "datum": "2026-10-10",
+   "datum_iso": "2026-10-10T16:38:00+00:00",
+   "signal": "schwach",
    "datum_unbekannt": false,
    "keywords": [
-    "insolvent"
+    "Insolvenz"
    ]
   },
   {
@@ -949,20 +922,6 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Insolvenz in Heubach: Metzgerei Wahl bleibt für Kunden geöffnet - Gmünder Tagespost",
-   "beschreibung": "Insolvenz in Heubach: Metzgerei Wahl bleibt für Kunden geöffnet Gmünder Tagespost",
-   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOSXZQNE12NVZsQktXSWdDNWdFWmxhTXZiOUVZVEJMNXdQQUJyd3NuZDhLQnByejBOeFQxNjc1QmVpNWpBV25La3VFRDA4YWdQaGJhVzhNVlRxYWdYLTlDTVBkaW5vdzBvYU9ndzJWTVRybWRrU1B2SEl4azJXNTZQTFkzQkhXMlFSZEtORlJ5YzBKUUlaZHczYnB1STQtbVVFZlR5cXBmSTN3THNYTGllTUNzUlN6SVVlZ25WTXB3VXlPZmd0WjlJSkxJUEdRWW9wSlE?oc=5",
-   "source": "Gmünder Tagespost",
-   "datum": "2026-10-10",
-   "datum_iso": "2026-10-10T15:47:00+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
    "titel": "Nach 162 Jahren und 14 Filialen: Modehaus Warth meldet Insolvenz an - CHIP",
    "beschreibung": "Nach 162 Jahren und 14 Filialen: Modehaus Warth meldet Insolvenz an CHIP",
    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOTWVkX3ptS1RYUmUxXy1TRzlkeEhTMFVSUG5aTUhnZnoxckpMazJOZTZQN0lWMExXZmQwTUVVdG1FYk5uVjJ6cy1RUGNteDdqSFRIMEZFRkpUdXZFWjBjMFdGcDFsR2MwNUdBNjlKUmIyUFV5UmRhak1PdFF5QmpDVmRrOThob1d1Z2R2TnpvZ0ZhNURaSFBMejNwMmhtVnZZN0trbUFpNVhCZWNuZmd0SjVGeWVDRFF2X1RLUWhMRnVuM0QzRG9JbzBCWTQxb3VqWllBdE42WWhLdw?oc=5",
@@ -973,6 +932,20 @@
    "datum_unbekannt": false,
    "keywords": [
     "meldet Insolvenz",
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Insolvenz in Heubach: Metzgerei Wahl bleibt für Kunden geöffnet - Gmünder Tagespost",
+   "beschreibung": "Insolvenz in Heubach: Metzgerei Wahl bleibt für Kunden geöffnet Gmünder Tagespost",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOSXZQNE12NVZsQktXSWdDNWdFWmxhTXZiOUVZVEJMNXdQQUJyd3NuZDhLQnByejBOeFQxNjc1QmVpNWpBV25La3VFRDA4YWdQaGJhVzhNVlRxYWdYLTlDTVBkaW5vdzBvYU9ndzJWTVRybWRrU1B2SEl4azJXNTZQTFkzQkhXMlFSZEtORlJ5YzBKUUlaZHczYnB1STQtbVVFZlR5cXBmSTN3THNYTGllTUNzUlN6SVVlZ25WTXB3VXlPZmd0WjlJSkxJUEdRWW9wSlE?oc=5",
+   "source": "Gmünder Tagespost",
+   "datum": "2026-10-10",
+   "datum_iso": "2026-10-10T15:47:00+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
     "Insolvenz"
    ]
   },
@@ -1012,6 +985,20 @@
    "source": "Südkurier",
    "datum": "2026-10-09",
    "datum_iso": "2026-10-09T03:00:00+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Nach Insolvenz des Anbieters: Drogerie-Riese dm stellt umstrittenes Angebot wieder ein - CHIP",
+   "beschreibung": "Nach Insolvenz des Anbieters: Drogerie-Riese dm stellt umstrittenes Angebot wieder ein CHIP",
+   "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPMGZtS3ZyYVAzbUxRbmZwT2JlZTluVG4zOEdEMW90TVhYQ1JzN1VfbXEwOF9LM1h0dU5RUl9JMlV2OC1vM2JRZ0FZbWVtVlQ0MnJtUzRtTGJpNnZSOFFJMFNLVUVFV2hMWjlzbGhGZWlLUGtIazJBZ1hvQ2hVaWxXdmthYlJxN19qa1lXU0xaLWJfcFBlM0s2dmRPM0pUbGRUbkZQbUhUVVlpNWZDcF9obUswdlFQT2JKTmFGTHhVWWpxVkZUZE9DenpSOEIxcFRjZHg3d3FYRE5fejRlTHJqUU5DM2JMR254anVmTGlWRzBJQy03ZE1tT0tneHdZYTd3aFNoX2U1eEtoQQ?oc=5",
+   "source": "CHIP",
+   "datum": "2026-10-09",
+   "datum_iso": "2026-10-09T16:51:00+00:00",
    "signal": "schwach",
    "datum_unbekannt": false,
    "keywords": [
@@ -1131,6 +1118,35 @@
    "keywords": [
     "meldet Insolvenz",
     "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Verfahren/Verwalter",
+   "titel": "Über 150 Wohnungen und 90 Arbeitsplätze auf der Kippe: Bauunternehmen meldet Insolvenz an - CHIP",
+   "beschreibung": "Über 150 Wohnungen und 90 Arbeitsplätze auf der Kippe: Bauunternehmen meldet Insolvenz an CHIP",
+   "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOeHRtSmpvbk5rYlR4N2hOa0Y1SkFERHQ5dnloY0NGWGgzVy02ZFVkTU5yVkhyaU00eWlXZEJsSkhDeW1VbklhQXk0ZEtzc2dNUndPMGxQQ3R6d1hNdndvX2YzZzNQUU5YckdpR2stTldxbjNSSjc5Y2E2WWxNR05QUWttM0QzdEcwXzhNb045VnZwMFVfdjM5VW9pRmE0OUhMQTZaaWNWa3VNQi1Hb3JiVGhlaXg1WjNGaHVYc19JaGxPYVlqekpGXy1hNFZJMzVQd0RSMGE2MVQ2ck9TanhlNnRYOFBZYkpScHMweC1Hb0M4NVZYSFBSektB?oc=5",
+   "source": "CHIP",
+   "datum": "2026-10-11",
+   "datum_iso": "2026-10-11T15:02:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "meldet Insolvenz",
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Verfahren/Verwalter",
+   "titel": "Kitzingen: Carl Klein GmbH ist insolvent: Dienstleistungen bleiben, aber es gibt Kündigungen - Main-Post",
+   "beschreibung": "Kitzingen: Carl Klein GmbH ist insolvent: Dienstleistungen bleiben, aber es gibt Kündigungen Main-Post",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxORFIyM0J6SE5Ldmp4a2I5Ym9WWkhlZVRzWEU5SjFpdWNXYk5wbDJJVHNVUXJQMlRyY2N3MUV5UU1kMWFQRGNJY2ROZjk5YW5wY1M4YnpBRkR3M1E5RzRWM2pYOFpWWDdnakxFT1I4SUo1VVY5TENYRDdPOFNWdXptaHFrcU5OT3dXVEJKSGhBWUI5elhpYUN0eG1TdUJPVHZNMS1RLWNoejVydzNjdHF1dUp0LUpzOXFnYlIyYnh1VmJvd3Vkbi01d29LTU0xNGc?oc=5",
+   "source": "Main-Post",
+   "datum": "2026-10-11",
+   "datum_iso": "2026-10-11T15:00:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
    ]
   },
   {
@@ -1412,6 +1428,21 @@
    "datum_unbekannt": false,
    "keywords": [
     "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Fruehsignal",
+   "titel": "Über 150 Wohnungen und 90 Arbeitsplätze auf der Kippe: Bauunternehmen meldet Insolvenz an - CHIP",
+   "beschreibung": "Über 150 Wohnungen und 90 Arbeitsplätze auf der Kippe: Bauunternehmen meldet Insolvenz an CHIP",
+   "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOeHRtSmpvbk5rYlR4N2hOa0Y1SkFERHQ5dnloY0NGWGgzVy02ZFVkTU5yVkhyaU00eWlXZEJsSkhDeW1VbklhQXk0ZEtzc2dNUndPMGxQQ3R6d1hNdndvX2YzZzNQUU5YckdpR2stTldxbjNSSjc5Y2E2WWxNR05QUWttM0QzdEcwXzhNb045VnZwMFVfdjM5VW9pRmE0OUhMQTZaaWNWa3VNQi1Hb3JiVGhlaXg1WjNGaHVYc19JaGxPYVlqekpGXy1hNFZJMzVQd0RSMGE2MVQ2ck9TanhlNnRYOFBZYkpScHMweC1Hb0M4NVZYSFBSektB?oc=5",
+   "source": "CHIP",
+   "datum": "2026-10-11",
+   "datum_iso": "2026-10-11T15:02:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "meldet Insolvenz",
+    "Insolvenz"
    ]
   },
   {
