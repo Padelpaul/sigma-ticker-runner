@@ -1,16 +1,17 @@
 {
  "meta": {
-  "lauf": "2026-10-12T16:57:11",
-  "lauf_utc": "2026-10-12T16:57:11+00:00",
+  "lauf": "2026-10-12T18:03:12",
+  "lauf_utc": "2026-10-12T18:03:12+00:00",
   "version": "2026-09-23a",
   "problem": [
+   "Capital(FAIL:HTTPError)",
    "presseportal Wirtschaft(FAIL:HTTPError)"
   ],
   "fenster_tage": 3,
   "feeds_gesamt": 56,
-  "feeds_ok": 55,
-  "n_roh": 78,
-  "n_stark": 56
+  "feeds_ok": 54,
+  "n_roh": 76,
+  "n_stark": 54
  },
  "health": {
   "Handelsblatt Unternehmen": "ok:20",
@@ -24,7 +25,7 @@
   "Tagesschau Wirtschaft": "ok:19",
   "ntv Wirtschaft": "ok:30",
   "Focus (Finanzen)": "ok:400",
-  "Capital": "ok:20",
+  "Capital": "FAIL:HTTPError",
   "Boersen-Zeitung": "ok:150",
   "FinanzNachrichten": "ok:20",
   "wallstreet-online": "ok:101",
@@ -34,10 +35,10 @@
   "SWR": "ok:55",
   "hessenschau Wirtschaft (HR)": "ok:25",
   "rbb24 Wirtschaft": "ok:116",
-  "Radio Bremen (buten un binnen)": "ok:28",
+  "Radio Bremen (buten un binnen)": "ok:27",
   "WAZ Wirtschaft": "ok:63",
   "Rheinische Post": "ok:6",
-  "Koelner Stadt-Anzeiger Wirtschaft": "ok:41",
+  "Koelner Stadt-Anzeiger Wirtschaft": "ok:42",
   "Westfaelische Nachrichten": "ok:100",
   "Neue Westfaelische": "ok:10",
   "Ruhr Nachrichten": "ok:12",
@@ -68,7 +69,7 @@
   "GNews Verfahren/Verwalter": "ok:20",
   "GNews Sanierung/StaRUG": "ok:9",
   "GNews Investorenprozess": "ok:3",
-  "GNews Fruehsignal": "ok:17"
+  "GNews Fruehsignal": "ok:16"
  },
  "treffer": [
   {
@@ -98,20 +99,6 @@
    "datum_unbekannt": false,
    "keywords": [
     "Stellenabbau"
-   ]
-  },
-  {
-   "quelle": "Manager Magazin",
-   "titel": "Fahrrad: Dutech kauft niederländische Accell-Fahrradmarken, Schicksal von Winora und Co weiter offen",
-   "beschreibung": "Die Prophete-Mutter Dutech erwirbt die niederländischen Marken des insolventen Fahrradriesen Accell. Der Konzern verhandle auch über einen möglichen Kauf von Accell Deutschland mit den Marken Winora, Haibike und Ghost, heißt es.",
-   "link": "https://www.manager-magazin.de/unternehmen/mobilitaet/accell-dutech-kauft-niederlaendische-fahrradmarken-schicksal-von-winora-und-co-weiter-offen-a-1efe1bf0-acbe-459b-8639-794bec7135a7#ref=rss",
-   "source": "",
-   "datum": "2026-10-09",
-   "datum_iso": "2026-10-09T19:28:00+02:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
    ]
   },
   {
@@ -151,20 +138,6 @@
    "source": "",
    "datum": "2026-10-11",
    "datum_iso": "2026-10-11T08:26:08+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "Zeit Wirtschaft",
-   "titel": "Moritz Schularick: Drohen Insolvenzen großer Auto-Hersteller?",
-   "beschreibung": "Der Ökonom Moritz Schularick warnt, der VW-Konzern könne binnen zwei Jahren pleitegehen. Chinesische Hersteller könnten in Wolfsburg produzieren – unter Bedingungen.",
-   "link": "https://www.zeit.de/wirtschaft/2026-10/moritz-schularick-autobauer-china-deutschland-vw-wolfsburg",
-   "source": "",
-   "datum": "2026-10-10",
-   "datum_iso": "2026-10-10T10:01:15+00:00",
    "signal": "schwach",
    "datum_unbekannt": false,
    "keywords": [
@@ -257,21 +230,6 @@
    ]
   },
   {
-   "quelle": "Muenchner Merkur Wirtschaft",
-   "titel": "Deutscher Solar-Pionier rutscht nach starkem Wachstum in die Insolvenz",
-   "beschreibung": "Zwei Gesellschaften des Solar-Pioniers Next2Sun sind insolvent. Das Unternehmen macht unter anderem fehlende Förderfreigaben aus Brüssel verantwortlich.",
-   "link": "https://www.merkur.de/wirtschaft/nsolvenz-deutscher-solar-pionier-scheitert-an-eu-foerderbremse-zr-94535419.html",
-   "source": "",
-   "datum": "2026-10-11",
-   "datum_iso": "2026-10-11T15:25:20+02:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent",
-    "Insolvenz"
-   ]
-  },
-  {
    "quelle": "Merkur Muenchen (Lokal)",
    "titel": "Pandion-Pleite als Chance: Grüne wollen Messestadt-Riem-Grundstücke kaufen",
    "beschreibung": "Die Insolvenz des Projektentwicklers Pandion könnte München eine seltene Gelegenheit bieten. Der Bezirksausschuss fordert, Grundstücke aus der Insolvenzmasse zu erwerben.",
@@ -350,7 +308,7 @@
    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUTQ1dHZSRi00MVZFMXNEMkIwQ3UwVGxpMFhmb3BEXzhTQVhqcldzcnZvNVhIRk9xVzRqbkg3OWE4TTlrU1ZMbDVGLTdEOGE5TDV5al9nN0xDdmRFVE8xMHg0d2l0ZC01VVNLZDZmd2dUUkwwM3A2SzJHMUZXUjJ3NzFycDFieFdtSWxjTTdnSGNLSXJOUlVHaWdn?oc=5",
    "source": "Vinaria.at",
    "datum": "2026-10-12",
-   "datum_iso": "2026-10-12T13:42:56+00:00",
+   "datum_iso": "2026-10-12T13:43:27+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -373,26 +331,12 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Braunschweiger Unternehmen insolvent: Youtuber fühlt sich betrogen - RND.de",
-   "beschreibung": "Braunschweiger Unternehmen insolvent: Youtuber fühlt sich betrogen RND.de",
-   "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQazhLZUVUNUhqbW5oQV96cWNscXdodzhNQ21NZ245TlVxd0ZCMVhPZFQ4VWxIWlEtdXNMU2FpdWpkanNHYmJvUmFMVU84YzlVcF9YcDkwci1TaWotZ1h4ZUNUTEhGVmJpMVQ2U2tOcEZQUHlIb3c1OHZIWExiZUhTRWd6RWVwaVhscF9Mb1BfdmdxZHNhZWphU1I5UnpnZV95LWhQdWxKeWhXbGFtMGR3SFE5akd0UFZMNWxuNks3QWw0WUVyM0g4VVJXUG1LNk1pTzNNODRuQlVKSC0zdUNVTkxzZ00tbm9NVUVjc0M0MThacC1YSlBDb0VZUGJuUlBtWl85b3Foc3V0SXRRUk9zTw?oc=5",
-   "source": "RND.de",
+   "titel": "Autohaus mit 1200 Beschäftigten insolvent: Was wird aus den Standorten in Bayern? - Augsburger Allgemeine",
+   "beschreibung": "Autohaus mit 1200 Beschäftigten insolvent: Was wird aus den Standorten in Bayern? Augsburger Allgemeine",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNd2VISXZ1cHVCMVA5QnpHTTBMYmZoVnhHWE9td2pmX29JNnF0Rk11TVRrUmp3QlV3VzZkTnN6dFlpbVY4M2ttSHJWY3EzbmVrZl9UWUdNN3NuNWJIcmZwMkxWNGFLQVN1VFFQcXlFWVktdnhRWjY4WktCRkRkMVc4ZUZmNUdMYlhLczVpc1FmUUdvYTByeUo3WWp6UEFodjk1TFU3NXlFRmJwRl9YbnJCUnFxTE5yNGNLNGJiMGc5Y1U5ZklG?oc=5",
+   "source": "Augsburger Allgemeine",
    "datum": "2026-10-12",
-   "datum_iso": "2026-10-12T12:39:44+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Brauhaus Felsenkeller in Lauenau: Rupp Bräu ist insolvent, Verfahren wird im November eröffnet - Schaumburger Nachrichten",
-   "beschreibung": "Brauhaus Felsenkeller in Lauenau: Rupp Bräu ist insolvent, Verfahren wird im November eröffnet Schaumburger Nachrichten",
-   "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQS0RsZlNpb0RWOFBhbGhMVVg2R09rRElidmFOdUNYWHFuT0Y3QUhRWW1RdXVNNVoxMDdGeXpYYkdRMFZFV216bWl1aEJXdTNIV1VVSkVvRnhZNjRsYXVON2xRV0Q3M3RIaGk4V1dyNXB3S0VMUDgwSldqRnQ3U0N5SUpySzRGaHZSbGZUZWlWcFZCaWN5NFlHUjUxNEtsbHM1a1dIZEdING9hYXhuQW0zR1hfdFEtdms0M2tlMEE2NWJpWEhKVEtYSENsZTl5bGxxT1BsdXhYdURSWk02b0g5Vm43eURhN29QcUlGMGtjM2hnUVZOU3M0eUp4WnRvNlpSZ25nZWlWcVF5bmZf0gGoAkFVX3lxTFAzQkFvVUdCT01nOFpQWmU0ck1EUS1TVXMwRzdDTy1yS0IzM291WjBqU0kyakxmWkdZUjhCYzh3aVV2V1pLRmxpWUp2Z2pmeXQ3YTdvRFJkbnRpWlh2c3JZRlJCQjNOSndzNlhOQjE3M2xURUdNcXBXWFB4XzZObXFPM085SmRvR0s0ZENzNDV5V1VYMkd6Qm5tTjgtRmx1NDBwbXFncjktUjB2b0M2dXJpWVJobEpSaWRwSW8xY1YwQjBLbjJsdVRUckZxeGxMQXdDTE1la3paVGdOeDFJY0dGSzNmVExoRFBmRWJVR1RpUUo3SjJUTkF4SjFORHdPdnFBSlpZdUNYTVdNVUhhOFVURzR4SUVab0FkWXBKdy03dWVBajU1NUta?oc=5",
-   "source": "Schaumburger Nachrichten",
-   "datum": "2026-10-12",
-   "datum_iso": "2026-10-12T13:31:09+00:00",
+   "datum_iso": "2026-10-12T04:51:10+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -407,6 +351,20 @@
    "source": "Joyn",
    "datum": "2026-10-12",
    "datum_iso": "2026-10-12T16:45:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Braunschweiger Unternehmen insolvent: Youtuber fühlt sich betrogen - RND.de",
+   "beschreibung": "Braunschweiger Unternehmen insolvent: Youtuber fühlt sich betrogen RND.de",
+   "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQazhLZUVUNUhqbW5oQV96cWNscXdodzhNQ21NZ245TlVxd0ZCMVhPZFQ4VWxIWlEtdXNMU2FpdWpkanNHYmJvUmFMVU84YzlVcF9YcDkwci1TaWotZ1h4ZUNUTEhGVmJpMVQ2U2tOcEZQUHlIb3c1OHZIWExiZUhTRWd6RWVwaVhscF9Mb1BfdmdxZHNhZWphU1I5UnpnZV95LWhQdWxKeWhXbGFtMGR3SFE5akd0UFZMNWxuNks3QWw0WUVyM0g4VVJXUG1LNk1pTzNNODRuQlVKSC0zdUNVTkxzZ00tbm9NVUVjc0M0MThacC1YSlBDb0VZUGJuUlBtWl85b3Foc3V0SXRRUk9zTw?oc=5",
+   "source": "RND.de",
+   "datum": "2026-10-12",
+   "datum_iso": "2026-10-12T12:39:44+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -430,12 +388,12 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Autohaus mit 1200 Beschäftigten insolvent: Was wird aus den Standorten in Bayern? - Augsburger Allgemeine",
-   "beschreibung": "Autohaus mit 1200 Beschäftigten insolvent: Was wird aus den Standorten in Bayern? Augsburger Allgemeine",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNd2VISXZ1cHVCMVA5QnpHTTBMYmZoVnhHWE9td2pmX29JNnF0Rk11TVRrUmp3QlV3VzZkTnN6dFlpbVY4M2ttSHJWY3EzbmVrZl9UWUdNN3NuNWJIcmZwMkxWNGFLQVN1VFFQcXlFWVktdnhRWjY4WktCRkRkMVc4ZUZmNUdMYlhLczVpc1FmUUdvYTByeUo3WWp6UEFodjk1TFU3NXlFRmJwRl9YbnJCUnFxTE5yNGNLNGJiMGc5Y1U5ZklG?oc=5",
-   "source": "Augsburger Allgemeine",
+   "titel": "Brauhaus Felsenkeller in Lauenau: Rupp Bräu ist insolvent, Verfahren wird im November eröffnet - Schaumburger Nachrichten",
+   "beschreibung": "Brauhaus Felsenkeller in Lauenau: Rupp Bräu ist insolvent, Verfahren wird im November eröffnet Schaumburger Nachrichten",
+   "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQS0RsZlNpb0RWOFBhbGhMVVg2R09rRElidmFOdUNYWHFuT0Y3QUhRWW1RdXVNNVoxMDdGeXpYYkdRMFZFV216bWl1aEJXdTNIV1VVSkVvRnhZNjRsYXVON2xRV0Q3M3RIaGk4V1dyNXB3S0VMUDgwSldqRnQ3U0N5SUpySzRGaHZSbGZUZWlWcFZCaWN5NFlHUjUxNEtsbHM1a1dIZEdING9hYXhuQW0zR1hfdFEtdms0M2tlMEE2NWJpWEhKVEtYSENsZTl5bGxxT1BsdXhYdURSWk02b0g5Vm43eURhN29QcUlGMGtjM2hnUVZOU3M0eUp4WnRvNlpSZ25nZWlWcVF5bmZf0gGoAkFVX3lxTFAzQkFvVUdCT01nOFpQWmU0ck1EUS1TVXMwRzdDTy1yS0IzM291WjBqU0kyakxmWkdZUjhCYzh3aVV2V1pLRmxpWUp2Z2pmeXQ3YTdvRFJkbnRpWlh2c3JZRlJCQjNOSndzNlhOQjE3M2xURUdNcXBXWFB4XzZObXFPM085SmRvR0s0ZENzNDV5V1VYMkd6Qm5tTjgtRmx1NDBwbXFncjktUjB2b0M2dXJpWVJobEpSaWRwSW8xY1YwQjBLbjJsdVRUckZxeGxMQXdDTE1la3paVGdOeDFJY0dGSzNmVExoRFBmRWJVR1RpUUo3SjJUTkF4SjFORHdPdnFBSlpZdUNYTVdNVUhhOFVURzR4SUVab0FkWXBKdy03dWVBajU1NUta?oc=5",
+   "source": "Schaumburger Nachrichten",
    "datum": "2026-10-12",
-   "datum_iso": "2026-10-12T04:51:10+00:00",
+   "datum_iso": "2026-10-12T13:31:09+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -544,21 +502,6 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Nur Monate nach Neueröffnung: Hotelbetreiber in Ostfriesland meldet Insolvenz an - T-Online",
-   "beschreibung": "Nur Monate nach Neueröffnung: Hotelbetreiber in Ostfriesland meldet Insolvenz an T-Online",
-   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPRzBsZ2pqVVpIM2JkdFZkcHdoNDh0SHpmcnpZY3JlcmF2ekpiU0Y5ZzhwQlAxeWZkcENXVGJoekoxMXZPc2FZRlFSaE9YU2FqVlpfbVpQeHVYcDJHVHVRMDRBM3NyaVQxNXpqbWFQLWVaRHZZbm9GdVJseVE0d2xXaTJhUzBKMS1kV2lhYk5KblYtZThST3JoTUtfTlNpNWdudzI2allFbVk2M19qX0NVbFZJc0JBS0JuQXEyRUFHODZtcXVWMkdtUUpEeVUtcU5uY2tCVUhCaw?oc=5",
-   "source": "T-Online",
-   "datum": "2026-10-10",
-   "datum_iso": "2026-10-10T11:11:17+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "meldet Insolvenz",
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
    "titel": "Starnberg: Bücherjolle stellt Insolvenzantrag – Letzter Buchhändler schließt - SZ.de",
    "beschreibung": "Starnberg: Bücherjolle stellt Insolvenzantrag – Letzter Buchhändler schließt SZ.de",
    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQ1V1X0NEWXR0SG5Cdnd3cHgyd3JGR1hwZ2hkamlpTjJFeFFIc0VTSU9salJMQVhRMFZObWtVb09VVEtOS1M2LVJTRWJISjdtQS0tYjJkZEtjUWRhcWxUTjdzX1BIdzI5amE0bUdDU1lmWlUzOUVkRDNIUHBQMGk4NkZpUENCWEFTeFFmdU1NNmloblZSS19yalRFc3JNU3VMM2dKS01SWm4yR0hMaHBUMUtXYzI?oc=5",
@@ -570,6 +513,21 @@
    "keywords": [
     "Insolvenzantrag",
     "stellt Insolvenzantrag"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Nur Monate nach Neueröffnung: Hotelbetreiber in Ostfriesland meldet Insolvenz an - T-Online",
+   "beschreibung": "Nur Monate nach Neueröffnung: Hotelbetreiber in Ostfriesland meldet Insolvenz an T-Online",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPRzBsZ2pqVVpIM2JkdFZkcHdoNDh0SHpmcnpZY3JlcmF2ekpiU0Y5ZzhwQlAxeWZkcENXVGJoekoxMXZPc2FZRlFSaE9YU2FqVlpfbVpQeHVYcDJHVHVRMDRBM3NyaVQxNXpqbWFQLWVaRHZZbm9GdVJseVE0d2xXaTJhUzBKMS1kV2lhYk5KblYtZThST3JoTUtfTlNpNWdudzI2allFbVk2M19qX0NVbFZJc0JBS0JuQXEyRUFHODZtcXVWMkdtUUpEeVUtcU5uY2tCVUhCaw?oc=5",
+   "source": "T-Online",
+   "datum": "2026-10-10",
+   "datum_iso": "2026-10-10T11:11:17+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "meldet Insolvenz",
+    "Insolvenz"
    ]
   },
   {
@@ -603,20 +561,6 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Europäische Airline beantragt Insolvenz – was das für Fluggäste bedeutet - T-Online",
-   "beschreibung": "Europäische Airline beantragt Insolvenz – was das für Fluggäste bedeutet T-Online",
-   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNaVFKalg1ZERHcUJkQXpUZXczMGx2aW15TVdCT2JyTWoxZzFrUzNjTHRhZmZVQzdqZnh2X0t0MnhxdUdYb1JCaWhLTjBHUllubUxTT2NfcW4yeC15X01EYy0yelVPdENCOWFDOE96ejJqY0R6eDJsTGhmVGRqSlA3RjM4U2dJNHR4RTdRTExTZ1Vtb0ZwSFJsUS1oaVo2RnhkNXpPMThYdmVFS3JJWEtPdkdtUURXbnRZYTF4LU5Rb2syYlhWY0xFRFJlclM4dFo5TXk3TlZGaw?oc=5",
-   "source": "T-Online",
-   "datum": "2026-10-11",
-   "datum_iso": "2026-10-11T08:55:00+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
    "titel": "Drei Bieter wollen insolventes Autohaus König retten – Hoffnung für 1200 Mitarbeiter - Berliner Kurier",
    "beschreibung": "Drei Bieter wollen insolventes Autohaus König retten – Hoffnung für 1200 Mitarbeiter Berliner Kurier",
    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNkpQYUd2TUxKaTdmU3EwVkdfUmtEQzJ2ME9SWGJyLUY5dnlDVWk5b2gtOWFoMjkySk81UHE4WWxCejNaaTM2X05RZnMyTWRpdHdLVlo5NHVkNGVISUQ2aVV4LUFjZVZCUTZTUFBJaG9pbGRrLTZiLXZ3eDhTX2pPektiSkkwSzRMTURJY0xqNDV0MVVlcjhwTWZFZG0?oc=5",
@@ -631,12 +575,41 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Deutscher Solar-Pionier meldet Insolvenz an: Dabei war das Konzept genial - BILD",
-   "beschreibung": "Deutscher Solar-Pionier meldet Insolvenz an: Dabei war das Konzept genial BILD",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPT0lyZW91N0NQX3NhTmVmVnpGRUFNLWg1YkVlX3N5NG85enJSakZIV29SXzlOblVRZElwc2NlWGRvZzczQmlUTEVQcFRoaHNTV3hUX1VOX094SDIwdUZBTHhpR0pYZThwWTZreDN5N2JuZktwVldyWHZsR2gwT1oyQ3U5OF9iZEhXMHkydHFXcm9zWnZtS0lRSG9IeFFsNTd4OUJtVDFpejJNSXRWTjVXYk96VjVUNkdTUm16MUV6cFMxeGY1NXpjTWFObjBMVTVW?oc=5",
-   "source": "BILD",
+   "titel": "Europäische Airline beantragt Insolvenz – was das für Fluggäste bedeutet - T-Online",
+   "beschreibung": "Europäische Airline beantragt Insolvenz – was das für Fluggäste bedeutet T-Online",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNaVFKalg1ZERHcUJkQXpUZXczMGx2aW15TVdCT2JyTWoxZzFrUzNjTHRhZmZVQzdqZnh2X0t0MnhxdUdYb1JCaWhLTjBHUllubUxTT2NfcW4yeC15X01EYy0yelVPdENCOWFDOE96ejJqY0R6eDJsTGhmVGRqSlA3RjM4U2dJNHR4RTdRTExTZ1Vtb0ZwSFJsUS1oaVo2RnhkNXpPMThYdmVFS3JJWEtPdkdtUURXbnRZYTF4LU5Rb2syYlhWY0xFRFJlclM4dFo5TXk3TlZGaw?oc=5",
+   "source": "T-Online",
    "datum": "2026-10-11",
-   "datum_iso": "2026-10-11T12:41:24+00:00",
+   "datum_iso": "2026-10-11T08:55:00+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Deutscher Solar-Pionier meldet Insolvenz an - BILD",
+   "beschreibung": "Deutscher Solar-Pionier meldet Insolvenz an BILD",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPU3BKY1ZMd2dZQkEwNC1ldWZwcDVVNlJTMUtONFBVRE12aUUwUHhya0VPMklyRmlUN0VXcy1OdDkyNU91RUQzanBzVHRrLXZ5Ry1hTlVQcXdoc2ZZV01STU0tWVZoNU1KakZFUlFGSEo5M2lYMU9RQ3JpRndrOTFHdGNCdVplQTdkSUNVcG9ZRGhXcVlXYkRaS3NmUFpHTjlyZmxnMTNZZkdtZw?oc=5",
+   "source": "BILD",
+   "datum": "2026-10-10",
+   "datum_iso": "2026-10-10T11:27:24+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "meldet Insolvenz",
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Airline meldet Insolvenz an! Jetzt fallen auch Flüge ab Frankfurt und München aus - RTL.de",
+   "beschreibung": "Airline meldet Insolvenz an! Jetzt fallen auch Flüge ab Frankfurt und München aus RTL.de",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUUQ2bmJFTjdVRWU5WjZDbDRtaTUzaXdwMi13ekpjbEZQNzJEYnY4NHk0cXVON01qdThkUHYwUEZpalY5NTlNMmw3UmRvVlhtTC02WExrUk53SnRFbG5lZFUyTXlpR0tIM1NoRjZNaFdUSHpZT2E1SF8wN3ExY0lpX1FXNENLa3R2N0VmZVBTcXRUS2J0WnA3NjZqdkhkWEhVcEk0RmF5b1dYekNLX3NWeHdUSQ?oc=5",
+   "source": "RTL.de",
+   "datum": "2026-10-10",
+   "datum_iso": "2026-10-10T13:53:47+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -656,21 +629,6 @@
    "datum_unbekannt": false,
    "keywords": [
     "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Airline meldet Insolvenz an! Jetzt fallen auch Flüge ab Frankfurt und München aus - RTL.de",
-   "beschreibung": "Airline meldet Insolvenz an! Jetzt fallen auch Flüge ab Frankfurt und München aus RTL.de",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUUQ2bmJFTjdVRWU5WjZDbDRtaTUzaXdwMi13ekpjbEZQNzJEYnY4NHk0cXVON01qdThkUHYwUEZpalY5NTlNMmw3UmRvVlhtTC02WExrUk53SnRFbG5lZFUyTXlpR0tIM1NoRjZNaFdUSHpZT2E1SF8wN3ExY0lpX1FXNENLa3R2N0VmZVBTcXRUS2J0WnA3NjZqdkhkWEhVcEk0RmF5b1dYekNLX3NWeHdUSQ?oc=5",
-   "source": "RTL.de",
-   "datum": "2026-10-10",
-   "datum_iso": "2026-10-10T13:53:47+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "meldet Insolvenz",
-    "Insolvenz"
    ]
   },
   {
@@ -867,6 +825,20 @@
    "source": "Handelsblatt",
    "datum": "2026-10-12",
    "datum_iso": "2026-10-12T13:30:02+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Verfahren/Verwalter",
+   "titel": "Nach Galeria-Insolvenz: Bleiben Kunden jetzt auf Wertgutscheinen sitzen? - T-Online",
+   "beschreibung": "Nach Galeria-Insolvenz: Bleiben Kunden jetzt auf Wertgutscheinen sitzen? T-Online",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQbEg5ckR6U3RHZWZWYzdBbDdmRVBtajF0a2otT1hpcFB3S0ZOVVhhcmlCckRkWjkzUkZhcy1uTXRDYmZ1VnJHVTdhUGZ2dFVLVjZOVVc1OVp3dThDUWJOMnRtei1CZU9rLThvSWtRNXB4OF9qUWk0SlZkTURlSkRMUzRxSGxOQjJYT2xwX0pzaXpWS0ZKMVhGUEtmLUdMenU2SlplTDM0eERmWTZwRTVoR1JvR3dvYjZDcFN5X0otS195dEh2RWhlTFQyVXhUeDlFY1E?oc=5",
+   "source": "T-Online",
+   "datum": "2026-10-12",
+   "datum_iso": "2026-10-12T15:35:00+00:00",
    "signal": "schwach",
    "datum_unbekannt": false,
    "keywords": [
@@ -1101,21 +1073,6 @@
   },
   {
    "quelle": "GNews Fruehsignal",
-   "titel": "Über 150 Wohnungen und 90 Arbeitsplätze auf der Kippe: Bauunternehmen meldet Insolvenz an - CHIP",
-   "beschreibung": "Über 150 Wohnungen und 90 Arbeitsplätze auf der Kippe: Bauunternehmen meldet Insolvenz an CHIP",
-   "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOeHRtSmpvbk5rYlR4N2hOa0Y1SkFERHQ5dnloY0NGWGgzVy02ZFVkTU5yVkhyaU00eWlXZEJsSkhDeW1VbklhQXk0ZEtzc2dNUndPMGxQQ3R6d1hNdndvX2YzZzNQUU5YckdpR2stTldxbjNSSjc5Y2E2WWxNR05QUWttM0QzdEcwXzhNb045VnZwMFVfdjM5VW9pRmE0OUhMQTZaaWNWa3VNQi1Hb3JiVGhlaXg1WjNGaHVYc19JaGxPYVlqekpGXy1hNFZJMzVQd0RSMGE2MVQ2ck9TanhlNnRYOFBZYkpScHMweC1Hb0M4NVZYSFBSektB?oc=5",
-   "source": "CHIP",
-   "datum": "2026-10-11",
-   "datum_iso": "2026-10-11T15:02:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "meldet Insolvenz",
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Fruehsignal",
    "titel": "Indonesien prüft Moratorium für Nickelhütten zur Bewältigung des Überangebots - IDNFinancials",
    "beschreibung": "Indonesien prüft Moratorium für Nickelhütten zur Bewältigung des Überangebots IDNFinancials",
    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxORWlGM0ZUOVZfRmgxSnVVX2dFdFg2Mmx1MUxHeC1laHUxekczbDJTOXlWZllwS1FOQnhYSmlNaXItY0EweEI3MDZMZ3JhazVxcHNfWWhwZ2FpaTVEQlE0eVVlRHZFc0d1OXRvbGd1Q2JXU25sdFd5bU9jR1RhNE5aWVFSREExN2tmSEJTRV80LTllNGpGVTJkTW9PcWhfT3BMc0loeDFNdHBSTFFqelJFZkc4SGljaFpSSURKS2JHblQ4UkVPNTNnVkFmYlNwSFdRTjRNQ3hPckxJYjduVnZ3?oc=5",
@@ -1154,6 +1111,21 @@
    "signal": "schwach",
    "datum_unbekannt": false,
    "keywords": [
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Fruehsignal",
+   "titel": "Über 150 Wohnungen und 90 Arbeitsplätze auf der Kippe: Bauunternehmen meldet Insolvenz an - CHIP",
+   "beschreibung": "Über 150 Wohnungen und 90 Arbeitsplätze auf der Kippe: Bauunternehmen meldet Insolvenz an CHIP",
+   "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOeHRtSmpvbk5rYlR4N2hOa0Y1SkFERHQ5dnloY0NGWGgzVy02ZFVkTU5yVkhyaU00eWlXZEJsSkhDeW1VbklhQXk0ZEtzc2dNUndPMGxQQ3R6d1hNdndvX2YzZzNQUU5YckdpR2stTldxbjNSSjc5Y2E2WWxNR05QUWttM0QzdEcwXzhNb045VnZwMFVfdjM5VW9pRmE0OUhMQTZaaWNWa3VNQi1Hb3JiVGhlaXg1WjNGaHVYc19JaGxPYVlqekpGXy1hNFZJMzVQd0RSMGE2MVQ2ck9TanhlNnRYOFBZYkpScHMweC1Hb0M4NVZYSFBSektB?oc=5",
+   "source": "CHIP",
+   "datum": "2026-10-11",
+   "datum_iso": "2026-10-11T15:02:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "meldet Insolvenz",
     "Insolvenz"
    ]
   },
