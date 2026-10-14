@@ -1,7 +1,7 @@
 {
  "meta": {
-  "lauf": "2026-10-14T13:51:15",
-  "lauf_utc": "2026-10-14T13:51:15+00:00",
+  "lauf": "2026-10-14T14:29:47",
+  "lauf_utc": "2026-10-14T14:29:47+00:00",
   "version": "2026-09-23a",
   "problem": [
    "Capital(FAIL:HTTPError)",
@@ -10,8 +10,8 @@
   "fenster_tage": 3,
   "feeds_gesamt": 56,
   "feeds_ok": 54,
-  "n_roh": 134,
-  "n_stark": 101
+  "n_roh": 135,
+  "n_stark": 104
  },
  "health": {
   "Handelsblatt Unternehmen": "ok:20",
@@ -22,7 +22,7 @@
   "SZ Wirtschaft": "ok:15",
   "WELT Wirtschaft": "ok:30",
   "Zeit Wirtschaft": "ok:15",
-  "Tagesschau Wirtschaft": "ok:33",
+  "Tagesschau Wirtschaft": "ok:34",
   "ntv Wirtschaft": "ok:30",
   "Focus (Finanzen)": "ok:400",
   "Capital": "FAIL:HTTPError",
@@ -32,10 +32,10 @@
   "WDR Wirtschaft": "ok:34",
   "BR24": "ok:10",
   "MDR": "ok:5",
-  "SWR": "ok:59",
+  "SWR": "ok:60",
   "hessenschau Wirtschaft (HR)": "ok:25",
   "rbb24 Wirtschaft": "ok:116",
-  "Radio Bremen (buten un binnen)": "ok:25",
+  "Radio Bremen (buten un binnen)": "ok:26",
   "WAZ Wirtschaft": "ok:63",
   "Rheinische Post": "ok:6",
   "Koelner Stadt-Anzeiger Wirtschaft": "ok:42",
@@ -65,11 +65,11 @@
   "Westf. Anzeiger wa.de (Lokal)": "ok:40",
   "Kreiszeitung Niedersachsen (Lokal)": "ok:40",
   "come-on Maerkischer Kreis (Lokal)": "ok:40",
-  "GNews Insolvenzantrag": "ok:74",
+  "GNews Insolvenzantrag": "ok:75",
   "GNews Verfahren/Verwalter": "ok:31",
-  "GNews Sanierung/StaRUG": "ok:11",
+  "GNews Sanierung/StaRUG": "ok:12",
   "GNews Investorenprozess": "ok:4",
-  "GNews Fruehsignal": "ok:27"
+  "GNews Fruehsignal": "ok:29"
  },
  "treffer": [
   {
@@ -298,20 +298,6 @@
    ]
   },
   {
-   "quelle": "Radio Bremen (buten un binnen)",
-   "titel": "130 Bremer Galeria-Beschäftigte bekommen trotz Insolvenz weiter Geld",
-   "beschreibung": "Bundesweit sind etwa 10.000 Angestellte direkt von der Galeria-Insolvenz betroffen. Als Ausgleich für ihren Gehaltsausfall sollen sie Insolvenzgeld erhalten.",
-   "link": "https://www.butenunbinnen.de/audios/galeria-insolvenz-mitarbeiter-gehalt-100.html",
-   "source": "",
-   "datum": "2026-10-13",
-   "datum_iso": "2026-10-13T15:51:38+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenz"
-   ]
-  },
-  {
    "quelle": "WAZ Wirtschaft",
    "titel": "Galeria: Gehälter bis Jahresende gesichert – Flatterbänder irritieren Kunden",
    "beschreibung": "Bundesagentur für Arbeit genehmigt Insolvenzgeld für Galeria. Insolvenzverwalter einigt sich mit Lieferanten. Doch einige Marken sind abgesperrt.",
@@ -476,41 +462,12 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Chatbotanbieter insolvent: Character.AI scheitert an Klagen, Aufsicht und hohen Kosten - Golem",
-   "beschreibung": "Chatbotanbieter insolvent: Character.AI scheitert an Klagen, Aufsicht und hohen Kosten Golem",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQTJyV25vSG0zcVZ1MHFnaF9IZ2FWUUVxUEpFTk1WVHlpV2Q2TjdWLThsc1RUQWFOY1Q2YTFBQkU2eWxnaUViYmhPR2w4OWJnT09QTHc0dW9JYVRzR0hBSVBVbllzOUVrTWM2V0o0X3EzMlBpZEVLSW9sT3FtaVZVMzltRm9pbGMwUGdZZUJjUVVMLWhBTklCNC1JZXdOZnpTZ1RiZlFlLVEzNFZnUjRFcDRlSFJ4QWVvV1dLd3dDZnpfaUdVbXc?oc=5",
-   "source": "Golem",
-   "datum": "2026-10-14",
-   "datum_iso": "2026-10-14T09:29:02+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
    "titel": "KI-Unternehmen Character.ai meldet Insolvenz an: Disney wird Erstbieter - FAZ",
    "beschreibung": "KI-Unternehmen Character.ai meldet Insolvenz an: Disney wird Erstbieter FAZ",
    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQb3lGZFRqUl9fTWo5YzlBdFBHQ0xaRC1aMGg1QjVkR1FydHVIZ2FqbEkzeE9USld6aDBQM253ZHU1NE1rZl9NYW5DQl90c3I1S0xkSEZWbnhGd3RFcFZucWt6T3Y3V096bWYzSWtIaHNPWFFRTVNVY2xHY0Z2Uk1NTG9RQnZtRzBQVEw4cmVwZDk0bWNrZUlYa09zRGlJam16cVBmY0tJa1dTTmp3a1VZYVdEVGtQUldYVGJlVXQ1US1hVGFId3NtRUJLZE9ZQkRTTFJpZUp6YXpnX3dUSV9yMENiRk02RnhW?oc=5",
    "source": "FAZ",
    "datum": "2026-10-14",
    "datum_iso": "2026-10-14T10:20:38+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "meldet Insolvenz",
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Nach 165 Jahren: Deutsche Brauerei meldet Insolvenz an - BILD",
-   "beschreibung": "Nach 165 Jahren: Deutsche Brauerei meldet Insolvenz an BILD",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZ3VocFd0R29EWlh6WVZxeVhoV1dEdG9yRFgtNG9LZWNpMU1yZkNNbE9rZE9paXBWNEN2SjN2RFkxcEtzT2t0OUVlbHhfZk5YN3JpNklJQUpvMXhkR0VDTURSajBKc3Z4QWsxaW9waEhnRi1ZRk1aZmtSWkxOMUR2RGdsWk02a1V0Y1dsdjBXM21KUmFaOV92Uk1rWElzRy1NVm0yT0Y2RmNJV1F1Z05sRGxkb243TlV3M2pFTDRn?oc=5",
-   "source": "BILD",
-   "datum": "2026-10-14",
-   "datum_iso": "2026-10-14T09:40:05+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -534,16 +491,31 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Noch vier Filialen in Mitteldeutschland: Warenhauskette Galeria stellt erneut Insolvenzantrag - MDR.de",
-   "beschreibung": "Noch vier Filialen in Mitteldeutschland: Warenhauskette Galeria stellt erneut Insolvenzantrag MDR.de",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZTl3V0c5TGtyREpJc3N2NWxFYk1XVUVxQXFPMUFjMTlOLWJka2NMLVVndGRSMEdZbWd2SVF2UjYzVkZKOW5UajZFNk0wN1ZOS2dBaklDSVhCUzNpMG13NlNfNmdfdXNncDREUzFMcmtiV0MtdU00NFNLRDNVblJ3NzFmcWRjX1NTcWZ5OS1aV084NWRHYmtIR0JMNnc0bElydTFTMnM5V205SWRBZXE3MDJB?oc=5",
-   "source": "MDR.de",
-   "datum": "2026-10-13",
-   "datum_iso": "2026-10-13T07:00:00+00:00",
+   "titel": "Nach 165 Jahren: Deutsche Brauerei meldet Insolvenz an - BILD",
+   "beschreibung": "Nach 165 Jahren: Deutsche Brauerei meldet Insolvenz an BILD",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZ3VocFd0R29EWlh6WVZxeVhoV1dEdG9yRFgtNG9LZWNpMU1yZkNNbE9rZE9paXBWNEN2SjN2RFkxcEtzT2t0OUVlbHhfZk5YN3JpNklJQUpvMXhkR0VDTURSajBKc3Z4QWsxaW9waEhnRi1ZRk1aZmtSWkxOMUR2RGdsWk02a1V0Y1dsdjBXM21KUmFaOV92Uk1rWElzRy1NVm0yT0Y2RmNJV1F1Z05sRGxkb243TlV3M2pFTDRn?oc=5",
+   "source": "BILD",
+   "datum": "2026-10-14",
+   "datum_iso": "2026-10-14T09:40:05+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
-    "Insolvenzantrag"
+    "meldet Insolvenz",
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Chatbotanbieter insolvent: Character.AI scheitert an Klagen, Aufsicht und hohen Kosten - Golem",
+   "beschreibung": "Chatbotanbieter insolvent: Character.AI scheitert an Klagen, Aufsicht und hohen Kosten Golem",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQTJyV25vSG0zcVZ1MHFnaF9IZ2FWUUVxUEpFTk1WVHlpV2Q2TjdWLThsc1RUQWFOY1Q2YTFBQkU2eWxnaUViYmhPR2w4OWJnT09QTHc0dW9JYVRzR0hBSVBVbllzOUVrTWM2V0o0X3EzMlBpZEVLSW9sT3FtaVZVMzltRm9pbGMwUGdZZUJjUVVMLWhBTklCNC1JZXdOZnpTZ1RiZlFlLVEzNFZnUjRFcDRlSFJ4QWVvV1dLd3dDZnpfaUdVbXc?oc=5",
+   "source": "Golem",
+   "datum": "2026-10-14",
+   "datum_iso": "2026-10-14T09:29:02+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
    ]
   },
   {
@@ -559,6 +531,20 @@
    "keywords": [
     "meldet Insolvenz",
     "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Noch vier Filialen in Mitteldeutschland: Warenhauskette Galeria stellt erneut Insolvenzantrag - MDR.de",
+   "beschreibung": "Noch vier Filialen in Mitteldeutschland: Warenhauskette Galeria stellt erneut Insolvenzantrag MDR.de",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZTl3V0c5TGtyREpJc3N2NWxFYk1XVUVxQXFPMUFjMTlOLWJka2NMLVVndGRSMEdZbWd2SVF2UjYzVkZKOW5UajZFNk0wN1ZOS2dBaklDSVhCUzNpMG13NlNfNmdfdXNncDREUzFMcmtiV0MtdU00NFNLRDNVblJ3NzFmcWRjX1NTcWZ5OS1aV084NWRHYmtIR0JMNnc0bElydTFTMnM5V205SWRBZXE3MDJB?oc=5",
+   "source": "MDR.de",
+   "datum": "2026-10-13",
+   "datum_iso": "2026-10-13T07:00:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenzantrag"
    ]
   },
   {
@@ -593,30 +579,17 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "BGH präzisiert Rücknahme von GmbH-Insolvenzantrag - openPR.de",
-   "beschreibung": "BGH präzisiert Rücknahme von GmbH-Insolvenzantrag openPR.de",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbUwwZGNKb1RlVjEwYlhkbWxRSjJ4SS0zM2FCdUNKTjdMVkVDekdNekpnRmVid0NNdGtaWk9QS0VwZnNZVFRoNjBxalpCbXVXMFctUWNiRy1vQ3hhZ3J4aXlrdGFVbHZTX3d2NWlsc2pMbTZYYVZRUW9tUHp2S0k0NVpabHNNcy0zZGpwNXk2NmZ4UXBiZnc?oc=5",
-   "source": "openPR.de",
+   "titel": "„Wir haben Insolvenz angemeldet“: Traditions-Brauerei muss sich nach 165 Jahren neu aufstellen – so soll es nun weitergehen - TZ",
+   "beschreibung": "„Wir haben Insolvenz angemeldet“: Traditions-Brauerei muss sich nach 165 Jahren neu aufstellen – so soll es nun weitergehen TZ",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOanVoZGtZYTQwdEt3NmJhQWdWT0lpVzJabW0wZmdvRUVMVWtueDI0eTlyZWFCc2hrSVRlUXF5TWJRS3BCY3dhcVZwa1dOb0JfWFlrZ3ZmUWhhNWlvaG5LQkNQNlVncm5OaWtPbE9oOVNWbmhJM210aGdhR0lLVGJOUWtuZFllWnYzX3YtQnBZblNaeFBrTzB1OVpQZ3hCUGZ6dXB0WlhDcHhvcm9FWHIzUVNPQVNXS1Z5RHQ0NlRxV0Y2SUhqVmJET20xNA?oc=5",
+   "source": "TZ",
    "datum": "2026-10-14",
-   "datum_iso": "2026-10-14T06:52:00+00:00",
+   "datum_iso": "2026-10-14T10:00:58+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
-    "Insolvenzantrag"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Autohaus König insolvent: Fahrzeug bezahlt, aber nicht geliefert – können Kunden ihre Anzahlung zurückfordern? - Anwalt.de",
-   "beschreibung": "Autohaus König insolvent: Fahrzeug bezahlt, aber nicht geliefert – können Kunden ihre Anzahlung zurückfordern? Anwalt.de",
-   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOdWgzV2NheW9Gb3VwNXVQMy14Z1pLeVRGN1JWbFZKUWwzSHZ3QnI2eUlfeWRMQ0Y0bmpuTEtFUDdHLXp6V1F2OXdiVHZic200dnlSZXhRTzlHOVhZYXh0djQyTUFab0dUMXJRa1k3WWJuWnZsMHRWSUtmOXZid3ZveGlDVXRWNjB6WTBBLVRrXzFCS2w0c3lOY3BSOWJ1ZDQ1ZzNQV2lJNUVlTnJFdENyeFcyZVg0NGpxcGJRM3N2NmpLVlJYVk54Mk5aQU9sVFlIVWJPemtEaElNNHJLRk80Q082bHlFQldmYkE?oc=5",
-   "source": "Anwalt.de",
-   "datum": "2026-10-13",
-   "datum_iso": "2026-10-13T07:42:52+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
+    "Insolvenz angemeldet",
+    "Insolvenz"
    ]
   },
   {
@@ -635,31 +608,16 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Wirtschaft in Not: Nächste Hiobsbotschaft: Bördefleischwaren aus Hadmersleben ist insolvent - Volksstimme",
-   "beschreibung": "Wirtschaft in Not: Nächste Hiobsbotschaft: Bördefleischwaren aus Hadmersleben ist insolvent Volksstimme",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeWRWUnRwQ0x3VzhMOVExTUNBLVZMMXpzWEIzTUQ4eDZ2bWJ0OFdIOW8wUnkyOU1mVEV2Wm5JdV9TZExjcW0tNVIwQ3h4R1J4ZzRXU1dkNXE5TkdPTmpHbEU1U0l6YXNUN1VxSUtHS1o1NnNSUkFlZzlETEEtYUcyTW1sVkJGM2ZwY3JRTUMtdEFGSkhiTXZ3MXZvemxlcjBOUEJMTWpRMWpaTXl2UnNTNWpOZ1o0d1JBU3poNk8xZmFjSVU?oc=5",
-   "source": "Volksstimme",
-   "datum": "2026-10-13",
-   "datum_iso": "2026-10-13T13:25:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "„Wir haben Insolvenz angemeldet“: Traditions-Brauerei muss sich nach 165 Jahren neu aufstellen – so soll es nun weitergehen - TZ",
-   "beschreibung": "„Wir haben Insolvenz angemeldet“: Traditions-Brauerei muss sich nach 165 Jahren neu aufstellen – so soll es nun weitergehen TZ",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOanVoZGtZYTQwdEt3NmJhQWdWT0lpVzJabW0wZmdvRUVMVWtueDI0eTlyZWFCc2hrSVRlUXF5TWJRS3BCY3dhcVZwa1dOb0JfWFlrZ3ZmUWhhNWlvaG5LQkNQNlVncm5OaWtPbE9oOVNWbmhJM210aGdhR0lLVGJOUWtuZFllWnYzX3YtQnBZblNaeFBrTzB1OVpQZ3hCUGZ6dXB0WlhDcHhvcm9FWHIzUVNPQVNXS1Z5RHQ0NlRxV0Y2SUhqVmJET20xNA?oc=5",
-   "source": "TZ",
+   "titel": "BGH präzisiert Rücknahme von GmbH-Insolvenzantrag - openPR.de",
+   "beschreibung": "BGH präzisiert Rücknahme von GmbH-Insolvenzantrag openPR.de",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbUwwZGNKb1RlVjEwYlhkbWxRSjJ4SS0zM2FCdUNKTjdMVkVDekdNekpnRmVid0NNdGtaWk9QS0VwZnNZVFRoNjBxalpCbXVXMFctUWNiRy1vQ3hhZ3J4aXlrdGFVbHZTX3d2NWlsc2pMbTZYYVZRUW9tUHp2S0k0NVpabHNNcy0zZGpwNXk2NmZ4UXBiZnc?oc=5",
+   "source": "openPR.de",
    "datum": "2026-10-14",
-   "datum_iso": "2026-10-14T10:00:58+00:00",
+   "datum_iso": "2026-10-14T06:52:00+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
-    "Insolvenz angemeldet",
-    "Insolvenz"
+    "Insolvenzantrag"
    ]
   },
   {
@@ -679,6 +637,20 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
+   "titel": "Autohaus König insolvent: Fahrzeug bezahlt, aber nicht geliefert – können Kunden ihre Anzahlung zurückfordern? - Anwalt.de",
+   "beschreibung": "Autohaus König insolvent: Fahrzeug bezahlt, aber nicht geliefert – können Kunden ihre Anzahlung zurückfordern? Anwalt.de",
+   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOdWgzV2NheW9Gb3VwNXVQMy14Z1pLeVRGN1JWbFZKUWwzSHZ3QnI2eUlfeWRMQ0Y0bmpuTEtFUDdHLXp6V1F2OXdiVHZic200dnlSZXhRTzlHOVhZYXh0djQyTUFab0dUMXJRa1k3WWJuWnZsMHRWSUtmOXZid3ZveGlDVXRWNjB6WTBBLVRrXzFCS2w0c3lOY3BSOWJ1ZDQ1ZzNQV2lJNUVlTnJFdENyeFcyZVg0NGpxcGJRM3N2NmpLVlJYVk54Mk5aQU9sVFlIVWJPemtEaElNNHJLRk80Q082bHlFQldmYkE?oc=5",
+   "source": "Anwalt.de",
+   "datum": "2026-10-13",
+   "datum_iso": "2026-10-13T07:42:52+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
    "titel": "Irre Folge der Insolvenz: Verkaufsverbot bei Galeria am Marienplatz - Merkur",
    "beschreibung": "Irre Folge der Insolvenz: Verkaufsverbot bei Galeria am Marienplatz Merkur",
    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVjBmaW9BYTUydmdRRGN4V01uOXJvbVozVEY3MGdxR3o2bDVzNHNfU2EyNGZVUUV4WHVCQTNiNmNBU1ZhUEhCSTlOTF9LZHFiWVJMdG9ZMkFZMHFhVkx6ZlN1cmU0czRMdE0zMkRtQTRJc0xpSUdWSFVULUtaQWdxLXU4eDRnRmZQelJOeExfd2N2SEVpajdHRmdpbVlzMjd4amVuUkJBVV8tbFhEQTlmNzJNVjFxMkYtRVFMT3pGTU5USG8?oc=5",
@@ -689,6 +661,20 @@
    "datum_unbekannt": false,
    "keywords": [
     "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Wirtschaft in Not: Nächste Hiobsbotschaft: Bördefleischwaren aus Hadmersleben ist insolvent - Volksstimme",
+   "beschreibung": "Wirtschaft in Not: Nächste Hiobsbotschaft: Bördefleischwaren aus Hadmersleben ist insolvent Volksstimme",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeWRWUnRwQ0x3VzhMOVExTUNBLVZMMXpzWEIzTUQ4eDZ2bWJ0OFdIOW8wUnkyOU1mVEV2Wm5JdV9TZExjcW0tNVIwQ3h4R1J4ZzRXU1dkNXE5TkdPTmpHbEU1U0l6YXNUN1VxSUtHS1o1NnNSUkFlZzlETEEtYUcyTW1sVkJGM2ZwY3JRTUMtdEFGSkhiTXZ3MXZvemxlcjBOUEJMTWpRMWpaTXl2UnNTNWpOZ1o0d1JBU3poNk8xZmFjSVU?oc=5",
+   "source": "Volksstimme",
+   "datum": "2026-10-13",
+   "datum_iso": "2026-10-13T13:25:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
    ]
   },
   {
@@ -764,68 +750,12 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Am Düsseldorfer Flughafen: Buchhändler Hollmann nach 80 Jahren insolvent – acht Standorte werden geschlossen - RP Online",
-   "beschreibung": "Am Düsseldorfer Flughafen: Buchhändler Hollmann nach 80 Jahren insolvent – acht Standorte werden geschlossen RP Online",
-   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNd21ZeHpVbVlTcldzWXlTUlVEdVJuMDVUamlsTU5iZllUaE1UdmVwbU5QdjlQUl9CNFBGWmE3RUowMElYZjZoV1RrTVRjSU8wOWp3ZUdQWEJaYWY2cEFsNVpqMUE1YWFEOW9vOGlrajFkU2FiT0oyNEJMaXdxeFJCb3JPMThPNWVFLXdWNjFoaEJ0RWpsTFJSQ1FtRnBtNXM3NnhVTFZCNTRXVHBiQmN0cmVFUnMyTVQtWW95SHVMSDNEUmFOQjFOUlZhamJqM1RjTjF1aks0VQ?oc=5",
-   "source": "RP Online",
-   "datum": "2026-10-12",
-   "datum_iso": "2026-10-12T14:33:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Raunheimer Reifenscout UG insolvent - Reifenpresse.de",
-   "beschreibung": "Raunheimer Reifenscout UG insolvent Reifenpresse.de",
-   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB3VTJvRjJjYWdtU0xzaU4tbWdiNjdPd1cxZm9Hb0FMb2dXMVlZNWlfSXdNVEdJLTFfSFByak9reVdFR1g3UzREa25qMGp0UHZTWmx6WUJjVE1WZTdBeFdtZXBiTDdDS2xwT3FLR21iZG5RUVBxS3RWa0xwaw?oc=5",
-   "source": "Reifenpresse.de",
-   "datum": "2026-10-13",
-   "datum_iso": "2026-10-13T08:33:26+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
    "titel": "Galeria erneut insolvent: 83 Filialen offen, Gutscheine gesperrt - aktien.news",
    "beschreibung": "Galeria erneut insolvent: 83 Filialen offen, Gutscheine gesperrt aktien.news",
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWkVZZWhCWEl6OGNnVXhZWDEtbWJzdVhWTEtvc3NvWHpwY1NIU0JkMmNMbUJKc2dDSmM2MFNGdWNBZHZVenFZQ0dfcWxrUWF3WlN4bEJzcDY2eGNTOXhpOVZORTZBcU5jMkxQczVtOGxQeGM3Tndub3hCcmcwbHJWRU03bHJRd0JWbTFtRlVqUQ?oc=5",
    "source": "aktien.news",
    "datum": "2026-10-14",
    "datum_iso": "2026-10-14T08:44:08+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "\"Die Ampel steht auf rot\": Sind nach Klinik-Insolvenz weitere Krankenhäuser im Land in Gefahr? - SWR",
-   "beschreibung": "\"Die Ampel steht auf rot\": Sind nach Klinik-Insolvenz weitere Krankenhäuser im Land in Gefahr? SWR",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQaS1tWWNVVGR4YVB2QTFPdXNBYURSSy1Gd3hHVVE5M3JRYUFvTWctRFVReEN4YlRHclQxSDhaU3R6ZTBGR08wcy1kUnpObTZ0T0dZUHdTODdlRXhqU2lZaFFqd2tYcVh5Y3Z2TE5xQUUzdzBZbGROUlktbUtIZVdaZHJPVGpYbm5xTExwYmtUU1huUQ?oc=5",
-   "source": "SWR",
-   "datum": "2026-10-12",
-   "datum_iso": "2026-10-12T04:00:00+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "206 Stellen: Beckumer Zeitarbeitsfirma IBS ist insolvent - Die Glocke",
-   "beschreibung": "206 Stellen: Beckumer Zeitarbeitsfirma IBS ist insolvent Die Glocke",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOLXZVSy1DM2F4Wkg0WUNEdzczdHpNQXlRYnVlNDdXdWRFemFVM3k0LTlQTXZDbzNCZnNwTjA5amZ1VktYZ1RUSU5fR2FCalpVT1NVOXNrenNtVWIxbzJkYkdtVFRkTFNXUWxKSzdZYjJ4N1Y5aDd5UlFMYzNnSER0WjdFNFlUM2cwV2VwWm16VVNoTnhvNmFraHpaa0kxdE8yWUJPb1VwR3RrNHJJbTRKQXlEcGdMNDFkWkxXSl9Xd1o?oc=5",
-   "source": "Die Glocke",
-   "datum": "2026-10-12",
-   "datum_iso": "2026-10-12T14:04:00+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -859,6 +789,20 @@
    "keywords": [
     "meldet Insolvenz",
     "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Marktführer für KI-Begleitangebote insolvent – Transformer-Modell-Autor Startup für 20 Millionen unter Wert an Disney verkauft - 36Kr",
+   "beschreibung": "Marktführer für KI-Begleitangebote insolvent – Transformer-Modell-Autor Startup für 20 Millionen unter Wert an Disney verkauft 36Kr",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0wREg1dVJ3N3A2UGQ5cHFaMFdVcW5yeEdTVnBTSTdnNTkxbFZ1X0VQR2x3Y3VpUWlfb1Y3QnQyTk9Lck1YZVhPVVhObEVCNl9Gb013?oc=5",
+   "source": "36Kr",
+   "datum": "2026-10-14",
+   "datum_iso": "2026-10-14T02:35:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
    ]
   },
   {
@@ -908,16 +852,16 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Zavvi ist pleite: So bekommen deutsche Kunden jetzt ihr Geld zurück - Rolling Stone",
-   "beschreibung": "Zavvi ist pleite: So bekommen deutsche Kunden jetzt ihr Geld zurück Rolling Stone",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRVU1eVpLeGI2SHJOODRURXd4TlBtU2tZczJ1MnllZ09VZ0RobUZtR3ZOYWtyOGJTYWM1TmdRSnM1cVFmRExHOXpkV08zN3h1QndRR3ZCNWpNb0NWN3cybG5QekZrSktibE5DSk5vUjFWWHA3dnFwMlladXkxeldZazZNNTdOeVAxNDBpdlBZX3Nmck15bGdTOUx3?oc=5",
-   "source": "Rolling Stone",
-   "datum": "2026-10-13",
-   "datum_iso": "2026-10-13T05:42:29+00:00",
-   "signal": "schwach",
+   "titel": "Am Düsseldorfer Flughafen: Buchhändler Hollmann nach 80 Jahren insolvent – acht Standorte werden geschlossen - RP Online",
+   "beschreibung": "Am Düsseldorfer Flughafen: Buchhändler Hollmann nach 80 Jahren insolvent – acht Standorte werden geschlossen RP Online",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNd21ZeHpVbVlTcldzWXlTUlVEdVJuMDVUamlsTU5iZllUaE1UdmVwbU5QdjlQUl9CNFBGWmE3RUowMElYZjZoV1RrTVRjSU8wOWp3ZUdQWEJaYWY2cEFsNVpqMUE1YWFEOW9vOGlrajFkU2FiT0oyNEJMaXdxeFJCb3JPMThPNWVFLXdWNjFoaEJ0RWpsTFJSQ1FtRnBtNXM3NnhVTFZCNTRXVHBiQmN0cmVFUnMyTVQtWW95SHVMSDNEUmFOQjFOUlZhamJqM1RjTjF1aks0VQ?oc=5",
+   "source": "RP Online",
+   "datum": "2026-10-12",
+   "datum_iso": "2026-10-12T14:33:00+00:00",
+   "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
-    "Pleite"
+    "insolvent"
    ]
   },
   {
@@ -932,6 +876,34 @@
    "datum_unbekannt": false,
    "keywords": [
     "Pleite"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Raunheimer Reifenscout UG insolvent - Reifenpresse.de",
+   "beschreibung": "Raunheimer Reifenscout UG insolvent Reifenpresse.de",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB3VTJvRjJjYWdtU0xzaU4tbWdiNjdPd1cxZm9Hb0FMb2dXMVlZNWlfSXdNVEdJLTFfSFByak9reVdFR1g3UzREa25qMGp0UHZTWmx6WUJjVE1WZTdBeFdtZXBiTDdDS2xwT3FLR21iZG5RUVBxS3RWa0xwaw?oc=5",
+   "source": "Reifenpresse.de",
+   "datum": "2026-10-13",
+   "datum_iso": "2026-10-13T08:33:26+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "206 Stellen: Beckumer Zeitarbeitsfirma IBS ist insolvent - Die Glocke",
+   "beschreibung": "206 Stellen: Beckumer Zeitarbeitsfirma IBS ist insolvent Die Glocke",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOLXZVSy1DM2F4Wkg0WUNEdzczdHpNQXlRYnVlNDdXdWRFemFVM3k0LTlQTXZDbzNCZnNwTjA5amZ1VktYZ1RUSU5fR2FCalpVT1NVOXNrenNtVWIxbzJkYkdtVFRkTFNXUWxKSzdZYjJ4N1Y5aDd5UlFMYzNnSER0WjdFNFlUM2cwV2VwWm16VVNoTnhvNmFraHpaa0kxdE8yWUJPb1VwR3RrNHJJbTRKQXlEcGdMNDFkWkxXSl9Xd1o?oc=5",
+   "source": "Die Glocke",
+   "datum": "2026-10-12",
+   "datum_iso": "2026-10-12T14:04:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
    ]
   },
   {
@@ -964,12 +936,12 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Ein Schlag für die Disc: Online-Händler Zavvi ist insolvent - 4K Filme",
-   "beschreibung": "Ein Schlag für die Disc: Online-Händler Zavvi ist insolvent 4K Filme",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOS2hXMzRYakk3OHU1MHNrY3dpREN6U0ZSSmp0bmtoSUdQTkZZZHNXcjZpdUZrN0FZRWRJenNQUmJfcENSbHprN3dBUHRvS2t3M29ESlJoVWhVQ3NQVnlSWUl6LXlvS2c0MHg2RHBNWG91Zm9mTzI0dkRfOUg1OUUtS2xTLWFPbXhCSWJEbA?oc=5",
-   "source": "4K Filme",
+   "titel": "Mittelrheinliga: Traditionsklub stellt klar: \"Wir sind nicht insolvent! Vielmehr geht es darum...\" - RevierSport online",
+   "beschreibung": "Mittelrheinliga: Traditionsklub stellt klar: \"Wir sind nicht insolvent! Vielmehr geht es darum...\" RevierSport online",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNMVgyNTh2a2FnTG03a25YakJKVlpaSTUtalZPNUhObEVnQmxOZHIxZUoyNU5ReTZpYUtQeFRPbkFoTWt3Yk45Y20zTmo1c2Y2cEZWaEk2RERjeGpEUHVwM1EyOHpqMTVTZzltc3JlRUFIUlNQbkJObUFIc29WNDR5Nkg2SW93WHlDMDNiU245eWpmcnMzamNwbXQxWVhYS3VOV2wweXFQb1UwZUxRd0lES0VpcExWaWg5UWUyNGo0VGU3ajJwOTJLeEJSRkNLZGI3eWx3WVgwNEx1Y3BJc1E?oc=5",
+   "source": "RevierSport online",
    "datum": "2026-10-13",
-   "datum_iso": "2026-10-13T15:25:07+00:00",
+   "datum_iso": "2026-10-13T07:13:11+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -978,12 +950,12 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Mittelrheinliga: Traditionsklub stellt klar: \"Wir sind nicht insolvent! Vielmehr geht es darum...\" - RevierSport online",
-   "beschreibung": "Mittelrheinliga: Traditionsklub stellt klar: \"Wir sind nicht insolvent! Vielmehr geht es darum...\" RevierSport online",
-   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNMVgyNTh2a2FnTG03a25YakJKVlpaSTUtalZPNUhObEVnQmxOZHIxZUoyNU5ReTZpYUtQeFRPbkFoTWt3Yk45Y20zTmo1c2Y2cEZWaEk2RERjeGpEUHVwM1EyOHpqMTVTZzltc3JlRUFIUlNQbkJObUFIc29WNDR5Nkg2SW93WHlDMDNiU245eWpmcnMzamNwbXQxWVhYS3VOV2wweXFQb1UwZUxRd0lES0VpcExWaWg5UWUyNGo0VGU3ajJwOTJLeEJSRkNLZGI3eWx3WVgwNEx1Y3BJc1E?oc=5",
-   "source": "RevierSport online",
-   "datum": "2026-10-13",
-   "datum_iso": "2026-10-13T07:13:11+00:00",
+   "titel": "Ermittlungen laufen – Kurz vor Saisonstart: Nächste Skilift-Firma insolvent - Heute",
+   "beschreibung": "Ermittlungen laufen – Kurz vor Saisonstart: Nächste Skilift-Firma insolvent Heute",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTnNING5tTlVicngxb1Y0YkVYUVpQSUhKSG5XWk5RekpxVkZtUkdqWGNmS3lRQjM5alBadmFTVnU2UHN1TUQxaWpXU2V6NFVTN1BuTnJEWEFJQzk1Zmp2aDdjczNlUzdsY0ZZeGZLZ2E4eUVWOU11dGZ1MWN6NTd4VHhZTU85aXlKTXJtSzdRWQ?oc=5",
+   "source": "Heute",
+   "datum": "2026-10-14",
+   "datum_iso": "2026-10-14T14:00:00+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -1008,16 +980,16 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Braunschweiger Unternehmen insolvent: Youtuber fühlt sich betrogen - RND.de",
-   "beschreibung": "Braunschweiger Unternehmen insolvent: Youtuber fühlt sich betrogen RND.de",
-   "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQazhLZUVUNUhqbW5oQV96cWNscXdodzhNQ21NZ245TlVxd0ZCMVhPZFQ4VWxIWlEtdXNMU2FpdWpkanNHYmJvUmFMVU84YzlVcF9YcDkwci1TaWotZ1h4ZUNUTEhGVmJpMVQ2U2tOcEZQUHlIb3c1OHZIWExiZUhTRWd6RWVwaVhscF9Mb1BfdmdxZHNhZWphU1I5UnpnZV95LWhQdWxKeWhXbGFtMGR3SFE5akd0UFZMNWxuNks3QWw0WUVyM0g4VVJXUG1LNk1pTzNNODRuQlVKSC0zdUNVTkxzZ00tbm9NVUVjc0M0MThacC1YSlBDb0VZUGJuUlBtWl85b3Foc3V0SXRRUk9zTw?oc=5",
-   "source": "RND.de",
-   "datum": "2026-10-12",
-   "datum_iso": "2026-10-12T12:39:44+00:00",
-   "signal": "stark",
+   "titel": "Zavvi ist pleite: So bekommen deutsche Kunden jetzt ihr Geld zurück - Rolling Stone",
+   "beschreibung": "Zavvi ist pleite: So bekommen deutsche Kunden jetzt ihr Geld zurück Rolling Stone",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRVU1eVpLeGI2SHJOODRURXd4TlBtU2tZczJ1MnllZ09VZ0RobUZtR3ZOYWtyOGJTYWM1TmdRSnM1cVFmRExHOXpkV08zN3h1QndRR3ZCNWpNb0NWN3cybG5QekZrSktibE5DSk5vUjFWWHA3dnFwMlladXkxeldZazZNNTdOeVAxNDBpdlBZX3Nmck15bGdTOUx3?oc=5",
+   "source": "Rolling Stone",
+   "datum": "2026-10-13",
+   "datum_iso": "2026-10-13T05:42:29+00:00",
+   "signal": "schwach",
    "datum_unbekannt": false,
    "keywords": [
-    "insolvent"
+    "Pleite"
    ]
   },
   {
@@ -1037,6 +1009,20 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
+   "titel": "Braunschweiger Unternehmen insolvent: Youtuber fühlt sich betrogen - RND.de",
+   "beschreibung": "Braunschweiger Unternehmen insolvent: Youtuber fühlt sich betrogen RND.de",
+   "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQazhLZUVUNUhqbW5oQV96cWNscXdodzhNQ21NZ245TlVxd0ZCMVhPZFQ4VWxIWlEtdXNMU2FpdWpkanNHYmJvUmFMVU84YzlVcF9YcDkwci1TaWotZ1h4ZUNUTEhGVmJpMVQ2U2tOcEZQUHlIb3c1OHZIWExiZUhTRWd6RWVwaVhscF9Mb1BfdmdxZHNhZWphU1I5UnpnZV95LWhQdWxKeWhXbGFtMGR3SFE5akd0UFZMNWxuNks3QWw0WUVyM0g4VVJXUG1LNk1pTzNNODRuQlVKSC0zdUNVTkxzZ00tbm9NVUVjc0M0MThacC1YSlBDb0VZUGJuUlBtWl85b3Foc3V0SXRRUk9zTw?oc=5",
+   "source": "RND.de",
+   "datum": "2026-10-12",
+   "datum_iso": "2026-10-12T12:39:44+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
    "titel": "Kitzingen: Carl Klein GmbH ist insolvent: Dienstleistungen bleiben, aber es gibt Kündigungen - Main-Post",
    "beschreibung": "Kitzingen: Carl Klein GmbH ist insolvent: Dienstleistungen bleiben, aber es gibt Kündigungen Main-Post",
    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOb1NxN0poWXV3akNyYm9xdVF2bVN3UXoxYUhqQ1VHdFEwSUpMSk5YMFJkbEZaSzF4a1dpRlZmeWQ3dXVJcFBJWDdfTXpXY09BVjl6UTN0UVByNFpXM0ZmWnI1QmhFX2VVNUJUakZSRG5JSTdTTUFYeGZOYkI1YUNpT28wdU52dWF1LV9kVWJmbi00RXFtYTA3aVhCdTN3S2RIS2tTNVVsUzBjek9aT3liZDVmUGJoUFFDdXJRZWktR01lV3VMNlRkWm9LLU5zaHpPdnc?oc=5",
@@ -1047,35 +1033,6 @@
    "datum_unbekannt": false,
    "keywords": [
     "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Nach Insolvenzantrag: Pandion räumt Werbung ab - Ludwigsburger Kreiszeitung",
-   "beschreibung": "Nach Insolvenzantrag: Pandion räumt Werbung ab Ludwigsburger Kreiszeitung",
-   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQckZvZzJXRHJ5dDd4UlBwbl9HU2ZLRWlYcmZxNHFoWk1aQ2VfUjlWbXRBWnJ3LTNkODctSldGZFdiMmVKWVhGTDZmdUZIQlM3MmhtRlNESHE5cHc2R2p0WDFuekxBdHdpR0F6RkZhOU5MbnNnUVp4WHJuRFR0VnBpTlY1VWktSDdHaFJJMDVMdXZXXzJnX2VCVzBLN3cxdWxNQUJCZ0h5ckwtemp6RWpOVk1vVjRTTkYxdXpSMVBxSlNDcURxelRhZHllVHF3d1U?oc=5",
-   "source": "Ludwigsburger Kreiszeitung",
-   "datum": "2026-10-13",
-   "datum_iso": "2026-10-13T13:00:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenzantrag"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Character.AI meldet Insolvenz an, Disney bietet 20 Millionen für Lizenz - Pasquale Pillitteri",
-   "beschreibung": "Character.AI meldet Insolvenz an, Disney bietet 20 Millionen für Lizenz Pasquale Pillitteri",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYlpVbmV6bXlhOGc1cF9sVERzdG1CNzZ3VHhtUGZ5cWlpQ1R2SGhxSlFUcVU5VGNHS2R6VnBxS2MxbFNvd2tqYWEtYjJtTnd5R0JWaEhOSUlvTTYtcnN1N3JpYXBKVEs3MUZJOHhiOGRWd2tWMEd3ZlJpUllMOXZITVpfZnlEMzFrMmgyRTZoVDBLQmNQcXU2ZQ?oc=5",
-   "source": "Pasquale Pillitteri",
-   "datum": "2026-10-13",
-   "datum_iso": "2026-10-13T16:39:24+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "meldet Insolvenz",
-    "Insolvenz"
    ]
   },
   {
@@ -1108,16 +1065,17 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Habitat Weine stellt nach Insolvenzantrag den Weinbau ein - Vinetur",
-   "beschreibung": "Habitat Weine stellt nach Insolvenzantrag den Weinbau ein Vinetur",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUGxZb1dLOXR2Rm5hcFJ5el9VRkhJanlJSnJMQ3ZlVU5IVzZZV3A0cVRfT0lzU0VWQ1NuUHhCem9ES0RMR3ItUkluRnIzSWJ4RWVXd2FoWGFOak1tbmdXSXQ1dW1sUUpuSVVDQUE5WUJSVThYTFRlV2x5RHlzWVU2TGJ0cEp5VGZ5MDFHRnpFanVSMUllTGhqS0twYlFNWmtNZEVPMTBVLVphT1BUWElxVNIBtgFBVV95cUxORmhvRkludXR3S3JWdXk2dHhMTFZiVTRsQ1Y3MG9LTWhNa1BOMVFqejQ2VmdrM25KRWdfZWtrTjJFVFZXbW91eHNiWlFydmludW41T3o0MmhNR2RTUDJSd0ZuZml2VnJHcXJvWDdpY3RaZFU1WHl5dGdHUm1HYThNWVp0bTN3QkdUdkdNeUNkR2c1Qk51R3JtNHRUeE9aT2Y0aU5BVDV4ZVV5N2VIaWxjQ0laTW9FUQ?oc=5",
-   "source": "Vinetur",
-   "datum": "2026-10-12",
-   "datum_iso": "2026-10-12T20:20:42+00:00",
+   "titel": "Character.AI meldet Insolvenz an, Disney bietet 20 Millionen für Lizenz - Pasquale Pillitteri",
+   "beschreibung": "Character.AI meldet Insolvenz an, Disney bietet 20 Millionen für Lizenz Pasquale Pillitteri",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYlpVbmV6bXlhOGc1cF9sVERzdG1CNzZ3VHhtUGZ5cWlpQ1R2SGhxSlFUcVU5VGNHS2R6VnBxS2MxbFNvd2tqYWEtYjJtTnd5R0JWaEhOSUlvTTYtcnN1N3JpYXBKVEs3MUZJOHhiOGRWd2tWMEd3ZlJpUllMOXZITVpfZnlEMzFrMmgyRTZoVDBLQmNQcXU2ZQ?oc=5",
+   "source": "Pasquale Pillitteri",
+   "datum": "2026-10-13",
+   "datum_iso": "2026-10-13T16:39:24+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
-    "Insolvenzantrag"
+    "meldet Insolvenz",
+    "Insolvenz"
    ]
   },
   {
@@ -1167,6 +1125,34 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
+   "titel": "Ein Schlag für die Disc: Online-Händler Zavvi ist insolvent - 4K Filme",
+   "beschreibung": "Ein Schlag für die Disc: Online-Händler Zavvi ist insolvent 4K Filme",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOS2hXMzRYakk3OHU1MHNrY3dpREN6U0ZSSmp0bmtoSUdQTkZZZHNXcjZpdUZrN0FZRWRJenNQUmJfcENSbHprN3dBUHRvS2t3M29ESlJoVWhVQ3NQVnlSWUl6LXlvS2c0MHg2RHBNWG91Zm9mTzI0dkRfOUg1OUUtS2xTLWFPbXhCSWJEbA?oc=5",
+   "source": "4K Filme",
+   "datum": "2026-10-13",
+   "datum_iso": "2026-10-13T15:25:07+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Nach Insolvenzantrag: Pandion räumt Werbung ab - Ludwigsburger Kreiszeitung",
+   "beschreibung": "Nach Insolvenzantrag: Pandion räumt Werbung ab Ludwigsburger Kreiszeitung",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQckZvZzJXRHJ5dDd4UlBwbl9HU2ZLRWlYcmZxNHFoWk1aQ2VfUjlWbXRBWnJ3LTNkODctSldGZFdiMmVKWVhGTDZmdUZIQlM3MmhtRlNESHE5cHc2R2p0WDFuekxBdHdpR0F6RkZhOU5MbnNnUVp4WHJuRFR0VnBpTlY1VWktSDdHaFJJMDVMdXZXXzJnX2VCVzBLN3cxdWxNQUJCZ0h5ckwtemp6RWpOVk1vVjRTTkYxdXpSMVBxSlNDcURxelRhZHllVHF3d1U?oc=5",
+   "source": "Ludwigsburger Kreiszeitung",
+   "datum": "2026-10-13",
+   "datum_iso": "2026-10-13T13:00:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenzantrag"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
    "titel": "Saarländischer Solar-Pionier ist insolvent: Chef schließt Stellenabbau nicht aus - SOL.DE",
    "beschreibung": "Saarländischer Solar-Pionier ist insolvent: Chef schließt Stellenabbau nicht aus SOL.DE",
    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNejlWM2JfXzR5WHRDYTVkOTd6VGxWeHRGODRWWnV4NERJVnNZRXdCVlVQazNxUzBfWTVVdU85ejNSZGp4OXJaaERJU1otOE92TUVnX0ZHaHE4eG82WlNtNUYxejJhVkF6REJHLXR1eG5TZi1BNmhpMWExeHBGTUp0czNkSVNHX2lKNlMwNEVoT1BRMTJjcmlyaXUyMGZKZXJfS2ZDMHBoUFpyY2ktTk1IeGxmYml3UkJPN3YtaS1velk3VjZoOS1FMFNFRGdsTnVMb0ZHd3VkX0pzSkFzR3Vr?oc=5",
@@ -1193,6 +1179,20 @@
    "keywords": [
     "meldet Insolvenz",
     "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Habitat Weine stellt nach Insolvenzantrag den Weinbau ein - Vinetur",
+   "beschreibung": "Habitat Weine stellt nach Insolvenzantrag den Weinbau ein Vinetur",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUGxZb1dLOXR2Rm5hcFJ5el9VRkhJanlJSnJMQ3ZlVU5IVzZZV3A0cVRfT0lzU0VWQ1NuUHhCem9ES0RMR3ItUkluRnIzSWJ4RWVXd2FoWGFOak1tbmdXSXQ1dW1sUUpuSVVDQUE5WUJSVThYTFRlV2x5RHlzWVU2TGJ0cEp5VGZ5MDFHRnpFanVSMUllTGhqS0twYlFNWmtNZEVPMTBVLVphT1BUWElxVNIBtgFBVV95cUxORmhvRkludXR3S3JWdXk2dHhMTFZiVTRsQ1Y3MG9LTWhNa1BOMVFqejQ2VmdrM25KRWdfZWtrTjJFVFZXbW91eHNiWlFydmludW41T3o0MmhNR2RTUDJSd0ZuZml2VnJHcXJvWDdpY3RaZFU1WHl5dGdHUm1HYThNWVp0bTN3QkdUdkdNeUNkR2c1Qk51R3JtNHRUeE9aT2Y0aU5BVDV4ZVV5N2VIaWxjQ0laTW9FUQ?oc=5",
+   "source": "Vinetur",
+   "datum": "2026-10-12",
+   "datum_iso": "2026-10-12T20:20:42+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenzantrag"
    ]
   },
   {
@@ -1282,26 +1282,27 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
+   "titel": "Prämierter steirischer Whiskeyhersteller meldet Insolvenz an - Kleine Zeitung",
+   "beschreibung": "Prämierter steirischer Whiskeyhersteller meldet Insolvenz an Kleine Zeitung",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORWhPVWZxMWFRb216VnFDUDY3bFM4TWZZVy1jNWpDV3BSY1pUaDVzNzFHMEJHSkNESnV2VzZySmdqLThybzd2UDgxc29tSjNQel9pUnZLLWNxVm5lOVRGUGY3ZmFfdWxUUTB1czF5Z2luWDNaUWs2RlJqNVo5NEktVkVqbXZWQXVnNE5Ha1lUSm9Wc0Q1MnVXRmk4Znk4eUgyOGN6ZlFwREhmRGs?oc=5",
+   "source": "Kleine Zeitung",
+   "datum": "2026-10-12",
+   "datum_iso": "2026-10-12T10:58:52+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "meldet Insolvenz",
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
    "titel": "Betreiber von beliebtem Kärntner Steakhouse insolvent - Kleine Zeitung",
    "beschreibung": "Betreiber von beliebtem Kärntner Steakhouse insolvent Kleine Zeitung",
    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPY2FUUmNwR2gxS2Rwbkx1a3B2WEwxc0JjYS1ZZGdSdGQyX29RWUROVUtpQUdmNGxZcUlCaW5tTVhZVU5sY1dWVk1fMGh5djZFc01SMzl1dVJ0UXRWN2FRYTJkNjBDWDN5Q2lRby1oTWJfeTB0bjBacFY3NG5CLWxpVnBKTGFEQXEwcS1XVHNOdWVfVHVfbF9Ud3IzUlBDYWhfQ3VN?oc=5",
    "source": "Kleine Zeitung",
    "datum": "2026-10-12",
    "datum_iso": "2026-10-12T14:00:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Betrieb eingestellt - Die Spielgruppe Zottelbär ist insolvent - Kronen Zeitung",
-   "beschreibung": "Betrieb eingestellt - Die Spielgruppe Zottelbär ist insolvent Kronen Zeitung",
-   "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBDNlh6bThUMU01VmotR2MyZWcwZm1tSTBWN2VnSmNyQUVfZGFSOHVwOC1NeUZOT2J2akMwZ3RGc0tKQQ?oc=5",
-   "source": "Kronen Zeitung",
-   "datum": "2026-10-13",
-   "datum_iso": "2026-10-13T12:39:00+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -1325,17 +1326,16 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Prämierter steirischer Whiskeyhersteller meldet Insolvenz an - Kleine Zeitung",
-   "beschreibung": "Prämierter steirischer Whiskeyhersteller meldet Insolvenz an Kleine Zeitung",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORWhPVWZxMWFRb216VnFDUDY3bFM4TWZZVy1jNWpDV3BSY1pUaDVzNzFHMEJHSkNESnV2VzZySmdqLThybzd2UDgxc29tSjNQel9pUnZLLWNxVm5lOVRGUGY3ZmFfdWxUUTB1czF5Z2luWDNaUWs2RlJqNVo5NEktVkVqbXZWQXVnNE5Ha1lUSm9Wc0Q1MnVXRmk4Znk4eUgyOGN6ZlFwREhmRGs?oc=5",
-   "source": "Kleine Zeitung",
-   "datum": "2026-10-12",
-   "datum_iso": "2026-10-12T10:58:52+00:00",
+   "titel": "Betrieb eingestellt - Die Spielgruppe Zottelbär ist insolvent - Kronen Zeitung",
+   "beschreibung": "Betrieb eingestellt - Die Spielgruppe Zottelbär ist insolvent Kronen Zeitung",
+   "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBDNlh6bThUMU01VmotR2MyZWcwZm1tSTBWN2VnSmNyQUVfZGFSOHVwOC1NeUZOT2J2akMwZ3RGc0tKQQ?oc=5",
+   "source": "Kronen Zeitung",
+   "datum": "2026-10-13",
+   "datum_iso": "2026-10-13T12:39:00+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
-    "meldet Insolvenz",
-    "Insolvenz"
+    "insolvent"
    ]
   },
   {
@@ -1465,6 +1465,20 @@
    "keywords": [
     "Insolvenzverwalter",
     "Investorensuche"
+   ]
+  },
+  {
+   "quelle": "GNews Verfahren/Verwalter",
+   "titel": "330 Mitarbeiter: Fensterbauer in Insolvenz – so geht weiter - Frankenpost",
+   "beschreibung": "330 Mitarbeiter: Fensterbauer in Insolvenz – so geht weiter Frankenpost",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMDQxbDlRMTZkNFFqTzVkMEhNQWo3NGE0MUVwVlFfRzlGRTJYRXpZaG0xdkFYT1BYRXBITWRaSGN2VHZYUVB6QWhvYkdYRmZqSk5NVWhfclJtTGJOZ0YyWENGQ3NkMTZxQklKc0xlM1Z1dlVpZlRoSjhPOFdUUzh5cFVxb1cwVnE2SDJ3VXY1U2VueW1IU2k1Q2tPUjlNY28tNG9xdndUT01qS3lQb2t1aWg0Yl9rdWZORzF5WDJtYUd6bGhibnVER05YcEQ?oc=5",
+   "source": "Frankenpost",
+   "datum": "2026-10-14",
+   "datum_iso": "2026-10-14T14:20:41+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenz"
    ]
   },
   {
@@ -1722,20 +1736,6 @@
    ]
   },
   {
-   "quelle": "GNews Verfahren/Verwalter",
-   "titel": "Böttcher beantragt Insolvenz in Dithmarschen - SuaraGarut.ID",
-   "beschreibung": "Böttcher beantragt Insolvenz in Dithmarschen SuaraGarut.ID",
-   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBoQkl2aFZRZFhnTllXUE1XTFdhazFpaFpJVmZ3dWVOWVAtRjh4eFY5ckJCNXNnNTJ6MndRdGpJN2N4VkdEN2xFeUR0Mk03YWM5bExRNjEwcnljNlNRaklQcWl1V3RPQlRs?oc=5",
-   "source": "SuaraGarut.ID",
-   "datum": "2026-10-14",
-   "datum_iso": "2026-10-14T08:51:23+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenz"
-   ]
-  },
-  {
    "quelle": "GNews Sanierung/StaRUG",
    "titel": "Europäische Airline leitet Sanierungsverfahren ein: Was das für Reisende vom Flughafen München bedeutet - Augsburger Allgemeine",
    "beschreibung": "Europäische Airline leitet Sanierungsverfahren ein: Was das für Reisende vom Flughafen München bedeutet Augsburger Allgemeine",
@@ -1855,6 +1855,20 @@
    "source": "RECYCLING magazin",
    "datum": "2026-10-14",
    "datum_iso": "2026-10-14T08:23:39+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Moratorium"
+   ]
+  },
+  {
+   "quelle": "GNews Fruehsignal",
+   "titel": "Moratorium für Kampfhandlungen gegen Handelsschiffe im Schwarzen Meer - БНР Новини",
+   "beschreibung": "Moratorium für Kampfhandlungen gegen Handelsschiffe im Schwarzen Meer БНР Новини",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWXRsWGRQRHllai11cWVDd3YwSU5MaU9VZ1l2ZjVlRzJuSjJxSW56T21wS01fMUVsZXJxcjNWOXQ1dW1BOTMtcWNtdWQtcHhJbjlCbXR6ajdmRDI5bkVpQW9NcnJkdFRScEptRWk1NFQza0hvV0RVaXdtNE1HU2xRanRha1QzU0FNbGpFUlJJcUFZa2g5Y3dLa0F6aHNvWXZrdFdvLVFn?oc=5",
+   "source": "БНР Новини",
+   "datum": "2026-10-14",
+   "datum_iso": "2026-10-14T14:14:34+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
