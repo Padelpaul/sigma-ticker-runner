@@ -1,5 +1,5 @@
 {
- "lauf": "2026-10-18T12:40:16",
+ "lauf": "2026-10-18T13:15:38",
  "health": {
   "Handelsblatt Unternehmen": "ok:20",
   "Handelsblatt Finanzen": "ok:20",
@@ -27,7 +27,7 @@
   "Rheinische Post": "ok:6",
   "Koelner Stadt-Anzeiger Wirtschaft": "ok:39",
   "Westfaelische Nachrichten": "ok:100",
-  "Neue Westfaelische": "ok:10",
+  "Neue Westfaelische": "FAIL:ParseError",
   "Ruhr Nachrichten": "ok:12",
   "Augsburger Allgemeine Wirtschaft": "ok:35",
   "Muenchner Merkur Wirtschaft": "ok:40",
@@ -60,6 +60,7 @@
  },
  "problem": [
   "Capital(FAIL:HTTPError)",
+  "Neue Westfaelische(FAIL:ParseError)",
   "presseportal Wirtschaft(FAIL:HTTPError)"
  ]
 }
