@@ -1,16 +1,14 @@
 {
  "meta": {
-  "lauf": "2026-10-23T13:37:03",
-  "lauf_utc": "2026-10-23T13:37:03+00:00",
+  "lauf": "2026-10-23T14:13:20",
+  "lauf_utc": "2026-10-23T14:13:20+00:00",
   "version": "2026-09-23a",
-  "problem": [
-   "Capital(FAIL:HTTPError)"
-  ],
+  "problem": [],
   "fenster_tage": 3,
   "feeds_gesamt": 56,
-  "feeds_ok": 55,
-  "n_roh": 145,
-  "n_stark": 107
+  "feeds_ok": 56,
+  "n_roh": 153,
+  "n_stark": 113
  },
  "health": {
   "Handelsblatt Unternehmen": "ok:20",
@@ -24,7 +22,7 @@
   "Tagesschau Wirtschaft": "ok:32",
   "ntv Wirtschaft": "ok:30",
   "Focus (Finanzen)": "ok:400",
-  "Capital": "FAIL:HTTPError",
+  "Capital": "ok:20",
   "Boersen-Zeitung": "ok:150",
   "FinanzNachrichten": "ok:20",
   "wallstreet-online": "ok:101",
@@ -34,10 +32,10 @@
   "SWR": "ok:59",
   "hessenschau Wirtschaft (HR)": "ok:25",
   "rbb24 Wirtschaft": "ok:116",
-  "Radio Bremen (buten un binnen)": "ok:29",
+  "Radio Bremen (buten un binnen)": "ok:30",
   "WAZ Wirtschaft": "ok:63",
   "Rheinische Post": "ok:6",
-  "Koelner Stadt-Anzeiger Wirtschaft": "ok:42",
+  "Koelner Stadt-Anzeiger Wirtschaft": "ok:43",
   "Westfaelische Nachrichten": "ok:100",
   "Neue Westfaelische": "ok:10",
   "Ruhr Nachrichten": "ok:12",
@@ -64,9 +62,9 @@
   "Westf. Anzeiger wa.de (Lokal)": "ok:40",
   "Kreiszeitung Niedersachsen (Lokal)": "ok:40",
   "come-on Maerkischer Kreis (Lokal)": "ok:40",
-  "GNews Insolvenzantrag": "ok:76",
-  "GNews Verfahren/Verwalter": "ok:33",
-  "GNews Sanierung/StaRUG": "ok:12",
+  "GNews Insolvenzantrag": "ok:90",
+  "GNews Verfahren/Verwalter": "ok:34",
+  "GNews Sanierung/StaRUG": "ok:13",
   "GNews Investorenprozess": "ok:8",
   "GNews Fruehsignal": "ok:17"
  },
@@ -325,20 +323,6 @@
    ]
   },
   {
-   "quelle": "WAZ Wirtschaft",
-   "titel": "Galeria-Insolvenz: So geht es weiter mit den Geschenkgutscheinen",
-   "beschreibung": "Warenhauskette erhält ein Massedarlehen, um Ware für das Weihnachtsgeschäft kaufen zu können. Gerettet ist der Warenhauskonzern dadurch noch nicht.",
-   "link": "https://www.waz.de/wirtschaft/article413464203/galeria-insolvenz-so-geht-es-weiter-mit-den-geschenkgutscheinen.html",
-   "source": "",
-   "datum": "2026-10-20",
-   "datum_iso": "2026-10-20T15:46:04+02:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenz"
-   ]
-  },
-  {
    "quelle": "Koelner Stadt-Anzeiger Wirtschaft",
    "titel": "Insolvenz: Galeria schleppt sich in das Weihnachtsgeschäft",
    "beschreibung": "Insolvenzverwalter sichert Massekredit - Gutscheine ab sofort wieder gültig - Was wird aus den drei Kölner Standorten?",
@@ -351,20 +335,6 @@
    "keywords": [
     "Insolvenzverwalter",
     "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "Neue Westfaelische",
-   "titel": "Bielefeld kompakt: SEK-Einsätze in Bielefeld und Steinhagen, AWO kämpft mit Insolvenzverfahren",
-   "beschreibung": "Die wichtigsten Nachrichten des Tages kompakt zusammengefasst - jetzt auch zum Anhören.",
-   "link": "https://www.nw.de/lokal/bielefeld/mitte/24132069_Bielefeld-kompakt-SEK-Einsaetze-in-Bielefeld-und-Steinhagen-AWO-kaempft-mit-Insolvenzverfahren.html",
-   "source": "",
-   "datum": "2026-10-23",
-   "datum_iso": "2026-10-23T13:00:17+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenzverfahren"
    ]
   },
   {
@@ -408,21 +378,6 @@
    "datum_unbekannt": false,
    "keywords": [
     "meldet Insolvenz",
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "Muenchner Merkur Wirtschaft",
-   "titel": "Insolvenz bei Traditions-Maschinenbauer: 450 Jobs in Gefahr",
-   "beschreibung": "Der 1909 gegründete Maschinenbauer Vollmer hat Insolvenz in Eigenverwaltung angemeldet. 450 Jobs stehen auf dem Spiel. Wie es für das Unternehmen weitergeht.",
-   "link": "https://www.merkur.de/wirtschaft/maschinenbauer-vollmer-insolvent-450-jobs-in-biberach-in-gefahr-zr-94552577.html",
-   "source": "",
-   "datum": "2026-10-22",
-   "datum_iso": "2026-10-22T05:28:01+02:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Eigenverwaltung",
     "Insolvenz"
    ]
   },
@@ -499,32 +454,17 @@
    ]
   },
   {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "\"Nachricht hat mich sehr erschüttert\": Maschinen-Unternehmen Vollmer in Biberach meldet Insolvenz an - SWR",
-   "beschreibung": "\"Nachricht hat mich sehr erschüttert\": Maschinen-Unternehmen Vollmer in Biberach meldet Insolvenz an SWR",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPREVOb3dGNkhIb0lyby0yMEhGSjAxY2tUa2VuOUgwYmtEekk4d200aG5JTndTQmxVZVBKZnBSaVZoUWdOeHVHdG9PZndWWHNiRDVBaVFLRkZsYVZEVXZEQmc3OGhBQ2QwY2ZLWTVxZzh4WVB1WGRJS3B6UTdUdmxkTEZaUjM5YS1qYWRld2dQSWk4SU91a2VlVWZ6aGc4U1p4VmYzd2Vpa2swTndERFhzVEhsbw?oc=5",
-   "source": "SWR",
-   "datum": "2026-10-22",
-   "datum_iso": "2026-10-22T22:00:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "meldet Insolvenz",
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Bekannter Nudel-Hersteller insolvent - BILD",
-   "beschreibung": "Bekannter Nudel-Hersteller insolvent BILD",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQM3BaVV9VTzBfTFJ5MklXTzk4RHI1bmhMWk1rTFNaTUZVMWpwYkhrcFpKanJlaHJ2WTBEUTRNSkxBbVJsT0trcmIxQlA5LU94YlIwclJjc3U4WHh4LVE4SFlVQXNYNVR1UG9PWVJscXFhM0dPT3p6d0s3UWJ0LUtzaHFrY1diNWV2RHM2SjFLaWE1Qi10bnpwZWdUWFBvRXduMkRlU3JlN2dJdXN0bFhN?oc=5",
-   "source": "BILD",
+   "quelle": "tz Muenchen (Lokal)",
+   "titel": "Perfekter Name, unbändiger Wille: Derby-Torschütze Leone hat noch viel vor mit 1860 München",
+   "beschreibung": "Sein Derbytor konnte die Pleite gegen Bayern II zwar nicht verhindern. Doch trotzdem möchte Leone vom TSV 1860 den Schwung mitnehmen in die nächsten Wochen.",
+   "link": "https://www.tz.de/sport/1860-muenchen/unbaendiger-wille-leone-hat-noch-viel-vor-mit-1860-muenchen-94555646.html",
+   "source": "",
    "datum": "2026-10-23",
-   "datum_iso": "2026-10-23T12:52:56+00:00",
-   "signal": "stark",
+   "datum_iso": "2026-10-23T15:58:28+02:00",
+   "signal": "schwach",
    "datum_unbekannt": false,
    "keywords": [
-    "insolvent"
+    "Pleite"
    ]
   },
   {
@@ -558,6 +498,20 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
+   "titel": "Bekannter Nudel-Hersteller insolvent - BILD",
+   "beschreibung": "Bekannter Nudel-Hersteller insolvent BILD",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQM3BaVV9VTzBfTFJ5MklXTzk4RHI1bmhMWk1rTFNaTUZVMWpwYkhrcFpKanJlaHJ2WTBEUTRNSkxBbVJsT0trcmIxQlA5LU94YlIwclJjc3U4WHh4LVE4SFlVQXNYNVR1UG9PWVJscXFhM0dPT3p6d0s3UWJ0LUtzaHFrY1diNWV2RHM2SjFLaWE1Qi10bnpwZWdUWFBvRXduMkRlU3JlN2dJdXN0bFhN?oc=5",
+   "source": "BILD",
+   "datum": "2026-10-23",
+   "datum_iso": "2026-10-23T12:52:56+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
    "titel": "Saarbrücker Luxusmodegeschäft „Richy Mode“ ist insolvent - SR.de",
    "beschreibung": "Saarbrücker Luxusmodegeschäft „Richy Mode“ ist insolvent SR.de",
    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSlZqbnBvNnNQWEZTY3ZfSXZGeXpiaTdtdUYxWkdBNDktLXhEVlByY2xSSlZPUTJRTTVMeHNTNXBPQWJmOHFBYlViaEZkT1FaejZVd2JLNjlidHNXRG9MeEJ0dDZhX1hQQTE2dFR5UEpyMUhzWXlFOXhveUxJVlpaZFFialBSMU1zdmVoWnZweHdadWszUmtDVkFOSWwwUFZwQlEtNWVn?oc=5",
@@ -568,6 +522,21 @@
    "datum_unbekannt": false,
    "keywords": [
     "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "\"Nachricht hat mich sehr erschüttert\": Maschinen-Unternehmen Vollmer in Biberach meldet Insolvenz an - SWR",
+   "beschreibung": "\"Nachricht hat mich sehr erschüttert\": Maschinen-Unternehmen Vollmer in Biberach meldet Insolvenz an SWR",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPREVOb3dGNkhIb0lyby0yMEhGSjAxY2tUa2VuOUgwYmtEekk4d200aG5JTndTQmxVZVBKZnBSaVZoUWdOeHVHdG9PZndWWHNiRDVBaVFLRkZsYVZEVXZEQmc3OGhBQ2QwY2ZLWTVxZzh4WVB1WGRJS3B6UTdUdmxkTEZaUjM5YS1qYWRld2dQSWk4SU91a2VlVWZ6aGc4U1p4VmYzd2Vpa2swTndERFhzVEhsbw?oc=5",
+   "source": "SWR",
+   "datum": "2026-10-22",
+   "datum_iso": "2026-10-22T12:00:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "meldet Insolvenz",
+    "Insolvenz"
    ]
   },
   {
@@ -586,17 +555,17 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Bayreuther LED-Spezialist „lichtline“ insolvent: Investor gesucht - Bayreuther Tagblatt",
-   "beschreibung": "Bayreuther LED-Spezialist „lichtline“ insolvent: Investor gesucht Bayreuther Tagblatt",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOUtCZWJXNS1iaHZkX1FjYWFXTWY4dDNaXzV2YmpZUWJqc3RXT2MzckFIWV96eHlSRE9xVUxQRXVBNTNpd3hhUGhid2VqbG5zTXBXb3hQc2tNdDlUR3lkdnlyWkRXdkJJVDUzN1lOVnF1N3Q3QkpqMURsdWh6ZkotVWVBaUpfVjc0U3I3Z0dPcmxuX1lNMGdwdnA0RVl3OUExbVV5aU80R2YxcjdBcjdqM3h2cjdBRnExYnpycHJrUVhHT0U?oc=5",
-   "source": "Bayreuther Tagblatt",
-   "datum": "2026-10-23",
-   "datum_iso": "2026-10-23T09:57:15+00:00",
+   "titel": "Sonnen meldet Insolvenz an - pv magazine Deutschland",
+   "beschreibung": "Sonnen meldet Insolvenz an pv magazine Deutschland",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9GZTZnWDBIeVhLVWZ3V1Z0bjRXaGFkTUFPZDJDVDkyeUZKTlFOSU4zV1ROUl93SFJBRU83YzkyWWJXRHNaOE9xQV9SVWxtRlBfS2paRzF1dmpjNTBEOVV3MWhMUHNkZ1NmQ1BPWkdkSlFTbTQ?oc=5",
+   "source": "pv magazine Deutschland",
+   "datum": "2026-10-22",
+   "datum_iso": "2026-10-22T11:27:00+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
-    "insolvent",
-    "Investor gesucht"
+    "meldet Insolvenz",
+    "Insolvenz"
    ]
   },
   {
@@ -616,17 +585,17 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Sonnen meldet Insolvenz an - pv magazine Deutschland",
-   "beschreibung": "Sonnen meldet Insolvenz an pv magazine Deutschland",
-   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9GZTZnWDBIeVhLVWZ3V1Z0bjRXaGFkTUFPZDJDVDkyeUZKTlFOSU4zV1ROUl93SFJBRU83YzkyWWJXRHNaOE9xQV9SVWxtRlBfS2paRzF1dmpjNTBEOVV3MWhMUHNkZ1NmQ1BPWkdkSlFTbTQ?oc=5",
-   "source": "pv magazine Deutschland",
-   "datum": "2026-10-22",
-   "datum_iso": "2026-10-22T11:27:00+00:00",
+   "titel": "Bayreuther LED-Spezialist \"lichtline\" insolvent: Investor gesucht - Bayreuther Tagblatt",
+   "beschreibung": "Bayreuther LED-Spezialist \"lichtline\" insolvent: Investor gesucht Bayreuther Tagblatt",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOUtCZWJXNS1iaHZkX1FjYWFXTWY4dDNaXzV2YmpZUWJqc3RXT2MzckFIWV96eHlSRE9xVUxQRXVBNTNpd3hhUGhid2VqbG5zTXBXb3hQc2tNdDlUR3lkdnlyWkRXdkJJVDUzN1lOVnF1N3Q3QkpqMURsdWh6ZkotVWVBaUpfVjc0U3I3Z0dPcmxuX1lNMGdwdnA0RVl3OUExbVV5aU80R2YxcjdBcjdqM3h2cjdBRnExYnpycHJrUVhHT0U?oc=5",
+   "source": "Bayreuther Tagblatt",
+   "datum": "2026-10-23",
+   "datum_iso": "2026-10-23T10:05:26+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
-    "meldet Insolvenz",
-    "Insolvenz"
+    "insolvent",
+    "Investor gesucht"
    ]
   },
   {
@@ -690,20 +659,6 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Solar-Pionier aus dem Allgäu ist insolvent - extra.svz.de",
-   "beschreibung": "Solar-Pionier aus dem Allgäu ist insolvent extra.svz.de",
-   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOb3BXTVdGcTJxUmpmVW43VjM2NnFaQ2xSVnhaRUFhSXhjbWJYRHc4ZGI4ZVBGLXZOTFNsSkwxQk5LSnh5b09tdlJrYkltT3JCWndfRFJYVW9XM1hyMDlOZS12NzlSRHFqM21ZU0hWbDh0RmFNZF9iUm1oX0Zvd2pueFRqazBDaklDVTdn?oc=5",
-   "source": "extra.svz.de",
-   "datum": "2026-10-23",
-   "datum_iso": "2026-10-23T12:30:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
    "titel": "Schock in Energiebranche: Allgäuer Speicher-Pionier Sonnen GmbH pleite - so geht es weiter - Joyn",
    "beschreibung": "Schock in Energiebranche: Allgäuer Speicher-Pionier Sonnen GmbH pleite - so geht es weiter Joyn",
    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOaTMzeERYdDhxRWZuc18walVkbzhBeElzbkdTR1dSQjVKbXZXYTlPRElTUldHb2pDRGlLTmNNaVBmUWlkaDFqcThmTHlhRFM5NHJOSTAyb1hHZnZfRE9hWm5wU2FZNUlFLXVBbHozak80VnpyUFVtNkNBMWc5elV5UzhxWHk0U1FtRUVtT3I4RXJhNXhKTUtqWjNpYnFlMWREeU1COUhkc3JnOFJlckVFZA?oc=5",
@@ -714,6 +669,20 @@
    "datum_unbekannt": false,
    "keywords": [
     "Pleite"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Solar-Pionier aus dem Allgäu ist insolvent - extra.svz.de",
+   "beschreibung": "Solar-Pionier aus dem Allgäu ist insolvent extra.svz.de",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOb3BXTVdGcTJxUmpmVW43VjM2NnFaQ2xSVnhaRUFhSXhjbWJYRHc4ZGI4ZVBGLXZOTFNsSkwxQk5LSnh5b09tdlJrYkltT3JCWndfRFJYVW9XM1hyMDlOZS12NzlSRHFqM21ZU0hWbDh0RmFNZF9iUm1oX0Zvd2pueFRqazBDaklDVTdn?oc=5",
+   "source": "extra.svz.de",
+   "datum": "2026-10-23",
+   "datum_iso": "2026-10-23T12:30:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
    ]
   },
   {
@@ -820,6 +789,21 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
+   "titel": "Sonnen meldet Insolvenz an - energate messenger",
+   "beschreibung": "Sonnen meldet Insolvenz an energate messenger",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5Nd0JidjJTYmNhVVg4eVRkUENqZVYzYWZlRG96cTVoN2loWkgzT2NxbFBBdWRUQno2NjhZWjQyQXVqeVhfM21DcFEwcWIxSGZQeHN0MkdDT3dRanE4eWdydW5hQng5Y3p0UXBWSGpYd0FxSFh1SnN3YjkwWmE?oc=5",
+   "source": "energate messenger",
+   "datum": "2026-10-22",
+   "datum_iso": "2026-10-22T15:43:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "meldet Insolvenz",
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
    "titel": "Saarbrücker Modehaus ist insolvent: So geht es jetzt weiter - SOL.DE",
    "beschreibung": "Saarbrücker Modehaus ist insolvent: So geht es jetzt weiter SOL.DE",
    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOczNoajM3V014M2k1NzV4emt3ZENFc3A1aVRpSXk5ZVV4MXRTT0ZycDZjWDl6aUFfaUFJM1hNcmp5a0NNel8yZlo3aEJKMTM2VTdWc05HRnNMMDd3OFFHUmh4WFBIV1hXTG9FVDl3NkwwN3h4bmZYLVZRQjNCdTVsSTRyTk9HVHcyNk5TY0U3N3FSeHVrV1p2bzFVU0RURXFN?oc=5",
@@ -877,20 +861,6 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Leisnig: Baufirma Andrä insolvent sowie zwei weitere Unternehmen aus dem Firmenverbund - DNN - Dresdner Neueste Nachrichten",
-   "beschreibung": "Leisnig: Baufirma Andrä insolvent sowie zwei weitere Unternehmen aus dem Firmenverbund DNN - Dresdner Neueste Nachrichten",
-   "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQSVF1eW52ZUQzLVRVaThmQzg2LWpaMjE5SXpwc3ZsUVRXRU1YLTZFWjFxaUxDdmhSeFg2dGxHUmx4VWRrbzk5RGh6X1RxMzUtRWZYOWRGR3dPejZVWXlVcmFNckJoZFpkOFE3YXpGZ3FJeFRYcEVNQkpwdE41N2t0Q3ZCVmJzZGU0NUFBalVkQi1nYmUxcDNaVmpvVllRdkVXRWtwTno0U0dWLVhQc01iQmx6SnpuOGpqMEcteEltc3RyWU91cktVQVhxRk9oYVA3Z0FraVkyZTJIb0UzLV8zcFhxelBYdEV2eG14WklwY3Rna0lBYzRscERHSdIBlwJBVV95cUxNMnJaMXc0YzMzdEszZkhmVVBjcTBlZDl3VVJBZkJJN2hmRE9tSl9fT1JoeFp6VzlsbUN2SFplX0pMMUk1V3NwR0pSaXpIcDgyUEtJNWFZZUZ1OS1aQVh0Z09rRzIwQ3JRUDlHVG5ldlIwcUctYXYzWEJ3U1FpekN0dXZDSnFJNHhKd1hueGVzOUczLWtfeHhGdWNXWGRoanBJejdORzI5R1VXNmFocVJGQW5MRFJMQlhaWEVNckhQaEpQVHVTNGhxaE9Zb0Q2T2h6MlBiVGdJbHdXMy15YWxUdmdqaHFocEFvazNhS2FFeHpRa0Qyck90dlJWQmhFOURKMzJPSklueEZObHl6ZDlvLTdqdGkwRkU?oc=5",
-   "source": "DNN - Dresdner Neueste Nachrichten",
-   "datum": "2026-10-22",
-   "datum_iso": "2026-10-22T14:09:12+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
    "titel": "1,5 Millionen Tiere pro Jahr: Einst größter Ferkelerzeuger Deutschlands ist insolvent - T-Online",
    "beschreibung": "1,5 Millionen Tiere pro Jahr: Einst größter Ferkelerzeuger Deutschlands ist insolvent T-Online",
    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNMjJBajJWMXkzZXpRUGNTSlplU2wzR01FUC1JaGR0b2dsczJqV1dSaDRrV09hV1FPeExwOUNRZ0dpOFhfeWUzMTk1Ty1TZzFucVo1aHhmM0hMSnlTaWFYNFFLMGRnZE5mNG5QUUk3R0lmWFRDYW9QMjhrQzVyNzRqUlZ5cXRHc09QdF80WjZsYU1FOUtONVVnbDBQb0daQklyOFlIWV9zUjJ5Qno4TE1zVHhWSnB2TnRZLUlId3V5S2piM3E0djhLcmxGdVFDRmFiQUxHSWhncklUb1k?oc=5",
@@ -905,17 +875,16 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Einst größter Ferkelerzeuger Deutschlands ist nun pleite: Frühere Straathof-Holding meldet in Leipzig Insolvenz an - agrarheute.com",
-   "beschreibung": "Einst größter Ferkelerzeuger Deutschlands ist nun pleite: Frühere Straathof-Holding meldet in Leipzig Insolvenz an agrarheute.com",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZWJXQ2hqc1JzNHlWbW5INzQzTHQwem9KUUd1c04yNUpVVHl3REdla19mV2pQaThpdFRyTnY0cDRPTnhObUNqN0htTUtjWTN6ZHVVSHFYR3hQbFpVYklQb050LW5rYXhzSk02cGR5MndmNlQ2U3dhYllMTmJfUDVIME02OXBTODBpUWdna0wyM01YbkVoTmJwcFFJMXdvTnZOa2ZhQXpORlozMXQ4VHRvYWJWNGIycHdkQmExdDVrNC1iMW1XSUE?oc=5",
-   "source": "agrarheute.com",
-   "datum": "2026-10-21",
-   "datum_iso": "2026-10-21T07:29:00+00:00",
-   "signal": "schwach",
+   "titel": "Leisnig: Baufirma Andrä insolvent sowie zwei weitere Unternehmen aus dem Firmenverbund - DNN - Dresdner Neueste Nachrichten",
+   "beschreibung": "Leisnig: Baufirma Andrä insolvent sowie zwei weitere Unternehmen aus dem Firmenverbund DNN - Dresdner Neueste Nachrichten",
+   "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQSVF1eW52ZUQzLVRVaThmQzg2LWpaMjE5SXpwc3ZsUVRXRU1YLTZFWjFxaUxDdmhSeFg2dGxHUmx4VWRrbzk5RGh6X1RxMzUtRWZYOWRGR3dPejZVWXlVcmFNckJoZFpkOFE3YXpGZ3FJeFRYcEVNQkpwdE41N2t0Q3ZCVmJzZGU0NUFBalVkQi1nYmUxcDNaVmpvVllRdkVXRWtwTno0U0dWLVhQc01iQmx6SnpuOGpqMEcteEltc3RyWU91cktVQVhxRk9oYVA3Z0FraVkyZTJIb0UzLV8zcFhxelBYdEV2eG14WklwY3Rna0lBYzRscERHSdIBlwJBVV95cUxNMnJaMXc0YzMzdEszZkhmVVBjcTBlZDl3VVJBZkJJN2hmRE9tSl9fT1JoeFp6VzlsbUN2SFplX0pMMUk1V3NwR0pSaXpIcDgyUEtJNWFZZUZ1OS1aQVh0Z09rRzIwQ3JRUDlHVG5ldlIwcUctYXYzWEJ3U1FpekN0dXZDSnFJNHhKd1hueGVzOUczLWtfeHhGdWNXWGRoanBJejdORzI5R1VXNmFocVJGQW5MRFJMQlhaWEVNckhQaEpQVHVTNGhxaE9Zb0Q2T2h6MlBiVGdJbHdXMy15YWxUdmdqaHFocEFvazNhS2FFeHpRa0Qyck90dlJWQmhFOURKMzJPSklueEZObHl6ZDlvLTdqdGkwRkU?oc=5",
+   "source": "DNN - Dresdner Neueste Nachrichten",
+   "datum": "2026-10-22",
+   "datum_iso": "2026-10-22T14:09:12+00:00",
+   "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
-    "Insolvenz",
-    "Pleite"
+    "insolvent"
    ]
   },
   {
@@ -994,12 +963,12 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Character.AI insolvent: Wenn der Chatbot-Freund stirbt - Spektrum der Wissenschaft",
-   "beschreibung": "Character.AI insolvent: Wenn der Chatbot-Freund stirbt Spektrum der Wissenschaft",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbGJ4NU9TSERfcUtEMGRyRHNXYlFlMTZqbTVYZHdsYlhHcnpJUmhicm5RTXJ0ZkJmM3otWFhmOVV6WjNYNm0xcnNQQjl0eTZYVnREd2IteXhqZ3NPekpDYUJGVEJCX1drN25iTEhXRHhiOEhVR0VkbDJpcExhY0UycWtMT0xCdkI1Vk1jUmwxcTU2ek13?oc=5",
-   "source": "Spektrum der Wissenschaft",
-   "datum": "2026-10-20",
-   "datum_iso": "2026-10-20T14:00:00+00:00",
+   "titel": "Riesiger Verlust in 2025: Weltbekannte Bildagentur aus den USA ist insolvent - T-Online",
+   "beschreibung": "Riesiger Verlust in 2025: Weltbekannte Bildagentur aus den USA ist insolvent T-Online",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPOUljQzRLUkstdl84endBM3pGaUFqcm0wblhQLUx3cDl3RXh3RWNQTUxvMkpqbGxXWG5vVGd0YWpLdFYxeXBNU0ZaZDE3eTB1bFRMZ0tyMmt0a3VoVGJ0UGlaallLSDU5UVFfQ1F5RjlmcE5YbHFzMl9iVWhNQWJNdkVKcnNiTlp5aGpWNjFWUWQwcnlwSkN0XzZpUkFzZ2RBaHJ5MW1NeTgyRFBRN0dfM2F6bE8wNzJ2cUFZaGpra0ZaZGFBRndnUUszUnF5a3pDV29hRzljQUg3Nm8?oc=5",
+   "source": "T-Online",
+   "datum": "2026-10-22",
+   "datum_iso": "2026-10-22T06:06:32+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -1080,6 +1049,20 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
+   "titel": "Kitas in Karlsruhe nach Insolvenz gerettet? Neuer Träger übernimmt - vielleicht nicht alle - SWR",
+   "beschreibung": "Kitas in Karlsruhe nach Insolvenz gerettet? Neuer Träger übernimmt - vielleicht nicht alle SWR",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRWZETGxrSElpOFpRSFlUOElRUExLNG5EZ1M0d2dOeVBoY0R6N2pZYTZuSVpsenJVZklteVhNVDFQQnVkbDBaRHpsZXU4ajB4OU9tWGFsV3Q5XzZCRzB1a01FbzZRQXlpXzF3WU52OG9IU1lYb2FSZHlLNnZZZmNEaEtMZlZqRVI4ZDBFaWE0RGRIZDZyM3lFQzExYUtRLUJPd0hhMzZXaGp6U2VzZEpIaVU3LWg?oc=5",
+   "source": "SWR",
+   "datum": "2026-10-20",
+   "datum_iso": "2026-10-20T22:00:00+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
    "titel": "Bolzplatzkind ist insolvent: Reus, Großkreutz und Co. trugen beliebte Fußball-Streetwear-Marke - Merkur",
    "beschreibung": "Bolzplatzkind ist insolvent: Reus, Großkreutz und Co. trugen beliebte Fußball-Streetwear-Marke Merkur",
    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWGFVT1ZNQnVOYTNpQS1yZkh4ZGYtWUlVS3hBY011M3NaNXRUNGdDajZ1UEh6ODU5VTFxT0VtYm1qNXFoSlVGS0dhT3RmR0ZSN1lCaVpKazJoODhzdjl6cTFvR0JuekhFeUtkTGk0RHExV3VWZ3ZVWm9KcUZFSWtFYlk0b1lNSmxSNG1kaW8yT3BqeWZMMjdOVG9VMnhYV0w3QjdVdFhpd2FscDVBdXBZZWxoMWxBNkE?oc=5",
@@ -1108,26 +1091,26 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
+   "titel": "Warth-Insolvenz: Warum zwei Filialen bereits geschlossen sind - Schwäbische.de",
+   "beschreibung": "Warth-Insolvenz: Warum zwei Filialen bereits geschlossen sind Schwäbische.de",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdGhrVWNucUdocmdEZTBEcER0MEtoMXpXTmdtRFJoWk50Y1hPeTdrQ21qb1FBZFZiMU9mNzFreDdhZWRETUp1a0h1UURyd0Y1dVp2Tmc0Z2ZkTncxYXJtenNZMUJJUm1OanNuaTIxU1Z1NUYyTHBxN3AySWNoQkdudTh1WTE3SW83cm1rdWttczFOZHdMOTF4ZmoteU1FMWN1bDdlLW14TGhSYUxuRFB3M01NS1pzc2RRUndGaWs1aHI?oc=5",
+   "source": "Schwäbische.de",
+   "datum": "2026-10-22",
+   "datum_iso": "2026-10-22T15:00:00+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
    "titel": "Betrieb soll weiterlaufen: Pflegeanbieter Procuritas insolvent – gleich neun Einrichtungen in Duisburg betroffen - RP Online",
    "beschreibung": "Betrieb soll weiterlaufen: Pflegeanbieter Procuritas insolvent – gleich neun Einrichtungen in Duisburg betroffen RP Online",
    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOQ3RrVlQ0US02bmZBdDNmNUN3XzV2dmJZNnhRZi00Y2lYNjhVWENwN25MaUtvb250czZqOXpCdWxPM19HdHlUaklxNWtINWZPNFc1dXQ0OHdBSEgyeUp2VGI0M1pLRXR5WWNINnRRUGp6MTBsbkYxZWE2ZjMybWhEb2RtcFNQTWx1SmpHWjduZzNwNDRnQ0lZZVRpc1B2UTZ6b0thdTZmeTRsT3NoYTNvSWVsemw1UERsZk1aQmFPMjNpSHFCUVJrOENIdw?oc=5",
    "source": "RP Online",
    "datum": "2026-10-22",
    "datum_iso": "2026-10-22T14:23:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Riesiger Verlust in 2025: Weltbekannte Bildagentur aus den USA ist insolvent - T-Online",
-   "beschreibung": "Riesiger Verlust in 2025: Weltbekannte Bildagentur aus den USA ist insolvent T-Online",
-   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPOUljQzRLUkstdl84endBM3pGaUFqcm0wblhQLUx3cDl3RXh3RWNQTUxvMkpqbGxXWG5vVGd0YWpLdFYxeXBNU0ZaZDE3eTB1bFRMZ0tyMmt0a3VoVGJ0UGlaallLSDU5UVFfQ1F5RjlmcE5YbHFzMl9iVWhNQWJNdkVKcnNiTlp5aGpWNjFWUWQwcnlwSkN0XzZpUkFzZ2RBaHJ5MW1NeTgyRFBRN0dfM2F6bE8wNzJ2cUFZaGpra0ZaZGFBRndnUUszUnF5a3pDV29hRzljQUg3Nm8?oc=5",
-   "source": "T-Online",
-   "datum": "2026-10-22",
-   "datum_iso": "2026-10-22T06:06:32+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -1193,17 +1176,16 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Gumprecht ist insolvent – Wiener Pferdeleberkäse-Tradition in Pleite-Krise - Heute",
-   "beschreibung": "Gumprecht ist insolvent – Wiener Pferdeleberkäse-Tradition in Pleite-Krise Heute",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPanB4N2NtcDV0LWZ6Tm04dVBlRHlnWHYyRkh2WWNVZGdqWUpHMTBGTWZ5WlBLNWxUWmJfdnRKdGtjYnh2Rzh1eU9UYkRIOG5FZkltZUZKSXZaMWFPOTZRLTZZOXBId1lsTkxDS1hsYjhLblllYlozRGxLYWxZMEJxUkh5eXo0RlR3TkE?oc=5",
-   "source": "Heute",
+   "titel": "300.000 Euro Schulden: Harder Restaurant nach nur einem Jahr insolvent - VOL.AT",
+   "beschreibung": "300.000 Euro Schulden: Harder Restaurant nach nur einem Jahr insolvent VOL.AT",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWFdlaTJlcHVZdE1KblNNY056NDFQdGdjdmMzbHhUZ192bEpXVDhyRlhHUVdBcjg1TkpZZ3o5ZnRRaUFNeU1lVU5SRWdPanVtOEw2NTFoQXZEYThTaU52TWZZWHZCajNQbC1nazlhNWFBa1RiQVo3XzYzdUpqTU1UTFU0TjdpMGF1am1zdjFtR2JXRHo5UTVPUUVvaUdnZw?oc=5",
+   "source": "VOL.AT",
    "datum": "2026-10-23",
-   "datum_iso": "2026-10-23T08:19:00+00:00",
+   "datum_iso": "2026-10-23T13:50:20+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
-    "insolvent",
-    "Pleite"
+    "insolvent"
    ]
   },
   {
@@ -1218,6 +1200,21 @@
    "datum_unbekannt": false,
    "keywords": [
     "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Gumprecht ist insolvent – Wiener Pferdeleberkäse-Tradition in Pleite-Krise - Heute",
+   "beschreibung": "Gumprecht ist insolvent – Wiener Pferdeleberkäse-Tradition in Pleite-Krise Heute",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPanB4N2NtcDV0LWZ6Tm04dVBlRHlnWHYyRkh2WWNVZGdqWUpHMTBGTWZ5WlBLNWxUWmJfdnRKdGtjYnh2Rzh1eU9UYkRIOG5FZkltZUZKSXZaMWFPOTZRLTZZOXBId1lsTkxDS1hsYjhLblllYlozRGxLYWxZMEJxUkh5eXo0RlR3TkE?oc=5",
+   "source": "Heute",
+   "datum": "2026-10-23",
+   "datum_iso": "2026-10-23T08:19:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent",
+    "Pleite"
    ]
   },
   {
@@ -1251,6 +1248,20 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
+   "titel": "Getty Images Holdings, Inc. hat Insolvenzantrag gestellt - MarketScreener Deutschland",
+   "beschreibung": "Getty Images Holdings, Inc. hat Insolvenzantrag gestellt MarketScreener Deutschland",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNEtLQURuRG15aGx1RWpaOHRubmtUcFdOZ2g5VDRDMmFJVC1hNzNIQi1sWS1FR1BvYXlpNE1UX3lSbEwxSTA5M3ZWTlRYOUozblJRaDBUTmlIUTAydm81Nl9nSVhEX0FqWlZQQ0xoMEVtUjhQQmh3MU5YSGxSTUkwdk9VMXlBdmZnYzhNSjFiM0hUenVDcDNxTEVudVhWZHVFLU1WNTlOcjN3ekR5SktoUnVIZmo2OTdoWGhYWA?oc=5",
+   "source": "MarketScreener Deutschland",
+   "datum": "2026-10-21",
+   "datum_iso": "2026-10-21T14:07:32+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenzantrag"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
    "titel": "Metallbetrieb in Mondsee ist insolvent: 33 Beschäftigte bangen um ihre Arbeitsplätze - Salzburger Nachrichten",
    "beschreibung": "Metallbetrieb in Mondsee ist insolvent: 33 Beschäftigte bangen um ihre Arbeitsplätze Salzburger Nachrichten",
    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOVUJhaThmQUNHQWljQ3NSTms5SkdkYV92NHItellaS0pIOXl5NWR4MXhDX2Q0Z2tQaloyYmswbmwwSmtLRkRrbkE0aTNXRnlHZWF0VnNHUTJ4WWthUlFrX2dRaGJuSTVOTGZkVE1hS3p6WThTUEtuZkNnS0NVVmxpOEhma0hralpRTjJvRWpUSTVHTExsWHdTZURDY0E1SnZPVHVmU2E4REszWFJMNk5wdV8yZ0xVYzRRNm1KcDV2bnRyOWVxdjlpS1dTRTd6SjQ?oc=5",
@@ -1261,6 +1272,20 @@
    "datum_unbekannt": false,
    "keywords": [
     "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Einst 1,5 Millionen Ferkel – Ex-Straathof-Konzern LFD in Insolvenz - land & forst",
+   "beschreibung": "Einst 1,5 Millionen Ferkel – Ex-Straathof-Konzern LFD in Insolvenz land & forst",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWlBQWDJVRDdIYzByeGdmZHc4S29wMzk2Y2pxZnVNN3NNdWRqeEIzM2pVdW12ZHFUN2ZkQ1RrZUhGSWYxdnNjRXhhVDJpeS0wYU4xWlQ3alcxdnZMQWtlM2VOLTZ2ZlRDeHhVZzRzMkw0dEZ2SHJtTkViTmpTQU40OHlEYlhxTGhGT0xadnUyUXM2QnVJMHdXejNCbld2YTY0cFE?oc=5",
+   "source": "land & forst",
+   "datum": "2026-10-21",
+   "datum_iso": "2026-10-21T08:37:39+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenz"
    ]
   },
   {
@@ -1279,6 +1304,21 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
+   "titel": "Bildagentur in der Krise: Getty Images meldet Insolvenz an - AOL.com",
+   "beschreibung": "Bildagentur in der Krise: Getty Images meldet Insolvenz an AOL.com",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMDM2b09YSGd2UjJSRnhLZWhBLTV1T3hTMUNzZGV3eGlnbjd0Vk5paFpUZkVDS09IbERVTzhKNEg2QTQ2UnAzRXlOU05OWTBjSzlta21GdGhvSlRTRUJ0YWRtSGhUQzZvOUtXU3R3ZU5rQk1hamVHUnhfc0pTbkFzalBkU2RmZzkt?oc=5",
+   "source": "AOL.com",
+   "datum": "2026-10-22",
+   "datum_iso": "2026-10-22T10:01:43+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "meldet Insolvenz",
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
    "titel": "Bildagentur Getty Images meldet Insolvenz an - Nau.ch",
    "beschreibung": "Bildagentur Getty Images meldet Insolvenz an Nau.ch",
    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQUhnWG9Na1FWV1NDUGdBRktMbzdxTDhYX2VBSkwtZFQwa25pOTV3R0ZlZDBOY1E3UXpXRmVsdHRjZGh6QTlRX0dBMDROOXcya3hBN1hLQ0RFS2VrVmpoUFNPVTR0SS0wdGZnSlFqY0F4NDFIWks0ZGZNVkRMTUJrUDJWOG9SUzNTaFJ4XzZJdUFvQQ?oc=5",
@@ -1290,6 +1330,21 @@
    "keywords": [
     "meldet Insolvenz",
     "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "RIXX Invest AG: Vorstand beschließt Insolvenzantrag wegen Zahlungsunfähigkeit - Investing.com Deutsch",
+   "beschreibung": "RIXX Invest AG: Vorstand beschließt Insolvenzantrag wegen Zahlungsunfähigkeit Investing.com Deutsch",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOU0VVUFAwbVhHZ1V1Nmg5X3I2QnNVcURNMHZvM3FVenF6VmFTa3B2RkRqcjZvNVkwRlZlREwzMl9DU2VZUHpacDFxS3ZnNk9LY2JPNVN3aTdETDdGN2c5NnlnOUR4RGtQYmR3eU5UcU1YY3JwaThDTUVmTDVZSWw5aFpaMWhsUnNxczBhVHdOdUY5MTlULVVoaGZsXzN6MllINHdCWGJVYWlSTDZFWjg5cC1La3hhbHlSRmFjRTNjVFd0UUg2Ti1WQ0VQZEs2NEE?oc=5",
+   "source": "Investing.com Deutsch",
+   "datum": "2026-10-20",
+   "datum_iso": "2026-10-20T16:04:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenzantrag",
+    "Zahlungsunfähigkeit"
    ]
   },
   {
@@ -1345,6 +1400,21 @@
    "source": "Kurier",
    "datum": "2026-10-21",
    "datum_iso": "2026-10-21T10:15:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "meldet Insolvenz",
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Getty Images meldet Insolvenz an und zieht sich von der Börse zurück - Tiroler Tageszeitung",
+   "beschreibung": "Getty Images meldet Insolvenz an und zieht sich von der Börse zurück Tiroler Tageszeitung",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcEZjUEhpWnJlZGNGTy1NbGJURmVQNGZVWndMWW1maTA1QTFyMEduOVRIeU1MRFd5bTJiUTNTUll3VmxBcUJWSl9lZ2VoZ052Mmo5aXAyTUpJekpTbUE1UVJ5UXQtT0lXSUx5NHdpeWpfcHA5V1JDVE0tZ2hMMm5fSnBEdmNYRWQzU0dILVBFV3lTcUx1akY0bmV1SENHVEpSbHVoZEthYlZqUQ?oc=5",
+   "source": "Tiroler Tageszeitung",
+   "datum": "2026-10-21",
+   "datum_iso": "2026-10-21T12:54:00+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -1439,6 +1509,36 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
+   "titel": "Getty Images in Turbulenzen - die Agentur meldet Insolvenz an. - Heute",
+   "beschreibung": "Getty Images in Turbulenzen - die Agentur meldet Insolvenz an. Heute",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcEFveWg0RHlXYnVxaU9rQTI2TEFQdU5KTWVZbXFtZWk0YUdGUzhjYkMyZEJOa1hlbXN3bW9LdExVa05tS3NueDBkbVRrYXgwTTZ3VHlUd05ia0ZMU1hxdC1DcXYxUzZfN1pwY2ZzV3FsRTJPNHFKak5HTWE0azdKUF9BbGZDcFE?oc=5",
+   "source": "Heute",
+   "datum": "2026-10-21",
+   "datum_iso": "2026-10-21T10:49:48+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "meldet Insolvenz",
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "RIXX Invest AG: Zahlungsunfähigkeit führt zum Insolvenzantrag in Charlottenburg - AD HOC NEWS",
+   "beschreibung": "RIXX Invest AG: Zahlungsunfähigkeit führt zum Insolvenzantrag in Charlottenburg AD HOC NEWS",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaXRyUVRuM21TMlhOWENsLWZqMERNWDhGbjNWSFlwVFpFTk5aQ3I0VlJQaVhTVzl4bV9TUzlhSU5uR2Rab3c4UkNlTXF3bXhtVUF0bDRnSDNFYUU1RmpkMmhJdmRGa1BYdmZkZWhCZ0xiSnRiTmNBbVVHZlUyQk9Eb19JblNKUGJYVTJjMW5feUkzNGVHcVUwSXA5a0FXbzJPbW1TVVlocGQ5N2QtbkRhbDhibkI0OHVSV2JwdjVfc0NYWTgyeUE?oc=5",
+   "source": "AD HOC NEWS",
+   "datum": "2026-10-21",
+   "datum_iso": "2026-10-21T05:39:15+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenzantrag",
+    "Zahlungsunfähigkeit"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
    "titel": "Maschinenbauer Vollmer stellt Insolvenzantrag und setzt auf Sanierung - Münster Aktuell",
    "beschreibung": "Maschinenbauer Vollmer stellt Insolvenzantrag und setzt auf Sanierung Münster Aktuell",
    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5mWjQ2em9idTRSdU42LXhQSW5hZXhqMDRaUVRLcGZ0a0UxZWRiS0VYX3E0cDBzeXlYcmFiTXo5NDNtOFhMblhvR2hseG9iRnhLUllqazZnMUprWEwtWkE1VDFsTEc4VlpwNTQ5bEc2NGVuVDA?oc=5",
@@ -1469,21 +1569,6 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Insolvenz-TICKER | Sonnen GmbH meldet Insolvenz an - Epoch Times (Deutsch)",
-   "beschreibung": "Insolvenz-TICKER | Sonnen GmbH meldet Insolvenz an Epoch Times (Deutsch)",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVm9SSFFMMWY3RC1ORE1ZSFBtUFJtMXA4NXpvX3VSdUlTa2tnXzR2Y1JaYy1vZy1GTUQ4cjdGakp0NTFhblFOMVlRd2VtVTd6X2RHZ0pfM2FOZnVSbmVXQlY4dkd4bVN2M21xM0dwTkZOUC1OUDB1eExDTll5VkdyVGZzQmd0TGxMbDZQRWwwLUkyeXRnVWhFUE5ZLV9ZRGtn?oc=5",
-   "source": "Epoch Times (Deutsch)",
-   "datum": "2026-10-23",
-   "datum_iso": "2026-10-23T08:08:50+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "meldet Insolvenz",
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
    "titel": "Sonnen GmbH meldet Insolvenz nach Eigentümerwechsel an - SuaraGarut.ID",
    "beschreibung": "Sonnen GmbH meldet Insolvenz nach Eigentümerwechsel an SuaraGarut.ID",
    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9TUlVzS2szYzdkbElXUzFFRkVSSVhKQUQ3UU50VUNtb21OWVRoQ01HUEpIQ2lhWVh2dEtqaE1PVkUzWVdNMlJYd0F6YUswWl9GOWVLclVwVUFIZ0o3ckMyRGoweHlPeTg4TE8xQVBRV1N1enc?oc=5",
@@ -1495,6 +1580,20 @@
    "keywords": [
     "meldet Insolvenz",
     "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Getty Images insolvent: KI demontiert das Geschäft mit teuren Stockfotos - Report24",
+   "beschreibung": "Getty Images insolvent: KI demontiert das Geschäft mit teuren Stockfotos Report24",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTDMxYXFiZU9RSWRWazI1Z29CM0tocnhPd0Exb1NQMmZGNlZ5SXo0MUc4SXN1eGVGVHhQMWQxNUZqNW5GWFAtU0lCR1BjLW1VbWtVODhaRUtndm1JNTIxaS1CRVF2SzlsTldoemlIVEE5SmRvT3JDbGJ0NnI2bDgxVUdwRllieWNzOTBWRTFMRkIwMzRlWXNUcjh2dw?oc=5",
+   "source": "Report24",
+   "datum": "2026-10-23",
+   "datum_iso": "2026-10-23T14:05:16+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
    ]
   },
   {
@@ -1513,18 +1612,33 @@
    ]
   },
   {
-   "quelle": "GNews Verfahren/Verwalter",
-   "titel": "\"Nachricht hat mich sehr erschüttert\": Maschinen-Unternehmen Vollmer in Biberach meldet Insolvenz an - SWR",
-   "beschreibung": "\"Nachricht hat mich sehr erschüttert\": Maschinen-Unternehmen Vollmer in Biberach meldet Insolvenz an SWR",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPREVOb3dGNkhIb0lyby0yMEhGSjAxY2tUa2VuOUgwYmtEekk4d200aG5JTndTQmxVZVBKZnBSaVZoUWdOeHVHdG9PZndWWHNiRDVBaVFLRkZsYVZEVXZEQmc3OGhBQ2QwY2ZLWTVxZzh4WVB1WGRJS3B6UTdUdmxkTEZaUjM5YS1qYWRld2dQSWk4SU91a2VlVWZ6aGc4U1p4VmYzd2Vpa2swTndERFhzVEhsbw?oc=5",
-   "source": "SWR",
-   "datum": "2026-10-22",
-   "datum_iso": "2026-10-22T22:00:00+00:00",
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "LFD Holding meldet Insolvenz nach Millionenverlust - SuaraGarut.ID",
+   "beschreibung": "LFD Holding meldet Insolvenz nach Millionenverlust SuaraGarut.ID",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5NTVJYU3E3LXZaTG5jcjBZWlJaRHdOeWRVSU1UYnc2OGNwWi1oZ1R3ei1NLUt2c0Z5enNxYzNWR1lURDRQNTlBQTVmVUtBbjFRTGxDTU5wV2V4SkI0U1lsbmFJcFZsUThYamVQZno2MGs?oc=5",
+   "source": "SuaraGarut.ID",
+   "datum": "2026-10-21",
+   "datum_iso": "2026-10-21T07:29:45+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
     "meldet Insolvenz",
     "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Konkurrenz durch KI: US-Bildagentur Getty stellt Insolvenzantrag - www.epochtimes.de",
+   "beschreibung": "Konkurrenz durch KI: US-Bildagentur Getty stellt Insolvenzantrag www.epochtimes.de",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPNjhvMmtpU3RFR2didTdUXzlkZ0hjb3NKQVhxbGFaaHZTVGIyZ1JZMU1oemFsM1FqOWgwY2FYcng1T3lPNjNWUEI4dWNMYUl0WHZRM0h0YkxOaDgyUnkzSXdrcnlzbXFTc2RYNml1QVBlRXVMUzdfZE5EdDNuaVVPZE45MlRuX0NuYVJyOWY1a282Z1B0NWJXSWpsSVR2T2RZVlVIVDRQcUpsVzRBdV8zMlFWWkxobjl5TlM4WXBZTXk0aC1JamtYMk1jMm5HY0llVjd1QU80T3p0Y1Y5V2cxbGYwVVhhS0Jr?oc=5",
+   "source": "www.epochtimes.de",
+   "datum": "2026-10-21",
+   "datum_iso": "2026-10-21T15:35:50+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenzantrag",
+    "stellt Insolvenzantrag"
    ]
   },
   {
@@ -1557,6 +1671,21 @@
   },
   {
    "quelle": "GNews Verfahren/Verwalter",
+   "titel": "\"Nachricht hat mich sehr erschüttert\": Maschinen-Unternehmen Vollmer in Biberach meldet Insolvenz an - SWR",
+   "beschreibung": "\"Nachricht hat mich sehr erschüttert\": Maschinen-Unternehmen Vollmer in Biberach meldet Insolvenz an SWR",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPREVOb3dGNkhIb0lyby0yMEhGSjAxY2tUa2VuOUgwYmtEekk4d200aG5JTndTQmxVZVBKZnBSaVZoUWdOeHVHdG9PZndWWHNiRDVBaVFLRkZsYVZEVXZEQmc3OGhBQ2QwY2ZLWTVxZzh4WVB1WGRJS3B6UTdUdmxkTEZaUjM5YS1qYWRld2dQSWk4SU91a2VlVWZ6aGc4U1p4VmYzd2Vpa2swTndERFhzVEhsbw?oc=5",
+   "source": "SWR",
+   "datum": "2026-10-22",
+   "datum_iso": "2026-10-22T12:00:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "meldet Insolvenz",
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Verfahren/Verwalter",
    "titel": "ArbG Iserlohn: Keine Haftung von Geschäftsführern eines Unternehmens in Eigenverwaltung für die Arbeitslöhne - Anwalt.de",
    "beschreibung": "ArbG Iserlohn: Keine Haftung von Geschäftsführern eines Unternehmens in Eigenverwaltung für die Arbeitslöhne Anwalt.de",
    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOQXlYaTVvMUZ0aXVIRmVJRGx4c25PbGNkWlcyNkZVNHYwd3gtM2VhQnZ4ck1EMFZEc1RBUEVtS1M3WFlZa2VIbS1ZUWpwTHF3cUxNZWFfQ0daMHpTUHNuaDM3VXNnWjhaNTVnUkhlYk9meWx0MVNYU1cwclFHcTU3RVhwRjhxQlJ0TGxDYkwxM0xYem9yWndDTW5kOWhuQXBqOVNicTB6UmlkVjhlWjBPcFFWSTdPQm5QUGJmTVpTcEVHcFFpcnk3YXJMWXNkNnIwUXlEeUZQMVBxRW9XZjJIMWFfYzFvZWF0MkxXeGVB?oc=5",
@@ -1571,20 +1700,6 @@
   },
   {
    "quelle": "GNews Verfahren/Verwalter",
-   "titel": "Insolvenz von Solar-Pionier schockt Energiewelt: Das müssen Kunden jetzt wissen - T-Online",
-   "beschreibung": "Insolvenz von Solar-Pionier schockt Energiewelt: Das müssen Kunden jetzt wissen T-Online",
-   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeXZ1Um9aQjRQNVBEMzZMUXBzN1NmbkhhQUJUVzBFRll2TUsxYnpXdEZ3UDJZV29SNEhxc0ZOdlJnQkFwS3VMb0hCcVNlbkxjVWM2V2xBQlhtdmc2VWMtcTB4UEN6VGpzOFJSRl9RbHBGQkw4ZUJrMm1seTUzNlZIN3NweFVqYk9UYzU5SUJIV1VKWlNBcmU3a29maWZUb0tvYzV6OE5CcWxGOE5Da3JLaHFxTjd5LTdiaFUwSTJBLTdfSmhVeEtLcHVn?oc=5",
-   "source": "T-Online",
-   "datum": "2026-10-22",
-   "datum_iso": "2026-10-22T14:12:51+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Verfahren/Verwalter",
    "titel": "Uncle Nearest: Der Kampf zwischen Insolvenzverwalter, Farm Credit und Fawn Weaver geht weiter - WhiskyExperts",
    "beschreibung": "Uncle Nearest: Der Kampf zwischen Insolvenzverwalter, Farm Credit und Fawn Weaver geht weiter WhiskyExperts",
    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNV1hNTmp5NkVGSnNuWnZ1NS1LMFhDTjN5UnJDb1hWTThESXBhYXR5WVJoUlFacVJVNVFmQlRYUzdJX1lHSllDN3Z2WEVsZ3RaaUZYZlZXSE1JeGNvUHo1LTRHcDdGUXpHQVZOSW5FQk1UYXBScXZ5bUJFMU40U2N4QzdHMV9JU1MwanFYOWtMNFNMSnM4NTNFVXJYTjV4NnNMWGdUUnh0YUtwVmxhVWJCZlYyWVBFb0p5TVE?oc=5",
@@ -1595,6 +1710,20 @@
    "datum_unbekannt": false,
    "keywords": [
     "Insolvenzverwalter"
+   ]
+  },
+  {
+   "quelle": "GNews Verfahren/Verwalter",
+   "titel": "Insolvenz von Solar-Pionier schockt Energiewelt: Das müssen Kunden jetzt wissen - T-Online",
+   "beschreibung": "Insolvenz von Solar-Pionier schockt Energiewelt: Das müssen Kunden jetzt wissen T-Online",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeXZ1Um9aQjRQNVBEMzZMUXBzN1NmbkhhQUJUVzBFRll2TUsxYnpXdEZ3UDJZV29SNEhxc0ZOdlJnQkFwS3VMb0hCcVNlbkxjVWM2V2xBQlhtdmc2VWMtcTB4UEN6VGpzOFJSRl9RbHBGQkw4ZUJrMm1seTUzNlZIN3NweFVqYk9UYzU5SUJIV1VKWlNBcmU3a29maWZUb0tvYzV6OE5CcWxGOE5Da3JLaHFxTjd5LTdiaFUwSTJBLTdfSmhVeEtLcHVn?oc=5",
+   "source": "T-Online",
+   "datum": "2026-10-22",
+   "datum_iso": "2026-10-22T14:12:51+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenz"
    ]
   },
   {
@@ -1713,21 +1842,6 @@
   },
   {
    "quelle": "GNews Verfahren/Verwalter",
-   "titel": "Bayreuther LED-Spezialist „lichtline“ insolvent: Investor gesucht - Bayreuther Tagblatt",
-   "beschreibung": "Bayreuther LED-Spezialist „lichtline“ insolvent: Investor gesucht Bayreuther Tagblatt",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOUtCZWJXNS1iaHZkX1FjYWFXTWY4dDNaXzV2YmpZUWJqc3RXT2MzckFIWV96eHlSRE9xVUxQRXVBNTNpd3hhUGhid2VqbG5zTXBXb3hQc2tNdDlUR3lkdnlyWkRXdkJJVDUzN1lOVnF1N3Q3QkpqMURsdWh6ZkotVWVBaUpfVjc0U3I3Z0dPcmxuX1lNMGdwdnA0RVl3OUExbVV5aU80R2YxcjdBcjdqM3h2cjdBRnExYnpycHJrUVhHT0U?oc=5",
-   "source": "Bayreuther Tagblatt",
-   "datum": "2026-10-23",
-   "datum_iso": "2026-10-23T09:57:15+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent",
-    "Investor gesucht"
-   ]
-  },
-  {
-   "quelle": "GNews Verfahren/Verwalter",
    "titel": "Autohaus König: Trotz Insolvenz gute Nachrichten für Mitarbeiter - Business Insider Deutschland",
    "beschreibung": "Autohaus König: Trotz Insolvenz gute Nachrichten für Mitarbeiter Business Insider Deutschland",
    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYnhyemI5UnNlam5HLVY3Y0xmWjZiUkZRaGFGa3N3UTZLN1EyMjhyU0k3NHFvWDgzNGE5bGdUWndhckcxZmxKeTA2SGIzWmh6S3NhUm9zN2ZUcjVGWmhTNkYxWDE5UlY3enJBYmxiTnhSYjdPNVdSblRCUGhWRVpDNGFjN2VSNkJlYU9EMkJhLVR1LTZFaUNLZ1Z4ZjNEa09xNUZHM04wd1ZjZ1Bp?oc=5",
@@ -1738,6 +1852,21 @@
    "datum_unbekannt": false,
    "keywords": [
     "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Verfahren/Verwalter",
+   "titel": "Bayreuther LED-Spezialist \"lichtline\" insolvent: Investor gesucht - Bayreuther Tagblatt",
+   "beschreibung": "Bayreuther LED-Spezialist \"lichtline\" insolvent: Investor gesucht Bayreuther Tagblatt",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOUtCZWJXNS1iaHZkX1FjYWFXTWY4dDNaXzV2YmpZUWJqc3RXT2MzckFIWV96eHlSRE9xVUxQRXVBNTNpd3hhUGhid2VqbG5zTXBXb3hQc2tNdDlUR3lkdnlyWkRXdkJJVDUzN1lOVnF1N3Q3QkpqMURsdWh6ZkotVWVBaUpfVjc0U3I3Z0dPcmxuX1lNMGdwdnA0RVl3OUExbVV5aU80R2YxcjdBcjdqM3h2cjdBRnExYnpycHJrUVhHT0U?oc=5",
+   "source": "Bayreuther Tagblatt",
+   "datum": "2026-10-23",
+   "datum_iso": "2026-10-23T10:05:26+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent",
+    "Investor gesucht"
    ]
   },
   {
@@ -1901,20 +2030,6 @@
   },
   {
    "quelle": "GNews Sanierung/StaRUG",
-   "titel": "Sanierungsverfahren eröffnet - Großes Autohaus legte Millionenpleite hin - Leadersnet",
-   "beschreibung": "Sanierungsverfahren eröffnet - Großes Autohaus legte Millionenpleite hin Leadersnet",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOU3N0M1VWYUl5Y2xTdTh3cEx2d05Wb3VWMjdMcmllZ3V0X3VJM1lMY3FGVWU5akF1WXM3ZW93LXBKalJ0ajhyR3hQVlRUOFdfNHdtYmpqOTBtNmxxcHpxQUs1V0czWDExVWxxMkNHYndmOHNnYzZOQjQ4bjVsSC1lalgxM1FiXzFCNmtqYjlB?oc=5",
-   "source": "Leadersnet",
-   "datum": "2026-10-20",
-   "datum_iso": "2026-10-20T14:10:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Sanierungsverfahren"
-   ]
-  },
-  {
-   "quelle": "GNews Sanierung/StaRUG",
    "titel": "33 Mitarbeiter betroffen: Sanierungsverfahren über Karl Berger CNC-Maschinenbau eröffnet - MeinBezirk.at",
    "beschreibung": "33 Mitarbeiter betroffen: Sanierungsverfahren über Karl Berger CNC-Maschinenbau eröffnet MeinBezirk.at",
    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdEJTZ1ZwV05nLU9rWG1Na2ttdTlGRDluQU83OXoxRUVVQWMwcTFaeGFyNVhuVEJ4RmRnMWcwNTNrYXpDN0JKZ3JNbFJXZjROX2Fwd1pBZDR4QlQxQndkcU1hOGxqbkV5d0RWWVRoMUdpLXRKc0NSM05JVG1qalJwT3dQQ1hQbk56cHZIZ3BmTkZ3dEdWWThMV1NseERXM1NkNmtoaWpLSXViNjNOMjNZZFpTOGk0d1NKdWg4RWZZaGVwX0FTUGNzX2JjV1BXM2l3U2c?oc=5",
@@ -1958,12 +2073,12 @@
   },
   {
    "quelle": "GNews Investorenprozess",
-   "titel": "Bayreuther LED-Spezialist „lichtline“ insolvent: Investor gesucht - Bayreuther Tagblatt",
-   "beschreibung": "Bayreuther LED-Spezialist „lichtline“ insolvent: Investor gesucht Bayreuther Tagblatt",
+   "titel": "Bayreuther LED-Spezialist \"lichtline\" insolvent: Investor gesucht - Bayreuther Tagblatt",
+   "beschreibung": "Bayreuther LED-Spezialist \"lichtline\" insolvent: Investor gesucht Bayreuther Tagblatt",
    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOUtCZWJXNS1iaHZkX1FjYWFXTWY4dDNaXzV2YmpZUWJqc3RXT2MzckFIWV96eHlSRE9xVUxQRXVBNTNpd3hhUGhid2VqbG5zTXBXb3hQc2tNdDlUR3lkdnlyWkRXdkJJVDUzN1lOVnF1N3Q3QkpqMURsdWh6ZkotVWVBaUpfVjc0U3I3Z0dPcmxuX1lNMGdwdnA0RVl3OUExbVV5aU80R2YxcjdBcjdqM3h2cjdBRnExYnpycHJrUVhHT0U?oc=5",
    "source": "Bayreuther Tagblatt",
    "datum": "2026-10-23",
-   "datum_iso": "2026-10-23T09:57:15+00:00",
+   "datum_iso": "2026-10-23T10:05:26+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -2015,6 +2130,20 @@
   },
   {
    "quelle": "GNews Investorenprozess",
+   "titel": "Autohaus König: Trotz Insolvenz gute Nachrichten für Mitarbeiter - Business Insider Deutschland",
+   "beschreibung": "Autohaus König: Trotz Insolvenz gute Nachrichten für Mitarbeiter Business Insider Deutschland",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYnhyemI5UnNlam5HLVY3Y0xmWjZiUkZRaGFGa3N3UTZLN1EyMjhyU0k3NHFvWDgzNGE5bGdUWndhckcxZmxKeTA2SGIzWmh6S3NhUm9zN2ZUcjVGWmhTNkYxWDE5UlY3enJBYmxiTnhSYjdPNVdSblRCUGhWRVpDNGFjN2VSNkJlYU9EMkJhLVR1LTZFaUNLZ1Z4ZjNEa09xNUZHM04wd1ZjZ1Bp?oc=5",
+   "source": "Business Insider Deutschland",
+   "datum": "2026-10-23",
+   "datum_iso": "2026-10-23T07:54:54+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Investorenprozess",
    "titel": "Holzbau Weber in Ebnat beantragt Insolvenz – Investor gesucht - Schwäbische Post",
    "beschreibung": "Holzbau Weber in Ebnat beantragt Insolvenz – Investor gesucht Schwäbische Post",
    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOeUs1OF82dVNCSXVtWWJueElKQ0R4ejFaeXhKR0JnWmk2dGdmWWcxN19ORkVwYVM1YXh1ZlRHRVNPd0UzWWtvdkF3OUpheDZ1aEc3YUZsX0EtdENONldzU2ZfRTViWDJlaXRrZmQ2aUMtdk5xWDVpc0RjdU9sOUZXOEd2d1ZaaTZXZGN4Qi1zNzRvMjZZc2h6XzlpNFIzMzFvX0xUVUxxMTIzNWtZNW5wZmlCRVRZZG84Mm9oMWhFVE5obEc1QTY3UE1LSzZzdnc2eUI2akRuR3JCZEs0ZFU1Xw?oc=5",
@@ -2025,20 +2154,6 @@
    "datum_unbekannt": false,
    "keywords": [
     "Investor gesucht",
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Investorenprozess",
-   "titel": "Autohaus König: Trotz Insolvenz gute Nachrichten für Mitarbeiter - Business Insider Deutschland",
-   "beschreibung": "Autohaus König: Trotz Insolvenz gute Nachrichten für Mitarbeiter Business Insider Deutschland",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYnhyemI5UnNlam5HLVY3Y0xmWjZiUkZRaGFGa3N3UTZLN1EyMjhyU0k3NHFvWDgzNGE5bGdUWndhckcxZmxKeTA2SGIzWmh6S3NhUm9zN2ZUcjVGWmhTNkYxWDE5UlY3enJBYmxiTnhSYjdPNVdSblRCUGhWRVpDNGFjN2VSNkJlYU9EMkJhLVR1LTZFaUNLZ1Z4ZjNEa09xNUZHM04wd1ZjZ1Bp?oc=5",
-   "source": "Business Insider Deutschland",
-   "datum": "2026-10-23",
-   "datum_iso": "2026-10-23T07:54:54+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
     "Insolvenz"
    ]
   },
