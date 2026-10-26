@@ -1,7 +1,7 @@
 {
  "meta": {
-  "lauf": "2026-10-26T14:30:59",
-  "lauf_utc": "2026-10-26T14:30:59+00:00",
+  "lauf": "2026-10-26T15:18:07",
+  "lauf_utc": "2026-10-26T15:18:07+00:00",
   "version": "2026-09-23a",
   "problem": [
    "Capital(FAIL:HTTPError)"
@@ -9,8 +9,8 @@
   "fenster_tage": 3,
   "feeds_gesamt": 56,
   "feeds_ok": 55,
-  "n_roh": 59,
-  "n_stark": 47
+  "n_roh": 58,
+  "n_stark": 48
  },
  "health": {
   "Handelsblatt Unternehmen": "ok:20",
@@ -29,12 +29,12 @@
   "FinanzNachrichten": "ok:20",
   "wallstreet-online": "ok:101",
   "WDR Wirtschaft": "ok:35",
-  "BR24": "ok:10",
+  "BR24": "ok:11",
   "MDR": "ok:5",
   "SWR": "ok:60",
   "hessenschau Wirtschaft (HR)": "ok:25",
   "rbb24 Wirtschaft": "ok:116",
-  "Radio Bremen (buten un binnen)": "ok:26",
+  "Radio Bremen (buten un binnen)": "ok:24",
   "WAZ Wirtschaft": "ok:63",
   "Rheinische Post": "ok:6",
   "Koelner Stadt-Anzeiger Wirtschaft": "ok:43",
@@ -65,26 +65,12 @@
   "Kreiszeitung Niedersachsen (Lokal)": "ok:40",
   "come-on Maerkischer Kreis (Lokal)": "ok:40",
   "GNews Insolvenzantrag": "ok:32",
-  "GNews Verfahren/Verwalter": "ok:15",
+  "GNews Verfahren/Verwalter": "ok:13",
   "GNews Sanierung/StaRUG": "ok:7",
   "GNews Investorenprozess": "ok:3",
   "GNews Fruehsignal": "ok:13"
  },
  "treffer": [
-  {
-   "quelle": "Handelsblatt Finanzen",
-   "titel": "Interview: Star-Investor Howard Marks: „Wir müssen uns auf dauerhaft höhere Kapitalkosten einstellen“",
-   "beschreibung": "Der Oaktree-Mitgründer sagt, die Anleiherenditen seien nicht hoch. Als Investor für notleidende Kredite mit langer Wall-Street-Erfahrung ist er bereit, bald wieder mehr Deals abzuschließen.",
-   "link": "https://www.handelsblatt.com/finanzen/maerkte/star-investor-howard-marks-die-heutigen-zinsen-sind-vernuenftig/100261329.html",
-   "source": "",
-   "datum": "2026-10-24",
-   "datum_iso": "2026-10-24T07:07:17+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "notleidend"
-   ]
-  },
   {
    "quelle": "Manager Magazin",
    "titel": "Deloitte: Chef kassiert trotz Stellenabbau fette Gehaltserhöhung",
@@ -107,20 +93,6 @@
    "source": "",
    "datum": "2026-10-26",
    "datum_iso": "2026-10-26T09:45:00+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "Boersen-Zeitung",
-   "titel": "Bain Capital ist bei Galeria raus",
-   "beschreibung": "Bei Galeria gibt es Bewegung im Inhaberkreis: Der Finanzinvestor Bain Capital hat seinen Minderheitsanteil am Warenhauskonzern abgestoßen. Informierten Kreisen zufolge bleiben die US-Amerikaner wegen der Insolvenz des Händlers aber auf offenen Rechnungen sitzen.",
-   "link": "https://www.boersen-zeitung.de/news/bz-all-rss/unternehmen-branchen/bain-capital-ist-bei-galeria-raus",
-   "source": "",
-   "datum": "2026-10-23",
-   "datum_iso": "2026-10-23T15:07:53+00:00",
    "signal": "schwach",
    "datum_unbekannt": false,
    "keywords": [
@@ -154,6 +126,36 @@
    "datum_unbekannt": false,
    "keywords": [
     "Insolvenzverfahren"
+   ]
+  },
+  {
+   "quelle": "Offenbach op-online (Lokal)",
+   "titel": "Insolvenz beantragt: Große Bäckereikette aus Hessen mit Problemen – 500 Mitarbeiter bangen um Jobs",
+   "beschreibung": "Die Bäckerei Moos aus Hessen steckt in finanziellen Schwierigkeiten. Trotz Insolvenzverfahren laufen Produktion und Verkauf vorerst weiter. Für die Zeit danach ist vieles offen.",
+   "link": "https://www.op-online.de/hessen/insolvenz-beantragt-grosse-baeckereikette-aus-hessen-mit-problemen-500-mitarbeiter-bangen-um-jobs-94558302.html",
+   "source": "",
+   "datum": "2026-10-26",
+   "datum_iso": "2026-10-26T16:00:00+01:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenz beantragt",
+    "Insolvenzverfahren",
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "Kreiszeitung Niedersachsen (Lokal)",
+   "titel": "Bremer Polizei und Feuerwehr melden 7,15 Millionen Euro Mehrbedarf an",
+   "beschreibung": "Gestiegene Energie- und Betriebskosten reißen bei Polizei und Feuerwehr in Bremen ein Millionenloch. Ohne schnellen Ausgleich drohte laut Innensenatorin ein Liquiditätsengpass.",
+   "link": "https://www.kreiszeitung.de/lokales/bremen/bremer-polizei-und-feuerwehr-melden-15-millionen-euro-mehrbedarf-an-94559313.html",
+   "source": "",
+   "datum": "2026-10-26",
+   "datum_iso": "2026-10-26T16:10:23+01:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Liquiditätsengpass"
    ]
   },
   {
@@ -200,20 +202,6 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Insolvenz bei Mercedes-Zulieferer: 300 Jobs bedroht – jetzt droht Dauerstreik - Merkur",
-   "beschreibung": "Insolvenz bei Mercedes-Zulieferer: 300 Jobs bedroht – jetzt droht Dauerstreik Merkur",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTFBhYjFrSktaZGd5ZERBbFVRd2NfNEpsWWsxWlE2SXhSQTFiRTROVTN5RFVtRDRtVFU3aVJydGZLSkhxTC0zXzJpc0Y0RXVtdktoYkdUaHNfbzJIOE5TbG1manhpcWhmd25CM2dTeFpzLU0zcmU0dm11WEJWRHdZVlFxc2VUNFZQUVk1dmhac3JjclF5M1hnLWEzMFhwNEdCdHc?oc=5",
-   "source": "Merkur",
-   "datum": "2026-10-25",
-   "datum_iso": "2026-10-25T18:06:11+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
    "titel": "Auch bei Rewe und Edeka verkauft: Feinkost-Nudel-Hersteller aus NRW ist insolvent - CHIP",
    "beschreibung": "Auch bei Rewe und Edeka verkauft: Feinkost-Nudel-Hersteller aus NRW ist insolvent CHIP",
    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQcWNFczRhcG5VTjNpVTBhbS1QSmlwSUM2emZlazFDOVZCRTZxdC1SZ1g1NHRzOVhFU2JaVmVlNDlGeUQxUW1UTlJPOUlJSUYtYWY5QzlVQ1QzR3NSLTd6Tl9QUURZTWRySllPMk9fMDV6eTJ6QnJlbVdjU1BKS1NYaUF5VXJDRGVfd1RvZWZNd1Z0NWVkd1JleWVnSGxvWlVDdXpNQlJnNnAyMU5ZVHgxRXBtNDZvZlE5MFE1eDcza0IyalNEUmVIOUVjeXg3TlB0c1hxWlZES284dThXMDVpbmRRdTVXc0h1V0hXXw?oc=5",
@@ -224,6 +212,20 @@
    "datum_unbekannt": false,
    "keywords": [
     "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Insolvenz bei Mercedes-Zulieferer: 300 Jobs bedroht – jetzt droht Dauerstreik - Merkur",
+   "beschreibung": "Insolvenz bei Mercedes-Zulieferer: 300 Jobs bedroht – jetzt droht Dauerstreik Merkur",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTFBhYjFrSktaZGd5ZERBbFVRd2NfNEpsWWsxWlE2SXhSQTFiRTROVTN5RFVtRDRtVFU3aVJydGZLSkhxTC0zXzJpc0Y0RXVtdktoYkdUaHNfbzJIOE5TbG1manhpcWhmd25CM2dTeFpzLU0zcmU0dm11WEJWRHdZVlFxc2VUNFZQUVk1dmhac3JjclF5M1hnLWEzMFhwNEdCdHc?oc=5",
+   "source": "Merkur",
+   "datum": "2026-10-25",
+   "datum_iso": "2026-10-25T18:06:11+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenz"
    ]
   },
   {
@@ -271,6 +273,20 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
+   "titel": "Fußballverein aus Pforzheim ist insolvent: - SWR",
+   "beschreibung": "Fußballverein aus Pforzheim ist insolvent: SWR",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQVpzclVzVzh6a2VuNW1NOWlYd2FuQVY4RU5QaEZGTDFFTFl1UF9EM1h6N2daeTJfcTdQUTlFZDE5V0Q4ZHlNMWFJdmZBeGw0eEx1Y1VtdUZIdVJBbklCeXQ3MEhjZXFQUzZXNDhnVXFQbWh1REhkRTV3MUZsMzJXb21XaEU4YUM1RkR4WEcxZHRkbTBVZ0NZR1hYbDlYSVlWbVh3UjNfWlVEU2VTVWsxVVVuZVppZFpYakE?oc=5",
+   "source": "SWR",
+   "datum": "2026-10-24",
+   "datum_iso": "2026-10-24T07:00:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
    "titel": "Gerolzhofen: Agrarhändler in Gerolzhofen ist insolvent: Wie es mit Raiffeisen-Schulz Agrar weitergeht - Main-Post",
    "beschreibung": "Gerolzhofen: Agrarhändler in Gerolzhofen ist insolvent: Wie es mit Raiffeisen-Schulz Agrar weitergeht Main-Post",
    "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQUWc2N1Rla3pYQTNvVlh0Nm5HcWYxSjNsVEl3YU9oUTMyZ2labXljUDQ0NUJEM1NaaVVxVi1ia3l0dE9lcFRlcTh1S0pJbXk1Mlc0aUttejBXU2twclpETzc2a1lwY18wV0ZIQVh0MWR3SkhsdTNRQW9oNWVNYWJpcDRDUkpQb3oyM3VkWU1tSkxtdGl2dlpzSXBFTXZnLW5KVWtxemtETmNYU0pfY0FvZDNseGlfb0xrR0pWQjRaNFNwel94aDRtWWw1NElhLWtsRDhwT2dUOVAzNV94RzRYTEZnNURSdkpENE1yYzZPbkZGZHkzWWdXR2t4RQ?oc=5",
@@ -300,6 +316,21 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
+   "titel": "Nur zwei Monate nach Shell-Verkauf: Heimspeicher-Pionier Sonnen meldet Insolvenz an - Windbranche.de",
+   "beschreibung": "Nur zwei Monate nach Shell-Verkauf: Heimspeicher-Pionier Sonnen meldet Insolvenz an Windbranche.de",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQek5jUGE1VGhaSWM2MHU5akFQVE04NzMwcUYxZVU2QnFkU3M5VXk2ZlhsZzFjSnF4NHBXZ0JzdnpmZ3h6UUl2b1NxSzRPX3YxLWNFMnpBVm45RDVORTZXUHIzSFBXemdXbTgwNXpsNFR6VThqbkVrX0J1ejI4TTZGZ3B2RjNHeVYzZFZ3Rzc2bU5HQktvNVVpUlBFNXZtR09OVDAwRnhLZW5MWnRWMExQc2xua0xPd2VSWEo0WXU1ZUFZS1lSRlBMZXdTZlFGVU1zdHhJczFwWQ?oc=5",
+   "source": "Windbranche.de",
+   "datum": "2026-10-23",
+   "datum_iso": "2026-10-23T15:21:49+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "meldet Insolvenz",
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
    "titel": "Große Bäckerei-Kette mit 59 Filialen und 480 Mitarbeitern insolvent - BILD",
    "beschreibung": "Große Bäckerei-Kette mit 59 Filialen und 480 Mitarbeitern insolvent BILD",
    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQUo0T1FSZnJVdEFQeEwxbFl1V09DZ2xRMlFpQmdrTFVzSHFYN0tweGExeGV6eGNuSl8zeHBVbkVab1ZOWE90RlFfbVRLeGcxWGF5TFVpTEpOUEMtV05kWXNGRDkya0JrcXRNLTdJMDVUMk9RRktlTFQyN2dpRDlPdGhscEtsNjVWbnQxNmlTMlQ3c3NLWUhzUFk5SmttaGx0a1BYM0Z1eXNfd3I3UEt6WDJONHhaUDdaYnB2SWpoTnpaN2ZrLXJFN05B?oc=5",
@@ -314,12 +345,12 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Nur zwei Monate nach Shell-Verkauf: Heimspeicher-Pionier Sonnen meldet Insolvenz an - Windbranche.de",
-   "beschreibung": "Nur zwei Monate nach Shell-Verkauf: Heimspeicher-Pionier Sonnen meldet Insolvenz an Windbranche.de",
-   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQek5jUGE1VGhaSWM2MHU5akFQVE04NzMwcUYxZVU2QnFkU3M5VXk2ZlhsZzFjSnF4NHBXZ0JzdnpmZ3h6UUl2b1NxSzRPX3YxLWNFMnpBVm45RDVORTZXUHIzSFBXemdXbTgwNXpsNFR6VThqbkVrX0J1ejI4TTZGZ3B2RjNHeVYzZFZ3Rzc2bU5HQktvNVVpUlBFNXZtR09OVDAwRnhLZW5MWnRWMExQc2xua0xPd2VSWEo0WXU1ZUFZS1lSRlBMZXdTZlFGVU1zdHhJczFwWQ?oc=5",
-   "source": "Windbranche.de",
-   "datum": "2026-10-23",
-   "datum_iso": "2026-10-23T15:21:49+00:00",
+   "titel": "Nach 40 Jahren: Traditionsbäckerei mit 59 Filialen meldet Insolvenz an - T-Online",
+   "beschreibung": "Nach 40 Jahren: Traditionsbäckerei mit 59 Filialen meldet Insolvenz an T-Online",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPSDVPSEZOdl84S29HZTNzdV91Y05MM2JIVXAtRHpzSkdBeVgtR2JYbmNjQVByQVZZTTI0ZjlORUg1cGZxNWhKR2FNbEkyTl84UXRFRmNtZnZ0eHhPOXJsR2NEY18ybnhxenQ1bXhkNExCMXVnMUxkbW90WTBZWE1HQVpmODFDUk5kb0lTR2V1QnNncUR4RG54Q285eDAzVmE5V2ZxWHRvcnNPYWZ6S2ZsY3RVMWdIcTc4a2pUYW9YWmlrYy1wbE1QaF8xMFpXQnVuVkRrZGdRRFRIMzd2eVE?oc=5",
+   "source": "T-Online",
+   "datum": "2026-10-25",
+   "datum_iso": "2026-10-25T12:44:19+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -341,35 +372,6 @@
     "meldet Insolvenz",
     "Schutzschirmverfahren",
     "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Nach 40 Jahren: Traditionsbäckerei mit 59 Filialen meldet Insolvenz an - T-Online",
-   "beschreibung": "Nach 40 Jahren: Traditionsbäckerei mit 59 Filialen meldet Insolvenz an T-Online",
-   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPSDVPSEZOdl84S29HZTNzdV91Y05MM2JIVXAtRHpzSkdBeVgtR2JYbmNjQVByQVZZTTI0ZjlORUg1cGZxNWhKR2FNbEkyTl84UXRFRmNtZnZ0eHhPOXJsR2NEY18ybnhxenQ1bXhkNExCMXVnMUxkbW90WTBZWE1HQVpmODFDUk5kb0lTR2V1QnNncUR4RG54Q285eDAzVmE5V2ZxWHRvcnNPYWZ6S2ZsY3RVMWdIcTc4a2pUYW9YWmlrYy1wbE1QaF8xMFpXQnVuVkRrZGdRRFRIMzd2eVE?oc=5",
-   "source": "T-Online",
-   "datum": "2026-10-25",
-   "datum_iso": "2026-10-25T12:44:19+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "meldet Insolvenz",
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "LIV Golf zahlte seinem CEO 6,4 Millionen Dollar, bevor ein Insolvenzantrag gestellt wurde. - de.qz.com",
-   "beschreibung": "LIV Golf zahlte seinem CEO 6,4 Millionen Dollar, bevor ein Insolvenzantrag gestellt wurde. de.qz.com",
-   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB3VGN1VlJRVzNFZnJ0S2lJMTBfeDgzUGNjM1k1aWN3NzcyYk16TXhoQ2ZXQlV5SkNQYnh5a0FVNE15QjgwbVJ5Z28zY3VkZ1JyX0d2UGFMZllMdHpfRk5TQThBVzMyaVhBQnNaRGNlUjJadw?oc=5",
-   "source": "de.qz.com",
-   "datum": "2026-10-26",
-   "datum_iso": "2026-10-26T11:44:37+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenzantrag"
    ]
   },
   {
@@ -417,20 +419,6 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Mercedes-Zulieferer ist insolvent: 300 Jobs in Gefahr - T-Online",
-   "beschreibung": "Mercedes-Zulieferer ist insolvent: 300 Jobs in Gefahr T-Online",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTWxiY2w2YUpQclNmZVFiWndrTTd5QWF5VW5rU2k5NTZwSHhBcjFuaHBNSmlhMU1yVnhnWXNQazhZVzNWWW9jLWZoTmE5a1NaOV9ZSXdOblJOMlVUWjhVU3NFMzUtazB5cnM5TExRQVJPWXo1aHJJRV9Ud0NiOHNHc0Flc3BuR21laTE5a0xFak9DeDB6YjJOX2pielVmR1V0c0h0ME1RRDJ1dDlKLUxIV0tfTjlUN1RLUEhXWk9pZ3RuLUhlSUJvYkZ4a3F1TDEtbnVfLQ?oc=5",
-   "source": "T-Online",
-   "datum": "2026-10-24",
-   "datum_iso": "2026-10-24T19:35:29+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
    "titel": "Insolvenz-Schock: Was auf Kunden von Speicherhersteller Sonnen jetzt zukommt - agrarheute.com",
    "beschreibung": "Insolvenz-Schock: Was auf Kunden von Speicherhersteller Sonnen jetzt zukommt agrarheute.com",
    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRlBmWDB3dnBIZDdRcWxoeEh1bGJGQmNPODhJMU9lbUh4VE95QXdzd3pSR012VU05X2pJM3hzX1pxVFczNzZic1VJQlZmT0I1akVGR2RsOUdSZTl1NW0wYjhIakNNQ0kxdFJwLTBKcU1HM3hZbVF1Zi1ENEIyZHFvaEFmekNDalBZY2hmdlQtR0p6MDBORGFOc1dqdWkweWtM?oc=5",
@@ -441,6 +429,20 @@
    "datum_unbekannt": false,
    "keywords": [
     "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Mercedes-Zulieferer ist insolvent: 300 Jobs in Gefahr - T-Online",
+   "beschreibung": "Mercedes-Zulieferer ist insolvent: 300 Jobs in Gefahr T-Online",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTWxiY2w2YUpQclNmZVFiWndrTTd5QWF5VW5rU2k5NTZwSHhBcjFuaHBNSmlhMU1yVnhnWXNQazhZVzNWWW9jLWZoTmE5a1NaOV9ZSXdOblJOMlVUWjhVU3NFMzUtazB5cnM5TExRQVJPWXo1aHJJRV9Ud0NiOHNHc0Flc3BuR21laTE5a0xFak9DeDB6YjJOX2pielVmR1V0c0h0ME1RRDJ1dDlKLUxIV0tfTjlUN1RLUEhXWk9pZ3RuLUhlSUJvYkZ4a3F1TDEtbnVfLQ?oc=5",
+   "source": "T-Online",
+   "datum": "2026-10-24",
+   "datum_iso": "2026-10-24T19:35:29+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
    ]
   },
   {
@@ -732,30 +734,16 @@
   },
   {
    "quelle": "GNews Verfahren/Verwalter",
-   "titel": "Kriselnde Kette - Bäckerei Moos beantragt Sanierungsverfahren - Lebensmittelpraxis.de",
-   "beschreibung": "Kriselnde Kette - Bäckerei Moos beantragt Sanierungsverfahren Lebensmittelpraxis.de",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWmRQLTNFYWxMdWN2N0FnSmJMNUhBNzg2RDVyQ0dQOFVaS3FkWTJRc19wYzlfeHAtN3VZRUdDRnUwQWxSd0RDUnJNNWRlMkZta215YjYxTTl5czVvb3JVeXZHcF9uV0w4U19tRmNMTE5JNlZDcDk4WE9rTGRhXzlVRUJpUXo0b1JtRDA3RnAxb3M1d3hkQTlVSkhKelhFTFM1ejIwU1ZneVpuVnlKcGhPRHVMR0dqZURGWFhhUQ?oc=5",
-   "source": "Lebensmittelpraxis.de",
+   "titel": "Exklusivbericht aus Aßlar: Bäckerei Moos steht vor Insolvenzverfahren - Mittelhessen",
+   "beschreibung": "Exklusivbericht aus Aßlar: Bäckerei Moos steht vor Insolvenzverfahren Mittelhessen",
+   "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPQWxqRk1YdHF5ZXZJX21LLWZ0MWdZZ214NjdXOVBSRTN6bEhCd1VDdjMyOUw2elNuVmFsSEVoY01MZ21FR2NwRFFzZGVZYzVLUEloVnFoWTVodi0zcllvZWF3bzJYc2ZuS2VTOHBUenE5LU1hbFRhVHl1eEowanZjNnNlZUdRQkJiTlNaS1ZpU0JTalRpM2IxWEFHekdzbktDZHQ0TUtEVjYzalhxLXlneGxuVTNCRFhDbjdsSGJIcGJWcUxIOEFYTWdjRm5MM0J1VGpDYzNPRFdOTXlEank2VVZCUkZxM3hseGdNUWZvS0ZLdw?oc=5",
+   "source": "Mittelhessen",
    "datum": "2026-10-26",
-   "datum_iso": "2026-10-26T14:08:00+00:00",
+   "datum_iso": "2026-10-26T15:15:18+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
-    "Sanierungsverfahren"
-   ]
-  },
-  {
-   "quelle": "GNews Verfahren/Verwalter",
-   "titel": "Nach Insolvenz: Neue Hoffnung für zwei Subway-Restaurants - extra.svz.de",
-   "beschreibung": "Nach Insolvenz: Neue Hoffnung für zwei Subway-Restaurants extra.svz.de",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZFBfRG4yLUhIVGN1S2gxcnJ4blFsUDA3Q1RGYlBvNU01ZXZpS2o2My02UWswQWpUTGhCWk9ISVVGa2I4YWdzdmNMR0hGUlA0eWJfNWlkU1Y5NG1Tc0pXcm9Ha2R2YTNCZVVUU0I2R3JUbi0wd2N1TERvS1FhMDNpVUszU2tZallKS0dwM19aWEpNRmt1MHVoTmR0anVnT0ZmMjdiZ3JKcUYwMlhCOTFoazNaM1V3dw?oc=5",
-   "source": "extra.svz.de",
-   "datum": "2026-10-23",
-   "datum_iso": "2026-10-23T15:00:00+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenz"
+    "Insolvenzverfahren"
    ]
   },
   {
@@ -802,6 +790,20 @@
   },
   {
    "quelle": "GNews Sanierung/StaRUG",
+   "titel": "Sanierungsverfahren eröffnet - Maschinenbauer legt Millionenpleite hin - Leadersnet",
+   "beschreibung": "Sanierungsverfahren eröffnet - Maschinenbauer legt Millionenpleite hin Leadersnet",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUXh3RVMtdEVNdEx4WjdoN2RWZzAzRlJxZVVURGJ1ekxwN05jbEg1cktoc21lNlJoV0JFbndpSmJ2Yzk3ZVl4bEJvVDBkWU0ybm9tMHIwdGRma1Q1dTJuaXBXTmJaVjRna3JIeFVYb3FiU0dDLXhKb3JyMDBqVVJiWlVkQzdZVDBGNUE?oc=5",
+   "source": "Leadersnet",
+   "datum": "2026-10-26",
+   "datum_iso": "2026-10-26T14:20:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Sanierungsverfahren"
+   ]
+  },
+  {
+   "quelle": "GNews Sanierung/StaRUG",
    "titel": "Insolvenz beantragt: Große Bäckereikette aus Hessen mit Problemen – 500 Mitarbeiter bangen um Jobs - Frankfurter Rundschau",
    "beschreibung": "Insolvenz beantragt: Große Bäckereikette aus Hessen mit Problemen – 500 Mitarbeiter bangen um Jobs Frankfurter Rundschau",
    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQMm5lZm54c2lReXBBNEZiWEZzZklNRlJJaTR5dk1yYU94RllZV2d4ZEE3cWZObEJGNFlGdzUzZE5tX0tOSU5uSUt2MU9WTV9FcDViSkdLWnpOdmNGY0pFY0tleW5MSUtMcVkwbUtka1A2NDNEWGtNY3VYZTlBejRHUy1fUDJ4eTM1SmZqZGVvUjV3YTkyRDUtVnh1aVRoemdRbmpEbHk5a3V6cC1qODlXdWJXRlI2T0s1R0RLQVY5QVJJa3NqOVRZMG1pdjFmLUtnSWc?oc=5",
@@ -817,26 +819,12 @@
   },
   {
    "quelle": "GNews Sanierung/StaRUG",
-   "titel": ":newstime - 480 Mitarbeiter betroffen: Große Bäckerei-Kette insolvent - Joyn",
-   "beschreibung": ":newstime - 480 Mitarbeiter betroffen: Große Bäckerei-Kette insolvent Joyn",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZll0Rlh6X1d3ZjVjQWFKbjhYLWg2bUNic1BnRXRKdTdtOEJqeGFQeFB0NEU3cTgwN29id2VtX3dHdnduRVctRTJhTFpEOERPUTZTZWR4M1pPbnVCMmNXZFdzWTY1VTlOQmxTQm9NR254TFlOancydE5yeFFJekthSkc1RG1feEt1dTF6SVMwc0ZJNG9WM2tiNGE3bmozeEdQaHJsVzZfRTJrb0VaYmpyc3lISk0?oc=5",
-   "source": "Joyn",
-   "datum": "2026-10-26",
-   "datum_iso": "2026-10-26T11:59:49+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Sanierung/StaRUG",
    "titel": "Exklusivbericht aus Aßlar: Bäckerei Moos steht vor Insolvenzverfahren - Mittelhessen",
    "beschreibung": "Exklusivbericht aus Aßlar: Bäckerei Moos steht vor Insolvenzverfahren Mittelhessen",
    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPQWxqRk1YdHF5ZXZJX21LLWZ0MWdZZ214NjdXOVBSRTN6bEhCd1VDdjMyOUw2elNuVmFsSEVoY01MZ21FR2NwRFFzZGVZYzVLUEloVnFoWTVodi0zcllvZWF3bzJYc2ZuS2VTOHBUenE5LU1hbFRhVHl1eEowanZjNnNlZUdRQkJiTlNaS1ZpU0JTalRpM2IxWEFHekdzbktDZHQ0TUtEVjYzalhxLXlneGxuVTNCRFhDbjdsSGJIcGJWcUxIOEFYTWdjRm5MM0J1VGpDYzNPRFdOTXlEank2VVZCUkZxM3hseGdNUWZvS0ZLdw?oc=5",
    "source": "Mittelhessen",
    "datum": "2026-10-26",
-   "datum_iso": "2026-10-26T11:17:47+00:00",
+   "datum_iso": "2026-10-26T15:15:18+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -861,7 +849,7 @@
    "quelle": "GNews Fruehsignal",
    "titel": "BSW will Moratorium für Klinikschließungen „Landesregierung befindet sich beim Thema Geburtshilfe im absoluten Blindflug“ - Tagesspiegel",
    "beschreibung": "BSW will Moratorium für Klinikschließungen „Landesregierung befindet sich beim Thema Geburtshilfe im absoluten Blindflug“ Tagesspiegel",
-   "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNZElaNGd3ejJKc18wYi1zaEJ1eGFINE5sbGpSRnlvQkNaZkUtSXdvdXUzRzJIVnhmeXUxaGhrZVZ6Z0hEQk14akRzaDJDQk1BOXNDU3NMNGg3WGtMMUFFTnkxTnR3a0xaTkV5UXB3dVBuNHc0R3VudVotSFJqSjZFMWVyNmpIUm5lTEk5SjZEVmdSdzFDZEt0V1hGa0JWN21UYkREMlVHYmhEZk82N2c0aXE0cVNxanMtT0ROTUc0S01lVnkxSVBBdUF3NWxCMjdCRWF3V1FQZXdROTdFZGJkNE5HY0ROMmoxUlZSVjA2WEx0VXlS?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPLXZ5VE5QMF9OWFpULTdWRkVRZ29LcmpRSVY0Xy1FREVuM1d1dXhFejIwUGFWU2Q4N3kwUFlsNDdsUXBaRkZubTFnMzlBaldOVUNaLTdvWUIweXQyazd6aHNQaUxfRFFtRnRZdk5BWExNWTdFSVhLSmtMQ1BGR3JjMG9ueUpmdm0taHJFZDc0VVY1WTFFckNwNnY2d25Jdl9weVZSNnBuZTZnd251dmNkX0ZoTm1Lc05Fb1dueS0xaUtocDkxMkRERDlBQjFlY2d6MS1RRXJTUjNITHVtMVpESjRlUm5UbUZ0WFNMcE9lSUJ3LTBuYW1MTXF4ZUZ6c05HcFZtYXRkblYzdVVfVDlZ?oc=5",
    "source": "Tagesspiegel",
    "datum": "2026-10-26",
    "datum_iso": "2026-10-26T13:12:38+00:00",
