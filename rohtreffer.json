@@ -1,7 +1,7 @@
 {
  "meta": {
-  "lauf": "2026-10-27T14:40:58",
-  "lauf_utc": "2026-10-27T14:40:58+00:00",
+  "lauf": "2026-10-27T15:20:08",
+  "lauf_utc": "2026-10-27T15:20:08+00:00",
   "version": "2026-09-23a",
   "problem": [
    "Capital(FAIL:HTTPError)"
@@ -9,8 +9,8 @@
   "fenster_tage": 3,
   "feeds_gesamt": 56,
   "feeds_ok": 55,
-  "n_roh": 79,
-  "n_stark": 56
+  "n_roh": 85,
+  "n_stark": 60
  },
  "health": {
   "Handelsblatt Unternehmen": "ok:20",
@@ -21,7 +21,7 @@
   "SZ Wirtschaft": "ok:15",
   "WELT Wirtschaft": "ok:30",
   "Zeit Wirtschaft": "ok:15",
-  "Tagesschau Wirtschaft": "ok:32",
+  "Tagesschau Wirtschaft": "ok:33",
   "ntv Wirtschaft": "ok:30",
   "Focus (Finanzen)": "ok:400",
   "Capital": "FAIL:HTTPError",
@@ -37,7 +37,7 @@
   "Radio Bremen (buten un binnen)": "ok:24",
   "WAZ Wirtschaft": "ok:63",
   "Rheinische Post": "ok:6",
-  "Koelner Stadt-Anzeiger Wirtschaft": "ok:41",
+  "Koelner Stadt-Anzeiger Wirtschaft": "ok:40",
   "Westfaelische Nachrichten": "ok:100",
   "Neue Westfaelische": "ok:10",
   "Ruhr Nachrichten": "ok:12",
@@ -65,15 +65,15 @@
   "Kreiszeitung Niedersachsen (Lokal)": "ok:40",
   "come-on Maerkischer Kreis (Lokal)": "ok:40",
   "GNews Insolvenzantrag": "ok:40",
-  "GNews Verfahren/Verwalter": "ok:9",
-  "GNews Sanierung/StaRUG": "ok:9",
+  "GNews Verfahren/Verwalter": "ok:17",
+  "GNews Sanierung/StaRUG": "ok:8",
   "GNews Investorenprozess": "ok:1",
-  "GNews Fruehsignal": "ok:10"
+  "GNews Fruehsignal": "ok:12"
  },
  "treffer": [
   {
    "quelle": "Handelsblatt Unternehmen",
-   "titel": "Warenhäuser: Galeria-Vermietern droht finanzielles Desaster",
+   "titel": "Warenhäuser: Galeria-Vermieter bekommen diese Woche Post vom Insolvenzverwalter: Deutlich mehr als 30 Häusern droht Aus",
    "beschreibung": "Der Insolvenzverwalter will das Filialnetz deutlich reduzieren und kann die Mietverträge fristlos kündigen. Viele Vermieter stehen vor dem Nichts, jahrelanger Leerstand ist absehbar.",
    "link": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/warenhaeuser-galeria-vermietern-droht-finanzielles-desaster/100263295.html",
    "source": "",
@@ -230,7 +230,7 @@
   {
    "quelle": "Radio Bremen (buten un binnen)",
    "titel": "300-Millionen-Rettungspaket für Bremer Klinikverbund",
-   "beschreibung": "Damit will der Senat eine Insolvenz verhindern. Bei den Kliniken der Gesundheit Nord (Geno) sollen außerdem bis zu 600 Stellen gestrichen werden.",
+   "beschreibung": "Damit will der Senat eine Insolvenz verhindern. In den Kliniken der Gesundheit Nord (Geno) sollen außerdem bis zu 600 Stellen gestrichen werden.",
    "link": "https://www.butenunbinnen.de/nachrichten/geno-finanzen-bremen-100.html",
    "source": "",
    "datum": "2026-10-27",
@@ -327,6 +327,21 @@
    ]
   },
   {
+   "quelle": "Kreiszeitung Niedersachsen (Lokal)",
+   "titel": "Bremen pumpt der Geno 293 Millionen Euro",
+   "beschreibung": "Der Bremer Senat will den kommunalen Klinikverbund Gesundheit Nord mit einem Sanierungskredit vor der Insolvenz retten. Dabei sollen rund zehn Prozent der Vollzeitstellen wegfallen.",
+   "link": "https://www.kreiszeitung.de/lokales/bremen/bremen-pumpt-der-geno-weitere-293-millionen-euro-94561024.html",
+   "source": "",
+   "datum": "2026-10-27",
+   "datum_iso": "2026-10-27T15:47:40+01:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "vor der Insolvenz",
+    "Insolvenz"
+   ]
+  },
+  {
    "quelle": "GNews Insolvenzantrag",
    "titel": "Geriatrische Rehabilitationsklinik in Bruckmühl stellt Insolvenzantrag - kma Online",
    "beschreibung": "Geriatrische Rehabilitationsklinik in Bruckmühl stellt Insolvenzantrag kma Online",
@@ -339,6 +354,20 @@
    "keywords": [
     "Insolvenzantrag",
     "stellt Insolvenzantrag"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Nach Insolvenzantrag: Galeria in Hamburg öffnet gesperrte Bereiche und nimmt wieder Gutscheine an - NDR.de",
+   "beschreibung": "Nach Insolvenzantrag: Galeria in Hamburg öffnet gesperrte Bereiche und nimmt wieder Gutscheine an NDR.de",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdUN3aGFXdDR2Z192VXNPZUtHV2NzS0dmYUx0ZTJBaTMybmpuVTJRQ2RQNW5JUjNrc1dMX0JOZ3BubkJYTFFocURQVUNxSjRYajVqU3RpMFNMVVVvdlpBQlpyUzlEblVuWFR2akp2eDVDZTVfdG91RFQzUzVEc0J6X00xVF8ydEk1NTM4dG04MENLNy1FQ21vRWZ5dURydTh1TzRVU3pBVUZpTHFGOVZITXJFQ2dwQ0JxZEE5MlFn?oc=5",
+   "source": "NDR.de",
+   "datum": "2026-10-27",
+   "datum_iso": "2026-10-27T15:07:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenzantrag"
    ]
   },
   {
@@ -428,21 +457,6 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Sonnen ist insolvent: Warum selbst Milliardeninvestitionen ein Unternehmen nicht vor der Pleite retten - extratipp.com",
-   "beschreibung": "Sonnen ist insolvent: Warum selbst Milliardeninvestitionen ein Unternehmen nicht vor der Pleite retten extratipp.com",
-   "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOeTByWm5RZGVhTzZjV3JIX25pdmUtdE1PU1p6aU1YaUY1YWRiV2F5YmoxaTFCNTU0YTZrWEFNSVJ3VlRIeDA0U0kxN0NRWnJyb1VvZEdpZDU1ZWtwUzBaOThkRjlldzNQem01czB0OVp4ZUhhbFhoTVN5WFczRlBJVlRrZ0t0dnUtVl9wVTlHTFNqZUlaZkhidEExY0duS3U2QTlFY2VqM0lEM0VnaFdOdU5sZHJWbHBUX2piRG50YUlPRnN3b3BneEVvemRvdkVSbnJZQ0FEbGtnbk9GMnpRMWZwVnIxczVXZ0hXVElmYVFKQUx1TnNtQ29n?oc=5",
-   "source": "extratipp.com",
-   "datum": "2026-10-27",
-   "datum_iso": "2026-10-27T09:11:19+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent",
-    "Pleite"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
    "titel": "Bayreuther LED-Spezialist \"lichtline\" insolvent: Investor gesucht - Bayreuther Tagblatt",
    "beschreibung": "Bayreuther LED-Spezialist \"lichtline\" insolvent: Investor gesucht Bayreuther Tagblatt",
    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOUtCZWJXNS1iaHZkX1FjYWFXTWY4dDNaXzV2YmpZUWJqc3RXT2MzckFIWV96eHlSRE9xVUxQRXVBNTNpd3hhUGhid2VqbG5zTXBXb3hQc2tNdDlUR3lkdnlyWkRXdkJJVDUzN1lOVnF1N3Q3QkpqMURsdWh6ZkotVWVBaUpfVjc0U3I3Z0dPcmxuX1lNMGdwdnA0RVl3OUExbVV5aU80R2YxcjdBcjdqM3h2cjdBRnExYnpycHJrUVhHT0U?oc=5",
@@ -468,20 +482,6 @@
    "datum_unbekannt": false,
    "keywords": [
     "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Nach der Sonnen-Pleite: Was Kunden in der Region nun wissen müssen - Augsburger Allgemeine",
-   "beschreibung": "Nach der Sonnen-Pleite: Was Kunden in der Region nun wissen müssen Augsburger Allgemeine",
-   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQLTYzM1JLUEI5TVVoT1JVQWUwQTB1WHFBY2lrQ1dTU3kwd2VyVGhGRnVJd0tVVk5WMWRFZURwY1R2c3NDbzhHdmF1MGtfb3BZZ3BCc0l6a1ZPRjVadUNhc1luX0tlMWpHcTFZejVQSXp1MGlrTTBTZlhjcTNobUpVTFVFMkZVY21oUmtjbEMwR2F6T19IcURqWGlZOTZhRzBCWFJKVXpjTjV4WGlZQW1yVENUS1J0Ui1CbmpUS21NeXVrZkdXMkhid2dlS3JKNnZaVjZwRTZ4SUJ0OEVFVEE?oc=5",
-   "source": "Augsburger Allgemeine",
-   "datum": "2026-10-26",
-   "datum_iso": "2026-10-26T15:44:54+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Pleite"
    ]
   },
   {
@@ -514,6 +514,20 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
+   "titel": "Nach der Sonnen-Pleite: Was Kunden in der Region nun wissen müssen - Augsburger Allgemeine",
+   "beschreibung": "Nach der Sonnen-Pleite: Was Kunden in der Region nun wissen müssen Augsburger Allgemeine",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQLTYzM1JLUEI5TVVoT1JVQWUwQTB1WHFBY2lrQ1dTU3kwd2VyVGhGRnVJd0tVVk5WMWRFZURwY1R2c3NDbzhHdmF1MGtfb3BZZ3BCc0l6a1ZPRjVadUNhc1luX0tlMWpHcTFZejVQSXp1MGlrTTBTZlhjcTNobUpVTFVFMkZVY21oUmtjbEMwR2F6T19IcURqWGlZOTZhRzBCWFJKVXpjTjV4WGlZQW1yVENUS1J0Ui1CbmpUS21NeXVrZkdXMkhid2dlS3JKNnZaVjZwRTZ4SUJ0OEVFVEE?oc=5",
+   "source": "Augsburger Allgemeine",
+   "datum": "2026-10-26",
+   "datum_iso": "2026-10-26T15:44:54+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Pleite"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
    "titel": "Vom Zimtschnecken-Hype zur Insolvenz: Beliebte Kette in Hamburg in der Krise - t-online – Hamburg",
    "beschreibung": "Vom Zimtschnecken-Hype zur Insolvenz: Beliebte Kette in Hamburg in der Krise t-online – Hamburg",
    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNR3MwaXliak43bG5MSkRjZDZ0SG9qNldncU95eGpLUHdlXzlON0ZFZnpZOTNwMnpfWXptVGU5aHBOSHA0cDBOUk9hX3NIbEphak1DVTQ2UlBfdEtOX2ZrX09KUkhqWFBZM0ZVY19KMnZYWk82S0dSSF9ndnp1cmNQcFplTlhGbUN0SHd2RmJQSnpqZUp2TnlhMVc3OTZZRFNYS0RyTkktakxKcVpjZVliaUx5dUtSZmk4MV83ZV81dFExb0luU3JvZHM1bHdzdw?oc=5",
@@ -542,20 +556,6 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Nach Insolvenzantrag: 97,2 Prozent für den Arbeitskampf – Aios-Mitarbeiter in Überherrn kündigen Streik an - Saarbrücker Zeitung",
-   "beschreibung": "Nach Insolvenzantrag: 97,2 Prozent für den Arbeitskampf – Aios-Mitarbeiter in Überherrn kündigen Streik an Saarbrücker Zeitung",
-   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSXJsYUV5WktGNHFNUFZfMWpVakYyaTN6Y3JRM2lYdWhLY280WlJlU1dFLTM1YzZ1Q2t5VGsxd1RhMU9aYXlZR1B5TGpMS0l5RnlKLWstdXYwc20tamN5V1dDRzd5cjlVLUlEQkZiN0c2OXRLcjhMdExOMkVRWWRrMU9tYUZIQkZnX2xRa1QyUzN4bkJuYTBkUkZOcXRNUEQ1RkF4amJOOW9hOXBXTDF4cWZuY2tHZGdSSzVYVDZLV0hzOG5SZDkwRGxjTVBqWTA?oc=5",
-   "source": "Saarbrücker Zeitung",
-   "datum": "2026-10-26",
-   "datum_iso": "2026-10-26T17:22:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenzantrag"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
    "titel": "Bäckerei Moos ist insolvent: 59 Filialen, auch bei Rewe und Edeka - CHIP",
    "beschreibung": "Bäckerei Moos ist insolvent: 59 Filialen, auch bei Rewe und Edeka CHIP",
    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQRmdDTDd1ZllFMHNYYzNKeDc2WmNBa0hsOUp3WWN3Q1VqdkRxWmR1U1VBR3NOQ3cxRVpZYmhiUUhjdjlfWDNHRFVuZDYyMy1CcFhLY0dFOXU2dUxoQnVNVTY3RWdSM01wNDJDT3pEbWVWbm1lU2J2b1Y1Rzg4NkdJdm9rc0xYM0VTUmxQcm5JNHI0WXBsOFpxOG5JWUpub0ZnVnhkOFFXQnc3VUQ4bnpHZC1SMjJoMUNzSXNEbjEycHBHcXBXT3VnYjFubG5lc2VSWDIwVDI4ZW1reG8?oc=5",
@@ -580,6 +580,21 @@
    "datum_unbekannt": false,
    "keywords": [
     "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Riesiger deutscher Schweinezüchter meldet Insolvenz an - BILD",
+   "beschreibung": "Riesiger deutscher Schweinezüchter meldet Insolvenz an BILD",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYTlSNnA3UWhoZW5tUFk5LWY4amxqSUF3aVgtaUhCdllKQlJOY1FBUndjc0ppdWJvMmpJYWJfYlZEeXZCQmVjT3RNdFhRLXpZRURISlE4dVgxV1R1OHlaR2htVjdYVHhzQ083QmtvZ2VNZnRpUkdhN3RzU05hLXRsamtEZ2w3ekJ0bjljY0JpNUMtajhkQWg5OTJCaVFaWTVYOEdocy14eS1tcDdLdml3c1NR?oc=5",
+   "source": "BILD",
+   "datum": "2026-10-24",
+   "datum_iso": "2026-10-24T18:25:26+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "meldet Insolvenz",
+    "Insolvenz"
    ]
   },
   {
@@ -613,6 +628,20 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
+   "titel": "Nach Insolvenzantrag: 97,2 Prozent für den Arbeitskampf – Aios-Mitarbeiter in Überherrn kündigen Streik an - Saarbrücker Zeitung",
+   "beschreibung": "Nach Insolvenzantrag: 97,2 Prozent für den Arbeitskampf – Aios-Mitarbeiter in Überherrn kündigen Streik an Saarbrücker Zeitung",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSXJsYUV5WktGNHFNUFZfMWpVakYyaTN6Y3JRM2lYdWhLY280WlJlU1dFLTM1YzZ1Q2t5VGsxd1RhMU9aYXlZR1B5TGpMS0l5RnlKLWstdXYwc20tamN5V1dDRzd5cjlVLUlEQkZiN0c2OXRLcjhMdExOMkVRWWRrMU9tYUZIQkZnX2xRa1QyUzN4bkJuYTBkUkZOcXRNUEQ1RkF4amJOOW9hOXBXTDF4cWZuY2tHZGdSSzVYVDZLV0hzOG5SZDkwRGxjTVBqWTA?oc=5",
+   "source": "Saarbrücker Zeitung",
+   "datum": "2026-10-26",
+   "datum_iso": "2026-10-26T17:22:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenzantrag"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
    "titel": "Neuer Festwirt insolvent: Das große Bierzelt beim Schwandorfer Volksfest 2027 wackelt - Mittelbayerische Zeitung",
    "beschreibung": "Neuer Festwirt insolvent: Das große Bierzelt beim Schwandorfer Volksfest 2027 wackelt Mittelbayerische Zeitung",
    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNUzlmYldXSGVPcjZvSW1OdDVrS3o5QnZEdDN0TnB5M05KSENKdWhZTkl5M1VwRjBkeUlLS0RlbDB4bGhZaTVfZEhnb1U2LVJpR2Ita3d0T3lZejlwMHRyczZLa1VreVZCQ1NBMG0wSWphaGtxTkliQjlMYVpfN19Oc1BfWlNRalZPRHFQWmVvMURaTWhFenFjT1RGSGxRN0hwbjNaTl9YeTU2eDdGNTNaVVRnQ0pxWnpDdnlaTm1HZGhjYlVhWS02YndsWE9LRFpoczVyZUhrOEJHV2VwSjFSWlloZDAxOERROEFV?oc=5",
@@ -623,21 +652,6 @@
    "datum_unbekannt": false,
    "keywords": [
     "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Riesiger deutscher Schweinezüchter meldet Insolvenz an - BILD",
-   "beschreibung": "Riesiger deutscher Schweinezüchter meldet Insolvenz an BILD",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYTlSNnA3UWhoZW5tUFk5LWY4amxqSUF3aVgtaUhCdllKQlJOY1FBUndjc0ppdWJvMmpJYWJfYlZEeXZCQmVjT3RNdFhRLXpZRURISlE4dVgxV1R1OHlaR2htVjdYVHhzQ083QmtvZ2VNZnRpUkdhN3RzU05hLXRsamtEZ2w3ekJ0bjljY0JpNUMtajhkQWg5OTJCaVFaWTVYOEdocy14eS1tcDdLdml3c1NR?oc=5",
-   "source": "BILD",
-   "datum": "2026-10-24",
-   "datum_iso": "2026-10-24T18:25:26+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "meldet Insolvenz",
-    "Insolvenz"
    ]
   },
   {
@@ -670,21 +684,6 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Bekannte Bäckereikette meldet Insolvenz an – Hunderte Jobs und 59 Filialen betroffen - Rosenheim24",
-   "beschreibung": "Bekannte Bäckereikette meldet Insolvenz an – Hunderte Jobs und 59 Filialen betroffen Rosenheim24",
-   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNX0tlTGlCZG4zNnNDQnpkc3p2NzdudnV5M1ZVLTM2SHNCbmZQV0E0TGRFXzJpb2xUbjNkeTRaUlhRSjF3dXZESU9WOXZkTzdJa3prd3ZRRWZXWmhFMzJZWWZfd05udmhiYUIyaDM5TDYyTVpVejN3d2xGUkdqUGQ5WFBQc0Y5YVlkT2ZwMGZHRjRZVnFPZzlKcGo1RUFmUDhUUEllMWo0aW9NS0txRTdLWG9xTkhPRXZPVXpXQ09vaW53dWItdkdHb0xLamtBU1R1MTg5TDJTVjU3dw?oc=5",
-   "source": "Rosenheim24",
-   "datum": "2026-10-26",
-   "datum_iso": "2026-10-26T16:09:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "meldet Insolvenz",
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
    "titel": "Leuna Polyamid insolvent: Sachsen-Anhalt zahlt für sichere Stilllegung - Berliner Kurier",
    "beschreibung": "Leuna Polyamid insolvent: Sachsen-Anhalt zahlt für sichere Stilllegung Berliner Kurier",
    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOOXl0QXZDRnZ6cE9MU0JNRDhxLVJXQjkzLWRxNXJHa282c0U5SlpZam55OGNsRFlZdUppeG9Ha0dVTGlHOGNyT0pPU0hzaHI0N0xHaTgySHpYOFQ1ZWpyQk5rSTlxYWRfS2hxUDdsUS01aUl4M2I1WERXbmRGcGc0TUZZaGx0TkR1UXVZbDVYdnQyVVpMQm1pY3JfVktDN0NNUndOaWpueko?oc=5",
@@ -713,16 +712,17 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Saarbrücker Modehaus ist insolvent: So geht es jetzt weiter - SOL.DE",
-   "beschreibung": "Saarbrücker Modehaus ist insolvent: So geht es jetzt weiter SOL.DE",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMUF5NlU4MjlmRjVuT3FLZWZ4ajllMnMzTFBBM3BXSU9XR21OcmhKY013clNxV2RfUm5pUUtDVzM0c1lCc2p6NWhBMDBMQXdMM3JqWjd6ekFVVGlHZnZKWTVxbTNWQmxMQjdvUGlnbHlBbFM0NE5mSnF2YTExZHJVTEg0TDNDQ0lXcF90bUtmZWxlbV9vUEhkOVB5bUltRE8tQUpOX3RYYw?oc=5",
-   "source": "SOL.DE",
+   "titel": "Bekannte Bäckereikette meldet Insolvenz an – Hunderte Jobs und 59 Filialen betroffen - Rosenheim24",
+   "beschreibung": "Bekannte Bäckereikette meldet Insolvenz an – Hunderte Jobs und 59 Filialen betroffen Rosenheim24",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNX0tlTGlCZG4zNnNDQnpkc3p2NzdudnV5M1ZVLTM2SHNCbmZQV0E0TGRFXzJpb2xUbjNkeTRaUlhRSjF3dXZESU9WOXZkTzdJa3prd3ZRRWZXWmhFMzJZWWZfd05udmhiYUIyaDM5TDYyTVpVejN3d2xGUkdqUGQ5WFBQc0Y5YVlkT2ZwMGZHRjRZVnFPZzlKcGo1RUFmUDhUUEllMWo0aW9NS0txRTdLWG9xTkhPRXZPVXpXQ09vaW53dWItdkdHb0xLamtBU1R1MTg5TDJTVjU3dw?oc=5",
+   "source": "Rosenheim24",
    "datum": "2026-10-26",
-   "datum_iso": "2026-10-26T19:23:06+00:00",
+   "datum_iso": "2026-10-26T16:09:00+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
-    "insolvent"
+    "meldet Insolvenz",
+    "Insolvenz"
    ]
   },
   {
@@ -733,6 +733,20 @@
    "source": "Joyn",
    "datum": "2026-10-26",
    "datum_iso": "2026-10-26T12:34:29+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Saarbrücker Modehaus ist insolvent: So geht es jetzt weiter - SOL.DE",
+   "beschreibung": "Saarbrücker Modehaus ist insolvent: So geht es jetzt weiter SOL.DE",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMUF5NlU4MjlmRjVuT3FLZWZ4ajllMnMzTFBBM3BXSU9XR21OcmhKY013clNxV2RfUm5pUUtDVzM0c1lCc2p6NWhBMDBMQXdMM3JqWjd6ekFVVGlHZnZKWTVxbTNWQmxMQjdvUGlnbHlBbFM0NE5mSnF2YTExZHJVTEg0TDNDQ0lXcF90bUtmZWxlbV9vUEhkOVB5bUltRE8tQUpOX3RYYw?oc=5",
+   "source": "SOL.DE",
+   "datum": "2026-10-26",
+   "datum_iso": "2026-10-26T19:23:06+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -885,6 +899,20 @@
   },
   {
    "quelle": "GNews Verfahren/Verwalter",
+   "titel": "Sanierung in Eigenverwaltung: Wann der Geschäftsführer mit seinem Privatvermögen haftet und welche Risiken für bestehen. - Anwalt.de",
+   "beschreibung": "Sanierung in Eigenverwaltung: Wann der Geschäftsführer mit seinem Privatvermögen haftet und welche Risiken für bestehen. Anwalt.de",
+   "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNX2hjS00xMHFsTEZJM2g5Q1NwV25BdUlwampELVhKSnM5MXVzeWlVQnFTdDVnNkR6Q0xGMUhZaWphbk9zZ0xSOEFVUjBnaXc4VWxDNVZFZ19PNUNfNDJTd1lwOXJVRU9KV1Q5V1JNZk5neEFRYzk4aXh6Ylc3TkpXX1cwWXZ3bkNSQ2R6ZWdYQTRFMDVqY2QzemdHckpMY3F0Sl8xdG9lb2RwdHAzbkZkVmR3c2Z6aDl5NzRuZHJWcWdYX2dYMGFwdVF3MnNLcVBTeGdfMWJzRHVwaFJENjlac01FY2RSdDZteHVXeWptb21MalF4VFoyUTJ5QXA?oc=5",
+   "source": "Anwalt.de",
+   "datum": "2026-10-26",
+   "datum_iso": "2026-10-26T19:02:15+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Eigenverwaltung"
+   ]
+  },
+  {
+   "quelle": "GNews Verfahren/Verwalter",
    "titel": "Insolvenz: Bäckerei Moos aus Aßlar beantragt Sanierung in Eigenverwaltung - Oberhessische Presse",
    "beschreibung": "Insolvenz: Bäckerei Moos aus Aßlar beantragt Sanierung in Eigenverwaltung Oberhessische Presse",
    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQZ3RIN3puUTJBT2x4bndDU2hSbmpiTE9VZVlYVjlhNzB5WC1WR3BicDhmZXdIQlRvOUtDTXhNQ2tSVDR0emlxLWxrWDFLSDQ4RDVGRUl2VkktdDZBZWJpbU56aFVRNmdRd2prQjc5WTFmeE9wUlU1a0NjMFdxOEVBQm04WHFWWDMwWUgxQVQ2dDdqbUQweURjTjA1Uk1rWDNLT3lNUzFlSl9nNEdXTWRHRy1MelZxN2hYWFEzdEdTeEs3c0tfWkRmQmVhdEVEZVRLd1F2MXFsNHNlTlZ4ZEdicHJBb1hodWfSAYMCQVVfeXFMTkw2NmNvbG1FY3Jua1BUQzFBX3ZoOUM5MU5GcVk5Vkh3VTRPbDFPS3RwTzF3ZHdobzRDUHJmb0MwTFdyU1ctQWJuTEZPdVkzcGdrdVRuRlR6bU1YcGpiQjVLdlFIZnMzN1F0T1FxVUZQbFIwQjY5bXBOakJsTTBWMHRWd1RaM0x1eFMxRFpmcmx4MGdyWTcxVDlGb2NtS09pYWJ1VXBMN01MdGNyVmpkdGI0Ny1fUGdLSVZwaDNSQTRnY2JIV3lIVk5wM3RhSnF5THJZWDlFTXdtVHlCYmVnRjhhVkQyN3gtazRtblgtRDdMZ3BaSEZUTnNzc2xNRHJha3Fmdw?oc=5",
@@ -973,6 +1001,20 @@
   },
   {
    "quelle": "GNews Verfahren/Verwalter",
+   "titel": "Kriselnde Kette - Bäckerei Moos beantragt Sanierungsverfahren - Lebensmittelpraxis.de",
+   "beschreibung": "Kriselnde Kette - Bäckerei Moos beantragt Sanierungsverfahren Lebensmittelpraxis.de",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbnBSb1RxQUM0bHNzclAxUlpRVy1seTFuc2JWdmZnVnlBa3VHb01MSDQ2TElWWWhnSTRJa2N6WVN1dzN0NWVFNDFkcHkwbnVYUndaOVB0eXYzbzN1dml1MmhCYTc0SlZ2cldrRkROb252d0VCOEpkQjNVbEdOLVNSSW9aZ01zcUI0dWpSaFhDUV9aN2UwMEZOcW92WnVseXNhdHZtSzFkSlJscGl0V1JZX3k1RXpTdHdBQXFN?oc=5",
+   "source": "Lebensmittelpraxis.de",
+   "datum": "2026-10-26",
+   "datum_iso": "2026-10-26T14:08:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Sanierungsverfahren"
+   ]
+  },
+  {
+   "quelle": "GNews Verfahren/Verwalter",
    "titel": "Filialen auch bei Rewe und Edeka: Große Bäckerei mit 500 Mitarbeitern ist insolvent - CHIP",
    "beschreibung": "Filialen auch bei Rewe und Edeka: Große Bäckerei mit 500 Mitarbeitern ist insolvent CHIP",
    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQME1wSzVxS0hhOGltTTVGdXJrYW1mcWg3cnJmaHVkeERReXBTNllfQ21JSjBWQmJzaGw0UUJWWjRMSkxGZlF4UDJIU2hEcmRfejkyQzlUZzJIQkFfM0RxVWhyVXBfNEsyNUVRbDl3UXZXMmQ1cnV0U3NRN21kR0JESFcyQ1pQY3lzSjZYbDJ2RzhrcFhnbkpfS1dsME92RWpkel93R1M3bkoyaDhiWFMxbWttRGp0SldIMmJXRWRiaGFSYllocVpZaS1tbmRpQXZWMmkxZ2FrcUtMdEVZX0Zqb2hqbnZidlgwMG5CdXJuR05oQQ?oc=5",
@@ -983,6 +1025,63 @@
    "datum_unbekannt": false,
    "keywords": [
     "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Verfahren/Verwalter",
+   "titel": "Nach der Sonnen-Pleite: Was Kunden in der Region nun wissen müssen - Augsburger Allgemeine",
+   "beschreibung": "Nach der Sonnen-Pleite: Was Kunden in der Region nun wissen müssen Augsburger Allgemeine",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQLTYzM1JLUEI5TVVoT1JVQWUwQTB1WHFBY2lrQ1dTU3kwd2VyVGhGRnVJd0tVVk5WMWRFZURwY1R2c3NDbzhHdmF1MGtfb3BZZ3BCc0l6a1ZPRjVadUNhc1luX0tlMWpHcTFZejVQSXp1MGlrTTBTZlhjcTNobUpVTFVFMkZVY21oUmtjbEMwR2F6T19IcURqWGlZOTZhRzBCWFJKVXpjTjV4WGlZQW1yVENUS1J0Ui1CbmpUS21NeXVrZkdXMkhid2dlS3JKNnZaVjZwRTZ4SUJ0OEVFVEE?oc=5",
+   "source": "Augsburger Allgemeine",
+   "datum": "2026-10-26",
+   "datum_iso": "2026-10-26T15:44:54+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Pleite"
+   ]
+  },
+  {
+   "quelle": "GNews Verfahren/Verwalter",
+   "titel": "Insolvenz beantragt: Große Bäckereikette aus Hessen mit Problemen – 500 Mitarbeiter bangen um Jobs - Frankfurter Rundschau",
+   "beschreibung": "Insolvenz beantragt: Große Bäckereikette aus Hessen mit Problemen – 500 Mitarbeiter bangen um Jobs Frankfurter Rundschau",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQMm5lZm54c2lReXBBNEZiWEZzZklNRlJJaTR5dk1yYU94RllZV2d4ZEE3cWZObEJGNFlGdzUzZE5tX0tOSU5uSUt2MU9WTV9FcDViSkdLWnpOdmNGY0pFY0tleW5MSUtMcVkwbUtka1A2NDNEWGtNY3VYZTlBejRHUy1fUDJ4eTM1SmZqZGVvUjV3YTkyRDUtVnh1aVRoemdRbmpEbHk5a3V6cC1qODlXdWJXRlI2T0s1R0RLQVY5QVJJa3NqOVRZMG1pdjFmLUtnSWc?oc=5",
+   "source": "Frankfurter Rundschau",
+   "datum": "2026-10-26",
+   "datum_iso": "2026-10-26T09:11:55+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenz beantragt",
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Verfahren/Verwalter",
+   "titel": "Bäckereien-Sterben geht weiter: Jetzt muss Moos aus Hessen mit 59 Filialen Insolvenz anmelden - Joyn",
+   "beschreibung": "Bäckereien-Sterben geht weiter: Jetzt muss Moos aus Hessen mit 59 Filialen Insolvenz anmelden Joyn",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaWpvdVNTZEhjSUthdjhVZkwtRjhUNFg4SDExTVRndHM1bEFsSjE0MW1oWjFQTlJiSXhhS1BfUmRFSDNDVkZ5UEVzRU9TbmZvU0xqZWF6cmN2alRQdTIxMXpxNlp3VTFtYk40T0dqNXEzUUZQcFhaMlFjM2xaYmUxX0lBdGd4S2c?oc=5",
+   "source": "Joyn",
+   "datum": "2026-10-26",
+   "datum_iso": "2026-10-26T09:33:46+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Verfahren/Verwalter",
+   "titel": "Exklusivbericht aus Aßlar: Bäckerei Moos steht vor Insolvenzverfahren - Mittelhessen",
+   "beschreibung": "Exklusivbericht aus Aßlar: Bäckerei Moos steht vor Insolvenzverfahren Mittelhessen",
+   "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPQWxqRk1YdHF5ZXZJX21LLWZ0MWdZZ214NjdXOVBSRTN6bEhCd1VDdjMyOUw2elNuVmFsSEVoY01MZ21FR2NwRFFzZGVZYzVLUEloVnFoWTVodi0zcllvZWF3bzJYc2ZuS2VTOHBUenE5LU1hbFRhVHl1eEowanZjNnNlZUdRQkJiTlNaS1ZpU0JTalRpM2IxWEFHekdzbktDZHQ0TUtEVjYzalhxLXlneGxuVTNCRFhDbjdsSGJIcGJWcUxIOEFYTWdjRm5MM0J1VGpDYzNPRFdOTXlEank2VVZCUkZxM3hseGdNUWZvS0ZLdw?oc=5",
+   "source": "Mittelhessen",
+   "datum": "2026-10-27",
+   "datum_iso": "2026-10-27T10:52:15+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenzverfahren"
    ]
   },
   {
@@ -1085,21 +1184,6 @@
    ]
   },
   {
-   "quelle": "GNews Sanierung/StaRUG",
-   "titel": "Insolvenz beantragt: Große Bäckereikette aus Hessen mit Problemen – 500 Mitarbeiter bangen um Jobs - Frankfurter Rundschau",
-   "beschreibung": "Insolvenz beantragt: Große Bäckereikette aus Hessen mit Problemen – 500 Mitarbeiter bangen um Jobs Frankfurter Rundschau",
-   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQMm5lZm54c2lReXBBNEZiWEZzZklNRlJJaTR5dk1yYU94RllZV2d4ZEE3cWZObEJGNFlGdzUzZE5tX0tOSU5uSUt2MU9WTV9FcDViSkdLWnpOdmNGY0pFY0tleW5MSUtMcVkwbUtka1A2NDNEWGtNY3VYZTlBejRHUy1fUDJ4eTM1SmZqZGVvUjV3YTkyRDUtVnh1aVRoemdRbmpEbHk5a3V6cC1qODlXdWJXRlI2T0s1R0RLQVY5QVJJa3NqOVRZMG1pdjFmLUtnSWc?oc=5",
-   "source": "Frankfurter Rundschau",
-   "datum": "2026-10-26",
-   "datum_iso": "2026-10-26T09:11:55+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenz beantragt",
-    "Insolvenz"
-   ]
-  },
-  {
    "quelle": "GNews Investorenprozess",
    "titel": "Bayreuther LED-Spezialist \"lichtline\" insolvent: Investor gesucht - Bayreuther Tagblatt",
    "beschreibung": "Bayreuther LED-Spezialist \"lichtline\" insolvent: Investor gesucht Bayreuther Tagblatt",
@@ -1144,6 +1228,20 @@
   },
   {
    "quelle": "GNews Fruehsignal",
+   "titel": "Bei Rewe und Edeka verkauft: Feinkost-Nudel-Hersteller aus NRW ist insolvent - CHIP",
+   "beschreibung": "Bei Rewe und Edeka verkauft: Feinkost-Nudel-Hersteller aus NRW ist insolvent CHIP",
+   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOdU1SNHo5ek80OGRmVGxCY0o3bDIxZ2tjMDB3aFZoQnRGdi12TTEtT2dOaFhIeDNrdWU1OS1IWldBakNLNDBsSTR5VGNZdjc2SXVmNm5VaW55VVhZTHRRYWZvbnhnUE1ISEVCSHVjTjJGeWpveEM0ZFU2UnZPamtJbnUxYTRndW1RYmVNS09VbDd1VUpNelVuUUdNSDhEbWFvYVVIUHo2VENxbmktNUE3OU9ncjVTNEZIUVBaTlFuN01KQmNSOHJVeUlfZzlSU2tSUG9mQU9RaTU2a3hLZC1mUS0tTFk1QQ?oc=5",
+   "source": "CHIP",
+   "datum": "2026-10-27",
+   "datum_iso": "2026-10-27T11:00:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Fruehsignal",
    "titel": "Bäckerei Moos: Schutzschirmverfahren wegen drohender Insolvenz - FAZ",
    "beschreibung": "Bäckerei Moos: Schutzschirmverfahren wegen drohender Insolvenz FAZ",
    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNTnhSd05GSjZiSlFKRXp4Ul9FY3AxODhnbFNBYlBCOG40anVyZkJBMVNKeFVrYnJ5OEJtT0s3OURoYlpDLXRTMUhaTVNUaVNray1fZFFvYlBwSzU1UFEtQmI5U3RIT3pvNWVoSEN0Z2VQLXhuUlFMNXR2VXNTSkxrVF9ucVZWd0M2eTR2dmZEd1Q5S21MUndvbGRmRVJSNTlDamd3UGYyYWZhMnJwdTdlMER0X0NrbTNFa01hNm9lcjROXzJuaTQ3UTgyNng?oc=5",
@@ -1169,20 +1267,6 @@
    "datum_unbekannt": false,
    "keywords": [
     "Moratorium"
-   ]
-  },
-  {
-   "quelle": "GNews Fruehsignal",
-   "titel": "Bei Rewe und Edeka verkauft: Feinkost-Nudel-Hersteller aus NRW ist insolvent - CHIP",
-   "beschreibung": "Bei Rewe und Edeka verkauft: Feinkost-Nudel-Hersteller aus NRW ist insolvent CHIP",
-   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOdU1SNHo5ek80OGRmVGxCY0o3bDIxZ2tjMDB3aFZoQnRGdi12TTEtT2dOaFhIeDNrdWU1OS1IWldBakNLNDBsSTR5VGNZdjc2SXVmNm5VaW55VVhZTHRRYWZvbnhnUE1ISEVCSHVjTjJGeWpveEM0ZFU2UnZPamtJbnUxYTRndW1RYmVNS09VbDd1VUpNelVuUUdNSDhEbWFvYVVIUHo2VENxbmktNUE3OU9ncjVTNEZIUVBaTlFuN01KQmNSOHJVeUlfZzlSU2tSUG9mQU9RaTU2a3hLZC1mUS0tTFk1QQ?oc=5",
-   "source": "CHIP",
-   "datum": "2026-10-27",
-   "datum_iso": "2026-10-27T11:00:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
    ]
   },
   {
