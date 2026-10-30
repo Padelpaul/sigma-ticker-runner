@@ -1,16 +1,17 @@
 {
  "meta": {
-  "lauf": "2026-10-30T14:28:43",
-  "lauf_utc": "2026-10-30T14:28:43+00:00",
+  "lauf": "2026-10-30T15:07:19",
+  "lauf_utc": "2026-10-30T15:07:19+00:00",
   "version": "2026-09-23a",
   "problem": [
-   "Capital(FAIL:HTTPError)"
+   "Capital(FAIL:HTTPError)",
+   "Neue Westfaelische(FAIL:HTTPError)"
   ],
   "fenster_tage": 3,
   "feeds_gesamt": 56,
-  "feeds_ok": 55,
-  "n_roh": 163,
-  "n_stark": 128
+  "feeds_ok": 54,
+  "n_roh": 152,
+  "n_stark": 119
  },
  "health": {
   "Handelsblatt Unternehmen": "ok:20",
@@ -31,15 +32,15 @@
   "WDR Wirtschaft": "ok:35",
   "BR24": "ok:10",
   "MDR": "ok:5",
-  "SWR": "ok:58",
+  "SWR": "ok:59",
   "hessenschau Wirtschaft (HR)": "ok:25",
   "rbb24 Wirtschaft": "ok:116",
-  "Radio Bremen (buten un binnen)": "ok:31",
+  "Radio Bremen (buten un binnen)": "ok:30",
   "WAZ Wirtschaft": "ok:63",
   "Rheinische Post": "ok:6",
   "Koelner Stadt-Anzeiger Wirtschaft": "ok:48",
   "Westfaelische Nachrichten": "ok:100",
-  "Neue Westfaelische": "ok:9",
+  "Neue Westfaelische": "FAIL:HTTPError",
   "Ruhr Nachrichten": "ok:12",
   "Augsburger Allgemeine Wirtschaft": "ok:35",
   "Muenchner Merkur Wirtschaft": "ok:40",
@@ -64,11 +65,11 @@
   "Westf. Anzeiger wa.de (Lokal)": "ok:40",
   "Kreiszeitung Niedersachsen (Lokal)": "ok:40",
   "come-on Maerkischer Kreis (Lokal)": "ok:40",
-  "GNews Insolvenzantrag": "ok:100",
-  "GNews Verfahren/Verwalter": "ok:19",
+  "GNews Insolvenzantrag": "ok:85",
+  "GNews Verfahren/Verwalter": "ok:20",
   "GNews Sanierung/StaRUG": "ok:16",
   "GNews Investorenprozess": "ok:9",
-  "GNews Fruehsignal": "ok:13"
+  "GNews Fruehsignal": "ok:18"
  },
  "treffer": [
   {
@@ -510,17 +511,16 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Insolvenz bei Fiege nach Galeria-Pleite: 1.250 Arbeitsplätze in Unna gefährdet - Eurotransport",
-   "beschreibung": "Insolvenz bei Fiege nach Galeria-Pleite: 1.250 Arbeitsplätze in Unna gefährdet Eurotransport",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdkZHTldWVURlVDhLaFpDcGdMaC1PVUpPR0lobm1zVGE5UlFvNmNSd21RZ3NsTzhJY1Q0UnhqLWk2d2RCSnF4UEtVZ3F1SU5YM1ZxbjhzM3pRdEdKbnZOSjllZUMyajdCMEhCNnl2YnFrbUd5bGVfeGtmTDI0ZHY4aWxUQjZfVVV0RFgyb2VnM2NFbUlwS2drc1hxaXV0aDFCQWVxVVRhZXR5SXV1SzZB?oc=5",
-   "source": "Eurotransport",
+   "titel": "Einziges Krankenhaus auf der Hochseeinsel: Nordseeklinik Helgoland insolvent - shz.de",
+   "beschreibung": "Einziges Krankenhaus auf der Hochseeinsel: Nordseeklinik Helgoland insolvent shz.de",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPa3kyX1NVQzI0Y1dpUUJ2WFI5ckNKZmhWTUZidDBia3JIb204Z1RseEVZN0xXMy1vZThaSmJsa3R6dk52TlM1LTBlU0xkY19qQnZSb2RMVzUxcm91UENMdlFUN013NkIzU003Q2Vwd0I5RjVxRTBMcVM5TDl3RkNPT0Q3Yl8xUW5XZFV1V0xDNVlqUWstVmZadWhSUi1WWm4tR1FWUEM3d0w?oc=5",
+   "source": "shz.de",
    "datum": "2026-10-30",
-   "datum_iso": "2026-10-30T08:20:38+00:00",
-   "signal": "schwach",
+   "datum_iso": "2026-10-30T10:23:00+00:00",
+   "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
-    "Insolvenz",
-    "Pleite"
+    "insolvent"
    ]
   },
   {
@@ -555,12 +555,12 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Einziges Krankenhaus auf der Hochseeinsel: Nordseeklinik Helgoland insolvent - shz.de",
-   "beschreibung": "Einziges Krankenhaus auf der Hochseeinsel: Nordseeklinik Helgoland insolvent shz.de",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPa3kyX1NVQzI0Y1dpUUJ2WFI5ckNKZmhWTUZidDBia3JIb204Z1RseEVZN0xXMy1vZThaSmJsa3R6dk52TlM1LTBlU0xkY19qQnZSb2RMVzUxcm91UENMdlFUN013NkIzU003Q2Vwd0I5RjVxRTBMcVM5TDl3RkNPT0Q3Yl8xUW5XZFV1V0xDNVlqUWstVmZadWhSUi1WWm4tR1FWUEM3d0w?oc=5",
-   "source": "shz.de",
+   "titel": "Gersfelder Metallwaren GmbH ist insolvent – 150 Mitarbeiter sind betroffen - Fuldaer Zeitung",
+   "beschreibung": "Gersfelder Metallwaren GmbH ist insolvent – 150 Mitarbeiter sind betroffen Fuldaer Zeitung",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWHQ5UTVSYTNVeHdJcERXdXgzdWlkSkpFT3dzYUlpVkRubkswRWl2VnFaQnJ3bHQteTlaV3lRRmg1OU1BOFZjWkdxTkF4VUVicTlaN1BzRHpTbG9IUHo5U29PdHdHWEdoTGQ1eFBocndfRTg2SFV1bmxtaEJSTnlkb1FtcTNVMGZRdDhaTEdfTkRaVGtJb2RjdVNhcmNwTDQ0VFlnblVFRGxuczE5WEg0NVdnOA?oc=5",
+   "source": "Fuldaer Zeitung",
    "datum": "2026-10-30",
-   "datum_iso": "2026-10-30T10:23:00+00:00",
+   "datum_iso": "2026-10-30T03:42:00+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -594,22 +594,6 @@
    "datum_unbekannt": false,
    "keywords": [
     "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Maschinenbau Leicht GmbH stellt Insolvenzantrag und sucht Investor - Industrie.de",
-   "beschreibung": "Maschinenbau Leicht GmbH stellt Insolvenzantrag und sucht Investor Industrie.de",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWEprN2pIeUtwamVGVk1jWWJLdkdZNjE2Rk9jRmRUOUNETHQxMFY0cENLclRzQTFNbFVxSFNNRjFyQXUtRV96VEVCR1hWQnJqbFBDeDRmSXRaOGZSb0JSTnk0SVBzQmRmLXVCN1BHb0NMQXgzRkxHTy1IUjN3UVowMjVZMjB5TjBiS0VwMHV0aVFnUHFEN3RnZkdxdnRsUQ?oc=5",
-   "source": "Industrie.de",
-   "datum": "2026-10-29",
-   "datum_iso": "2026-10-29T13:54:47+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenzantrag",
-    "stellt Insolvenzantrag",
-    "sucht Investor"
    ]
   },
   {
@@ -713,6 +697,36 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
+   "titel": "Bayerischer Maschinenbauer insolvent: 330 Jobs wackeln trotz voller Auftragsbücher - Merkur",
+   "beschreibung": "Bayerischer Maschinenbauer insolvent: 330 Jobs wackeln trotz voller Auftragsbücher Merkur",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVXA3UGtYT0FlZGtVRFdWTW1WcXByZ1c0QzY1MVZ4bktDejhXX0IxanJjcWh1ODhUamNfYlpnMnBHYVNGQ2FUbW1INF9hSXhGdVBtSHZvQ3BvX21KNnRzTmx5TU1NVWxicHJ5ZmVhOEltWlRHQUVGV3ZqWHdYMWpuUWlJUGpKanROWUlHQzNNMm9CbjFEb2QydWo2VVRick1SbkhuWUVBMWkwY0hXemlQNG1lS04?oc=5",
+   "source": "Merkur",
+   "datum": "2026-10-29",
+   "datum_iso": "2026-10-29T12:44:27+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Maschinenbau Leicht GmbH stellt Insolvenzantrag und sucht Investor - Industrie.de",
+   "beschreibung": "Maschinenbau Leicht GmbH stellt Insolvenzantrag und sucht Investor Industrie.de",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWEprN2pIeUtwamVGVk1jWWJLdkdZNjE2Rk9jRmRUOUNETHQxMFY0cENLclRzQTFNbFVxSFNNRjFyQXUtRV96VEVCR1hWQnJqbFBDeDRmSXRaOGZSb0JSTnk0SVBzQmRmLXVCN1BHb0NMQXgzRkxHTy1IUjN3UVowMjVZMjB5TjBiS0VwMHV0aVFnUHFEN3RnZkdxdnRsUQ?oc=5",
+   "source": "Industrie.de",
+   "datum": "2026-10-29",
+   "datum_iso": "2026-10-29T13:54:47+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenzantrag",
+    "stellt Insolvenzantrag",
+    "sucht Investor"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
    "titel": "Wingster Hotel Peters stellt Insolvenzantrag: Rückblick auf 127 Jahre Tradition - CNV Medien",
    "beschreibung": "Wingster Hotel Peters stellt Insolvenzantrag: Rückblick auf 127 Jahre Tradition CNV Medien",
    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZThyZ0p4OGRkQnNBUjc2dlB3XzkzLXVvclVEYXVTa3RxTTdCSVZ5WWZ0clRHRlBhWnRvNnJmZHhFaFVXdDdjMWNnSHBmOFIwYmZySEMzMW5zTXd2THhod2pyVUtBTl9SalF5Zkp5anBBTkp2MFhVazZWNGxoSnlVVUtQRmRIN0ZjbzBQYktxNGwweDdrTUswSmhiLU9YdWJYajZZeHkyR25LcHo5aDlNcTdCVEhnRUFjcG5pZXNwLUFNWGxVSFpVeHNvUjVDc0I2MEE?oc=5",
@@ -743,21 +757,6 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Fiege-Lager in Unna stellt Insolvenzantrag: 1250 Arbeitsplätze hängen an Galerias Zukunft - Hellweger Anzeiger",
-   "beschreibung": "Fiege-Lager in Unna stellt Insolvenzantrag: 1250 Arbeitsplätze hängen an Galerias Zukunft Hellweger Anzeiger",
-   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPSk9wcDUyZ3RJTFhTdHFuZHhWY2E5NHp1aFlrNjl4b1kxTWpjWW1peWRCMXhTajZXSkhFTW5tYWx6MnVPTTVWOVdsVDhDVlZLNHhaU19hUmNhREMxQnhrVUVPZms3NnRzbDZuUWwzaWlseTgwb2k5aVJ0bTJubU5ZbTFmanhUelBkdkUxTjFyQTlndVFXNzN1dHEzallIS3R1Uk9PSF9PUDd3ODcxRGVnTmhVODA3SGdUSnFtV2plRFFjbEtEN1MxZ2l0dDhWVXE1VFE?oc=5",
-   "source": "Hellweger Anzeiger",
-   "datum": "2026-10-29",
-   "datum_iso": "2026-10-29T18:00:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenzantrag",
-    "stellt Insolvenzantrag"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
    "titel": "Firma Völpel aus Königsmoos meldet Insolvenz an - Augsburger Allgemeine",
    "beschreibung": "Firma Völpel aus Königsmoos meldet Insolvenz an Augsburger Allgemeine",
    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSFVUNFZKc2kzTUlMY19ja2hNaWJfczdnWHJuZVh4UEZKVnlmek1qWk9sMkEtcUh5WUpTZ1l4Q2Y4T2tWOGMwU0pKOU0zUmlkNU92SUdQZ0xpSXpqMkVuS1VNTmFtQTk2N0ppYlI1cWtWLVhpa2NoeVhISzlLX0pTckRPY3ZRTFluekxuenRoVTBDdXlkM3hQcHo5cVgwRk5KemI5X3hxZWphdw?oc=5",
@@ -769,6 +768,21 @@
    "keywords": [
     "meldet Insolvenz",
     "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Fiege-Lager in Unna stellt Insolvenzantrag: 1250 Arbeitsplätze hängen an Galerias Zukunft - Hellweger Anzeiger",
+   "beschreibung": "Fiege-Lager in Unna stellt Insolvenzantrag: 1250 Arbeitsplätze hängen an Galerias Zukunft Hellweger Anzeiger",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPSk9wcDUyZ3RJTFhTdHFuZHhWY2E5NHp1aFlrNjl4b1kxTWpjWW1peWRCMXhTajZXSkhFTW5tYWx6MnVPTTVWOVdsVDhDVlZLNHhaU19hUmNhREMxQnhrVUVPZms3NnRzbDZuUWwzaWlseTgwb2k5aVJ0bTJubU5ZbTFmanhUelBkdkUxTjFyQTlndVFXNzN1dHEzallIS3R1Uk9PSF9PUDd3ODcxRGVnTmhVODA3SGdUSnFtV2plRFFjbEtEN1MxZ2l0dDhWVXE1VFE?oc=5",
+   "source": "Hellweger Anzeiger",
+   "datum": "2026-10-29",
+   "datum_iso": "2026-10-29T18:00:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenzantrag",
+    "stellt Insolvenzantrag"
    ]
   },
   {
@@ -802,16 +816,17 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Bäckerei-Kette mit 59 Standorten ist insolvent: Viele Filialen befinden sich in Rewe und Edeka-Märkten - CHIP",
-   "beschreibung": "Bäckerei-Kette mit 59 Standorten ist insolvent: Viele Filialen befinden sich in Rewe und Edeka-Märkten CHIP",
-   "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPYlk4bURKSzJkeXpyQ2dQZENOMjdJZGJJQjRUSFNXT1NaZlVnM25ST1pRMFBzY1o0M1gxa3RtWnpiZXNPLWhXOWZ0X2l5dkdxUHNiYnZveXlLdHF0R3Y3aGVSdE1yYUhHT3RiclVDdEM2NFkxY1hyZlZxWkR3RGVTVGdicDBldmlkcnRqY0RYVXZ5VzFRVlVPV0h6RHdaaWxRekVJaFZaNkdMSldzZXdCMlBsSEF5Q2IxM2FvNXVQaFg2U1pvVk5MeDlTU3lmdTNqb3VFVHcxMEVLR1FqNUQ4VFdTclozUXdvSVgyYjRhUy05aWtUUjVhMnVqMzNHNndXZ0Z1NUM1ZjVQN1k?oc=5",
-   "source": "CHIP",
-   "datum": "2026-10-29",
-   "datum_iso": "2026-10-29T17:23:00+00:00",
+   "titel": "Wirtschaftlich angeschlagen: Gersfelder Metallwaren stellt Insolvenzantrag - Osthessen|News",
+   "beschreibung": "Wirtschaftlich angeschlagen: Gersfelder Metallwaren stellt Insolvenzantrag Osthessen|News",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPYlE1cG1ramlwQUtzRGRkZFp3QUQxTy0zcWlxRjdJWHg4OVBmSlBveFlXUWlBYUJiN3JvWkZncXVGLVNwa2xRbkR0Q29fNkU4azI2Yjg1RW4xVlJlRGNPcGZoSWVURWdCY2VvRHBpQkRXdmxSdkw0UEp5WVVHSEtUR01Jby1JRTJFSTBsX3lMbTNrWFMzM1p0M2x6bmJiNWdqei1nSl9MbzFvNlMxbEo2RHQxUVY?oc=5",
+   "source": "Osthessen|News",
+   "datum": "2026-10-28",
+   "datum_iso": "2026-10-28T14:12:49+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
-    "insolvent"
+    "Insolvenzantrag",
+    "stellt Insolvenzantrag"
    ]
   },
   {
@@ -830,21 +845,6 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Wirtschaftlich angeschlagen: Gersfelder Metallwaren stellt Insolvenzantrag - Osthessen|News",
-   "beschreibung": "Wirtschaftlich angeschlagen: Gersfelder Metallwaren stellt Insolvenzantrag Osthessen|News",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPYlE1cG1ramlwQUtzRGRkZFp3QUQxTy0zcWlxRjdJWHg4OVBmSlBveFlXUWlBYUJiN3JvWkZncXVGLVNwa2xRbkR0Q29fNkU4azI2Yjg1RW4xVlJlRGNPcGZoSWVURWdCY2VvRHBpQkRXdmxSdkw0UEp5WVVHSEtUR01Jby1JRTJFSTBsX3lMbTNrWFMzM1p0M2x6bmJiNWdqei1nSl9MbzFvNlMxbEo2RHQxUVY?oc=5",
-   "source": "Osthessen|News",
-   "datum": "2026-10-28",
-   "datum_iso": "2026-10-28T14:12:49+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenzantrag",
-    "stellt Insolvenzantrag"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
    "titel": "Bekannter Nudelhersteller meldet Insolvenz an – Produkte auch bei Rewe und Edeka - Rosenheim24",
    "beschreibung": "Bekannter Nudelhersteller meldet Insolvenz an – Produkte auch bei Rewe und Edeka Rosenheim24",
    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcDVIZDY4U3VReklPVFBRZTl5X0Jkal80ejFJM1ZabHUwYzZEektGNGRnUXZuNmtlZXNDLTNwZ1FYdXlRNnktV0J6dUZLbklGOC1xRlBfWV9wY3FCbUpydUNqUHhncnhuNkplWkUwQndDeHQ3OWxJRHF1dG9rYnlaNUh2Wjlsdm9HMTFjeGI4bzlQbHhzNzdsWGh4Ymt0WWN4VlVRQVJrWjIyeEZPOUFUaHpTMU9kQkNVMHZyMUQ2QVUtY19x?oc=5",
@@ -856,6 +856,20 @@
    "keywords": [
     "meldet Insolvenz",
     "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Insolvenzantrag",
+   "titel": "Bäckerei-Kette mit 59 Standorten ist insolvent: Viele Filialen befinden sich in Rewe und Edeka-Märkten - CHIP",
+   "beschreibung": "Bäckerei-Kette mit 59 Standorten ist insolvent: Viele Filialen befinden sich in Rewe und Edeka-Märkten CHIP",
+   "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPYlk4bURKSzJkeXpyQ2dQZENOMjdJZGJJQjRUSFNXT1NaZlVnM25ST1pRMFBzY1o0M1gxa3RtWnpiZXNPLWhXOWZ0X2l5dkdxUHNiYnZveXlLdHF0R3Y3aGVSdE1yYUhHT3RiclVDdEM2NFkxY1hyZlZxWkR3RGVTVGdicDBldmlkcnRqY0RYVXZ5VzFRVlVPV0h6RHdaaWxRekVJaFZaNkdMSldzZXdCMlBsSEF5Q2IxM2FvNXVQaFg2U1pvVk5MeDlTU3lmdTNqb3VFVHcxMEVLR1FqNUQ4VFdTclozUXdvSVgyYjRhUy05aWtUUjVhMnVqMzNHNndXZ0Z1NUM1ZjVQN1k?oc=5",
+   "source": "CHIP",
+   "datum": "2026-10-29",
+   "datum_iso": "2026-10-29T17:23:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
    ]
   },
   {
@@ -902,35 +916,6 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Ansbach | Montessori-Verein meldet Insolvenz an - Radio Galaxy – Mittelfranken",
-   "beschreibung": "Ansbach | Montessori-Verein meldet Insolvenz an Radio Galaxy – Mittelfranken",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPLVRwLTVPM2pDT0VfakMyTmtsVERiRnlLZnFXNnQxRldhN3V3QktFVlRrU1lWQngwMlVPQzRfc05rRkhWVnFvZGI4MFR6c0dGYWcwblNnNU1ka1pVUFBuTlpJVi1NbEdLazdNRzIwaGZGajBpbkhoblU0UnhLVk1PRkZCZC1OMUZ5NHVvTHpya3hCSk94?oc=5",
-   "source": "Radio Galaxy – Mittelfranken",
-   "datum": "2026-10-30",
-   "datum_iso": "2026-10-30T06:08:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "meldet Insolvenz",
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Hamburger Solarparkbetreiber insolvent - mehrere Interessenten wollen \"Enerparc\" kaufen - NDR.de",
-   "beschreibung": "Hamburger Solarparkbetreiber insolvent - mehrere Interessenten wollen \"Enerparc\" kaufen NDR.de",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbW1UNWNrTVVzSXQ2XzMzOFA5TEo2bFVJOGVWMWVtRkwxR3oybWtaZ0U5N1lXXzAzc2Y2alI3c1laZGVIYjRTR3FuSUVXMFRURVQzTDVPcFMzZHR5eFBzN29KZXhLRGFPcWRPYThfMVhVQy1JQ0l4bUxxRlU4X0dtZk9mYWYxck90X0RlX0k1a2E4VnJVQnhzRU9xMll4S3ktRUxFR1ppbFRVNFF6RldyRHpHdXdTdXVGVllMOEhEZWVJQQ?oc=5",
-   "source": "NDR.de",
-   "datum": "2026-10-27",
-   "datum_iso": "2026-10-27T15:52:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
    "titel": "Bangen um 145 Jobs Gersfelder Metallwaren GmbH ist insolvent - Hit Radio FFH",
    "beschreibung": "Bangen um 145 Jobs Gersfelder Metallwaren GmbH ist insolvent Hit Radio FFH",
    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORU5RYWNIWThEVkJHR19BN0xOWXZnM0ZPMmRaQXF6OENlQTBmRGFOUzI3eGlRY2NIdEdRZkZMRW12bVd0RW5tSFNDRTc5a09TVzl2dUtueFVyRXRRYUtoendqV2VsbGRaNzlDazlGNDRYTTF4QVJpc3dzY0hNaVJFRnU0SWdhNnVWRDNjRTJzRjhQQ3dFVDIyQUZnSG02dWlDQXkzMjdST1ZsVVZHT1prX1Fpd0xLUkQw?oc=5",
@@ -941,20 +926,6 @@
    "datum_unbekannt": false,
    "keywords": [
     "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Nach Insolvenzantrag: Galeria in Hamburg öffnet gesperrte Bereiche und nimmt wieder Gutscheine an - NDR.de",
-   "beschreibung": "Nach Insolvenzantrag: Galeria in Hamburg öffnet gesperrte Bereiche und nimmt wieder Gutscheine an NDR.de",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdUN3aGFXdDR2Z192VXNPZUtHV2NzS0dmYUx0ZTJBaTMybmpuVTJRQ2RQNW5JUjNrc1dMX0JOZ3BubkJYTFFocURQVUNxSjRYajVqU3RpMFNMVVVvdlpBQlpyUzlEblVuWFR2akp2eDVDZTVfdG91RFQzUzVEc0J6X00xVF8ydEk1NTM4dG04MENLNy1FQ21vRWZ5dURydTh1TzRVU3pBVUZpTHFGOVZITXJFQ2dwQ0JxZEE5MlFn?oc=5",
-   "source": "NDR.de",
-   "datum": "2026-10-27",
-   "datum_iso": "2026-10-27T15:07:00+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenzantrag"
    ]
   },
   {
@@ -979,20 +950,6 @@
    "source": "top.tirol",
    "datum": "2026-10-28",
    "datum_iso": "2026-10-28T20:58:10+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Gersfelder Metallwaren GmbH ist insolvent – 150 Mitarbeiter sind betroffen - Fuldaer Zeitung",
-   "beschreibung": "Gersfelder Metallwaren GmbH ist insolvent – 150 Mitarbeiter sind betroffen Fuldaer Zeitung",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOY1hJVC1hei1kYmI2Wk9GMlE0U0dhY193RFF6TFkwVXJuQURHR2Q3UGljVGNQY0FzVXduaW1KOVdvSGUxMUtmVk9VYnNPcUtsY3QzUjB4Q0lmR3BlYW9qOXo0aHltcFNhVGZmQUtuWXFvY3VMVkNHM21yLWhISEZ4bEZWSXFaeUF5U0JfeTl3XzduQW4zZ2x0UngzLXQzZ3dMM0JSTHMtV3BOQV90VXcyMkh5bw?oc=5",
-   "source": "Fuldaer Zeitung",
-   "datum": "2026-10-29",
-   "datum_iso": "2026-10-29T03:42:13+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -1100,30 +1057,16 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Bayerischer Maschinenbauer insolvent: 330 Jobs wackeln trotz voller Auftragsbücher - TZ",
-   "beschreibung": "Bayerischer Maschinenbauer insolvent: 330 Jobs wackeln trotz voller Auftragsbücher TZ",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMjVaUkxncVRfaHNyRnBXd1RMWkRpZ2thaUp1NEtick90X21lZk9MRXJSbkhZVk9JajdzOUFyM0c1c243VnYtYVRSZ2VJOHIzWF9tZEhFR1YxVi14YmYtbW90OVNxdDRLeGt5T3BUSkl1NlY0Rk5lRlZtcWZOZ0M1RHdQeFpQNU1fOWNKRjBHYTJvWGJfNXF5U3BlRGhNQmR4S0RZRkhFYlhaWFRhZ0dF?oc=5",
-   "source": "TZ",
-   "datum": "2026-10-29",
-   "datum_iso": "2026-10-29T12:44:27+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Autohaus mit 1200 Beschäftigten insolvent: Was wird aus den Standorten in Bayern? - Augsburger Allgemeine",
-   "beschreibung": "Autohaus mit 1200 Beschäftigten insolvent: Was wird aus den Standorten in Bayern? Augsburger Allgemeine",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMXdYU3hNN01ZMG0wank1WXVHWGs1XzJjZ3dscWxpMk5BV2NzLThuWFNrY2JOMjdRQ0VhV2FQdlIxQkh0OE1ydndoNTdDMklMTHBfRWo1N3hOLTQxa1g5TUdJcnlMVHJ6eUd2cjI1R3hscktvM2dZeWcwWmVkUk5IeVZTQURfVF9lcXR5alRWem5pZVY4eGNjYWNFSWMxeU90S3BndEtrMHhmbkpfSS1HQThXRGg0bl9xNzJSbWRBM3Y?oc=5",
+   "titel": "Nach der Sonnen-Pleite: Was Kunden in der Region nun wissen müssen - Augsburger Allgemeine",
+   "beschreibung": "Nach der Sonnen-Pleite: Was Kunden in der Region nun wissen müssen Augsburger Allgemeine",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeDRQRk5uYjRZcWdnY0g3c19tcnJfRXJvV1NvU0VmeEdZblZEQk85akM4UmhQM3ZMN05ZYm1Hc1pQZ24zSk1mQWpubTJreFZJRDBWNEZtbE16YmZiZ0RnVTFzQTc2WW1UNXpQT2NiU25EaC1uZ3RuWS1WSERpd0o3N3FfbnlzZU9RLUx5aWxic3VheG92ODI4UVU2TUg1eGdIRW5Ma3JDdzExeVdkbm53?oc=5",
    "source": "Augsburger Allgemeine",
    "datum": "2026-10-29",
-   "datum_iso": "2026-10-29T06:08:16+00:00",
-   "signal": "stark",
+   "datum_iso": "2026-10-29T08:32:00+00:00",
+   "signal": "schwach",
    "datum_unbekannt": false,
    "keywords": [
-    "insolvent"
+    "Pleite"
    ]
   },
   {
@@ -1153,20 +1096,6 @@
    "keywords": [
     "Insolvenzantrag",
     "stellt Insolvenzantrag"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Autohaus König insolvent: Einigung mit Herstellern bringt Hoffnung für Tausende Autokäufer - Gießener Allgemeine",
-   "beschreibung": "Autohaus König insolvent: Einigung mit Herstellern bringt Hoffnung für Tausende Autokäufer Gießener Allgemeine",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbHI0LTZVQVFnQ21CUGlZRDc1MXZmZEM0QjdnX1NOemprbHM2T0FpaU5VWmRscjZSYUg2SmRpOXgxSS1DSnRmb1cwdTZ0VFhIbThYZ0RyTzdGWWllY2hGTURzbEVGdXVwcktaekc4UlN4RUNQdnM4Q09Rb2hGWi1nbzdwemdvdmVrVGphOHdZTmxrMVRqaGx3am5GRXBrSi1XM2xJV1Vfc2FHSkJRMTVjd0ZmdUdjYkNiNzNPaWRB?oc=5",
-   "source": "Gießener Allgemeine",
-   "datum": "2026-10-28",
-   "datum_iso": "2026-10-28T14:21:19+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
    ]
   },
   {
@@ -1227,20 +1156,6 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Autozulieferer im Saarland insolvent – Beschäftigte stimmen für unbefristeten Streik - SOL.DE",
-   "beschreibung": "Autozulieferer im Saarland insolvent – Beschäftigte stimmen für unbefristeten Streik SOL.DE",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNYWU4cW9fYjhmYl9EU1UxejlYNWtjd3dCbFltWGpudVZjemZIR2lKRk9CR1dBV3RGYktyQlh5SUFIQVhBdUtURjlMVlVsWDRRaUV2X3oxei02UUNYZHhHb3lZcUZLUVJSZTMxZzhCanJ5czNaWXJmeldBbURXYWlKLWVwSjc2YUZnckIzbFZuWkF3M3ZfVERiV3I4UUVKaXI4S0NXeVFtQzc1aG14dnRiNWFIQVJIZHVPUUtnRDUxVXJVRkdWNUt2ZQ?oc=5",
-   "source": "SOL.DE",
-   "datum": "2026-10-29",
-   "datum_iso": "2026-10-29T15:38:05+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
    "titel": "Baumarkt-Kette insolvent: Team hängt offenbar Frust-Schild auf – „Keine Ahnung“, „keine Ahnung“, „keine Ahnung“ - HNA",
    "beschreibung": "Baumarkt-Kette insolvent: Team hängt offenbar Frust-Schild auf – „Keine Ahnung“, „keine Ahnung“, „keine Ahnung“ HNA",
    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSU1Bdlo3TFAwMnlETWx6TTFyUkRDTzFkRDJkZE83cDV0Tzd6dDcyc3B3bjAydVk1TUhwTDFKNlIzdExyLTZ3dWF3NUpmVUltU25MeEJaTTJzNGJ4Z3BxSDVBUzJwQWFBMWV0empublNTVW5CMXRPa3I4N1BBempwcWtlUGo3azJOSW93QjhsSGM0TWM5dS14Zl9BRlRSSXVkUUFsUzhEaXBLS2M?oc=5",
@@ -1269,16 +1184,16 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Nach der Sonnen-Pleite: Was Kunden in der Region nun wissen müssen - Augsburger Allgemeine",
-   "beschreibung": "Nach der Sonnen-Pleite: Was Kunden in der Region nun wissen müssen Augsburger Allgemeine",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeDRQRk5uYjRZcWdnY0g3c19tcnJfRXJvV1NvU0VmeEdZblZEQk85akM4UmhQM3ZMN05ZYm1Hc1pQZ24zSk1mQWpubTJreFZJRDBWNEZtbE16YmZiZ0RnVTFzQTc2WW1UNXpQT2NiU25EaC1uZ3RuWS1WSERpd0o3N3FfbnlzZU9RLUx5aWxic3VheG92ODI4UVU2TUg1eGdIRW5Ma3JDdzExeVdkbm53?oc=5",
-   "source": "Augsburger Allgemeine",
+   "titel": "Autozulieferer im Saarland insolvent – Beschäftigte stimmen für unbefristeten Streik - SOL.DE",
+   "beschreibung": "Autozulieferer im Saarland insolvent – Beschäftigte stimmen für unbefristeten Streik SOL.DE",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNYWU4cW9fYjhmYl9EU1UxejlYNWtjd3dCbFltWGpudVZjemZIR2lKRk9CR1dBV3RGYktyQlh5SUFIQVhBdUtURjlMVlVsWDRRaUV2X3oxei02UUNYZHhHb3lZcUZLUVJSZTMxZzhCanJ5czNaWXJmeldBbURXYWlKLWVwSjc2YUZnckIzbFZuWkF3M3ZfVERiV3I4UUVKaXI4S0NXeVFtQzc1aG14dnRiNWFIQVJIZHVPUUtnRDUxVXJVRkdWNUt2ZQ?oc=5",
+   "source": "SOL.DE",
    "datum": "2026-10-29",
-   "datum_iso": "2026-10-29T08:32:00+00:00",
-   "signal": "schwach",
+   "datum_iso": "2026-10-29T15:38:05+00:00",
+   "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
-    "Pleite"
+    "insolvent"
    ]
   },
   {
@@ -1311,34 +1226,6 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Missstände: Klinik in Bruckmühl stellt nach Auflagen Insolvenzantrag - Augsburger Allgemeine",
-   "beschreibung": "Missstände: Klinik in Bruckmühl stellt nach Auflagen Insolvenzantrag Augsburger Allgemeine",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQLWdIMkVjQ2JEUFBzaXBNQk5QOWRPLXlSdWExbjJ4UklIMUpMcGV2Zm1zcnpuSk04RDM4VXVlOTFjYmNhYkZDX0Z1Y3hPUlpSakxvWnJkbXV0ck1PUXdQV0tiLTA2NUV2T3VMNjdEa3B4VVhuMWI0ak9NYktiYXJYYlBXTzZVZlI1RnVGRC0wYUxEaHJTN0RoUEpJV2NBVTZZZ2wzSUlpeTl1SXJTRFMzNUZpUTVTQUpYTmxuQ2pCekM?oc=5",
-   "source": "Augsburger Allgemeine",
-   "datum": "2026-10-27",
-   "datum_iso": "2026-10-27T17:18:24+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenzantrag"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Große Traditionsbäckerei beantragt Insolvenz: Hunderte Mitarbeiter betroffen - Frankfurter Rundschau",
-   "beschreibung": "Große Traditionsbäckerei beantragt Insolvenz: Hunderte Mitarbeiter betroffen Frankfurter Rundschau",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeUV0VDYxX0hjVi1mR1JjSEJUS3Y3a29GeEZjVUpiNzU3bDFZUVhvbzAtLTZoWEVKRG5GSzNSbnhUdktGVnN2YXdmME4yVnd6dDA2Qnh1QUVDX2VXaHF1c1lXcWdtOHdLMkZlU1VvaE5BSlUyZ05hSXFaUWkwSlpFLU1hZHFlSWJmQ0dBMnFKVTN1cGtQNWk1ZWFrMEJiVV9HbjRBUTB3?oc=5",
-   "source": "Frankfurter Rundschau",
-   "datum": "2026-10-28",
-   "datum_iso": "2026-10-28T04:54:02+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
    "titel": "Cinnamood-Franchisenehmer in Hamburg beantragt Insolvenz, zwei Stores laufen weiter - L’Express Franchise",
    "beschreibung": "Cinnamood-Franchisenehmer in Hamburg beantragt Insolvenz, zwei Stores laufen weiter L’Express Franchise",
    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZGEtdk1qb1lST1M4a3A1QzFpN0xQOUhGa0pHUEZkNGpUQnNuTVNnYlhncXp2UGlUZ2pQRVEzRXdTTlprYXhMcHJhOUVLNUlyX1c2UlY3RHg0WkFmQ3FXdVViS2NxLThkNHRVWEM0WUN1MHVFT1B5SXJXblAzU2E2MXZQM09ncmxvTDl5eWJkZlVLQQ?oc=5",
@@ -1353,16 +1240,16 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Lübeck: Bewohner in Marlesgrube lebt ohne Strom und Wasser – Vermieter insolvent - Lübecker Nachrichten",
-   "beschreibung": "Lübeck: Bewohner in Marlesgrube lebt ohne Strom und Wasser – Vermieter insolvent Lübecker Nachrichten",
-   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNLTJQVUdRbXRTd0R2aGZyVFBiR1MySUl2dl8zWUdwQmlTdV92VU9EaXNZNVFuTVRaaGtpZzBhdTdybFZFUER1TWpxb2N5cTVSSFBfMnJiSS1WeU54MUJWMHJUbDR3ZXY2YnVmYmpYN0lEWENFaW9CdE9tVkpsTF92UlA3SXR1VEtoY0NjaDRKWGVwMEtHZ2FueEIwY2xLUkFIM0dKX1NMVWlwLWtzUEZ4T0xsdE9hRVUySEJSWURsWnk1bVhBWVprZmg3NVFQemhwY3V1RmVHNy10ZDloaGp0NGZpZm9aQdIBggJBVV95cUxOWk44QUhrVVFoQWd6ODV4bDJlOEhiNkFvaUZmNGZhYmJJTU1jR1g2NlNkRnBsX29IZXN5WnpfSC1QaXcxZkgyYUFFdzRBUEdpTV9VY29fQmpkOVhiek92TWFFZGwxOGxhdVRFeHJRWm1vUXVPMzF0Wkl0UXJlT1IzZ0xlQzBodHY1MVBUblpkLUVKTGhCRm1HdXBwYUltWEVLM1hRZmQydmhSMThYWTZibjNkR0lXRDZpN1U3TUQ5QVdObTBvcWlmaUtaaEVwUXlSQlVHUjcxSW12NkVJZElEVnBfcldCRmVaOVFjc0w5NnVLYlJIR0xidWxsMjhNeDJpNnc?oc=5",
-   "source": "Lübecker Nachrichten",
-   "datum": "2026-10-27",
-   "datum_iso": "2026-10-27T14:46:46+00:00",
-   "signal": "stark",
+   "titel": "Große Traditionsbäckerei beantragt Insolvenz: Hunderte Mitarbeiter betroffen - Merkur",
+   "beschreibung": "Große Traditionsbäckerei beantragt Insolvenz: Hunderte Mitarbeiter betroffen Merkur",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcGhjYTBOajVEYmVCNUxEVFZTWkFjQmR1cXUyYXpJZ1NvdS1UV2NNRTlTc1BOYzk1OVQ5UDZYY3RxZVkwcUpLM2QzZ0M3UDdpYkZvMC1uQjljU0xYVDA3VU9RYlI2NDRRUnNvSU5YQWpqQVQ4VkVGYkRJVy1wdFo2bmQ1b1MwVkh1Yno4VkxJNUNuWGlpdFRxc1dKYnFMWkZCLWlrenhnVzRSOTQ?oc=5",
+   "source": "Merkur",
+   "datum": "2026-10-28",
+   "datum_iso": "2026-10-28T04:54:02+00:00",
+   "signal": "schwach",
    "datum_unbekannt": false,
    "keywords": [
-    "insolvent"
+    "Insolvenz"
    ]
   },
   {
@@ -1438,49 +1325,6 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Hype um Kette war riesig – doch jetzt stellt Filial-Betreiber plötzlich Insolvenz-Antrag - OP Online",
-   "beschreibung": "Hype um Kette war riesig – doch jetzt stellt Filial-Betreiber plötzlich Insolvenz-Antrag OP Online",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOGV3SGpSYmQtZWpIanJ3eFlKem5vMldLay11eTJxRTh3U09uQkxOVTNra3o5S0dURkUtTHJHQmVWUVgxYmFGeHl1YnlFQ2hFYmgySDl2d2hON3JxQ3B1NW55SHI2Y0puXzBadHdZRS1zREZiNGQyNThwRXdtampQcHgxNzZvYjdFU25JYXBJNG1ZSWtJZVJVNUNRNENDWjBsRFE?oc=5",
-   "source": "OP Online",
-   "datum": "2026-10-28",
-   "datum_iso": "2026-10-28T10:20:45+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Nach schweren Vorwürfen und Belegungsbegrenzung: Rehaklinik Bruckmühl meldet Insolvenz an - Rosenheim24",
-   "beschreibung": "Nach schweren Vorwürfen und Belegungsbegrenzung: Rehaklinik Bruckmühl meldet Insolvenz an Rosenheim24",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVmVKb0pfYjVPSk5hWFBkRjBVWm9iNVNTTjdZOHl3NmpNTmdNRmJNZUZYT1doSXBycjJIMWxZVFVWTnlQSmNiSHFrLXR0eVk4Y1hiNXJuZVltUncwNG9HYkVzTTdLQ2oyMDZYS0xsOXVzSUQyNnJMZ2NHWi1EYXQ2TkxVZmZPeHBOVktxbXpkNzBERlIwMWkxX0I4UnZfMHR5SkVDeEpKZnZPU1FLQlVkeGVyQmdUSnZ5ZWhWOG81Y1oyU3VISXVVZ2ZwZHduM1VU?oc=5",
-   "source": "Rosenheim24",
-   "datum": "2026-10-27",
-   "datum_iso": "2026-10-27T15:10:11+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "meldet Insolvenz",
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Hype um Kette war riesig – doch jetzt stellt Filial-Betreiber plötzlich Insolvenz-Antrag - Innsalzach24",
-   "beschreibung": "Hype um Kette war riesig – doch jetzt stellt Filial-Betreiber plötzlich Insolvenz-Antrag Innsalzach24",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSExiNDJnOGtBTzdseG0xbVpYTXJ4eXk3VDR2X3l5Z0NPeEx2ajBLdnplTk1aRmtNWklVaVNVLWV6NTlwUXAtY0FkVVEtSWNMaWZ0ak14Z2ZSXzUzWjNXSi1FaHFKZS1vdG43aXZpcGJJY2Y2OGlmc2I2U2JVS3JMa2poblRQaDE1aXgySGFWRnlWNjlDTHYwejljQTFXbmJDZmRMcTlB?oc=5",
-   "source": "Innsalzach24",
-   "datum": "2026-10-28",
-   "datum_iso": "2026-10-28T10:20:45+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenz"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
    "titel": "„Wir bleiben ein Schleppliftgebiet“: Heutal-Lift in Unken mit Millionen-Schulden insolvent – Ausbau geplatzt - salzburg24",
    "beschreibung": "„Wir bleiben ein Schleppliftgebiet“: Heutal-Lift in Unken mit Millionen-Schulden insolvent – Ausbau geplatzt salzburg24",
    "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOaUZXRnhFX05PWmFXRzZMdUMxa1NWUVpXcVhnQm5nZEVpemlqTDdseEUtZlFRYldJZTZVOVhCeWExUXZ4QUsxdUdfek9yUXpHUEJqS3B6VkhOVGNwWW1aU3lmUDRfR2tKS0YtTDVjWXhXM3JXbW5PQUx5NzctRWVRbUlzamZWVGpzVG9ZdTczM0tKUzlWLVFfX3NHQTBfT2xob3pfcWs4NGpfVnhVYTJNM3NHeDhOa0hZQkE0T3E5Unh2TWw4eEVLeUktQlQzRERlNGI3T3hIQjBMQ3F5NEFpdmdwaEQ4UGI5WFhfdnFGOHFfVkQ0?oc=5",
@@ -1509,40 +1353,12 @@
   },
   {
    "quelle": "GNews Insolvenzantrag",
-   "titel": "Heutal-Lift in Unken mit Millionen-Schulden insolvent - salzburg24",
-   "beschreibung": "Heutal-Lift in Unken mit Millionen-Schulden insolvent salzburg24",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYXdrS1h3ZWU2RnFGLXNlZnlXM3RqOUVMOWRyUGZCVWIxQ2c2WTltWkdPcTNHR3dKa29xZDl4c0xUOWlZa2Rob2I2RzNmYno3cUltY2dJYnV2RndPcnZNV0czQThvVmlZT1pFQ2l5c1k5MjVuazByVGpCdVA3azBrYWhRaGg3N3g1WE92WkFDaVU2QUkyVVZUWDZWaFpoMVNnY2Fnd3ZIY2tqODFXMmxGT3pB?oc=5",
-   "source": "salzburg24",
-   "datum": "2026-10-29",
-   "datum_iso": "2026-10-29T12:53:43+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
    "titel": "Kahla Porzellan insolvent: Vorsicht vor dubiosen Porzellan-Angeboten im Netz - MOZ.de",
    "beschreibung": "Kahla Porzellan insolvent: Vorsicht vor dubiosen Porzellan-Angeboten im Netz MOZ.de",
    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOaTBBbE83S195c0h1NURBTGh2MTR5bzZVbEl5Y3A5U1VDVTgzSTd5UU1FaW9ZOGd5WWwyLTlCNFlUVWVwSXZZdnY1ZldZV0R6bjlDdC1mVms2bS0zWXpZZnNINkxjd3V3LS05QW5BQ19RMHJkVDFqZHE4YnF3MXRJZGFuTHBSVHhnQVVYLUhOOTZSRm9iZE9EbGFLQ3k0amc4MzU2UnZvRjhnUURDZElQQzRZbWhwakc5SlZpZnN6UEZRdUxxdmlDMmFvcw?oc=5",
    "source": "MOZ.de",
    "datum": "2026-10-28",
    "datum_iso": "2026-10-28T10:51:45+00:00",
-   "signal": "stark",
-   "datum_unbekannt": false,
-   "keywords": [
-    "insolvent"
-   ]
-  },
-  {
-   "quelle": "GNews Insolvenzantrag",
-   "titel": "Autohaus König insolvent: Einigung mit Herstellern bringt Hoffnung für Kunden - AOL.com",
-   "beschreibung": "Autohaus König insolvent: Einigung mit Herstellern bringt Hoffnung für Kunden AOL.com",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNWthbzFweE9jSUxzMEFWQXZ3ZFNyak9JNXhvZkZha3FpUmZwazVHeU5Vd1gxU3h4bFg3LWgxYV9TMm9JMHNjVzFQbW1Fd0FRd09td1ZNLXBwdnhHT1VybTNlblVuM1k1LUpiUndtWUJ1UkJvYk55MEdZR281SHJlX0RvcXludmExUm5MTGdZR0c0ZXp0eG9rYmx3?oc=5",
-   "source": "AOL.com",
-   "datum": "2026-10-28",
-   "datum_iso": "2026-10-28T14:31:34+00:00",
    "signal": "stark",
    "datum_unbekannt": false,
    "keywords": [
@@ -1837,6 +1653,20 @@
    "datum_unbekannt": false,
    "keywords": [
     "Insolvenz"
+   ]
+  },
+  {
+   "quelle": "GNews Verfahren/Verwalter",
+   "titel": "Bäckerei-Kette mit 59 Standorten ist insolvent: Viele Stuben befinden sich in Rewe und Edeka-Filialen - CHIP",
+   "beschreibung": "Bäckerei-Kette mit 59 Standorten ist insolvent: Viele Stuben befinden sich in Rewe und Edeka-Filialen CHIP",
+   "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQbXk1M1dVREVuTHpGUl93UlNUN3hYaWlCWGgwWjRTekl6ekFyWWJoM3FKWUdUVGFOdDE5YkFDUE9hUG1iZXV5TGo4UjF4VnZnWUtJZGg1SWJFRC13c0Y0VXZVUDdDYUQ2MG1MY1FlMjdIQVowUmNpakxBNV94UkVPM1NBNDNLYnVUSVRpSWJaaEpyXzBfVl9ITmdnZVl5bU4tcHdQY2xoWW9NMDdNSDNnVUFMdXRQeGhoNzUxZVdaQjZ3V0R3LVVvbHBQcjFOSzNVNUNWWkRvZGxLZ3V3YnRHQWFESHc3d1hCWk43b3gybWtlTndic3dqYlRWSV92UVZDN1JlY3JfSnQ?oc=5",
+   "source": "CHIP",
+   "datum": "2026-10-30",
+   "datum_iso": "2026-10-30T05:30:00+00:00",
+   "signal": "stark",
+   "datum_unbekannt": false,
+   "keywords": [
+    "insolvent"
    ]
   },
   {
@@ -2331,6 +2161,21 @@
   },
   {
    "quelle": "GNews Fruehsignal",
+   "titel": "Galeria-Pleite löst Insolvenz-Kettenreaktion aus – nächster Betrieb zahlungsunfähi - Merkur",
+   "beschreibung": "Galeria-Pleite löst Insolvenz-Kettenreaktion aus – nächster Betrieb zahlungsunfähi Merkur",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUDZ6aDZPSmJ4dDFnb0xTY0RETzE2LXpuWEktUVFFMEUtdXRYdVRvM1lCQUpCdWstWkY3cmI2dWdLaktYc0VUcGd4SVhCYkxJdEh0R3ZXTk1HZE9JNS1LSTl0OVNnemJ2WS01VGVMQVhGUVV0bUtXbGttZEN3Zk41M3ZCSTVfbVdUdktJT3JKc3ExZDhoNlhPWENCUV9aenVjQUpRRzM4MzZXZVlwbndnQkE1TXpZVjhhYU1hZGd4OTJ3TG5JUWc?oc=5",
+   "source": "Merkur",
+   "datum": "2026-10-30",
+   "datum_iso": "2026-10-30T12:42:56+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenz",
+    "Pleite"
+   ]
+  },
+  {
+   "quelle": "GNews Fruehsignal",
    "titel": "Überschuldung von Jugendlichen wächst - Radio Berg",
    "beschreibung": "Überschuldung von Jugendlichen wächst Radio Berg",
    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOLW9pTFNBa3VKRlFSeUJFYVNqM2htQlc3YUlRN3pYcnBCM2RfRHBFdDhpZ09pdHM0QUNuMmVfRjl0eFI5SUkzamVnTTRleFV2cTB4ZThIU3d2dU5aXy1SYWQ2OGpzUTNGTTFqeFFHR0pBZWZnWUtpWnNzVG5lMGVWd2lHRkFfQjg?oc=5",
@@ -2373,21 +2218,6 @@
   },
   {
    "quelle": "GNews Fruehsignal",
-   "titel": "Galeria-Pleite löst Insolvenz-Kettenreaktion aus – nächster Betrieb zahlungsunfähi - Merkur",
-   "beschreibung": "Galeria-Pleite löst Insolvenz-Kettenreaktion aus – nächster Betrieb zahlungsunfähi Merkur",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUDZ6aDZPSmJ4dDFnb0xTY0RETzE2LXpuWEktUVFFMEUtdXRYdVRvM1lCQUpCdWstWkY3cmI2dWdLaktYc0VUcGd4SVhCYkxJdEh0R3ZXTk1HZE9JNS1LSTl0OVNnemJ2WS01VGVMQVhGUVV0bUtXbGttZEN3Zk41M3ZCSTVfbVdUdktJT3JKc3ExZDhoNlhPWENCUV9aenVjQUpRRzM4MzZXZVlwbndnQkE1TXpZVjhhYU1hZGd4OTJ3TG5JUWc?oc=5",
-   "source": "Merkur",
-   "datum": "2026-10-30",
-   "datum_iso": "2026-10-30T12:42:56+00:00",
-   "signal": "schwach",
-   "datum_unbekannt": false,
-   "keywords": [
-    "Insolvenz",
-    "Pleite"
-   ]
-  },
-  {
-   "quelle": "GNews Fruehsignal",
    "titel": "Insolvenz verschleppt: Geschäftsführer muss 1,24 Millionen Euro zahlen - Deutsches Handwerksblatt",
    "beschreibung": "Insolvenz verschleppt: Geschäftsführer muss 1,24 Millionen Euro zahlen Deutsches Handwerksblatt",
    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOV0NDa0dxOUdPVzhHaUs0SndvUGluMUMtZUdpWUpvbDdvV1BUNFJLTnJjMTRWdmlFOER5bmY2a3NNdmZWcXhOejdNOXlqZUtPWW1zTWRLX2N6cFNYbHNCeXRYZlU4a0tJUzFudUs0VVREaHMxd0tsZGpRZF9HcDA0ck9jRHRBZjJUZmpjdGtLam4xRzB0UHQ2SjFXcXdoaWxwV3I0c1JMVzdlSlFXb09FRV9FOXY3enV2?oc=5",
@@ -2412,6 +2242,20 @@
    "datum_unbekannt": false,
    "keywords": [
     "Moratorium"
+   ]
+  },
+  {
+   "quelle": "GNews Fruehsignal",
+   "titel": "Sozialbehörde treibt Träger von Hamburger Integrationszentren in die Insolvenz - Hamburger Abendblatt",
+   "beschreibung": "Sozialbehörde treibt Träger von Hamburger Integrationszentren in die Insolvenz Hamburger Abendblatt",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOTmhnVUt3cU5ZaW00b2sxNml5ZkRqRXZnV0V2QzZzb1ozbjdKaVdOaXFjcHNmTUw5WkxaXzc0Ump1Qk9zZ09lTHd6NjBGUXdjSkhxU0tXSWJselA0elFzRDUxY0hDR1NkcEpCVVh6U0gtRHZjWHdtM3pHYWJtbmVaaFBpQ0ExYUc2d1RlaUNrR2dSTERqWGNXU2pnNmFodFJkLU5BZmxUTE83TEtBSUZydnRuSEVvRm9INjQyLWNSd09Rc1NOQVl5VG9xLVBEeDgtLWRqNjlsWXFLN2N0?oc=5",
+   "source": "Hamburger Abendblatt",
+   "datum": "2026-10-27",
+   "datum_iso": "2026-10-27T17:00:00+00:00",
+   "signal": "schwach",
+   "datum_unbekannt": false,
+   "keywords": [
+    "Insolvenz"
    ]
   }
  ]
